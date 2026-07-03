@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'marvel-rivals-season-9-jubilee-hood-julio-2026',
+    titulo: 'Marvel Rivals Season 9 arranca el 10 de julio: Jubilee y The Hood entran en escena bajo la era del Apocalipsis',
+    extracto: 'La Temporada 9 de Marvel Rivals llega el 10 de julio con el arco Age of Apocalypse y dos héroes nuevos: The Hood como Vanguard y Jubilee como Strategist. El Summer Festival sigue activo hasta ese día.',
+    fecha: '2026-07-03',
+    fechaDisplay: '3 de julio de 2026',
+    categoria: 'patch-notes',
+    tags: ['marvel-rivals', 'patch-notes', 'temporada', 'jubilee', 'the-hood', 'age-of-apocalypse'],
+    juego: 'marvel-rivals',
+    juegoDisplay: 'Marvel Rivals',
+    imagen: 'https://static.beebom.com/wp-content/uploads/2026/07/Marvel-Rivals-Season-9-heroes-Jubilee-and-The-Hood.jpg',
+    archivo: 'posts/marvel-rivals-season-9-jubilee-hood-julio-2026.html'
+  },
+  {
+    id: 'openai-gpt-56-sol-terra-luna-julio-2026',
+    titulo: 'OpenAI presentó GPT-5.6: Sol, Terra y Luna — los modelos más potentes de la historia, bloqueados por el gobierno de EEUU',
+    extracto: 'OpenAI anunció el 26 de junio la familia GPT-5.6 con tres modelos (Sol, Terra y Luna), pero el gobierno de Trump pidió limitar el acceso a solo 20 organizaciones. La disponibilidad amplia se espera a mediados de julio.',
+    fecha: '2026-07-03',
+    fechaDisplay: '3 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'chatgpt', 'gpt', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://images.ctfassets.net/kftzwdyauwt9/48XpR5dxhE6jJQ03HTUnWZ/ac68fbfb7761fa72ac7442c6744dba56/_.png?w=1600&h=900&fit=fill',
+    archivo: 'posts/openai-gpt-56-sol-terra-luna-julio-2026.html'
+  },
+  {
+    id: 'epic-gratis-nova-lands-tattoo-tycoon-julio-2026',
+    titulo: 'Epic gratis desde el 9 de julio: Nova Lands y Tattoo Tycoon — dos sims completamente distintos, USD 50 de valor',
+    extracto: 'El 9 de julio Epic cambia los juegos gratis: salen River City Girls 2 e I Have No Mouth, y entran Nova Lands (automation sandbox, 80 en OpenCritic) y Tattoo Tycoon (sim de tatuajes). Disponibles hasta el 16 de julio.',
+    fecha: '2026-07-03',
+    fechaDisplay: '3 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['epic-games', 'juegos-gratis', 'gaming', 'pc', 'indie'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/07/epic-games-store-green-logo.jpg?w=1600&h=900&fit=crop',
+    archivo: 'posts/epic-gratis-nova-lands-tattoo-tycoon-julio-2026.html'
+  },
+  {
     id: 'fable-5-vuelve-julio-2026',
     titulo: 'Fable 5 vuelve hoy: Anthropic lo redespliega globalmente tras el levantamiento de los controles de exportación',
     extracto: 'Después de casi tres semanas de suspensión forzada por las restricciones del gobierno de EEUU, Claude Fable 5 vuelve a estar disponible desde hoy, 1 de julio, para todos los usuarios de Claude.',
