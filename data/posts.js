@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'ac-black-flag-resynced-lanzamiento-julio-2026',
+    titulo: 'AC Black Flag Resynced sale este jueves: todo lo que necesitás saber antes de zarpar',
+    extracto: 'El remake del mejor Assassin\'s Creed llega el 9 de julio a PS5, Xbox Series X|S y PC. Motor Anvil nuevo, 6+ horas de contenido exclusivo, combate renovado, stealth mejorado y hasta un gato de mascota en el Jackdaw.',
+    fecha: '2026-07-06',
+    fechaDisplay: '6 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['assassins-creed', 'ubisoft', 'black-flag', 'remake', 'gaming', 'ps5', 'xbox', 'pc'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1Rpu8aSPy6KNWMaTT265Fe/eaee121b4b7f3f3941f29162a8de7bb8/ACOBS_keyart_STD_960x540.jpg',
+    archivo: 'posts/ac-black-flag-resynced-lanzamiento-julio-2026.html'
+  },
+  {
+    id: 'lol-parche-2614-t1-worlds-skins-julio-2026',
+    titulo: 'Preview Parche 26.14 de LoL: los skins de T1 Worlds 2026 llegan el 15 de julio — Faker consigue su 5to skin personal en Galio',
+    extracto: 'El parche 26.14 llega el 15 de julio y cierra el Act II de la temporada Pandemonium con seis skins del campeón T1: Ambessa (Doran), Xin Zhao (Oner), Galio (Faker, su 5to skin), Yunara + Prestige Miss Fortune (Gumayusi, MVP) y Seraphine (Keria).',
+    fecha: '2026-07-06',
+    fechaDisplay: '6 de julio de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 't1', 'worlds', 'faker'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://cdn.prod.boostmatch.asia/blog/banners/018b8494-287f-4549-91bd-e1093342e0e3.jpg',
+    archivo: 'posts/lol-parche-2614-t1-worlds-skins-julio-2026.html'
+  },
+  {
+    id: 'claude-sonnet-5-julio-2026',
+    titulo: 'Anthropic lanzó Claude Sonnet 5: casi tan capaz como Opus, con ventana de 1 millón de tokens y disponible en el plan gratuito',
+    extracto: 'Claude Sonnet 5 llegó el 30 de junio como el modelo más agéntico de la familia Sonnet: navega la web, usa terminales y completa tareas complejas de forma autónoma. Ahora es el modelo por defecto en los planes Free y Pro.',
+    fecha: '2026-07-06',
+    fechaDisplay: '6 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'claude', 'anthropic', 'sonnet', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png',
+    archivo: 'posts/claude-sonnet-5-julio-2026.html'
+  },
+  {
     id: 'marvel-rivals-season-9-jubilee-hood-julio-2026',
     titulo: 'Marvel Rivals Season 9 arranca el 10 de julio: Jubilee y The Hood entran en escena bajo la era del Apocalipsis',
     extracto: 'La Temporada 9 de Marvel Rivals llega el 10 de julio con el arco Age of Apocalypse y dos héroes nuevos: The Hood como Vanguard y Jubilee como Strategist. El Summer Festival sigue activo hasta ese día.',
@@ -1368,67 +1407,4 @@ const POSTS = [
   {
     id: 'crisis-gpus-2026',
     titulo: 'La crisis de GPUs en 2026: la IA se está comiendo las placas de video',
-    extracto: 'Nvidia recorta producción, AMD sube precios un 10% y la RTX 5070 Ti ya cuesta USD 1.000. Todo lo que está pasando con el mercado de GPUs para gaming.',
-    fecha: '2026-04-04',
-    fechaDisplay: '4 de abril de 2026',
-    categoria: 'tecnologia',
-    tags: ['hardware', 'gpu', 'nvidia', 'amd', 'tecnologia'],
-    juego: null,
-    juegoDisplay: null,
-    imagen: 'images/posts/gpus.jpg',
-    archivo: 'posts/2026-04-04/crisis-gpus-2026.html'
-  },
-  {
-    id: 'ia-abril-2026',
-    titulo: 'El estado de la IA en 2026: Claude, Gemini y OpenAI',
-    extracto: 'GPT-5.4 controla tu computadora, Google lanza Gemini 3.1, y Anthropic filtra accidentalmente su modelo más poderoso. Todo lo que pasó en la IA este 2026.',
-    fecha: '2026-04-04',
-    fechaDisplay: '4 de abril de 2026',
-    categoria: 'tecnologia',
-    tags: ['ia', 'tecnologia', 'openai', 'google', 'anthropic'],
-    juego: null,
-    juegoDisplay: null,
-    imagen: 'images/posts/ia.jpg',
-    archivo: 'posts/2026-04-04/ia-abril-2026.html'
-  },
-  {
-    id: 'juegos-mas-jugados-argentina-2026',
-    titulo: '¿Qué juega Argentina en 2026? Los más jugados en Steam y la escena local',
-    extracto: 'Steam rompió el récord de 42 millones de usuarios online. CS2 sigue dominando, ARC Raiders sorprende y Battlefield 6 la pasa mal. Qué juega Argentina.',
-    fecha: '2026-04-04',
-    fechaDisplay: '4 de abril de 2026',
-    categoria: 'comunidad',
-    tags: ['comunidad', 'gaming', 'steam', 'argentina'],
-    juego: null,
-    juegoDisplay: null,
-    imagen: null,
-    archivo: 'posts/2026-04-04/juegos-mas-jugados-argentina-2026.html'
-  },
-  {
-    id: 'marvel-rivals-abril-2026',
-    titulo: 'Novedades del Parche — Marvel Rivals (Abril 2026)',
-    extracto: 'Nuevo mapa en Lower Manhattan, evento de Wonder Man y el resumen completo del balance de la Temporada 7.',
-    fecha: '2026-04-02',
-    fechaDisplay: '2 de abril de 2026',
-    categoria: 'patch-notes',
-    tags: ['marvel-rivals', 'patch-notes'],
-    juego: 'marvel-rivals',
-    juegoDisplay: 'Marvel Rivals',
-    imagen: null,
-    archivo: 'posts/2026-04-02/marvel-rivals-abril-2026.html'
-  },
-  {
-    id: 'lol-abril-2026',
-    titulo: 'Novedades del Parche — League of Legends (Abril 2026)',
-    extracto: 'Parche 26.7 con ajustes al pool de supports y balance de outliers. Nami y Karma reciben nerfs, Rell vuelve al meta.',
-    fecha: '2026-03-31',
-    fechaDisplay: '31 de marzo de 2026',
-    categoria: 'patch-notes',
-    tags: ['league-of-legends', 'patch-notes'],
-    juego: 'league-of-legends',
-    juegoDisplay: 'League of Legends',
-    imagen: 'images/posts/lol.png',
-    logo: true,
-    archivo: 'posts/2026-03-31/lol-abril-2026.html'
-  }
-];
+    extracto: 'Nvidia recorta producción, AMD sube precios un 10% y la RTX 5070 Ti ya cuesta USD 1.000. Todo lo que está p
