@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://puntodespawn.com/sitemap.xml
