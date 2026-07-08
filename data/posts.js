@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'gemini-35-pro-preview-julio-17-2026',
+    titulo: 'Gemini 3.5 Pro llega el 17 de julio: 2 millones de tokens y la jugada de Google contra GPT-5.6',
+    extracto: 'Google confirmó el 17 de julio para Gemini 3.5 Pro, construido desde cero con nueva arquitectura, 2 millones de tokens de contexto y un modo de razonamiento profundo. La respuesta de DeepMind a Sol y a Fable 5.',
+    fecha: '2026-07-08',
+    fechaDisplay: '8 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'gemini', 'google', 'ia', 'deepmind'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keywordstatement__metacard__light.width-1300.png',
+    archivo: 'posts/gemini-35-pro-preview-julio-17-2026.html'
+  },
+  {
+    id: 'gpt-56-acceso-global-julio-9-2026',
+    titulo: 'GPT-5.6 llega a todos desde el 9 de julio: Sol, Terra y Luna por fin fuera del gobierno',
+    extracto: 'Tras semanas restringido a 20 organizaciones por orden del gobierno de EEUU, OpenAI confirma el lanzamiento global de Sol, Terra y Luna para el 9 de julio via API y Codex. Todavía no en ChatGPT consumer, pero así funciona cada modelo y cuánto cuesta.',
+    fecha: '2026-07-08',
+    fechaDisplay: '8 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'chatgpt', 'gpt', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.neowin.com/news/images/uploaded/2026/07/1783484496_openai_gpt_5.6_launch_story.webp',
+    archivo: 'posts/gpt-56-acceso-global-julio-9-2026.html'
+  },
+  {
+    id: 'ac-black-flag-resynced-reviews-metacritic-julio-2026',
+    titulo: 'AC Black Flag Resynced: 86 en Metacritic — el mejor Assassin\'s Creed en 13 años',
+    extracto: 'El embargo se levantó hoy y las reviews son claras: 86 en Metacritic y 88 en OpenCritic, solo superado por los AC históricos. Dexerto le dio 5/5, GameSpot se mandó en contra. Qué dicen los medios del remake de Ubisoft.',
+    fecha: '2026-07-08',
+    fechaDisplay: '8 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['assassins-creed', 'ubisoft', 'black-flag', 'remake', 'gaming', 'ps5', 'xbox', 'pc', 'review'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://static0.thegamerimages.com/wordpress/wp-content/uploads/wm/2026/07/new-project-2026-07-08t103245-234.jpg?w=1600&h=900&fit=crop',
+    archivo: 'posts/ac-black-flag-resynced-reviews-metacritic-julio-2026.html'
+  },
+  {
     id: 'ac-black-flag-resynced-lanzamiento-julio-2026',
     titulo: 'AC Black Flag Resynced sale este jueves: todo lo que necesitás saber antes de zarpar',
     extracto: 'El remake del mejor Assassins Creed llega el 9 de julio a PS5, Xbox Series X|S y PC. Motor Anvil nuevo, 6+ horas de contenido exclusivo, combate renovado, stealth mejorado y hasta un gato de mascota en el Jackdaw.',
