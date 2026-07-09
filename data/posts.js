@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'comunidad-pc-vs-consola-argentina-2026',
+    titulo: 'PC vs consola en Argentina 2026: ¿cuál conviene hoy?',
+    extracto: 'El debate de siempre con números reales: qué conviene armar o comprar en Argentina en 2026. Analizamos costos, exclusivos, Game Pass y el factor dólar.',
+    fecha: '2026-07-09',
+    fechaDisplay: '9 de julio de 2026',
+    categoria: 'comunidad',
+    tags: ['debate', 'pc', 'consola', 'argentina', 'gaming'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg',
+    archivo: 'posts/comunidad-pc-vs-consola-argentina-2026.html'
+  },
+  {
+    id: 'comunidad-nueva-seccion-ofertas-puntodespawn',
+    titulo: 'Lanzamos la sección de Ofertas: descuentos en Steam, juegos gratis de Epic y más',
+    extracto: 'PuntoDeSpawn ahora tiene sección de Ofertas. Descuentos en Steam, juegos gratis de Epic Games y las mejores deals del momento, actualizadas regularmente.',
+    fecha: '2026-07-09',
+    fechaDisplay: '9 de julio de 2026',
+    categoria: 'comunidad',
+    tags: ['anuncio', 'ofertas', 'steam', 'epic-games'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg',
+    archivo: 'posts/comunidad-nueva-seccion-ofertas-puntodespawn.html'
+  },
+  {
     id: 'steam-summer-sale-2026-epic-gratis-nova-lands-julio-9',
     titulo: 'Último día del Steam Summer Sale: las mejores ofertas y los nuevos gratis de Epic',
     extracto: 'El Steam Summer Sale 2026 cierra hoy a las 14 hs Argentina. Cyberpunk 2077 a USD 17,99, RDR2 a USD 14,99, Dead Space Remake a USD 5,99. Y a partir de hoy, Nova Lands y Tattoo Tycoon gratis en Epic.',

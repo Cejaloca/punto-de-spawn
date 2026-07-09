@@ -1488,3 +1488,55 @@ footer {
 }
 
 /* ─── LIGHT MODE ──────────────────────────────�
+/* ─── ANNOUNCEMENT BANNER ────────────────────────────── */
+.announcement-banner {
+  background: rgba(200,160,0,0.08);
+  border-bottom: 1px solid rgba(200,160,0,0.18);
+  padding: 0.6rem 0;
+}
+.announcement-banner .container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.ann-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.ann-icon {
+  width: 30px;
+  height: 30px;
+  background: rgba(200,160,0,0.18);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #c8a000;
+}
+.ann-text {
+  font-size: 0.86rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+.ann-text strong { color: #c8a000; }
+.ann-link {
+  font-size: 0.8rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  color: #c8a000;
+  border: 1px solid rgba(200,160,0,0.3);
+  border-radius: 5px;
+  padding: 0.25rem 0.65rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 0.15s;
+  letter-spacing: 0.3px;
+}
+.ann-link:hover { background: rgba(200,160,0,0.12); color: #c8a000; }
+@media (max-width: 540px) {
+  .ann-text { font-size: 0.8rem; }
+  .announcement-banner .container { gap: 0.65rem; }
+}
