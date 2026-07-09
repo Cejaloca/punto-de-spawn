@@ -371,6 +371,9 @@ main { margin-top: 60px; min-height: calc(100vh - 60px - 200px); }
 .card-cover-gradient.cat-comunidad {
   background: linear-gradient(135deg, #1e0f00 0%, #4a2010 60%, #8a3a10 100%);
 }
+.card-cover-gradient.cat-ofertas {
+  background: linear-gradient(135deg, #1a1400 0%, #3d2e00 60%, #7a5a00 100%);
+}
 
 /* Card body */
 .card-body {
@@ -406,6 +409,7 @@ main { margin-top: 60px; min-height: calc(100vh - 60px - 200px); }
 .badge-gaming      { background: rgba(112,64,208,0.2);  color: #9060e0; border-color: rgba(112,64,208,0.35); }
 .badge-patch-notes { background: rgba(42,122,74,0.22);  color: #45b86a; border-color: rgba(42,122,74,0.4); }
 .badge-comunidad   { background: rgba(192,96,32,0.2);   color: #d07835; border-color: rgba(192,96,32,0.35); }
+.badge-ofertas     { background: rgba(200,160,0,0.2);   color: #c8a000; border-color: rgba(200,160,0,0.35); }
 .badge-game        { background: rgba(176,128,255,0.08); color: var(--text-secondary); border-color: var(--border); font-size: 0.63rem; }
 .badge-affiliate   { background: #FFE600; color: #000; border: none; font-weight: 700; font-size: 0.63rem; }
 
@@ -1408,6 +1412,7 @@ body.light-mode .cat-tecnologia { background: linear-gradient(135deg, #c8dcf8 0%
 body.light-mode .cat-gaming     { background: linear-gradient(135deg, #d8c8f8 0%, #ece0ff 100%); color: #5028b0; }
 body.light-mode .cat-patch-notes{ background: linear-gradient(135deg, #b8e8c8 0%, #d0f0dc 100%); color: #1a6e42; }
 body.light-mode .cat-comunidad  { background: linear-gradient(135deg, #f8d8b8 0%, #ffe8cc 100%); color: #a04010; }
+body.light-mode .cat-ofertas    { background: linear-gradient(135deg, #fdf0b0 0%, #fff8cc 100%); color: #7a5a00; }
 
 /* ─── LOAD MORE / PAGINACIÓN ─────────────────────────────── */
 .load-more-wrapper {

@@ -12,15 +12,15 @@ let _tagFilter    = '';
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function getCategoryLabel(cat) {
-  return { tecnologia: 'Tecnología', gaming: 'Gaming', 'patch-notes': 'Patch Notes', comunidad: 'Comunidad' }[cat] || cat;
+  return { tecnologia: 'Tecnología', gaming: 'Gaming', 'patch-notes': 'Patch Notes', comunidad: 'Comunidad', ofertas: 'Ofertas' }[cat] || cat;
 }
 
 function getBadgeClass(cat) {
-  return { tecnologia: 'badge-tech', gaming: 'badge-gaming', 'patch-notes': 'badge-patch-notes', comunidad: 'badge-comunidad' }[cat] || 'badge-gaming';
+  return { tecnologia: 'badge-tech', gaming: 'badge-gaming', 'patch-notes': 'badge-patch-notes', comunidad: 'badge-comunidad', ofertas: 'badge-ofertas' }[cat] || 'badge-gaming';
 }
 
 function getCoverGradientClass(cat) {
-  return { tecnologia: 'cat-tecnologia', gaming: 'cat-gaming', 'patch-notes': 'cat-patch-notes', comunidad: 'cat-comunidad' }[cat] || 'cat-gaming';
+  return { tecnologia: 'cat-tecnologia', gaming: 'cat-gaming', 'patch-notes': 'cat-patch-notes', comunidad: 'cat-comunidad', ofertas: 'cat-ofertas' }[cat] || 'cat-gaming';
 }
 
 function getCoverIcon(cat) {
@@ -53,6 +53,11 @@ function getCoverIcon(cat) {
       "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'>" +
       "<path d='M6 10 Q6 6 10 6 L38 6 Q42 6 42 10 L42 28 Q42 32 38 32 L24 32 L16 40 L16 32 L10 32 Q6 32 6 28 Z'/>" +
       "<path d='M42 18 L52 18 Q56 18 56 22 L56 34 Q56 38 52 38 L50 38 L50 44 L44 38 L34 38'/>" +
+      "</svg>",
+    ofertas:
+      "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'>" +
+      "<path d='M8 8 L8 28 L36 56 Q39 59 43 56 L56 43 Q59 39 56 36 L28 8 Z'/>" +
+      "<circle cx='20' cy='20' r='4' fill='currentColor' stroke='none'/>" +
       "</svg>"
   };
   return icons[cat] || icons['gaming'];
