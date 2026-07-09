@@ -1,5 +1,18 @@
 const POSTS = [
   {
+    id: 'steam-summer-sale-2026-epic-gratis-nova-lands-julio-9',
+    titulo: 'Último día del Steam Summer Sale: las mejores ofertas y los nuevos gratis de Epic',
+    extracto: 'El Steam Summer Sale 2026 cierra hoy a las 14 hs Argentina. Cyberpunk 2077 a USD 17,99, RDR2 a USD 14,99, Dead Space Remake a USD 5,99. Y a partir de hoy, Nova Lands y Tattoo Tycoon gratis en Epic.',
+    fecha: '2026-07-09',
+    fechaDisplay: '9 de julio de 2026',
+    categoria: 'ofertas',
+    tags: ['steam', 'epic-games', 'gratis', 'descuentos', 'ofertas', 'summer-sale'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.pcguide.com/wp-content/uploads/2026/07/Steam-Summer-Sale-2026-end-time.jpg',
+    archivo: 'posts/steam-summer-sale-2026-epic-gratis-nova-lands-julio-9.html'
+  },
+  {
     id: 'gemini-35-pro-preview-julio-17-2026',
     titulo: 'Gemini 3.5 Pro llega el 17 de julio: 2 millones de tokens y la jugada de Google contra GPT-5.6',
     extracto: 'Google confirmó el 17 de julio para Gemini 3.5 Pro, construido desde cero con nueva arquitectura, 2 millones de tokens de contexto y un modo de razonamiento profundo. La respuesta de DeepMind a Sol y a Fable 5.',
@@ -1502,11 +1515,10 @@ const POSTS = [
     fecha: '2026-03-31',
     fechaDisplay: '31 de marzo de 2026',
     categoria: 'patch-notes',
-    tags: ['league-of-legends', 'patch-notes'],
+    tags: ['lol', 'league-of-legends', 'patch-notes'],
     juego: 'league-of-legends',
     juegoDisplay: 'League of Legends',
-    imagen: 'images/posts/lol.png',
-    logo: true,
+    imagen: null,
     archivo: 'posts/2026-03-31/lol-abril-2026.html'
   }
 ];
