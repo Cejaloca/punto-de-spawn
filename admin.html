@@ -1102,4 +1102,58 @@ function renderTopPosts(posts) {
     document.getElementById('top-posts-empty').style.display = '';
     return;
   }
-  // Build a map: normalised path → count
+  // Build a map: normalised path → count  const pageMap = {};
+  byPage.forEach(p => {
+    const path = (p.dimensions?.requestPath || '').replace(/\/index\.html$/, '/').toLowerCase();
+    pageMap[path] = (pageMap[path] || 0) + (p.count || 0);
+  });
+
+  // Match posts to pageview data
+  const catClass = { gaming:'cat-gaming', 'patch-notes':'cat-patch-notes', tecnologia:'cat-tecnologia', ofertas:'cat-ofertas', comunidad:'cat-comunidad' };
+  const matched = posts.map(p => {
+    const path = (p.archivo || '').toLowerCase();
+    const views = pageMap[path] || pageMap[path + 'index.html'] || 0;
+    return { ...p, views };
+  }).filter(p => p.views > 0).sort((a,b) => b.views - a.views).slice(0, 15);
+
+  if (!matched.length) {
+    document.getElementById('top-posts-empty').textContent = 'Sin coincidencias entre posts y datos de Cloudflare aún.';
+    document.getElementById('top-posts-empty').style.display = '';
+    return;
+  }
+
+  const maxV = matched[0].views;
+  document.getElementById('tbody-top-posts').innerHTML = matched.map(p =>
+    `<tr>
+      <td><a href="${p.archivo}" target="_blank" class="page-path" title="${p.titulo}">${p.titulo.length > 55 ? p.titulo.substring(0,54)+'…' : p.titulo}</a></td>
+      <td><span class="post-cat-badge ${catClass[p.categoria]||''}" style="font-size:10px">${p.categoria}</span></td>
+      <td class="num">${fmt(p.views)}</td>
+    </tr>`
+  ).join('');
+  document.getElementById('table-top-posts').style.display = '';
+}
+
+// ─── INIT ────────────────────────────────────────────────
+function init() {
+  loadCfg();
+  fetchCfData();
+  loadPosts();
+  initGoogleAuth();
+  initGA4Auth();
+  document.getElementById('last-refresh-label').textContent = 'Actualizado ' + new Date().toLocaleTimeString('es-AR', {hour:'2-digit',minute:'2-digit'});
+}
+
+// Close modal with ESC key
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { document.getElementById('setup-overlay').className = 'hidden'; }
+});
+
+// Click backdrop to close modal
+document.getElementById('setup-overlay').addEventListener('click', function(e) {
+  if (e.target === this) { this.className = 'hidden'; }
+});
+
+window.onload = () => { checkFirstRun(); init(); };
+</script>
+</body>
+</html>
