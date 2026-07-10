@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — PuntoDeSpawn</title>
+  <meta name="description" content="¿Tenés una pregunta, sugerencia o querés colaborar? Escribinos.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel='icon' href='favicon.svg' type='image/svg+xml'>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGPHS744ZY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JGPHS744ZY');
+  </script>
+  <style>
+    .contact-wrap {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    .contact-intro {
+      color: var(--text-muted, #888);
+      margin-bottom: 32px;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .form-group label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted, #aaa);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .form-group input,
+    .form-group textarea {
+      background: var(--card-bg, #1a1a1a);
+      border: 1px solid var(--border, #2a2a2a);
+      color: var(--text, #eee);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: var(--accent, #7c3aed);
+    }
+    .form-group textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+    .form-submit {
+      background: var(--accent, #7c3aed);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 13px 28px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+      align-self: flex-start;
+    }
+    .form-submit:hover { opacity: 0.88; }
+    .form-submit:active { transform: scale(0.98); }
+    .form-submit:disabled { opacity: 0.5; cursor: not-allowed; }
+    .form-feedback {
+      display: none;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-top: 4px;
+    }
+    .form-feedback.success {
+      display: block;
+      background: #14532d22;
+      border: 1px solid #22c55e55;
+      color: #22c55e;
+    }
+    .form-feedback.error {
+      display: block;
+      background: #7f1d1d22;
+      border: 1px solid #ef444455;
+      color: #ef4444;
+    }
+    .contact-alt {
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border, #2a2a2a);
+      color: var(--text-muted, #888);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    .contact-alt a { color: var(--accent, #7c3aed); text-decoration: none; }
+    .contact-alt a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">Punto<span>De</span>Spawn</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="tecnologia.html">Tecnología</a></li>
+          <li><a href="gaming.html">Gaming</a></li>
+          <li><a href="ofertas.html">Ofertas</a></li>
+          <li><a href="comunidad.html">Comunidad</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="page-header">
+      <div class="container">
+        <h1>Escribinos <span class="accent">✉️</span></h1>
+        <p>Consultas, sugerencias, colaboraciones — todo bienvenido.</p>
+      </div>
+    </div>
+
+    <div class="contact-wrap">
+
+      <p class="contact-intro">
+        ¿Tenés una pregunta sobre algún artículo? ¿Querés sugerirnos un tema? ¿O simplemente querés decir algo?
+        Completá el formulario y nos llega directo. Respondemos lo antes posible.
+      </p>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="nombre">Tu nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Nico" required maxlength="100">
+        </div>
+        <div class="form-group">
+          <label for="email">Email (opcional)</label>
+          <input type="email" id="email" name="email" placeholder="vos@ejemplo.com" maxlength="200">
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribí lo que quieras..." required maxlength="2000"></textarea>
+        </div>
+        <button type="submit" class="form-submit" id="submit-btn">Enviar mensaje</button>
+        <div class="form-feedback" id="form-feedback"></div>
+      </form>
+
+      <div class="contact-alt">
+        <p>También nos encontrás en Instagram: <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener">@puntodespawn.ok</a></p>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="footer-logo">Punto<span>De</span>Spawn</div>
+        <p class="footer-desc">Revista digital de tecnología y gaming hecha en Argentina.</p>
+        <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener" class="footer-social"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg> @puntodespawn.ok</a>
+      </div>
+      <div class="footer-col">
+        <h4>Categorías</h4>
+        <ul>
+          <li><a href="tecnologia.html">Tecnología</a></li>
+          <li><a href="gaming.html">Gaming</a></li>
+          <li><a href="ofertas.html">Ofertas</a></li>
+          <li><a href="comunidad.html">Comunidad</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>El sitio</h4>
+        <ul>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="index.html">Inicio</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <script>
+    const WORKER_URL = 'https://pds-contact.nicolasguazzotti.workers.dev';
+
+    document.getElementById('contact-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submit-btn');
+      const feedback = document.getElementById('form-feedback');
+      const nombre = document.getElementById('nombre').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const mensaje = document.getElementById('mensaje').value.trim();
+
+      if (!nombre || !mensaje) {
+        feedback.textContent = '⚠️ Completá al menos tu nombre y el mensaje.';
+        feedback.className = 'form-feedback error';
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = 'Enviando...';
+      feedback.className = 'form-feedback';
+
+      try {
+        const res = await fetch(WORKER_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ nombre, email, mensaje })
+        });
+        const data = await res.json();
+        if (data.ok) {
+          feedback.textContent = '✅ ¡Mensaje enviado! Te respondemos pronto.';
+          feedback.className = 'form-feedback success';
+          document.getElementById('contact-form').reset();
+        } else {
+          throw new Error(data.error || 'Error desconocido');
+        }
+      } catch(err) {
+        feedback.textContent = '❌ No se pudo enviar. Intentá de nuevo o escribinos por Instagram.';
+        feedback.className = 'form-feedback error';
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Enviar mensaje';
+      }
+    });
+  </script>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>
