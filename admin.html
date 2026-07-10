@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PuntoDeSpawn — Admin</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f0f11;
+      --bg2: #18181b;
+      --bg3: #232329;
+      --border: #2e2e36;
+      --text: #e4e4e7;
+      --muted: #71717a;
+      --accent: #6366f1;
+      --accent2: #8b5cf6;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #eab308;
+      --blue: #3b82f6;
+      --card-shadow: 0 1px 3px rgba(0,0,0,.4);
+    }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; min-height: 100vh; }
+
+    /* SETUP MODAL */
+    #setup-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.85); display: flex; align-items: center; justify-content: center; z-index: 1000; backdrop-filter: blur(4px); }
+    #setup-overlay.hidden { display: none; }
+    .setup-box { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 32px; width: 480px; max-width: 95vw; }
+    .setup-box h2 { font-size: 20px; font-weight: 700; margin-bottom: 6px; }
+    .setup-box p { color: var(--muted); margin-bottom: 24px; line-height: 1.5; }
+    .setup-section { margin-bottom: 24px; }
+    .setup-section h3 { font-size: 13px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 12px; }
+    .field { margin-bottom: 12px; }
+    .field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+    .field input { width: 100%; background: var(--bg3); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 8px 10px; font-size: 13px; outline: none; }
+    .field input:focus { border-color: var(--accent); }
+    .setup-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 24px; }
+    .btn { padding: 8px 18px; border-radius: 6px; border: none; font-size: 13px; font-weight: 600; cursor: pointer; transition: opacity .15s; }
+    .btn:hover { opacity: .85; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-secondary { background: var(--bg3); color: var(--text); border: 1px solid var(--border); }
+    .hint { font-size: 11px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+    .hint a { color: var(--accent); text-decoration: none; }
+
+    /* HEADER */
+    header { background: var(--bg2); border-bottom: 1px solid var(--border); padding: 0 24px; display: flex; align-items: center; height: 52px; gap: 16px; position: sticky; top: 0; z-index: 100; }
+    .logo-admin { font-weight: 800; font-size: 16px; letter-spacing: -.02em; }
+    .logo-admin span { color: var(--accent); }
+    .header-badge { background: var(--bg3); border: 1px solid var(--border); color: var(--muted); font-size: 11px; padding: 2px 8px; border-radius: 4px; }
+    .header-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+    .last-refresh { font-size: 12px; color: var(--muted); }
+    .icon-btn { background: var(--bg3); border: 1px solid var(--border); color: var(--text); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 15px; transition: background .15s; }
+    .icon-btn:hover { background: var(--border); }
+    #range-select { background: var(--bg3); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 4px 10px; font-size: 13px; cursor: pointer; outline: none; }
+
+    /* TABS */
+    .tabs { display: flex; gap: 0; border-bottom: 1px solid var(--border); background: var(--bg2); padding: 0 24px; }
+    .tab-btn { padding: 14px 16px; font-size: 13px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color .15s; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
+
+    /* MAIN CONTENT */
+    main { padding: 24px; max-width: 1200px; margin: 0 auto; }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* SECTION HEADER */
+    .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+    .section-title { font-size: 16px; font-weight: 700; }
+
+    /* KPI CARDS */
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 24px; }
+    .kpi-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 18px; box-shadow: var(--card-shadow); }
+    .kpi-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
+    .kpi-value { font-size: 28px; font-weight: 800; letter-spacing: -.03em; }
+    .kpi-sub { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .kpi-up { color: var(--green); }
+    .kpi-down { color: var(--red); }
+
+    /* CHART + TABLE ROW */
+    .row-2 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; margin-bottom: 20px; }
+    .row-2-equal { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+    @media (max-width: 760px) { .row-2, .row-2-equal { grid-template-columns: 1fr; } }
+
+    /* CARD */
+    .card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 20px; box-shadow: var(--card-shadow); }
+    .card-title { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 16px; }
+    .chart-container { position: relative; height: 220px; }
+    .chart-container-tall { position: relative; height: 260px; }
+
+    /* TABLES */
+    .data-table { width: 100%; border-collapse: collapse; }
+    .data-table th { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; padding: 0 0 10px 0; text-align: left; border-bottom: 1px solid var(--border); }
+    .data-table td { padding: 9px 0; border-bottom: 1px solid var(--border); font-size: 13px; vertical-align: middle; }
+    .data-table tr:last-child td { border-bottom: none; }
+    .data-table .num { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .data-table .page-path { color: var(--text); max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; font-family: monospace; }
+    .data-table .bar { display: flex; align-items: center; gap: 8px; }
+    .bar-track { flex: 1; height: 4px; background: var(--bg3); border-radius: 2px; overflow: hidden; }
+    .bar-fill { height: 100%; background: var(--accent); border-radius: 2px; }
+
+    /* GOOGLE LOGIN */
+    .gsc-login-area { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 48px; }
+    .gsc-login-area p { color: var(--muted); text-align: center; max-width: 360px; line-height: 1.6; }
+    .btn-google { display: flex; align-items: center; gap: 10px; background: #fff; color: #111; padding: 10px 20px; border-radius: 6px; font-size: 14px; font-weight: 600; border: none; cursor: pointer; transition: opacity .15s; }
+    .btn-google:hover { opacity: .9; }
+    .btn-google svg { width: 18px; height: 18px; }
+
+    /* POSTS GRID */
+    .posts-stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+    @media (max-width: 640px) { .posts-stats-grid { grid-template-columns: 1fr; } }
+    .posts-list { display: flex; flex-direction: column; gap: 10px; }
+    .post-row { background: var(--bg3); border-radius: 8px; padding: 12px 14px; display: flex; align-items: center; gap: 12px; }
+    .post-cat-badge { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: 2px 7px; border-radius: 4px; white-space: nowrap; }
+    .cat-gaming { background: #7c3aed22; color: #a78bfa; }
+    .cat-patch-notes { background: #0ea5e922; color: #38bdf8; }
+    .cat-tecnologia { background: #16a34a22; color: #4ade80; }
+    .cat-ofertas { background: #d9770622; color: #fb923c; }
+    .cat-comunidad { background: #e11d4822; color: #fb7185; }
+    .post-title-small { font-size: 13px; font-weight: 500; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .post-date-small { font-size: 11px; color: var(--muted); white-space: nowrap; }
+
+    /* SETTINGS */
+    .settings-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    @media (max-width: 640px) { .settings-grid { grid-template-columns: 1fr; } }
+    .settings-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
+    .settings-card h3 { font-size: 14px; font-weight: 700; margin-bottom: 16px; }
+    .settings-card .field { margin-bottom: 10px; }
+    .status-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 6px; }
+    .status-ok { background: var(--green); }
+    .status-err { background: var(--red); }
+    .status-warn { background: var(--yellow); }
+    .config-status { font-size: 12px; margin-bottom: 14px; color: var(--muted); }
+
+    /* LOADING + EMPTY STATES */
+    .loading { display: flex; align-items: center; justify-content: center; padding: 40px; color: var(--muted); gap: 10px; }
+    .spinner { width: 18px; height: 18px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .empty { color: var(--muted); text-align: center; padding: 32px; font-size: 13px; }
+    .error-msg { background: #ef444415; border: 1px solid #ef444430; color: #ef4444; border-radius: 8px; padding: 12px 16px; font-size: 13px; margin-bottom: 16px; }
+
+    /* DIVIDER */
+    .divider { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
+
+    /* INSTRUCTIONS */
+    .instructions { background: var(--bg3); border-radius: 8px; padding: 16px; margin-top: 16px; }
+    .instructions h4 { font-size: 13px; font-weight: 700; margin-bottom: 10px; }
+    .instructions ol { padding-left: 18px; }
+    .instructions li { font-size: 12px; color: var(--muted); margin-bottom: 6px; line-height: 1.5; }
+    .instructions code { background: var(--bg2); padding: 1px 5px; border-radius: 3px; font-family: monospace; color: var(--accent); }
+  </style>
+</head>
+<body>
+
+<!-- SETUP OVERLAY -->
+<div id="setup-overlay">
+  <div class="setup-box">
+    <h2>⚡ Configurar Panel Admin</h2>
+    <p>Primera vez que abrís el panel. Completá las credenciales para conectar las fuentes de datos. Se guardan localmente en tu navegador.</p>
+
+    <div class="setup-section">
+      <h3>☁️ Cloudflare Web Analytics</h3>
+      <div class="field">
+        <label>Account ID</label>
+        <input id="cf-account-id" placeholder="abc123def456..." />
+        <div class="hint">Cloudflare Dashboard → <a href="https://dash.cloudflare.com" target="_blank">dash.cloudflare.com</a> → click en tu cuenta → URL contiene el Account ID</div>
+      </div>
+      <div class="field">
+        <label>Site Tag (Web Analytics)</label>
+        <input id="cf-site-tag" placeholder="Site identifier..." />
+        <div class="hint">Cloudflare → Web Analytics → click en tu sitio → la URL tiene el site tag</div>
+      </div>
+      <div class="field">
+        <label>API Token</label>
+        <input id="cf-token" type="password" placeholder="Tu token de API..." />
+        <div class="hint">Cloudflare → My Profile → API Tokens → Create Token → plantilla "Read analytics and logs"</div>
+      </div>
+    </div>
+
+    <div class="setup-section">
+      <h3>🔍 Google Search Console</h3>
+      <div class="field">
+        <label>OAuth Client ID</label>
+        <input id="gsc-client-id" placeholder="xxx.apps.googleusercontent.com" />
+        <div class="hint"><a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google Cloud Console</a> → Credentials → Create OAuth Client ID (Web App) → agregar <code>https://puntodespawn.com</code> como JavaScript origin autorizado</div>
+      </div>
+      <div class="field">
+        <label>Property URL (Search Console)</label>
+        <input id="gsc-property" placeholder="https://puntodespawn.com/" />
+      </div>
+    </div>
+
+    <div class="setup-actions">
+      <button class="btn btn-secondary" onclick="skipSetup()">Más tarde</button>
+      <button class="btn btn-primary" onclick="saveSetup()">Guardar y conectar</button>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo-admin">Punto<span>De</span>Spawn</div>
+  <div class="header-badge">Admin</div>
+  <div class="header-right">
+    <select id="range-select" onchange="onRangeChange()">
+      <option value="7">Últimos 7 días</option>
+      <option value="30" selected>Últimos 30 días</option>
+      <option value="90">Últimos 90 días</option>
+    </select>
+    <span class="last-refresh" id="last-refresh-label"></span>
+    <div class="icon-btn" onclick="refreshAll()" title="Actualizar datos">↻</div>
+    <div class="icon-btn" onclick="showSetup()" title="Ajustes">⚙</div>
+  </div>
+</header>
+
+<!-- TABS -->
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchTab('visitas', this)">📈 Visitas</button>
+  <button class="tab-btn" onclick="switchTab('busquedas', this)">🔍 Búsquedas</button>
+  <button class="tab-btn" onclick="switchTab('contenido', this)">📝 Contenido</button>
+  <button class="tab-btn" onclick="switchTab('ajustes', this)">⚙️ Ajustes</button>
+</div>
+
+<main>
+
+  <!-- TAB: VISITAS (Cloudflare) -->
+  <div id="tab-visitas" class="tab-content active">
+    <div id="cf-error" class="error-msg hidden"></div>
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Visitas únicas</div>
+        <div class="kpi-value" id="kpi-visits">–</div>
+        <div class="kpi-sub" id="kpi-visits-sub">Cargando...</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Pageviews</div>
+        <div class="kpi-value" id="kpi-pageviews">–</div>
+        <div class="kpi-sub" id="kpi-pageviews-sub">–</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Países alcanzados</div>
+        <div class="kpi-value" id="kpi-countries">–</div>
+        <div class="kpi-sub">en el período</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Pág. más visitada</div>
+        <div class="kpi-value" style="font-size:16px;font-weight:700;" id="kpi-top-page">–</div>
+        <div class="kpi-sub" id="kpi-top-page-views">–</div>
+      </div>
+    </div>
+
+    <div class="row-2">
+      <div class="card">
+        <div class="card-title">Visitas diarias</div>
+        <div class="chart-container">
+          <canvas id="chart-visits"></canvas>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Top países</div>
+        <div id="countries-loading" class="loading"><div class="spinner"></div> Cargando...</div>
+        <table class="data-table" id="table-countries" style="display:none">
+          <thead><tr><th>País</th><th class="num">Visitas</th></tr></thead>
+          <tbody id="tbody-countries"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Páginas más visitadas (30 días)</div>
+      <div id="pages-loading" class="loading"><div class="spinner"></div> Cargando...</div>
+      <table class="data-table" id="table-pages" style="display:none">
+        <thead><tr><th>Página</th><th class="num">Pageviews</th><th style="width:35%">Proporción</th></tr></thead>
+        <tbody id="tbody-pages"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB: BÚSQUEDAS (Google Search Console) -->
+  <div id="tab-busquedas" class="tab-content">
+    <div id="gsc-login-area" class="card gsc-login-area">
+      <p>Conectá tu cuenta de Google para ver los datos de Search Console (clicks, impresiones, keywords, posición).</p>
+      <button class="btn-google" onclick="loginGoogle()">
+        <svg viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        Conectar con Google
+      </button>
+      <div class="hint" style="text-align:center">Necesitás configurar el OAuth Client ID en <b>Ajustes</b> primero</div>
+    </div>
+
+    <div id="gsc-content" style="display:none">
+      <div id="gsc-error" class="error-msg hidden"></div>
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">Clicks</div>
+          <div class="kpi-value" id="kpi-clicks">–</div>
+          <div class="kpi-sub">desde Google Search</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Impresiones</div>
+          <div class="kpi-value" id="kpi-impressions">–</div>
+          <div class="kpi-sub">veces que apareció</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">CTR promedio</div>
+          <div class="kpi-value" id="kpi-ctr">–</div>
+          <div class="kpi-sub">click-through rate</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Posición promedio</div>
+          <div class="kpi-value" id="kpi-position">–</div>
+          <div class="kpi-sub">en resultados Google</div>
+        </div>
+      </div>
+
+      <div class="row-2">
+        <div class="card">
+          <div class="card-title">Clicks e Impresiones diarias</div>
+          <div class="chart-container">
+            <canvas id="chart-gsc"></canvas>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Top keywords</div>
+          <div id="queries-loading" class="loading"><div class="spinner"></div></div>
+          <table class="data-table" id="table-queries" style="display:none">
+            <thead><tr><th>Búsqueda</th><th class="num">Clicks</th><th class="num">Pos.</th></tr></thead>
+            <tbody id="tbody-queries"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Páginas con más tráfico desde Google</div>
+        <div id="gsc-pages-loading" class="loading"><div class="spinner"></div></div>
+        <table class="data-table" id="table-gsc-pages" style="display:none">
+          <thead><tr><th>Página</th><th class="num">Clicks</th><th class="num">Impresiones</th><th class="num">CTR</th><th class="num">Posición</th></tr></thead>
+          <tbody id="tbody-gsc-pages"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB: CONTENIDO -->
+  <div id="tab-contenido" class="tab-content">
+    <div class="posts-stats-grid">
+      <div class="card">
+        <div class="card-title">Posts por categoría</div>
+        <div class="chart-container">
+          <canvas id="chart-categories"></canvas>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Publicaciones por mes</div>
+        <div class="chart-container">
+          <canvas id="chart-by-month"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">Últimos posts publicados</div>
+      <div id="posts-loading" class="loading"><div class="spinner"></div> Cargando posts...</div>
+      <div class="posts-list" id="posts-list" style="display:none"></div>
+    </div>
+  </div>
+
+  <!-- TAB: AJUSTES -->
+  <div id="tab-ajustes" class="tab-content">
+    <div class="settings-grid">
+      <div class="settings-card">
+        <h3>☁️ Cloudflare Web Analytics</h3>
+        <div class="config-status" id="cf-status">
+          <span class="status-dot status-warn"></span>Sin configurar
+        </div>
+        <div class="field">
+          <label>Account ID</label>
+          <input id="s-cf-account-id" />
+        </div>
+        <div class="field">
+          <label>Site Tag</label>
+          <input id="s-cf-site-tag" />
+        </div>
+        <div class="field">
+          <label>API Token</label>
+          <input id="s-cf-token" type="password" />
+        </div>
+        <button class="btn btn-primary" style="margin-top:8px" onclick="saveCfSettings()">Guardar Cloudflare</button>
+
+        <div class="instructions">
+          <h4>Cómo obtener las credenciales:</h4>
+          <ol>
+            <li><b>Account ID:</b> Abrí <a href="https://dash.cloudflare.com" target="_blank" style="color:var(--accent)">dash.cloudflare.com</a>, el ID aparece en la URL o en el sidebar derecho.</li>
+            <li><b>Site Tag:</b> Cloudflare → Web Analytics → tu sitio → en "Manage site" el Site Tag está en la URL.</li>
+            <li><b>API Token:</b> My Profile → API Tokens → Create Token → usa la plantilla <b>"Read analytics and logs"</b> o asigná permiso <code>Account Analytics:Read</code>.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="settings-card">
+        <h3>🔍 Google Search Console</h3>
+        <div class="config-status" id="gsc-status">
+          <span class="status-dot status-warn"></span>Sin configurar
+        </div>
+        <div class="field">
+          <label>OAuth Client ID</label>
+          <input id="s-gsc-client-id" />
+        </div>
+        <div class="field">
+          <label>Property URL</label>
+          <input id="s-gsc-property" placeholder="https://puntodespawn.com/" />
+        </div>
+        <button class="btn btn-primary" style="margin-top:8px" onclick="saveGscSettings()">Guardar GSC</button>
+
+        <div class="instructions">
+          <h4>Configurar OAuth (una sola vez):</h4>
+          <ol>
+            <li>Andá a <a href="https://console.cloud.google.com" target="_blank" style="color:var(--accent)">console.cloud.google.com</a>.</li>
+            <li>Creá un proyecto nuevo (ej: "PuntoDeSpawn Analytics").</li>
+            <li>APIs → Habilitar → buscá <b>Google Search Console API</b> → Habilitar.</li>
+            <li>Credentials → Create Credentials → <b>OAuth Client ID</b> → tipo: <b>Web Application</b>.</li>
+            <li>En "Authorized JavaScript origins" agregá: <code>https://puntodespawn.com</code>.</li>
+            <li>Copiá el Client ID y pegalo arriba.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:20px">
+      <div class="card-title">Acciones</div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:4px">
+        <button class="btn btn-secondary" onclick="clearAllData()">🗑 Borrar todas las credenciales</button>
+        <button class="btn btn-secondary" onclick="refreshAll()">↻ Actualizar todos los datos</button>
+        <button class="btn btn-secondary" onclick="exportData()">⬇ Exportar datos JSON</button>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+// ─── CONFIG ────────────────────────────────────────────────
+const POSTS_URL = 'https://puntodespawn.com/data/posts.js';
+const CF_GQL = 'https://api.cloudflare.com/client/v4/graphql';
+const GSC_API = 'https://www.googleapis.com/webmasters/v3';
+
+let cfg = {};
+let gscToken = null;
+let charts = {};
+let cachedData = {};
+
+function loadCfg() {
+  cfg = {
+    cfAccountId:  localStorage.getItem('cf_account_id') || '',
+    cfSiteTag:    localStorage.getItem('cf_site_tag') || '',
+    cfToken:      localStorage.getItem('cf_token') || '',
+    gscClientId:  localStorage.getItem('gsc_client_id') || '',
+    gscProperty:  localStorage.getItem('gsc_property') || 'https://puntodespawn.com/',
+  };
+}
+
+function saveCfg() { localStorage.setItem('cf_account_id', cfg.cfAccountId); localStorage.setItem('cf_site_tag', cfg.cfSiteTag); localStorage.setItem('cf_token', cfg.cfToken); localStorage.setItem('gsc_client_id', cfg.gscClientId); localStorage.setItem('gsc_property', cfg.gscProperty); }
+
+function getDays() { return parseInt(document.getElementById('range-select').value) || 30; }
+function getDateRange(days) { const e = new Date(); const s = new Date(e); s.setDate(s.getDate() - days); return { start: s.toISOString().split('T')[0], end: e.toISOString().split('T')[0] }; }
+function fmt(n) { if (n === undefined || n === null) return '–'; if (n >= 1000000) return (n/1000000).toFixed(1)+'M'; if (n >= 1000) return (n/1000).toFixed(1)+'K'; return n.toLocaleString('es-AR'); }
+function pct(n) { return n !== undefined ? (n*100).toFixed(1)+'%' : '–'; }
+function pos(n) { return n ? n.toFixed(1) : '–'; }
+
+// ─── SETUP ────────────────────────────────────────────────
+function checkFirstRun() {
+  loadCfg();
+  if (!cfg.cfToken && !cfg.gscClientId) {
+    document.getElementById('setup-overlay').classList.remove('hidden');
+  } else {
+    document.getElementById('setup-overlay').classList.add('hidden');
+  }
+  fillSettingsForm();
+  updateStatusDots();
+}
+
+function skipSetup() { document.getElementById('setup-overlay').classList.add('hidden'); init(); }
+
+function saveSetup() {
+  cfg.cfAccountId = document.getElementById('cf-account-id').value.trim();
+  cfg.cfSiteTag   = document.getElementById('cf-site-tag').value.trim();
+  cfg.cfToken     = document.getElementById('cf-token').value.trim();
+  cfg.gscClientId = document.getElementById('gsc-client-id').value.trim();
+  cfg.gscProperty = document.getElementById('gsc-property').value.trim() || 'https://puntodespawn.com/';
+  saveCfg(); document.getElementById('setup-overlay').classList.add('hidden');
+  fillSettingsForm(); updateStatusDots(); init();
+}
+
+function showSetup() { document.getElementById('setup-overlay').classList.remove('hidden'); }
+
+function fillSettingsForm() {
+  loadCfg();
+  const ids = ['cf-account-id','cf-site-tag','cf-token','gsc-client-id','gsc-property'];
+  const keys = ['cfAccountId','cfSiteTag','cfToken','gscClientId','gscProperty'];
+  ids.forEach((id, i) => { const el = document.getElementById('s-'+id); if(el) el.value = cfg[keys[i]] || ''; });
+}
+
+function saveCfSettings() {
+  cfg.cfAccountId = document.getElementById('s-cf-account-id').value.trim();
+  cfg.cfSiteTag   = document.getElementById('s-cf-site-tag').value.trim();
+  cfg.cfToken     = document.getElementById('s-cf-token').value.trim();
+  saveCfg(); updateStatusDots(); fetchCfData();
+}
+
+function saveGscSettings() {
+  cfg.gscClientId = document.getElementById('s-gsc-client-id').value.trim();
+  cfg.gscProperty = document.getElementById('s-gsc-property').value.trim() || 'https://puntodespawn.com/';
+  saveCfg(); updateStatusDots();
+}
+
+function updateStatusDots() {
+  loadCfg();
+  const cfOk = cfg.cfToken && cfg.cfAccountId && cfg.cfSiteTag;
+  const gscOk = cfg.gscClientId;
+  document.getElementById('cf-status').innerHTML = cfOk
+    ? '<span class="status-dot status-ok"></span>Configurado'
+    : '<span class="status-dot status-warn"></span>Sin configurar — completá los campos arriba';
+  document.getElementById('gsc-status').innerHTML = gscOk
+    ? '<span class="status-dot status-ok"></span>Client ID configurado'
+    : '<span class="status-dot status-warn"></span>Sin Client ID — seguí las instrucciones';
+}
+
+function clearAllData() {
+  if (!confirm('¿Seguro? Esto borra todas las credenciales guardadas.')) return;
+  localStorage.clear(); loadCfg(); fillSettingsForm(); updateStatusDots();
+}
+
+function exportData() {
+  const blob = new Blob([JSON.stringify(cachedData, null, 2)], {type:'application/json'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = 'puntodespawn-analytics-' + new Date().toISOString().split('T')[0] + '.json';
+  a.click();
+}
+
+// ─── TABS ────────────────────────────────────────────────
+function switchTab(name, btn) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  btn.classList.add('active');
+  if (name === 'contenido' && !cachedData.posts) loadPosts();
+  if (name === 'busquedas' && gscToken && !cachedData.gsc) fetchGscData();
+}
+
+function onRangeChange() { fetchCfData(); if (gscToken) fetchGscData(); }
+
+function refreshAll() {
+  fetchCfData();
+  if (gscToken) fetchGscData();
+  loadPosts();
+  document.getElementById('last-refresh-label').textContent = 'Actualizado ' + new Date().toLocaleTimeString('es-AR', {hour:'2-digit',minute:'2-digit'});
+}
+
+// ─── CHART HELPERS ────────────────────────────────────────
+const CHART_DEFAULTS = {
+  responsive: true, maintainAspectRatio: false,
+  plugins: { legend: { labels: { color: '#71717a', font: { size: 11 } } } },
+  scales: {
+    x: { ticks: { color: '#71717a', font:{size:10}, maxTicksLimit:8 }, grid: { color: '#2e2e36' } },
+    y: { ticks: { color: '#71717a', font:{size:10} }, grid: { color: '#2e2e36' } }
+  }
+};
+
+function destroyChart(id) { if (charts[id]) { charts[id].destroy(); delete charts[id]; } }
+
+function makeLineChart(canvasId, labels, datasets) {
+  destroyChart(canvasId);
+  const ctx = document.getElementById(canvasId).getContext('2d');
+  charts[canvasId] = new Chart(ctx, {
+    type: 'line',
+    data: { labels, datasets },
+    options: { ...CHART_DEFAULTS, interaction: { mode: 'index', intersect: false } }
+  });
+}
+
+function makeBarChart(canvasId, labels, datasets) {
+  destroyChart(canvasId);
+  const ctx = document.getElementById(canvasId).getContext('2d');
+  charts[canvasId] = new Chart(ctx, {
+    type: 'bar',
+    data: { labels, datasets },
+    options: { ...CHART_DEFAULTS }
+  });
+}
+
+function makeDoughnutChart(canvasId, labels, data, colors) {
+  destroyChart(canvasId);
+  const ctx = document.getElementById(canvasId).getContext('2d');
+  charts[canvasId] = new Chart(ctx, {
+    type: 'doughnut',
+    data: { labels, datasets: [{ data, backgroundColor: colors, borderColor: '#0f0f11', borderWidth: 2 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { color: '#71717a', font:{size:11}, padding:12 } } } }
+  });
+}
+
+// ─── CLOUDFLARE ────────────────────────────────────────────
+async function fetchCfData() {
+  loadCfg();
+  if (!cfg.cfToken || !cfg.cfAccountId || !cfg.cfSiteTag) {
+    document.getElementById('cf-error').textContent = 'Cloudflare no configurado. Andá a Ajustes para ingresar tus credenciales.';
+    document.getElementById('cf-error').classList.remove('hidden');
+    return;
+  }
+  document.getElementById('cf-error').classList.add('hidden');
+
+  const days = getDays();
+  const { start, end } = getDateRange(days);
+
+  const query = `{
+    viewer {
+      accounts(filter: {accountTag: "${cfg.cfAccountId}"}) {
+        byDate: rumWebAnalyticsAdaptiveGroups(
+          filter: {AND: [{siteTag: "${cfg.cfSiteTag}"}, {date_geq: "${start}"}, {date_leq: "${end}"}]}
+          limit: 200
+          orderBy: [date_ASC]
+        ) {
+          sum { visits pageViews }
+          dimensions { date }
+        }
+        byPage: rumWebAnalyticsAdaptiveGroups(
+          filter: {AND: [{siteTag: "${cfg.cfSiteTag}"}, {date_geq: "${start}"}, {date_leq: "${end}"}]}
+          limit: 15
+          orderBy: [sum_pageViews_DESC]
+        ) {
+          sum { pageViews }
+          dimensions { requestPath }
+        }
+        byCountry: rumWebAnalyticsAdaptiveGroups(
+          filter: {AND: [{siteTag: "${cfg.cfSiteTag}"}, {date_geq: "${start}"}, {date_leq: "${end}"}]}
+          limit: 10
+          orderBy: [sum_visits_DESC]
+        ) {
+          sum { visits }
+          dimensions { countryName }
+        }
+      }
+    }
+  }`;
+
+  try {
+    const res = await fetch(CF_GQL, {
+      method: 'POST',
+      headers: { 'Authorization': 'Bearer ' + cfg.cfToken, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query })
+    });
+    const json = await res.json();
+
+    if (json.errors) throw new Error(json.errors[0]?.message || 'Error de API');
+    if (!json.data?.viewer?.accounts?.[0]) throw new Error('Sin datos. Verificá el Account ID y API Token.');
+
+    const acc = json.data.viewer.accounts[0];
+    const byDate = acc.byDate || [];
+    const byPage = acc.byPage || [];
+    const byCountry = acc.byCountry || [];
+
+    cachedData.cf = { byDate, byPage, byCountry };
+    renderCfData(byDate, byPage, byCountry);
+  } catch(e) {
+    document.getElementById('cf-error').textContent = '❌ Error Cloudflare: ' + e.message;
+    document.getElementById('cf-error').classList.remove('hidden');
+  }
+}
+
+function renderCfData(byDate, byPage, byCountry) {
+  // KPIs
+  const totalVisits = byDate.reduce((s,d) => s + (d.sum?.visits||0), 0);
+  const totalPV = byDate.reduce((s,d) => s + (d.sum?.pageViews||0), 0);
+  const uniqueCountries = new Set(byCountry.map(c => c.dimensions?.countryName)).size;
+
+  document.getElementById('kpi-visits').textContent = fmt(totalVisits);
+  document.getElementById('kpi-visits-sub').textContent = 'en los últimos ' + getDays() + ' días';
+  document.getElementById('kpi-pageviews').textContent = fmt(totalPV);
+  document.getElementById('kpi-pageviews-sub').textContent = (totalVisits ? (totalPV/totalVisits).toFixed(1) : '–') + ' pág/visita';
+  document.getElementById('kpi-countries').textContent = fmt(uniqueCountries);
+
+  if (byPage[0]) {
+    const p = byPage[0].dimensions?.requestPath || '/';
+    document.getElementById('kpi-top-page').textContent = p.length > 25 ? p.substring(0,24)+'…' : p;
+    document.getElementById('kpi-top-page-views').textContent = fmt(byPage[0].sum?.pageViews) + ' pageviews';
+  }
+
+  // Line chart
+  const labels = byDate.map(d => { const dt = new Date(d.dimensions?.date); return (dt.getDate())+'/'+(dt.getMonth()+1); });
+  makeLineChart('chart-visits', labels, [
+    { label: 'Visitas', data: byDate.map(d=>d.sum?.visits||0), borderColor: '#6366f1', backgroundColor: '#6366f115', tension: 0.3, fill: true, pointRadius: 2 },
+    { label: 'Pageviews', data: byDate.map(d=>d.sum?.pageViews||0), borderColor: '#8b5cf6', backgroundColor: 'transparent', tension: 0.3, borderDash: [4,3], pointRadius: 1 },
+  ]);
+
+  // Countries table
+  const maxV = byCountry[0]?.sum?.visits || 1;
+  document.getElementById('tbody-countries').innerHTML = byCountry.map(c =>
+    `<tr><td>${c.dimensions?.countryName||'–'}</td><td class="num">${fmt(c.sum?.visits)}</td></tr>`
+  ).join('');
+  document.getElementById('countries-loading').style.display = 'none';
+  document.getElementById('table-countries').style.display = '';
+
+  // Pages table
+  const maxPV = byPage[0]?.sum?.pageViews || 1;
+  document.getElementById('tbody-pages').innerHTML = byPage.map(p => {
+    const path = p.dimensions?.requestPath || '/';
+    const pv = p.sum?.pageViews || 0;
+    const w = Math.round((pv/maxPV)*100);
+    return `<tr>
+      <td><span class="page-path">${path}</span></td>
+      <td class="num">${fmt(pv)}</td>
+      <td><div class="bar"><div class="bar-track"><div class="bar-fill" style="width:${w}%"></div></div></div></td>
+    </tr>`;
+  }).join('');
+  document.getElementById('pages-loading').style.display = 'none';
+  document.getElementById('table-pages').style.display = '';
+}
+
+// ─── GOOGLE SEARCH CONSOLE ────────────────────────────────
+let tokenClient;
+
+function initGoogleAuth() {
+  loadCfg();
+  if (!cfg.gscClientId) return;
+  if (typeof google === 'undefined' || !google.accounts) { setTimeout(initGoogleAuth, 500); return; }
+  tokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: cfg.gscClientId,
+    scope: 'https://www.googleapis.com/auth/webmasters.readonly',
+    callback: async (resp) => {
+      if (resp.access_token) {
+        gscToken = resp.access_token;
+        document.getElementById('gsc-login-area').style.display = 'none';
+        document.getElementById('gsc-content').style.display = 'block';
+        await fetchGscData();
+      } else {
+        showGscError('Error al autenticar con Google: ' + (resp.error || 'desconocido'));
+      }
+    }
+  });
+}
+
+function loginGoogle() {
+  loadCfg();
+  if (!cfg.gscClientId) { alert('Primero configurá el OAuth Client ID en Ajustes.'); switchTab('ajustes', document.querySelectorAll('.tab-btn')[3]); return; }
+  if (!tokenClient) { initGoogleAuth(); setTimeout(() => { if(tokenClient) tokenClient.requestAccessToken(); }, 600); return; }
+  tokenClient.requestAccessToken();
+}
+
+function showGscError(msg) {
+  const el = document.getElementById('gsc-error');
+  el.textContent = '❌ ' + msg; el.classList.remove('hidden');
+}
+
+async function fetchGscData() {
+  if (!gscToken) return;
+  loadCfg();
+  const days = getDays();
+  const { start, end } = getDateRange(days);
+  const prop = encodeURIComponent(cfg.gscProperty);
+  document.getElementById('gsc-error').classList.add('hidden');
+
+  const headers = { 'Authorization': 'Bearer ' + gscToken, 'Content-Type': 'application/json' };
+  const baseBody = { startDate: start, endDate: end, rowLimit: 15 };
+
+  try {
+    // Overview
+    const overR = await fetch(`${GSC_API}/sites/${prop}/searchAnalytics/query`, {
+      method: 'POST', headers,
+      body: JSON.stringify({ ...baseBody, dimensions: ['date'], rowLimit: 200 })
+    });
+    if (!overR.ok) { const e = await overR.json(); throw new Error(e.error?.message || 'HTTP ' + overR.status); }
+    const overData = await overR.json();
+    const rows = overData.rows || [];
+
+    const totClicks = rows.reduce((s,r) => s+(r.clicks||0), 0);
+    const totImpr = rows.reduce((s,r) => s+(r.impressions||0), 0);
+    const avgCtr = totImpr ? (rows.reduce((s,r) => s+(r.ctr||0)*r.impressions, 0) / totImpr) : 0;
+    const avgPos = totImpr ? (rows.reduce((s,r) => s+(r.position||0)*r.impressions, 0) / totImpr) : 0;
+
+    document.getElementById('kpi-clicks').textContent = fmt(totClicks);
+    document.getElementById('kpi-impressions').textContent = fmt(totImpr);
+    document.getElementById('kpi-ctr').textContent = pct(avgCtr);
+    document.getElementById('kpi-position').textContent = pos(avgPos);
+
+    const labels = rows.map(r => { const d = new Date(r.keys[0]); return d.getDate()+'/'+(d.getMonth()+1); });
+    makeLineChart('chart-gsc', labels, [
+      { label: 'Clicks', data: rows.map(r=>r.clicks||0), borderColor: '#22c55e', backgroundColor: '#22c55e15', tension: 0.3, fill:true, pointRadius: 2, yAxisID: 'y' },
+      { label: 'Impresiones', data: rows.map(r=>r.impressions||0), borderColor: '#3b82f6', backgroundColor: 'transparent', tension: 0.3, pointRadius: 1, yAxisID: 'y1', borderDash: [4,3] },
+    ]);
+
+    // Queries
+    const qR = await fetch(`${GSC_API}/sites/${prop}/searchAnalytics/query`, {
+      method: 'POST', headers,
+      body: JSON.stringify({ ...baseBody, dimensions: ['query'] })
+    });
+    const qData = await qR.json();
+    document.getElementById('tbody-queries').innerHTML = (qData.rows||[]).map(r =>
+      `<tr><td>${r.keys[0]}</td><td class="num">${fmt(r.clicks)}</td><td class="num">${pos(r.position)}</td></tr>`
+    ).join('') || '<tr><td colspan="3" class="empty">Sin datos</td></tr>';
+    document.getElementById('queries-loading').style.display = 'none';
+    document.getElementById('table-queries').style.display = '';
+
+    // Pages
+    const pR = await fetch(`${GSC_API}/sites/${prop}/searchAnalytics/query`, {
+      method: 'POST', headers,
+      body: JSON.stringify({ ...baseBody, dimensions: ['page'] })
+    });
+    const pData = await pR.json();
+    document.getElementById('tbody-gsc-pages').innerHTML = (pData.rows||[]).map(r => {
+      const path = r.keys[0].replace(cfg.gscProperty.replace(/\/$/, ''), '') || '/';
+      return `<tr>
+        <td><span class="page-path" title="${r.keys[0]}">${path || '/'}</span></td>
+        <td class="num">${fmt(r.clicks)}</td>
+        <td class="num">${fmt(r.impressions)}</td>
+        <td class="num">${pct(r.ctr)}</td>
+        <td class="num">${pos(r.position)}</td>
+      </tr>`;
+    }).join('') || '<tr><td colspan="5" class="empty">Sin datos</td></tr>';
+    document.getElementById('gsc-pages-loading').style.display = 'none';
+    document.getElementById('table-gsc-pages').style.display = '';
+
+    cachedData.gsc = { rows, totClicks, totImpr };
+  } catch(e) {
+    if (e.message.includes('401') || e.message.includes('invalid_token')) {
+      gscToken = null;
+      document.getElementById('gsc-login-area').style.display = '';
+      document.getElementById('gsc-content').style.display = 'none';
+      showGscError('Token expirado. Volvé a conectar con Google.');
+    } else {
+      showGscError('Error GSC: ' + e.message);
+    }
+  }
+}
+
+// ─── POSTS ────────────────────────────────────────────────
+async function loadPosts() {
+  document.getElementById('posts-loading').style.display = '';
+  document.getElementById('posts-list').style.display = 'none';
+
+  try {
+    const res = await fetch(POSTS_URL + '?t=' + Date.now());
+    const text = await res.text();
+    // Extract POSTS array from JS
+    const match = text.match(/const POSTS\s*=\s*(\[[\s\S]*?\]);/);
+    if (!match) throw new Error('No se pudo parsear posts.js');
+    const posts = JSON.parse(match[1].replace(/'/g, '"').replace(/,\s*\n\s*}/g, '}').replace(/,\s*\n\s*]/g, ']'));
+    cachedData.posts = posts;
+    renderPostsTab(posts);
+  } catch(e) {
+    document.getElementById('posts-loading').innerHTML = '<div class="empty">Error cargando posts: ' + e.message + '</div>';
+  }
+}
+
+function renderPostsTab(posts) {
+  // Category chart
+  const catCount = {};
+  const catColors = { gaming: '#7c3aed', 'patch-notes': '#0ea5e9', tecnologia: '#16a34a', ofertas: '#d97706', comunidad: '#e11d48' };
+  posts.forEach(p => { catCount[p.categoria] = (catCount[p.categoria]||0)+1; });
+  const catLabels = Object.keys(catCount);
+  makeDoughnutChart('chart-categories', catLabels, catLabels.map(k=>catCount[k]), catLabels.map(k=>catColors[k]||'#6366f1'));
+
+  // Monthly chart
+  const monthCount = {};
+  const monthLabels = [];
+  for (let i=5; i>=0; i--) {
+    const d = new Date(); d.setMonth(d.getMonth()-i);
+    const key = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0');
+    const label = d.toLocaleString('es-AR', {month:'short'}) + ' ' + d.getFullYear();
+    monthCount[key] = 0; monthLabels.push({key, label});
+  }
+  posts.forEach(p => { const k = p.fecha?.substring(0,7); if(monthCount[k]!==undefined) monthCount[k]++; });
+  makeBarChart('chart-by-month', monthLabels.map(m=>m.label), [{
+    label: 'Posts publicados', data: monthLabels.map(m=>monthCount[m.key]),
+    backgroundColor: '#6366f1cc', borderRadius: 4
+  }]);
+
+  // Posts list
+  const catClass = { gaming:'cat-gaming', 'patch-notes':'cat-patch-notes', tecnologia:'cat-tecnologia', ofertas:'cat-ofertas', comunidad:'cat-comunidad' };
+  document.getElementById('posts-list').innerHTML = posts.slice(0,20).map(p =>
+    `<div class="post-row">
+      <span class="post-cat-badge ${catClass[p.categoria]||''}">${p.categoria}</span>
+      <a href="${p.archivo}" target="_blank" class="post-title-small" title="${p.titulo}">${p.titulo}</a>
+      <span class="post-date-small">${p.fechaDisplay||p.fecha}</span>
+    </div>`
+  ).join('');
+
+  document.getElementById('posts-loading').style.display = 'none';
+  document.getElementById('posts-list').style.display = 'flex';
+}
+
+// ─── INIT ────────────────────────────────────────────────
+function init() {
+  loadCfg();
+  fetchCfData();
+  loadPosts();
+  initGoogleAuth();
+  document.getElementById('last-refresh-label').textContent = 'Actualizado ' + new Date().toLocaleTimeString('es-AR', {hour:'2-digit',minute:'2-digit'});
+}
+
+window.onload = () => { checkFirstRun(); init(); };
+</script>
+</body>
+</html>
