@@ -1102,7 +1102,8 @@ function renderTopPosts(posts) {
     document.getElementById('top-posts-empty').style.display = '';
     return;
   }
-  // Build a map: normalised path → count  const pageMap = {};
+  // Build a map: normalised path → count
+  const pageMap = {};
   byPage.forEach(p => {
     const path = (p.dimensions?.requestPath || '').replace(/\/index\.html$/, '/').toLowerCase();
     pageMap[path] = (pageMap[path] || 0) + (p.count || 0);
