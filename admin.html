@@ -189,7 +189,7 @@
       </div>
       <div class="field">
         <label>Property URL (Search Console)</label>
-        <input id="gsc-property" placeholder="https://puntodespawn.com/" />
+        <input id="gsc-property" placeholder="sc-domain:puntodespawn.com" />
       </div>
     </div>
 
@@ -475,7 +475,7 @@
         </div>
         <div class="field">
           <label>Property URL</label>
-          <input id="s-gsc-property" placeholder="https://puntodespawn.com/" />
+          <input id="s-gsc-property" placeholder="sc-domain:puntodespawn.com" />
         </div>
         <button class="btn btn-primary" style="margin-top:8px" onclick="saveGscSettings()">Guardar GSC</button>
 
@@ -527,7 +527,7 @@ function loadCfg() {
     cfSiteTag:    localStorage.getItem('cf_site_tag') || '',
     cfToken:      localStorage.getItem('cf_token') || '',
     gscClientId:  localStorage.getItem('gsc_client_id') || '',
-    gscProperty:  localStorage.getItem('gsc_property') || 'https://puntodespawn.com/',
+    gscProperty:  localStorage.getItem('gsc_property') || 'sc-domain:puntodespawn.com',
   };
 }
 
@@ -558,7 +558,7 @@ function saveSetup() {
   cfg.cfSiteTag   = document.getElementById('cf-site-tag').value.trim();
   cfg.cfToken     = document.getElementById('cf-token').value.trim();
   cfg.gscClientId = document.getElementById('gsc-client-id').value.trim();
-  cfg.gscProperty = document.getElementById('gsc-property').value.trim() || 'https://puntodespawn.com/';
+  cfg.gscProperty = document.getElementById('gsc-property').value.trim() || 'sc-domain:puntodespawn.com';
   saveCfg(); document.getElementById('setup-overlay').classList.add('hidden');
   fillSettingsForm(); updateStatusDots(); init();
 }
@@ -581,7 +581,7 @@ function saveCfSettings() {
 
 function saveGscSettings() {
   cfg.gscClientId = document.getElementById('s-gsc-client-id').value.trim();
-  cfg.gscProperty = document.getElementById('s-gsc-property').value.trim() || 'https://puntodespawn.com/';
+  cfg.gscProperty = document.getElementById('s-gsc-property').value.trim() || 'sc-domain:puntodespawn.com';
   saveCfg(); updateStatusDots();
 }
 
@@ -876,7 +876,7 @@ async function fetchGscData() {
     });
     const pData = await pR.json();
     document.getElementById('tbody-gsc-pages').innerHTML = (pData.rows||[]).map(r => {
-      const path = r.keys[0].replace(cfg.gscProperty.replace(/\/$/, ''), '') || '/';
+      const path = r.keys[0].replace(/^https?:\/\/[^/]+/, '') || '/';
       return `<tr>
         <td><span class="page-path" title="${r.keys[0]}">${path || '/'}</span></td>
         <td class="num">${fmt(r.clicks)}</td>
@@ -1098,4 +1098,4 @@ window.onload = () => { checkFirstRun(); init(); };
 </script>
 </body>
 </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
