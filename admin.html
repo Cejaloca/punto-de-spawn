@@ -232,14 +232,14 @@
     <div id="cf-error" class="error-msg hidden"></div>
     <div class="kpi-grid">
       <div class="kpi-card">
-        <div class="kpi-label">Visitas únicas</div>
+        <div class="kpi-label">Pageviews</div>
         <div class="kpi-value" id="kpi-visits">–</div>
         <div class="kpi-sub" id="kpi-visits-sub">Cargando...</div>
       </div>
       <div class="kpi-card">
-        <div class="kpi-label">Pageviews</div>
+        <div class="kpi-label">Páginas distintas</div>
         <div class="kpi-value" id="kpi-pageviews">–</div>
-        <div class="kpi-sub" id="kpi-pageviews-sub">–</div>
+        <div class="kpi-sub" id="kpi-pageviews-sub">en el período</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-label">Países alcanzados</div>
@@ -688,28 +688,28 @@ async function fetchCfData() {
   const query = `{
     viewer {
       accounts(filter: {accountTag: "${cfg.cfAccountId}"}) {
-        byDate: rumWebAnalyticsAdaptiveGroups(
+        byDate: rumPageloadEventsAdaptiveGroups(
           filter: {AND: [{siteTag: "${cfg.cfSiteTag}"}, {date_geq: "${start}"}, {date_leq: "${end}"}]}
           limit: 200
           orderBy: [date_ASC]
         ) {
-          sum { visits pageViews }
+          count
           dimensions { date }
         }
-        byPage: rumWebAnalyticsAdaptiveGroups(
+        byPage: rumPageloadEventsAdaptiveGroups(
           filter: {AND: [{siteTag: "${cfg.cfSiteTag}"}, {date_geq: "${start}"}, {date_leq: "${end}"}]}
           limit: 15
-          orderBy: [sum_pageViews_DESC]
+          orderBy: [count_DESC]
         ) {
-          sum { pageViews }
+          count
           dimensions { requestPath }
         }
-        byCountry: rumWebAnalyticsAdaptiveGroups(
+        byCountry: rumPageloadEventsAdaptiveGroups(
           filter: {AND: [{siteTag: "${cfg.cfSiteTag}"}, {date_geq: "${start}"}, {date_leq: "${end}"}]}
           limit: 10
-          orderBy: [sum_visits_DESC]
+          orderBy: [count_DESC]
         ) {
-          sum { visits }
+          count
           dimensions { countryName }
         }
       }
@@ -741,43 +741,39 @@ async function fetchCfData() {
 }
 
 function renderCfData(byDate, byPage, byCountry) {
-  // KPIs
-  const totalVisits = byDate.reduce((s,d) => s + (d.sum?.visits||0), 0);
-  const totalPV = byDate.reduce((s,d) => s + (d.sum?.pageViews||0), 0);
+  // KPIs — rumPageloadEventsAdaptiveGroups uses `count` (= pageviews)
+  const totalPV = byDate.reduce((s,d) => s + (d.count||0), 0);
   const uniqueCountries = new Set(byCountry.map(c => c.dimensions?.countryName)).size;
 
-  document.getElementById('kpi-visits').textContent = fmt(totalVisits);
+  document.getElementById('kpi-visits').textContent = fmt(totalPV);
   document.getElementById('kpi-visits-sub').textContent = 'en los últimos ' + getDays() + ' días';
-  document.getElementById('kpi-pageviews').textContent = fmt(totalPV);
-  document.getElementById('kpi-pageviews-sub').textContent = (totalVisits ? (totalPV/totalVisits).toFixed(1) : '–') + ' pág/visita';
+  document.getElementById('kpi-pageviews').textContent = fmt(byPage.length);
   document.getElementById('kpi-countries').textContent = fmt(uniqueCountries);
 
   if (byPage[0]) {
     const p = byPage[0].dimensions?.requestPath || '/';
     document.getElementById('kpi-top-page').textContent = p.length > 25 ? p.substring(0,24)+'…' : p;
-    document.getElementById('kpi-top-page-views').textContent = fmt(byPage[0].sum?.pageViews) + ' pageviews';
+    document.getElementById('kpi-top-page-views').textContent = fmt(byPage[0].count) + ' pageviews';
   }
 
   // Line chart
   const labels = byDate.map(d => { const dt = new Date(d.dimensions?.date); return (dt.getDate())+'/'+(dt.getMonth()+1); });
   makeLineChart('chart-visits', labels, [
-    { label: 'Visitas', data: byDate.map(d=>d.sum?.visits||0), borderColor: '#6366f1', backgroundColor: '#6366f115', tension: 0.3, fill: true, pointRadius: 2 },
-    { label: 'Pageviews', data: byDate.map(d=>d.sum?.pageViews||0), borderColor: '#8b5cf6', backgroundColor: 'transparent', tension: 0.3, borderDash: [4,3], pointRadius: 1 },
+    { label: 'Pageviews', data: byDate.map(d=>d.count||0), borderColor: '#6366f1', backgroundColor: '#6366f115', tension: 0.3, fill: true, pointRadius: 2 },
   ]);
 
   // Countries table
-  const maxV = byCountry[0]?.sum?.visits || 1;
   document.getElementById('tbody-countries').innerHTML = byCountry.map(c =>
-    `<tr><td>${c.dimensions?.countryName||'–'}</td><td class="num">${fmt(c.sum?.visits)}</td></tr>`
+    `<tr><td>${c.dimensions?.countryName||'–'}</td><td class="num">${fmt(c.count)}</td></tr>`
   ).join('');
   document.getElementById('countries-loading').style.display = 'none';
   document.getElementById('table-countries').style.display = '';
 
   // Pages table
-  const maxPV = byPage[0]?.sum?.pageViews || 1;
+  const maxPV = byPage[0]?.count || 1;
   document.getElementById('tbody-pages').innerHTML = byPage.map(p => {
     const path = p.dimensions?.requestPath || '/';
-    const pv = p.sum?.pageViews || 0;
+    const pv = p.count || 0;
     const w = Math.round((pv/maxPV)*100);
     return `<tr>
       <td><span class="page-path">${path}</span></td>
@@ -1102,3 +1098,4 @@ window.onload = () => { checkFirstRun(); init(); };
 </script>
 </body>
 </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                             
