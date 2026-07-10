@@ -509,7 +509,7 @@
 <script>
 // ─── CONFIG ────────────────────────────────────────────────
 const POSTS_URL = 'https://puntodespawn.com/data/posts.js';
-const CF_GQL = 'https://api.cloudflare.com/client/v4/graphql';
+const CF_GQL = 'https://pds-analytics-proxy.nicolasguazzotti.workers.dev';
 const GSC_API = 'https://www.googleapis.com/webmasters/v3';
 const GA4_API = 'https://analyticsdata.googleapis.com/v1beta';
 const GA4_PROPERTY = '15236077275';
@@ -719,7 +719,7 @@ async function fetchCfData() {
   try {
     const res = await fetch(CF_GQL, {
       method: 'POST',
-      headers: { 'Authorization': 'Bearer ' + cfg.cfToken, 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ query })
     });
     const json = await res.json();
