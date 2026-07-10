@@ -1540,3 +1540,60 @@ footer {
   .ann-text { font-size: 0.8rem; }
   .announcement-banner .container { gap: 0.65rem; }
 }
+8e8c8 0%, #d0f0dc 100%); color: #1a6e42; }
+body.light-mode .cat-comunidad  { background: linear-gradient(135deg, #f8d8b8 0%, #ffe8cc 100%); color: #a04010; }
+body.light-mode .cat-ofertas    { background: linear-gradient(135deg, #fdf0b0 0%, #fff8cc 100%); color: #7a5a00; }
+
+/* ─── LOAD MORE / PAGINACIÓN ─────────────────────────────── */
+.load-more-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 0.5rem;
+}
+
+.btn-load-more {
+  background: transparent;
+  border: 1.5px solid var(--border);
+  color: var(--text-muted);
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.6rem 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-load-more:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(139, 92, 246, 0.06);
+}
+
+.btn-load-more:active {
+  transform: translateY(1px);
+}
+
+.load-more-count {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+body.light-mode .btn-load-more {
+  border-color: #d0d0e0;
+  color: #666;
+}
+
+body.light-mode .btn-load-more:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(139, 92, 246, 0.05);
+}

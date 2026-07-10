@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'grok-45-spacexai-cursor-julio-2026',
+    titulo: 'Grok 4.5 de SpaceXAI: el primer modelo IA entrenado con Cursor es clase Opus y cuesta 4 veces menos',
+    extracto: 'SpaceXAI lanzó Grok 4.5 el 8 de julio: comparable a Claude Opus 4.7 pero a USD 2/6 por millón de tokens. Disponible ya en Cursor (todos los planes) sin costo extra.',
+    fecha: '2026-07-10',
+    fechaDisplay: '10 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'xai', 'grok', 'ia', 'cursor', 'coding'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259661359.jpg',
+    archivo: 'posts/grok-45-spacexai-cursor-julio-2026.html'
+  },
+  {
+    id: 'marvel-rivals-season-9-live-julio-2026',
+    titulo: 'Marvel Rivals Season 9 ya está live: Jubilee llega, el Team-Up cambia todo y hay que resolver un asesinato',
+    extracto: 'La Season 9 arrancó hoy: Jubilee entra como Strategist, el sistema de Team-Up se rehízo desde cero, Black Widow fue reworkeada y el evento "Death of Apocalypse" invita a resolver el asesinato de Apocalipsis en Tebas.',
+    fecha: '2026-07-10',
+    fechaDisplay: '10 de julio de 2026',
+    categoria: 'patch-notes',
+    tags: ['marvel-rivals', 'patch-notes', 'temporada', 'jubilee', 'age-of-apocalypse', 'thebes'],
+    juego: 'marvel-rivals',
+    juegoDisplay: 'Marvel Rivals',
+    imagen: 'https://static.beebom.com/wp-content/uploads/2026/07/Marvel-Rivals-Season-9-Jubilee.jpg',
+    archivo: 'posts/marvel-rivals-season-9-live-julio-2026.html'
+  },
+  {
     id: 'comunidad-pc-vs-consola-argentina-2026',
     titulo: 'PC vs consola en Argentina 2026: ¿cuál conviene hoy?',
     extracto: 'El debate de siempre con números reales: qué conviene armar o comprar en Argentina en 2026. Analizamos costos, exclusivos, Game Pass y el factor dólar.',
