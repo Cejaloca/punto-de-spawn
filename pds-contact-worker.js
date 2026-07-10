@@ -1,5 +1,6 @@
-const BOT_TOKEN = '8724116547:AAGI_gmYZ8134NnW7UKzgjPDRk3pp9rfX8U';
-const CHAT_ID = '7931107446';
+// ⚠️ Pegá estos valores directamente en el editor de Cloudflare Workers — no commitear
+const BOT_TOKEN = 'TU_BOT_TOKEN_AQUI';
+const CHAT_ID = 'TU_CHAT_ID_AQUI';
 
 const CORS = {
   'Access-Control-Allow-Origin': 'https://puntodespawn.com',
@@ -51,6 +52,3 @@ async function handleRequest(request) {
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: { ...CORS, 'Content-Type': 'application/json' },
-  });
-}
