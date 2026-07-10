@@ -220,6 +220,7 @@
 <div class="tabs">
   <button class="tab-btn active" onclick="switchTab('visitas', this)">📈 Visitas</button>
   <button class="tab-btn" onclick="switchTab('busquedas', this)">🔍 Búsquedas</button>
+  <button class="tab-btn" onclick="switchTab('ga4', this)">📊 Comportamiento</button>
   <button class="tab-btn" onclick="switchTab('contenido', this)">📝 Contenido</button>
   <button class="tab-btn" onclick="switchTab('ajustes', this)">⚙️ Ajustes</button>
 </div>
@@ -343,6 +344,71 @@
     </div>
   </div>
 
+
+  <!-- TAB: COMPORTAMIENTO (Google Analytics 4) -->
+  <div id="tab-ga4" class="tab-content">
+    <div id="ga4-login-area" class="card gsc-login-area">
+      <p>Conectá tu cuenta de Google para ver los datos de GA4: sesiones, usuarios, tiempo en página, fuentes de tráfico y más.</p>
+      <button class="btn-google" onclick="loginGoogleGA4()">
+        <svg viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        Conectar con Google Analytics
+      </button>
+      <div class="hint" style="text-align:center">Usá el mismo Client ID de GSC. También necesitás habilitar la <b>Google Analytics Data API</b> en Google Cloud Console.</div>
+    </div>
+
+    <div id="ga4-content" style="display:none">
+      <div id="ga4-error" class="error-msg hidden"></div>
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">Usuarios activos</div>
+          <div class="kpi-value" id="kpi-ga4-users">–</div>
+          <div class="kpi-sub" id="kpi-ga4-users-sub">en el período</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Sesiones</div>
+          <div class="kpi-value" id="kpi-ga4-sessions">–</div>
+          <div class="kpi-sub" id="kpi-ga4-sessions-sub">–</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Duración promedio</div>
+          <div class="kpi-value" id="kpi-ga4-duration">–</div>
+          <div class="kpi-sub">por sesión</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Tasa de rebote</div>
+          <div class="kpi-value" id="kpi-ga4-bounce">–</div>
+          <div class="kpi-sub">porcentaje</div>
+        </div>
+      </div>
+
+      <div class="row-2">
+        <div class="card">
+          <div class="card-title">Usuarios activos diarios</div>
+          <div class="chart-container">
+            <canvas id="chart-ga4-daily"></canvas>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Fuentes de tráfico</div>
+          <div id="ga4-sources-loading" class="loading"><div class="spinner"></div></div>
+          <table class="data-table" id="table-ga4-sources" style="display:none">
+            <thead><tr><th>Canal</th><th class="num">Sesiones</th></tr></thead>
+            <tbody id="tbody-ga4-sources"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Páginas más visitadas (GA4)</div>
+        <div id="ga4-pages-loading" class="loading"><div class="spinner"></div></div>
+        <table class="data-table" id="table-ga4-pages" style="display:none">
+          <thead><tr><th>Página</th><th class="num">Vistas</th><th class="num">Tiempo prom.</th></tr></thead>
+          <tbody id="tbody-ga4-pages"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
   <!-- TAB: CONTENIDO -->
   <div id="tab-contenido" class="tab-content">
     <div class="posts-stats-grid">
@@ -418,7 +484,8 @@
           <ol>
             <li>Andá a <a href="https://console.cloud.google.com" target="_blank" style="color:var(--accent)">console.cloud.google.com</a>.</li>
             <li>Creá un proyecto nuevo (ej: "PuntoDeSpawn Analytics").</li>
-            <li>APIs → Habilitar → buscá <b>Google Search Console API</b> → Habilitar.</li>
+            <li>APIs → Habilitar → <b>Google Search Console API</b> → Habilitar.</li>
+            <li>APIs → Habilitar → <b>Google Analytics Data API</b> → Habilitar (para la pestaña Comportamiento).</li>
             <li>Credentials → Create Credentials → <b>OAuth Client ID</b> → tipo: <b>Web Application</b>.</li>
             <li>En "Authorized JavaScript origins" agregá: <code>https://puntodespawn.com</code>.</li>
             <li>Copiá el Client ID y pegalo arriba.</li>
@@ -444,9 +511,13 @@
 const POSTS_URL = 'https://puntodespawn.com/data/posts.js';
 const CF_GQL = 'https://api.cloudflare.com/client/v4/graphql';
 const GSC_API = 'https://www.googleapis.com/webmasters/v3';
+const GA4_API = 'https://analyticsdata.googleapis.com/v1beta';
+const GA4_PROPERTY = '15236077275';
 
 let cfg = {};
 let gscToken = null;
+let ga4Token = null;
+let ga4TokenClient;
 let charts = {};
 let cachedData = {};
 
@@ -546,13 +617,15 @@ function switchTab(name, btn) {
   btn.classList.add('active');
   if (name === 'contenido' && !cachedData.posts) loadPosts();
   if (name === 'busquedas' && gscToken && !cachedData.gsc) fetchGscData();
+  if (name === 'ga4' && ga4Token && !cachedData.ga4) fetchGA4Data();
 }
 
-function onRangeChange() { fetchCfData(); if (gscToken) fetchGscData(); }
+function onRangeChange() { fetchCfData(); if (gscToken) fetchGscData(); if (ga4Token) fetchGA4Data(); }
 
 function refreshAll() {
   fetchCfData();
   if (gscToken) fetchGscData();
+  if (ga4Token) fetchGA4Data();
   loadPosts();
   document.getElementById('last-refresh-label').textContent = 'Actualizado ' + new Date().toLocaleTimeString('es-AR', {hour:'2-digit',minute:'2-digit'});
 }
@@ -725,7 +798,7 @@ function initGoogleAuth() {
   if (typeof google === 'undefined' || !google.accounts) { setTimeout(initGoogleAuth, 500); return; }
   tokenClient = google.accounts.oauth2.initTokenClient({
     client_id: cfg.gscClientId,
-    scope: 'https://www.googleapis.com/auth/webmasters.readonly',
+    scope: 'https://www.googleapis.com/auth/webmasters.readonly https://www.googleapis.com/auth/analytics.readonly',
     callback: async (resp) => {
       if (resp.access_token) {
         gscToken = resp.access_token;
@@ -741,7 +814,7 @@ function initGoogleAuth() {
 
 function loginGoogle() {
   loadCfg();
-  if (!cfg.gscClientId) { alert('Primero configurá el OAuth Client ID en Ajustes.'); switchTab('ajustes', document.querySelectorAll('.tab-btn')[3]); return; }
+  if (!cfg.gscClientId) { alert('Primero configurá el OAuth Client ID en Ajustes.'); switchTab('ajustes', document.querySelectorAll('.tab-btn')[4]); return; }
   if (!tokenClient) { initGoogleAuth(); setTimeout(() => { if(tokenClient) tokenClient.requestAccessToken(); }, 600); return; }
   tokenClient.requestAccessToken();
 }
@@ -832,6 +905,133 @@ async function fetchGscData() {
   }
 }
 
+
+// ─── GOOGLE ANALYTICS 4 ───────────────────────────────────
+function initGA4Auth() {
+  loadCfg();
+  if (!cfg.gscClientId) return;
+  if (typeof google === 'undefined' || !google.accounts) { setTimeout(initGA4Auth, 600); return; }
+  ga4TokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: cfg.gscClientId,
+    scope: 'https://www.googleapis.com/auth/analytics.readonly',
+    callback: async (resp) => {
+      if (resp.access_token) {
+        ga4Token = resp.access_token;
+        document.getElementById('ga4-login-area').style.display = 'none';
+        document.getElementById('ga4-content').style.display = 'block';
+        await fetchGA4Data();
+      } else {
+        document.getElementById('ga4-error').textContent = '❌ Error GA4: ' + (resp.error || 'desconocido');
+        document.getElementById('ga4-error').classList.remove('hidden');
+      }
+    }
+  });
+}
+
+function loginGoogleGA4() {
+  loadCfg();
+  if (!cfg.gscClientId) { alert('Primero configurá el OAuth Client ID en Ajustes.'); return; }
+  if (!ga4TokenClient) { initGA4Auth(); setTimeout(() => { if(ga4TokenClient) ga4TokenClient.requestAccessToken(); }, 600); return; }
+  ga4TokenClient.requestAccessToken();
+}
+
+function fmtDuration(seconds) {
+  if (!seconds) return '–';
+  const m = Math.floor(seconds / 60);
+  const s = Math.floor(seconds % 60);
+  return m > 0 ? `${m}m ${s}s` : `${s}s`;
+}
+
+async function fetchGA4Data() {
+  if (!ga4Token) return;
+  const days = getDays();
+  const startDate = days + 'daysAgo';
+  const headers = { 'Authorization': 'Bearer ' + ga4Token, 'Content-Type': 'application/json' };
+  document.getElementById('ga4-error').classList.add('hidden');
+
+  try {
+    // Daily overview
+    const dailyR = await fetch(`${GA4_API}/properties/${GA4_PROPERTY}:runReport`, {
+      method: 'POST', headers,
+      body: JSON.stringify({
+        dateRanges: [{ startDate, endDate: 'today' }],
+        dimensions: [{ name: 'date' }],
+        metrics: [{ name: 'activeUsers' }, { name: 'sessions' }, { name: 'bounceRate' }, { name: 'averageSessionDuration' }],
+        orderBys: [{ dimension: { dimensionName: 'date' }, desc: false }]
+      })
+    });
+    if (!dailyR.ok) { const e = await dailyR.json(); throw new Error(e.error?.message || 'HTTP ' + dailyR.status); }
+    const dailyData = await dailyR.json();
+    const rows = dailyData.rows || [];
+
+    const totUsers = rows.reduce((s,r) => s + parseInt(r.metricValues[0].value||0), 0);
+    const totSessions = rows.reduce((s,r) => s + parseInt(r.metricValues[1].value||0), 0);
+    const avgBounce = rows.length ? rows.reduce((s,r) => s + parseFloat(r.metricValues[2].value||0), 0) / rows.length : 0;
+    const avgDur = rows.length ? rows.reduce((s,r) => s + parseFloat(r.metricValues[3].value||0), 0) / rows.length : 0;
+
+    document.getElementById('kpi-ga4-users').textContent = fmt(totUsers);
+    document.getElementById('kpi-ga4-sessions').textContent = fmt(totSessions);
+    document.getElementById('kpi-ga4-duration').textContent = fmtDuration(avgDur);
+    document.getElementById('kpi-ga4-bounce').textContent = (avgBounce * 100).toFixed(1) + '%';
+
+    const labels = rows.map(r => { const d = r.dimensionValues[0].value; return d.slice(6,8)+'/'+d.slice(4,6); });
+    makeLineChart('chart-ga4-daily', labels, [
+      { label: 'Usuarios', data: rows.map(r=>parseInt(r.metricValues[0].value||0)), borderColor: '#f59e0b', backgroundColor: '#f59e0b15', tension: 0.3, fill: true, pointRadius: 2 },
+      { label: 'Sesiones', data: rows.map(r=>parseInt(r.metricValues[1].value||0)), borderColor: '#ec4899', backgroundColor: 'transparent', tension: 0.3, borderDash: [4,3], pointRadius: 1 },
+    ]);
+
+    // Traffic sources
+    const srcR = await fetch(`${GA4_API}/properties/${GA4_PROPERTY}:runReport`, {
+      method: 'POST', headers,
+      body: JSON.stringify({
+        dateRanges: [{ startDate, endDate: 'today' }],
+        dimensions: [{ name: 'sessionDefaultChannelGroup' }],
+        metrics: [{ name: 'sessions' }],
+        orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+        limit: 8
+      })
+    });
+    const srcData = await srcR.json();
+    document.getElementById('tbody-ga4-sources').innerHTML = (srcData.rows||[]).map(r =>
+      `<tr><td>${r.dimensionValues[0].value}</td><td class="num">${fmt(parseInt(r.metricValues[0].value))}</td></tr>`
+    ).join('') || '<tr><td colspan="2" class="empty">Sin datos aún</td></tr>';
+    document.getElementById('ga4-sources-loading').style.display = 'none';
+    document.getElementById('table-ga4-sources').style.display = '';
+
+    // Top pages
+    const pagesR = await fetch(`${GA4_API}/properties/${GA4_PROPERTY}:runReport`, {
+      method: 'POST', headers,
+      body: JSON.stringify({
+        dateRanges: [{ startDate, endDate: 'today' }],
+        dimensions: [{ name: 'pagePath' }],
+        metrics: [{ name: 'screenPageViews' }, { name: 'averageSessionDuration' }],
+        orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }],
+        limit: 15
+      })
+    });
+    const pagesData = await pagesR.json();
+    document.getElementById('tbody-ga4-pages').innerHTML = (pagesData.rows||[]).map(r =>
+      `<tr>
+        <td><span class="page-path">${r.dimensionValues[0].value}</span></td>
+        <td class="num">${fmt(parseInt(r.metricValues[0].value))}</td>
+        <td class="num">${fmtDuration(parseFloat(r.metricValues[1].value))}</td>
+      </tr>`
+    ).join('') || '<tr><td colspan="3" class="empty">Sin datos aún — GA4 puede tardar 24-48hs en mostrar datos después de instalar el snippet.</td></tr>';
+    document.getElementById('ga4-pages-loading').style.display = 'none';
+    document.getElementById('table-ga4-pages').style.display = '';
+
+    cachedData.ga4 = { totUsers, totSessions };
+  } catch(e) {
+    if (e.message.includes('401') || e.message.includes('invalid')) {
+      ga4Token = null;
+      document.getElementById('ga4-login-area').style.display = '';
+      document.getElementById('ga4-content').style.display = 'none';
+    }
+    document.getElementById('ga4-error').textContent = '❌ Error GA4: ' + e.message;
+    document.getElementById('ga4-error').classList.remove('hidden');
+  }
+}
+
 // ─── POSTS ────────────────────────────────────────────────
 async function loadPosts() {
   document.getElementById('posts-loading').style.display = '';
@@ -894,6 +1094,7 @@ function init() {
   fetchCfData();
   loadPosts();
   initGoogleAuth();
+  initGA4Auth();
   document.getElementById('last-refresh-label').textContent = 'Actualizado ' + new Date().toLocaleTimeString('es-AR', {hour:'2-digit',minute:'2-digit'});
 }
 
