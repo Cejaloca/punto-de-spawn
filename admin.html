@@ -426,6 +426,15 @@
       </div>
     </div>
     <div class="card">
+      <div class="card-title">Posts más visitados <span style="font-size:11px;color:var(--muted);font-weight:400">(Cloudflare, últimos 30 días)</span></div>
+      <div id="top-posts-loading" class="loading"><div class="spinner"></div> Cargando...</div>
+      <table class="data-table" id="table-top-posts" style="display:none">
+        <thead><tr><th>Post</th><th>Categoría</th><th class="num">Pageviews</th></tr></thead>
+        <tbody id="tbody-top-posts"></tbody>
+      </table>
+      <div id="top-posts-empty" style="display:none;color:var(--muted);font-size:13px;padding:16px 0">Sin datos de Cloudflare todavía — visitá el tab Visitas primero.</div>
+    </div>
+    <div class="card">
       <div class="card-title">Últimos posts publicados</div>
       <div id="posts-loading" class="loading"><div class="spinner"></div> Cargando posts...</div>
       <div class="posts-list" id="posts-list" style="display:none"></div>
@@ -734,6 +743,7 @@ async function fetchCfData() {
 
     cachedData.cf = { byDate, byPage, byCountry };
     renderCfData(byDate, byPage, byCountry);
+    if (cachedData.posts) renderTopPosts(cachedData.posts);
   } catch(e) {
     document.getElementById('cf-error').textContent = '❌ Error Cloudflare: ' + e.message;
     document.getElementById('cf-error').classList.remove('hidden');
@@ -1080,20 +1090,16 @@ function renderPostsTab(posts) {
 
   document.getElementById('posts-loading').style.display = 'none';
   document.getElementById('posts-list').style.display = 'flex';
+
+  // Top posts by Cloudflare pageviews
+  renderTopPosts(posts);
 }
 
-// ─── INIT ────────────────────────────────────────────────
-function init() {
-  loadCfg();
-  fetchCfData();
-  loadPosts();
-  initGoogleAuth();
-  initGA4Auth();
-  document.getElementById('last-refresh-label').textContent = 'Actualizado ' + new Date().toLocaleTimeString('es-AR', {hour:'2-digit',minute:'2-digit'});
-}
-
-window.onload = () => { checkFirstRun(); init(); };
-</script>
-</body>
-</html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+function renderTopPosts(posts) {
+  document.getElementById('top-posts-loading').style.display = 'none';
+  const byPage = cachedData.cf?.byPage || [];
+  if (!byPage.length) {
+    document.getElementById('top-posts-empty').style.display = '';
+    return;
+  }
+  // Build a map: normalised path → count
