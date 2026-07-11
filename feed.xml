@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>PuntoDeSpawn</title>
+    <link>https://puntodespawn.com</link>
+    <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
+    <language>es-ar</language>
+    <lastBuildDate>Fri, 10 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://puntodespawn.com/favicon.svg</url>
+      <title>PuntoDeSpawn</title>
+      <link>https://puntodespawn.com</link>
+    </image>
+    <item>
+      <title>Grok 4.5 de SpaceXAI: el primer modelo IA entrenado con Cursor es clase Opus y cuesta 4 veces menos</title>
+      <link>https://puntodespawn.com/posts/grok-45-spacexai-cursor-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/grok-45-spacexai-cursor-julio-2026.html</guid>
+      <pubDate>Fri, 10 Jul 2026 03:00:00 GMT</pubDate>
+      <description>SpaceXAI lanzó Grok 4.5 el 8 de julio: comparable a Claude Opus 4.7 pero a USD 2/6 por millón de tokens. Disponible ya en Cursor (todos los planes) sin costo extra.</description>
+      <media:content url="https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259661359.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Marvel Rivals Season 9 ya está live: Jubilee llega, el Team-Up cambia todo y hay que resolver un asesinato</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-season-9-live-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-season-9-live-julio-2026.html</guid>
+      <pubDate>Fri, 10 Jul 2026 03:00:00 GMT</pubDate>
+      <description>La Season 9 arrancó hoy: Jubilee entra como Strategist, el sistema de Team-Up se rehízo desde cero, Black Widow fue reworkeada y el evento &quot;Death of Apocalypse&quot; invita a resolver el asesinato de Apocalipsis en Tebas.</description>
+      <media:content url="https://static.beebom.com/wp-content/uploads/2026/07/Marvel-Rivals-Season-9-Jubilee.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>PC vs consola en Argentina 2026: ¿cuál conviene hoy?</title>
+      <link>https://puntodespawn.com/posts/comunidad-pc-vs-consola-argentina-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/comunidad-pc-vs-consola-argentina-2026.html</guid>
+      <pubDate>Thu, 09 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El debate de siempre con números reales: qué conviene armar o comprar en Argentina en 2026. Analizamos costos, exclusivos, Game Pass y el factor dólar.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Lanzamos la sección de Ofertas: descuentos en Steam, juegos gratis de Epic y más</title>
+      <link>https://puntodespawn.com/posts/comunidad-nueva-seccion-ofertas-puntodespawn.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/comunidad-nueva-seccion-ofertas-puntodespawn.html</guid>
+      <pubDate>Thu, 09 Jul 2026 03:00:00 GMT</pubDate>
+      <description>PuntoDeSpawn ahora tiene sección de Ofertas. Descuentos en Steam, juegos gratis de Epic Games y las mejores deals del momento, actualizadas regularmente.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Último día del Steam Summer Sale: las mejores ofertas y los nuevos gratis de Epic</title>
+      <link>https://puntodespawn.com/posts/steam-summer-sale-2026-epic-gratis-nova-lands-julio-9.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-summer-sale-2026-epic-gratis-nova-lands-julio-9.html</guid>
+      <pubDate>Thu, 09 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El Steam Summer Sale 2026 cierra hoy a las 14 hs Argentina. Cyberpunk 2077 a USD 17,99, RDR2 a USD 14,99, Dead Space Remake a USD 5,99. Y a partir de hoy, Nova Lands y Tattoo Tycoon gratis en Epic.</description>
+      <media:content url="https://www.pcguide.com/wp-content/uploads/2026/07/Steam-Summer-Sale-2026-end-time.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Gemini 3.5 Pro llega el 17 de julio: 2 millones de tokens y la jugada de Google contra GPT-5.6</title>
+      <link>https://puntodespawn.com/posts/gemini-35-pro-preview-julio-17-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-35-pro-preview-julio-17-2026.html</guid>
+      <pubDate>Wed, 08 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Google confirmó el 17 de julio para Gemini 3.5 Pro, construido desde cero con nueva arquitectura, 2 millones de tokens de contexto y un modo de razonamiento profundo. La respuesta de DeepMind a Sol y a Fable 5.</description>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keywordstatement__metacard__light.width-1300.png" medium="image"/>
+    </item>
+    <item>
+      <title>GPT-5.6 llega a todos desde el 9 de julio: Sol, Terra y Luna por fin fuera del gobierno</title>
+      <link>https://puntodespawn.com/posts/gpt-56-acceso-global-julio-9-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gpt-56-acceso-global-julio-9-2026.html</guid>
+      <pubDate>Wed, 08 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Tras semanas restringido a 20 organizaciones por orden del gobierno de EEUU, OpenAI confirma el lanzamiento global de Sol, Terra y Luna para el 9 de julio via API y Codex. Todavía no en ChatGPT consumer, pero así funciona cada modelo y cuánto cuesta.</description>
+      <media:content url="https://cdn.neowin.com/news/images/uploaded/2026/07/1783484496_openai_gpt_5.6_launch_story.webp" medium="image"/>
+    </item>
+    <item>
+      <title>AC Black Flag Resynced: 86 en Metacritic — el mejor Assassin's Creed en 13 años</title>
+      <link>https://puntodespawn.com/posts/ac-black-flag-resynced-reviews-metacritic-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ac-black-flag-resynced-reviews-metacritic-julio-2026.html</guid>
+      <pubDate>Wed, 08 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El embargo se levantó hoy y las reviews son claras: 86 en Metacritic y 88 en OpenCritic, solo superado por los AC históricos. Dexerto le dio 5/5, GameSpot se mandó en contra. Qué dicen los medios del remake de Ubisoft.</description>
+      <media:content url="https://static0.thegamerimages.com/wordpress/wp-content/uploads/wm/2026/07/new-project-2026-07-08t103245-234.jpg?w=1600&amp;h=900&amp;fit=crop" medium="image"/>
+    </item>
+    <item>
+      <title>AC Black Flag Resynced sale este jueves: todo lo que necesitás saber antes de zarpar</title>
+      <link>https://puntodespawn.com/posts/ac-black-flag-resynced-lanzamiento-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ac-black-flag-resynced-lanzamiento-julio-2026.html</guid>
+      <pubDate>Mon, 06 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El remake del mejor Assassins Creed llega el 9 de julio a PS5, Xbox Series X|S y PC. Motor Anvil nuevo, 6+ horas de contenido exclusivo, combate renovado, stealth mejorado y hasta un gato de mascota en el Jackdaw.</description>
+      <media:content url="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1Rpu8aSPy6KNWMaTT265Fe/eaee121b4b7f3f3941f29162a8de7bb8/ACOBS_keyart_STD_960x540.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Preview Parche 26.14 de LoL: los skins de T1 Worlds 2026 llegan el 15 de julio — Faker consigue su 5to skin personal en Galio</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2614-t1-worlds-skins-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2614-t1-worlds-skins-julio-2026.html</guid>
+      <pubDate>Mon, 06 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El parche 26.14 llega el 15 de julio y cierra el Act II de la temporada Pandemonium con seis skins del campeon T1: Ambessa (Doran), Xin Zhao (Oner), Galio (Faker, su 5to skin), Yunara + Prestige Miss Fortune (Gumayusi, MVP) y Seraphine (Keria).</description>
+      <media:content url="https://cdn.prod.boostmatch.asia/blog/banners/018b8494-287f-4549-91bd-e1093342e0e3.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Anthropic lanzo Claude Sonnet 5: casi tan capaz como Opus, con ventana de 1 millon de tokens y disponible en el plan gratuito</title>
+      <link>https://puntodespawn.com/posts/claude-sonnet-5-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-sonnet-5-julio-2026.html</guid>
+      <pubDate>Mon, 06 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Claude Sonnet 5 llego el 30 de junio como el modelo mas agente de la familia Sonnet: navega la web, usa terminales y completa tareas complejas de forma autonoma. Ahora es el modelo por defecto en los planes Free y Pro.</description>
+      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png" medium="image"/>
+    </item>
+    <item>
+      <title>Marvel Rivals Season 9 arranca el 10 de julio: Jubilee y The Hood entran en escena bajo la era del Apocalipsis</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-season-9-jubilee-hood-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-season-9-jubilee-hood-julio-2026.html</guid>
+      <pubDate>Fri, 03 Jul 2026 03:00:00 GMT</pubDate>
+      <description>La Temporada 9 de Marvel Rivals llega el 10 de julio con el arco Age of Apocalypse y dos héroes nuevos: The Hood como Vanguard y Jubilee como Strategist. El Summer Festival sigue activo hasta ese día.</description>
+      <media:content url="https://static.beebom.com/wp-content/uploads/2026/07/Marvel-Rivals-Season-9-heroes-Jubilee-and-The-Hood.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>OpenAI presentó GPT-5.6: Sol, Terra y Luna — los modelos más potentes de la historia, bloqueados por el gobierno de EEUU</title>
+      <link>https://puntodespawn.com/posts/openai-gpt-56-sol-terra-luna-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-56-sol-terra-luna-julio-2026.html</guid>
+      <pubDate>Fri, 03 Jul 2026 03:00:00 GMT</pubDate>
+      <description>OpenAI anunció el 26 de junio la familia GPT-5.6 con tres modelos (Sol, Terra y Luna), pero el gobierno de Trump pidió limitar el acceso a solo 20 organizaciones. La disponibilidad amplia se espera a mediados de julio.</description>
+      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/48XpR5dxhE6jJQ03HTUnWZ/ac68fbfb7761fa72ac7442c6744dba56/_.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
+    </item>
+    <item>
+      <title>Epic gratis desde el 9 de julio: Nova Lands y Tattoo Tycoon — dos sims completamente distintos, USD 50 de valor</title>
+      <link>https://puntodespawn.com/posts/epic-gratis-nova-lands-tattoo-tycoon-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-nova-lands-tattoo-tycoon-julio-2026.html</guid>
+      <pubDate>Fri, 03 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El 9 de julio Epic cambia los juegos gratis: salen River City Girls 2 e I Have No Mouth, y entran Nova Lands (automation sandbox, 80 en OpenCritic) y Tattoo Tycoon (sim de tatuajes). Disponibles hasta el 16 de julio.</description>
+      <media:content url="https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/07/epic-games-store-green-logo.jpg?w=1600&amp;h=900&amp;fit=crop" medium="image"/>
+    </item>
+    <item>
+      <title>Fable 5 vuelve hoy: Anthropic lo redespliega globalmente tras el levantamiento de los controles de exportación</title>
+      <link>https://puntodespawn.com/posts/fable-5-vuelve-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/fable-5-vuelve-julio-2026.html</guid>
+      <pubDate>Wed, 01 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Después de casi tres semanas de suspensión forzada por las restricciones del gobierno de EEUU, Claude Fable 5 vuelve a estar disponible desde hoy, 1 de julio, para todos los usuarios de Claude.</description>
+      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Turtle Beach Command Series: el mouse con pantalla táctil integrada llega el 19 de julio</title>
+      <link>https://puntodespawn.com/posts/turtle-beach-command-series-mc7-mc5-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/turtle-beach-command-series-mc7-mc5-julio-2026.html</guid>
+      <pubDate>Wed, 01 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Turtle Beach presenta el Command Series MC7, un mouse gaming inalámbrico con display LCD de 2.25 pulgadas integrado. Disponible el 19 de julio desde USD 79.99, con variantes hasta USD 159.99.</description>
+      <media:content url="https://hothardware.com/contentimages/NewsItem/70431/content/16x9_2133x1200_highres-turtlebeach-command.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>AMD trae FSR 4.1 a las RX 7000 antes de tiempo: upscaling con IA en más de 300 juegos</title>
+      <link>https://puntodespawn.com/posts/amd-fsr-41-rx-7000-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-fsr-41-rx-7000-julio-2026.html</guid>
+      <pubDate>Mon, 22 Jun 2026 03:00:00 GMT</pubDate>
+      <description>AMD liberó el soporte oficial de FSR 4.1 para las Radeon RX 7000 con el driver Adrenalin 26.6.2, varios días antes de lo prometido. Los dueños de GPUs RDNA 3 ya pueden usar el upscaler de IA en más de 300 juegos.</description>
+      <media:content url="https://cdn.mos.cms.futurecdn.net/sqBJe69q8iHjtHHaBL2NCG-1562-80.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>La semana de ChatGPT: Codex llega a todos los planes pagos desde el celular, Pulse se jubila y GPT-4.5 se despide</title>
+      <link>https://puntodespawn.com/posts/chatgpt-codex-remote-scheduled-tasks-gpt45-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/chatgpt-codex-remote-scheduled-tasks-gpt45-junio-2026.html</guid>
+      <pubDate>Mon, 29 Jun 2026 03:00:00 GMT</pubDate>
+      <description>OpenAI tuvo dos semanas cargadas: Codex Remote ya es general para todos los planes pagos de ChatGPT, Scheduled Tasks reemplaza a Pulse para los avisos proactivos, y GPT-4.5 dejó de estar disponible desde el 26 de junio.</description>
+      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/4i08f39LTE7HOZ0R3EKaKA/74f6008bbde015cfef96a14209f7673b/16_9.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
+    </item>
+    <item>
+      <title>AMD confirma el Ryzen 7 7700X3D: el 3D V-Cache más accesible para AM5 llega el 16 de julio a USD 329</title>
+      <link>https://puntodespawn.com/posts/amd-ryzen-7-7700x3d-lanzamiento-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-ryzen-7-7700x3d-lanzamiento-julio-2026.html</guid>
+      <pubDate>Mon, 29 Jun 2026 03:00:00 GMT</pubDate>
+      <description>AMD le puso fecha y precio final al Ryzen 7 7700X3D: ocho núcleos con 3D V-Cache para socket AM5 a USD 329, una alternativa más barata al 7800X3D justo cuando la RAM DDR5 está por las nubes.</description>
+      <media:content url="https://www.amd.com/content/dam/amd/en/images/products/processors/ryzen/2505503-ryzen-7-7800x3d-front.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Epic gratis desde el 2 de julio: River City Girls 2 e I Have No Mouth, and I Must Scream</title>
+      <link>https://puntodespawn.com/posts/epic-gratis-river-city-girls-2-i-have-no-mouth-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-river-city-girls-2-i-have-no-mouth-julio-2026.html</guid>
+      <pubDate>Mon, 29 Jun 2026 03:00:00 GMT</pubDate>
+      <description>Epic Games Store arranca julio con una dupla rarísima: la secuela beat 'em up River City Girls 2 y la adaptación de terror psicológico I Have No Mouth, and I Must Scream. Juntos valen casi USD 50 y se reclaman hasta el 9 de julio.</description>
+      <media:content url="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/06/epic-games-store-new-free-games-over-river-city-girls-2-blurred-screenshot.jpg?w=1600&amp;h=900&amp;fit=crop" medium="image"/>
+    </item>
+    <item>
+      <title>Epic gratis desde el 25 de junio: RollerCoaster Tycoon 3 Complete Edition y Voidwrought</title>
+      <link>https://puntodespawn.com/posts/epic-gratis-rollercoaster-tycoon-3-voidwrought-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-rollercoaster-tycoon-3-voidwrought-junio-2026.html</guid>
+      <pubDate>Fri, 26 Jun 2026 03:00:00 GMT</pubDate>
+      <description>Epic Games Store cierra junio con dos juegos gratis: RollerCoaster Tycoon 3 Complete Edition (con las expansiones Soaked! y Wild!) y Voidwrought, un metroidvania de terror cósmico al estilo Hollow Knight. Juntos valen casi USD 40 y se pueden reclamar hasta el 2 de julio.</description>
+      <media:content url="https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/06/epic-games-store-new-free-games-voidwrought-red-orb-composite.jpg?w=1600&amp;h=900&amp;fit=crop" medium="image"/>
+    </item>
+    <item>
+      <title>Gemini 3.5 Pro se demora hasta julio, y ChatGPT estrena un panel para controlar tus sesiones activas</title>
+      <link>https://puntodespawn.com/posts/gemini-35-pro-julio-chatgpt-active-sessions-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-35-pro-julio-chatgpt-active-sessions-junio-2026.html</guid>
+      <pubDate>Fri, 26 Jun 2026 03:00:00 GMT</pubDate>
+      <description>Google prometió Gemini 3.5 Pro para &quot;el mes que viene&quot; cuando lanzó Flash en mayo, pero trascendió que se posterga a julio por ajustes internos. Mientras tanto, OpenAI ya activó Active Sessions en ChatGPT: un panel para ver y cerrar de forma remota cualquier sesión abierta de tu cuenta.</description>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keywordstatement__metacard__light.width-1300.png" medium="image"/>
+    </item>
+    <item>
+      <title>Samsung lanza el primer monitor gaming 6K del mundo: Odyssey G8 G80HS a USD 1.599,99</title>
+      <link>https://puntodespawn.com/posts/samsung-odyssey-g8-g80hs-6k-monitor-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/samsung-odyssey-g8-g80hs-6k-monitor-junio-2026.html</guid>
+      <pubDate>Fri, 26 Jun 2026 03:00:00 GMT</pubDate>
+      <description>El nuevo Odyssey G8 G80HS de Samsung es, según la marca, el primer monitor gaming 6K del mundo: 32 pulgadas, panel IPS a 6144x3456 (224 PPI), 165Hz nativos y un Dual Mode que baja a 3K para llegar a 330Hz. Sale a USD 1.599,99, sin precio confirmado todavía en pesos.</description>
+      <media:content url="https://img.us.news.samsung.com/us/wp-content/uploads/2026/05/18172108/1_G80HS_32inch_Product_01.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Parche 26.13 de LoL: llega Locke, el asesino que ejecuta a los heridos — y vuelve el Ranked 5v5</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2613-locke-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2613-locke-junio-2026.html</guid>
+      <pubDate>Wed, 24 Jun 2026 03:00:00 GMT</pubDate>
+      <description>El parche 26.13 trae a Locke, el nuevo asesino mid que se daña a sí mismo para curarse y ejecuta rivales con su ultimate. También hay buffs a Aphelios, Draven y Olaf, nerfs a Senna y K'Sante, y el regreso de Ranked 5s el 26 de junio.</description>
+      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1e186da1d849408a61da14d21a138a9688b073bd-1920x1080.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Deltarune: el Capítulo 5 ya está disponible gratis — la historia de Toby Fox sigue creciendo</title>
+      <link>https://puntodespawn.com/posts/deltarune-capitulo-5-lanzamiento-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/deltarune-capitulo-5-lanzamiento-junio-2026.html</guid>
+      <pubDate>Wed, 24 Jun 2026 03:00:00 GMT</pubDate>
+      <description>El Capítulo 5 de Deltarune se lanzó hoy al mediodía (hora Argentina) como actualización gratuita para quien ya tiene el juego. Castle Town reabre, hay un festival de fin de semana y el tono se vuelve más liviano después del oscuro Capítulo 4.</description>
+      <media:content url="https://www.siliconera.com/wp-content/uploads/2026/06/maxresdefault-c0ded1.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Logitech suma el mouse G305 X Superlight y el teclado G316 X al G3 Series: tecnología pro a precio accesible</title>
+      <link>https://puntodespawn.com/posts/logitech-g3-series-g305x-superlight-g316x-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/logitech-g3-series-g305x-superlight-g316x-junio-2026.html</guid>
+      <pubDate>Wed, 24 Jun 2026 03:00:00 GMT</pubDate>
+      <description>Logitech amplía su línea económica G3 con el mouse G305 X Superlight (USD 79,99, 59 gramos) y el teclado mecánico G316 X (USD 119,99, gasket y switches hot-swap). Llegan el 30 de junio para completar el ecosistema junto al headset G325.</description>
+      <media:content url="https://s24.q4cdn.com/131595232/files/doc_multimedia/2026/6/1011203621/High_Resolution_PNG-G316_X_98_G305_X_Superlight_G325_ENVR_Black_Desk_Setup_2@lowres.png" medium="image"/>
+    </item>
+    <item>
+      <title>Valorant revela el mapa Summit y el modo Retake 3v3 para el Acto 4</title>
+      <link>https://puntodespawn.com/posts/valorant-act-4-summit-retake-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-act-4-summit-retake-junio-2026.html</guid>
+      <pubDate>Mon, 22 Jun 2026 03:00:00 GMT</pubDate>
+      <description>Riot Games presentó Summit, un mapa 5v5 ambientado en una academia Radiant en las montañas de China con paredes que se caen a mitad de ronda, además del modo competitivo 3v3 Retake. Todo llega el 24 de junio junto con la colección Blackspyre.</description>
+      <media:content url="https://bleedingcool.com/wp-content/uploads/2026/06/Valorant-Summit-Map-3-2000x1125.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>AMD resucita el Ryzen 7 5800X3D por sus 10 años: Anniversary Edition a USD 349</title>
+      <link>https://puntodespawn.com/posts/amd-ryzen-5800x3d-10th-anniversary-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-ryzen-5800x3d-10th-anniversary-junio-2026.html</guid>
+      <pubDate>Mon, 22 Jun 2026 03:00:00 GMT</pubDate>
+      <description>Para celebrar una década del socket AM4, AMD relanza el icónico Ryzen 7 5800X3D en una edición especial con thermal pad Carbice de regalo. Llega el 25 de junio a USD 349 con las mismas specs del original, y AMD confirmó soporte de AM5 hasta 2029.</description>
+      <media:content url="https://www.amd.com/content/dam/amd/en/images/blogs/designs/4900850-amd-at-computex-2026.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Star Fox vuelve el 25 de junio en Switch 2: reimaginación cinemática de Star Fox 64</title>
+      <link>https://puntodespawn.com/posts/star-fox-nintendo-switch-2-lanzamiento-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/star-fox-nintendo-switch-2-lanzamiento-junio-2026.html</guid>
+      <pubDate>Mon, 22 Jun 2026 03:00:00 GMT</pubDate>
+      <description>Velan Studios reconstruye la historia de Star Fox 64 con doblaje completo, banda orquestal y un modo de mira con el Joy-Con 2 como mouse. Sale exclusivo para Nintendo Switch 2 a USD 49,99 en digital (USD 59,99 en cartucho).</description>
+      <media:content url="https://images.nintendolife.com/52c77991a29aa/large.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>ASUS festeja 20 años de ROG con un teclado y un mouse bañados en oro de 24 kilates</title>
+      <link>https://puntodespawn.com/posts/asus-rog-edition-20-teclado-mouse-oro-junio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/asus-rog-edition-20-teclado-mouse-oro-junio-2026.html</guid>
+      <pubDate>Fri, 19 Jun 2026 03:00:00 GMT</pubDate>
+      <description>ASUS lanza el ROG Azoth Extreme Edition 20 (USD 599.99) y el ROG Harpe II Extreme Edition 20 (USD 259.99), edición limitada con placas de oro real de 24 kilates por los 20 años de la marca ROG. Ya a la venta en Estados Unidos.</description>
+      <media:content url="https://www.pcguide.com/wp-content/uploads/2026/06/ASUS-ROG-20th-anniversary-keyboard-mouse-keycaps.jpg" medium="image"/>
+    </item>
+  </channel>
+</rss>
