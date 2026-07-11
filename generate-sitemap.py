@@ -22,11 +22,14 @@ DOMINIO = "https://puntodespawn.com"
 
 # Páginas estáticas del sitio: (ruta, changefreq, priority)
 PAGINAS_ESTATICAS = [
+    ("",                "daily",   "1.0"),   # raíz https://puntodespawn.com/
     ("index.html",      "daily",   "1.0"),
-    ("gaming.html",     "daily",   "0.9"),
     ("tecnologia.html", "daily",   "0.9"),
+    ("gaming.html",     "daily",   "0.9"),
+    ("ofertas.html",    "weekly",  "0.8"),
     ("comunidad.html",  "weekly",  "0.7"),
-    ("nosotros.html",   "monthly", "0.4"),
+    ("nosotros.html",   "monthly", "0.5"),
+    ("contacto.html",   "monthly", "0.5"),
 ]
 
 
@@ -94,7 +97,7 @@ def main():
     # Páginas estáticas (lastmod = hoy, porque el home y categorías
     # cambian con cada post nuevo)
     for ruta, freq, prio in PAGINAS_ESTATICAS:
-        loc = f"{DOMINIO}/" if ruta == "index.html" else f"{DOMINIO}/{ruta}"
+        loc = f"{DOMINIO}/" if ruta in ("", "index.html") else f"{DOMINIO}/{ruta}"
         xml.append(url_entry(loc, hoy, freq, prio))
 
     # Posts (lastmod = fecha del post)
@@ -113,10 +116,4 @@ def main():
           f"estáticas + {len(posts)} posts.")
     if faltantes:
         print("\nAVISO: estos posts figuran en posts.js pero el HTML no existe:")
-        for f in faltantes:
-            print(f"  - {f}")
-        print("Igual se incluyeron en el sitemap; revisá si es un error.")
-
-
-if __name__ == "__main__":
-    main()
+   
