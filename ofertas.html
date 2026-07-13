@@ -47,8 +47,29 @@
       </div>
     </div>
 
-    <section class="section">
+    <!-- ═══ OFERTAS DE LA SEMANA (afiliados ML) ═══ -->
+    <section class="section" id="deals-section">
       <div class="container">
+        <div class="section-header">
+          <h2>Ofertas de la <span class="accent">semana</span></h2>
+          <span class="results-count" id="deals-count"></span>
+        </div>
+        <div class="game-deals-grid" id="deals-container">
+          <div class="loading">Cargando ofertas...</div>
+        </div>
+        <p style="margin-top:1rem;font-size:0.8rem;color:var(--text-secondary);">
+          Algunos enlaces de esta página son de afiliados: si comprás a través de ellos,
+          PuntoDeSpawn recibe una comisión sin costo extra para vos. Los precios pueden
+          variar — verificalos siempre en la tienda.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Artículos y <span class="accent">juegos gratis</span></h2>
+        </div>
         <div class="list-controls">
           <div class="search-box">
             <span class="search-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
@@ -76,32 +97,3 @@
         <div class="footer-col">
           <h4>Categorías</h4>
           <ul>
-            <li><a href="tecnologia.html">Tecnología</a></li>
-            <li><a href="gaming.html">Gaming</a></li>
-            <li><a href="ofertas.html">Ofertas</a></li>
-            <li><a href="comunidad.html">Comunidad</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>El sitio</h4>
-          <ul>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="index.html">Inicio</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="data/posts.js?v=20260709"></script>
-  <script src="js/posts.js"></script>
-  <script src="js/main.js"></script>
-  <script>initCategoryPage('ofertas');</script>
-
-  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
-</body>
-</html>
