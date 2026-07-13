@@ -180,4 +180,119 @@ const GA4_PROPERTY = '545099933';
 ```
 
 **Credenciales que se ingresan por el modal de Ajustes (no en el código):**
-- C
+- CF Site Tag (Cloudflare Analytics)
+- CF API Token
+- GSC OAuth Token
+- GA4 OAuth Token
+- GSC Property: `sc-domain:puntodespawn.com`
+
+**CRÍTICO — truncación de admin.html:** El archivo tiene ~1160 líneas. El Edit tool puede truncarlo. Siempre verificar con `tail -8` después de editar. Si falta el cierre, restaurar con:
+```python
+with open('admin.html', 'r') as f: content = f.read()
+idx = content.rfind('\nwindow.onload')
+content = content[:idx]
+content += '\nwindow.onload = () => { checkFirstRun(); init(); };\n</script>\n</body>\n</html>\n'
+with open('admin.html', 'w') as f: f.write(content)
+```
+
+---
+
+## 7. Cloudflare Workers
+
+### pds-analytics-proxy (proxy de Cloudflare Analytics)
+- **URL:** `https://pds-analytics-proxy.nicolasguazzotti.workers.dev`
+- Proxy para la API GraphQL de Cloudflare Analytics (maneja CORS y auth)
+- Campo GraphQL correcto: `rumPageloadEventsAdaptiveGroups` con `count` (no `sum`)
+
+### puntodespawnbot (formulario de contacto → Telegram)
+- **URL:** `https://puntodespawnbot.nicolasguazzotti.workers.dev`
+- Recibe POST de `contacto.html` y reenvía el mensaje al bot de Telegram
+- Código de referencia: `pds-contact-worker.js` (con placeholders — NO commitear tokens reales)
+- Bot token y Chat ID solo van en el editor de Cloudflare Workers (no en el repo)
+
+---
+
+## 8. Formulario de contacto
+
+- Archivo: `contacto.html`
+- Campos: nombre (requerido), email (opcional), mensaje (requerido)
+- Envía a `puntodespawnbot.nicolasguazzotti.workers.dev`
+- El mensaje llega al Telegram de Nico como bot de PuntoDeSpawn
+- Link en la sección Contacto de `nosotros.html` (botón "✉️ Escribinos")
+- Link en el nav de `contacto.html` (class="active")
+
+---
+
+## 9. SEO
+
+### Estado actual (11 de julio de 2026)
+- **Sitemap:** `https://puntodespawn.com/sitemap.xml` — 127 URLs — enviado a GSC ✅
+- **GSC:** sitemap aceptado, estado "Correcto", 127 páginas descubiertas
+- **Indexación:** en proceso — Google empezó a rastrear el sitio hoy
+- **RSS:** `https://puntodespawn.com/feed.xml` — últimos 30 posts — funcionando en Feedly ✅
+- **Open Graph + JSON-LD:** aplicado a los 119 posts existentes ✅
+- **Autodiscovery RSS:** tag `<link rel="alternate">` en todas las páginas principales ✅
+
+### Qué monitorear en GSC
+- **Sitemaps** → estado "Correcto" y páginas descubiertas creciendo
+- **Indexación → Páginas** → páginas indexadas vs. con errores (en 1-2 semanas)
+- **Rendimiento → Resultados de búsqueda** → primeras impresiones y clicks (en 2-4 semanas)
+- **Señal definitiva:** `site:puntodespawn.com` en Google muestra páginas
+
+### Herramientas de generación
+- `generate-sitemap.py` → regenera `sitemap.xml` automáticamente en cada deploy
+- `generate-rss.py` → regenera `feed.xml` automáticamente en cada deploy
+
+---
+
+## 10. Google Analytics 4
+
+- **Property ID:** `545099933`
+- **Measurement ID:** `G-JGPHS744ZY`
+- **Snippet:** en el `<head>` de todos los HTMLs del sitio
+- **API:** `analyticsdata.googleapis.com/v1beta` (usada en admin.html)
+
+---
+
+## 11. Google AdSense
+
+- **Publisher ID:** `ca-pub-5515559999355995`
+- **Estado:** en revisión (solicitado el 6 de julio de 2026)
+- **ads.txt:** `google.com, pub-5515559999355995, DIRECT, f08c47fec0942fa0`
+- **Cobro futuro:** ARQ (wire transfer USD) — configurar en Pagos cuando aprueben
+
+---
+
+## 12. Seguridad — reglas críticas
+
+- **NUNCA commitear** tokens, API keys ni bot tokens al repo de GitHub
+- Si GitHub secret scanning bloquea un push, reemplazar el token con un placeholder y nunca re-commitear el valor real
+- `deploy-secrets.py` tiene el GitHub token — está en `.gitignore`, no va al repo
+- `pds-contact-worker.js` tiene placeholders: `'TU_BOT_TOKEN_AQUI'` y `'TU_CHAT_ID_AQUI'`
+- `admin.html` tiene `noindex, nofollow` y no está linkeado desde páginas públicas
+- Cloudflare Access protege `/admin.html` específicamente (path = `admin.html`)
+
+---
+
+## 13. Monetización pendiente
+
+**Afiliados (no implementado aún):**
+- Mercado Libre Afiliados: 1-4% en ARS
+- Amazon Associates: 1-4% en USD (cobro por wire con ARQ)
+- Plan: sección "Dónde comprarlo" en posts de periféricos + posts tipo "los mejores X"
+
+**Push notifications (OneSignal):** evaluado, pospuesto
+**Newsletter:** evaluado, pospuesto
+
+---
+
+## 14. Cuentas vinculadas
+
+| Servicio | Cuenta / ID |
+|---|---|
+| GitHub | Cejaloca |
+| Google (AdSense, GSC, GA4) | nicolasguazzotti@gmail.com |
+| Cloudflare | nicolasguazzotti@gmail.com |
+| Instagram | @puntodespawn.ok |
+| Telegram bot | @puntodespawnbot |
+| ARQ (cobro) | pendiente de configurar en AdSense |

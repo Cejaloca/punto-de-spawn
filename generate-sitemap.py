@@ -116,4 +116,10 @@ def main():
           f"estáticas + {len(posts)} posts.")
     if faltantes:
         print("\nAVISO: estos posts figuran en posts.js pero el HTML no existe:")
-   
+        for f in faltantes:
+            print(f"  - {f}")
+        print("Igual se incluyeron en el sitemap; revisá si es un error.")
+
+
+if __name__ == "__main__":
+    main()

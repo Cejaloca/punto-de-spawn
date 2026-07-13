@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'epic-gratis-luto-echo-generation-julio-2026',
+    titulo: 'Epic gratis desde el 16 de julio: Luto y Echo Generation — horror psicológico y RPG indie nostálgico',
+    extracto: 'El jueves 16 arrancan dos juegos gratis en Epic: Luto (horror en primera persona estilo P.T. + Amnesia) y Echo Generation: Midnight Edition (RPG de niños investigando misterios, tipo Paper Mario). USD 45 de valor, disponibles hasta el 23 de julio.',
+    fecha: '2026-07-13',
+    fechaDisplay: '13 de julio de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'indie', 'horror', 'descuentos'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/07/epic-games-store-yellow-logo-over-echo-generation-midnight-edition-nightfall-scene-composite.jpg?w=1600&h=900&fit=crop',
+    archivo: 'posts/epic-gratis-luto-echo-generation-julio-2026.html'
+  },
+  {
+    id: 'halo-campaign-evolved-preview-julio-2026',
+    titulo: 'Halo: Campaign Evolved sale el 28 de julio: primer Halo en PS5, tres misiones nuevas y gratis en Game Pass',
+    extracto: 'Halo Studios reconstruyó Halo Combat Evolved en Unreal Engine 5. Sale el 28 de julio en Xbox, PC y por primera vez en PS5, incluido en Game Pass día uno, con Operation: METEORITE — tres misiones inéditas coescritas por el novelista Troy Denning.',
+    fecha: '2026-07-13',
+    fechaDisplay: '13 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['halo', 'xbox', 'ps5', 'game-pass', 'gaming', 'lanzamiento', 'remake'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://xboxwire.thesourcemediaassets.com/sites/2/2026/06/HALO-CE-Standard-Hero-e854c175faac9c8a2a78.jpg',
+    archivo: 'posts/halo-campaign-evolved-preview-julio-2026.html'
+  },
+  {
+    id: 'palworld-10-lanzamiento-julio-2026',
+    titulo: 'Palworld 1.0 ya está live: 72 Pals nuevos, Sky Islands, Wing Pack y fin del Early Access',
+    extracto: 'Pocketpair cerró dos años de Early Access con Palworld 1.0 el 10 de julio: 72 Pals nuevos, el bioma Sky Islands, un Wing Pack para volar sin montura y la conclusión oficial de la historia. Sin borrado de save data y disponible en Game Pass.',
+    fecha: '2026-07-13',
+    fechaDisplay: '13 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['palworld', 'pocketpair', 'gaming', 'lanzamiento', 'game-pass', 'early-access', 'survival'],
+    juego: 'palworld',
+    juegoDisplay: 'Palworld',
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg',
+    archivo: 'posts/palworld-10-lanzamiento-julio-2026.html'
+  },
+  {
     id: 'grok-45-spacexai-cursor-julio-2026',
     titulo: 'Grok 4.5 de SpaceXAI: el primer modelo IA entrenado con Cursor es clase Opus y cuesta 4 veces menos',
     extracto: 'SpaceXAI lanzó Grok 4.5 el 8 de julio: comparable a Claude Opus 4.7 pero a USD 2/6 por millón de tokens. Disponible ya en Cursor (todos los planes) sin costo extra.',
