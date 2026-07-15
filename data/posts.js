@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'meta-muse-spark-11-primer-modelo-pago-julio-2026',
+    titulo: 'Meta lanzó Muse Spark 1.1: la primera IA de Meta que cuesta plata, y compite directo con Claude y GPT',
+    extracto: 'Meta Superintelligence Labs lanzó Muse Spark 1.1 el 9 de julio: su primer modelo de IA con precio. USD 1,25 por millón de tokens, multimodal, agéntico, 1 millón de contexto. Zuckerberg publicó en X por primera vez desde 2023 para anunciarlo.',
+    fecha: '2026-07-15',
+    fechaDisplay: '15 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'meta', 'ia', 'muse-spark', 'agentes'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024',
+    archivo: 'posts/meta-muse-spark-11-primer-modelo-pago-julio-2026.html'
+  },
+  {
+    id: 'lol-classic-modo-julio-29-2026',
+    titulo: 'League of Legends Classic llega el 29 de julio: 60 campeones con kits viejos, runes de Season 3 y sin cliente aparte',
+    extracto: 'Riot lanza League of Legends Classic el 29 de julio con el parche 26.15. 60 campeones con sus kits pre-rework, runes y masteries de Season 3, ítems clásicos, ranks propios y un sistema de votación (The Council) para decidir el futuro del modo.',
+    fecha: '2026-07-15',
+    fechaDisplay: '15 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['league-of-legends', 'riot-games', 'gaming', 'nostalgia', 'season-3', 'classic'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://www.talkesport.com/wp-content/uploads/Riot-Games-Launches-League-of-Legends-Classic.webp',
+    archivo: 'posts/lol-classic-modo-julio-29-2026.html'
+  },
+  {
+    id: 'lol-parche-2614-t1-skins-live-julio-2026',
+    titulo: 'Parche 26.14 de LoL ya live: skins de T1 disponibles hoy, Locke cae fuerte y el Blue Buff por fin escala',
+    extracto: 'El parche 26.14 llegó hoy con los skins de T1 Worlds 2025 (Galio/Faker, Xin Zhao/Oner, Ambessa, Yunara, Seraphine, MVP Miss Fortune). Locke recibe su primer nerf, Garen y Jayce bajan, Corki y Mordekaiser suben. El Ranked Season 2 cierra el 28 de julio.',
+    fecha: '2026-07-15',
+    fechaDisplay: '15 de julio de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 't1', 'worlds', 'faker'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/46a5ba3715ef3590aa63bb4733f0185db286bc85-1920x1087.jpg',
+    archivo: 'posts/lol-parche-2614-t1-skins-live-julio-2026.html'
+  },
+  {
     id: 'epic-gratis-luto-echo-generation-julio-2026',
     titulo: 'Epic gratis desde el 16 de julio: Luto y Echo Generation — horror psicológico y RPG indie nostálgico',
     extracto: 'El jueves 16 arrancan dos juegos gratis en Epic: Luto (horror en primera persona estilo P.T. + Amnesia) y Echo Generation: Midnight Edition (RPG de niños investigando misterios, tipo Paper Mario). USD 45 de valor, disponibles hasta el 23 de julio.',
