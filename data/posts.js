@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'openai-io-parlante-chatgpt-jony-ive-julio-2026',
+    titulo: 'OpenAI reveló su primer dispositivo: un parlante sin pantalla que se mueve, y Apple ya los demandó por robo de secretos',
+    extracto: 'Bloomberg reveló el primer hardware de OpenAI: un parlante sin pantalla con cámara y sensores, diseñado como "compañero de IA que vive en casa". Lo construyeron con io, la empresa de ex-ingenieros de Apple incluyendo Jony Ive. Apple los demandó la semana pasada por robo de secretos comerciales.',
+    fecha: '2026-07-16',
+    fechaDisplay: '16 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['openai', 'hardware', 'inteligencia-artificial', 'chatgpt', 'jony-ive', 'apple'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273246979.jpg?resize=1200,800',
+    archivo: 'posts/openai-io-parlante-chatgpt-jony-ive-julio-2026.html'
+  },
+  {
+    id: 'overwatch-2-summer-games-parche-432-julio-2026',
+    titulo: 'Overwatch 2 Summer Games arrancó hoy hasta el 30 de julio — Ramattra y Reaper salen fortalecidos, Sigma baja',
+    extracto: 'Arrancaron los Summer Games 2026: Lucioball, Lucioball Remix y Winston\'s Beach Volleyball hasta el 30 de julio. El parche 4.32 trae buffs importantes — Ramattra duplica el daño de Vortex (15→30), Reaper sube lifesteal al 30%, Ana y Lúcio suben — y nerfs a Sigma y Cassidy.',
+    fecha: '2026-07-16',
+    fechaDisplay: '16 de julio de 2026',
+    categoria: 'patch-notes',
+    tags: ['overwatch-2', 'blizzard', 'patch-notes', 'summer-games', 'gaming', 'balance'],
+    juego: 'overwatch-2',
+    juegoDisplay: 'Overwatch 2',
+    imagen: 'https://mp1st.com/wp-content/uploads/2026/07/overwatch-2-july-2026.jpg',
+    archivo: 'posts/overwatch-2-summer-games-parche-432-julio-2026.html'
+  },
+  {
+    id: 'ac-black-flag-resynced-record-ventas-julio-2026',
+    titulo: 'Assassin\'s Creed Black Flag Resynced vendió 2 millones en el día 1 y rompió el récord de Steam de la franquicia',
+    extracto: 'Resynced llegó el 9 de julio y vendió 2 millones de copias en su primer día con 104K jugadores simultáneos en Steam — el récord histórico de la franquicia. 85% en OpenCritic, las mejores notas de un AC desde el Black Flag original de 2013.',
+    fecha: '2026-07-16',
+    fechaDisplay: '16 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['assassins-creed', 'ubisoft', 'gaming', 'lanzamiento', 'steam', 'piratas'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.wccftech.com/wp-content/uploads/2026/07/ACBFR-2-Million-HD-1920x1079.jpeg',
+    archivo: 'posts/ac-black-flag-resynced-record-ventas-julio-2026.html'
+  },
+  {
     id: 'meta-muse-spark-11-primer-modelo-pago-julio-2026',
     titulo: 'Meta lanzó Muse Spark 1.1: la primera IA de Meta que cuesta plata, y compite directo con Claude y GPT',
     extracto: 'Meta Superintelligence Labs lanzó Muse Spark 1.1 el 9 de julio: su primer modelo de IA con precio. USD 1,25 por millón de tokens, multimodal, agéntico, 1 millón de contexto. Zuckerberg publicó en X por primera vez desde 2023 para anunciarlo.',
