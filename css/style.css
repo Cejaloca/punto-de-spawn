@@ -1320,7 +1320,7 @@ footer {
 
 .game-deals-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.85rem;
   margin: 1rem 0 2rem;
 }
@@ -1407,7 +1407,10 @@ footer {
   color: var(--text-secondary);
 }
 
-@media (max-width: 540px) {
+@media (max-width: 768px) {
+  .game-deals-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
   .game-deals-grid { grid-template-columns: 1fr; }
 }
 
@@ -1487,7 +1490,7 @@ footer {
   background: rgba(176, 128, 255, 0.08);
 }
 
-/* ─── LIGHT MODE ──────────────────────────────�
+/* ─── LIGHT MODE ──────────────────────────────�
 /* ─── ANNOUNCEMENT BANNER ────────────────────────────── */
 .announcement-banner {
   background: rgba(200,160,0,0.08);
@@ -1593,7 +1596,4 @@ body.light-mode .btn-load-more {
 }
 
 body.light-mode .btn-load-more:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: rgba(139, 92, 246, 0.05);
-}
+  b
