@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 16 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Gemini 3.5 Pro ya está disponible: 2 millones de tokens, Deep Think y el golpe de Google contra GPT-5.6</title>
+      <link>https://puntodespawn.com/posts/gemini-35-pro-lanzamiento-julio-17-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-35-pro-lanzamiento-julio-17-2026.html</guid>
+      <pubDate>Fri, 17 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Google DeepMind lanzó hoy Gemini 3.5 Pro: ventana de contexto de 2 millones de tokens (el doble del anterior), modo de razonamiento Deep Think en el plan Ultra y mejoras importantes en código. Construido desde cero después de descartar el modelo original.</description>
+      <media:content url="https://lh3.googleusercontent.com/Lw4Ju9zHmVYoti3RiH-0en-stAafjwpW4pbdE42kym0XgAEXS44ZyXcnAqpPJ_4ECBreV27WZyX8wDq9YKRzkZ_t08XM-UU7hPTf_JRXpcHWPdt_834=w1200-h630-n-nu-rw" medium="image"/>
+    </item>
+    <item>
+      <title>Kimi K3: el modelo open source de 2,8 billones de parámetros que China construyó sin los chips de NVIDIA</title>
+      <link>https://puntodespawn.com/posts/kimi-k3-moonshot-modelo-open-source-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/kimi-k3-moonshot-modelo-open-source-julio-2026.html</guid>
+      <pubDate>Fri, 17 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Moonshot AI lanzó ayer Kimi K3: el modelo open weight más grande del mundo con 2,8 billones de parámetros y 1 millón de tokens de contexto. Afirman rendimiento comparable a Fable 5. Los pesos open source llegan el 27 de julio.</description>
+      <media:content url="https://asset.redpandaai.co/x-signal/kimi-k3-leak-what-is/cover-lm3c0j.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Epic gratis desde el 23 de julio: Foretales — el juego de cartas donde solucionás todo sin violencia</title>
+      <link>https://puntodespawn.com/posts/epic-gratis-foretales-julio-23-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-foretales-julio-23-2026.html</guid>
+      <pubDate>Fri, 17 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El 23 de julio cambian los juegos gratis de Epic: llega Foretales, un juego de cartas narrativo donde los naipes son verbos (negociás, explorás, escapás) en vez de ataques. USD 19,99 de valor, disponible hasta el 30 de julio.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1170080/header.jpg" medium="image"/>
+    </item>
     <item>
       <title>Prime Gaming julio 2026: 12 juegos gratis este mes — hoy entran Escape Academy y Framed Collection</title>
       <link>https://puntodespawn.com/posts/prime-gaming-julio-2026-12-juegos-gratis.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 01 Jul 2026 03:00:00 GMT</pubDate>
       <description>Turtle Beach presenta el Command Series MC7, un mouse gaming inalámbrico con display LCD de 2.25 pulgadas integrado. Disponible el 19 de julio desde USD 79.99, con variantes hasta USD 159.99.</description>
       <media:content url="https://hothardware.com/contentimages/NewsItem/70431/content/16x9_2133x1200_highres-turtlebeach-command.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>AMD trae FSR 4.1 a las RX 7000 antes de tiempo: upscaling con IA en más de 300 juegos</title>
-      <link>https://puntodespawn.com/posts/amd-fsr-41-rx-7000-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-fsr-41-rx-7000-julio-2026.html</guid>
-      <pubDate>Mon, 22 Jun 2026 03:00:00 GMT</pubDate>
-      <description>AMD liberó el soporte oficial de FSR 4.1 para las Radeon RX 7000 con el driver Adrenalin 26.6.2, varios días antes de lo prometido. Los dueños de GPUs RDNA 3 ya pueden usar el upscaler de IA en más de 300 juegos.</description>
-      <media:content url="https://cdn.mos.cms.futurecdn.net/sqBJe69q8iHjtHHaBL2NCG-1562-80.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>La semana de ChatGPT: Codex llega a todos los planes pagos desde el celular, Pulse se jubila y GPT-4.5 se despide</title>
-      <link>https://puntodespawn.com/posts/chatgpt-codex-remote-scheduled-tasks-gpt45-junio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/chatgpt-codex-remote-scheduled-tasks-gpt45-junio-2026.html</guid>
-      <pubDate>Mon, 29 Jun 2026 03:00:00 GMT</pubDate>
-      <description>OpenAI tuvo dos semanas cargadas: Codex Remote ya es general para todos los planes pagos de ChatGPT, Scheduled Tasks reemplaza a Pulse para los avisos proactivos, y GPT-4.5 dejó de estar disponible desde el 26 de junio.</description>
-      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/4i08f39LTE7HOZ0R3EKaKA/74f6008bbde015cfef96a14209f7673b/16_9.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
-    </item>
-    <item>
-      <title>AMD confirma el Ryzen 7 7700X3D: el 3D V-Cache más accesible para AM5 llega el 16 de julio a USD 329</title>
-      <link>https://puntodespawn.com/posts/amd-ryzen-7-7700x3d-lanzamiento-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-ryzen-7-7700x3d-lanzamiento-julio-2026.html</guid>
-      <pubDate>Mon, 29 Jun 2026 03:00:00 GMT</pubDate>
-      <description>AMD le puso fecha y precio final al Ryzen 7 7700X3D: ocho núcleos con 3D V-Cache para socket AM5 a USD 329, una alternativa más barata al 7800X3D justo cuando la RAM DDR5 está por las nubes.</description>
-      <media:content url="https://www.amd.com/content/dam/amd/en/images/products/processors/ryzen/2505503-ryzen-7-7800x3d-front.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

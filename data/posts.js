@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'gemini-35-pro-lanzamiento-julio-17-2026',
+    titulo: 'Gemini 3.5 Pro ya está disponible: 2 millones de tokens, Deep Think y el golpe de Google contra GPT-5.6',
+    extracto: 'Google DeepMind lanzó hoy Gemini 3.5 Pro: ventana de contexto de 2 millones de tokens (el doble del anterior), modo de razonamiento Deep Think en el plan Ultra y mejoras importantes en código. Construido desde cero después de descartar el modelo original.',
+    fecha: '2026-07-17',
+    fechaDisplay: '17 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'gemini', 'google', 'ia', 'deepmind'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://lh3.googleusercontent.com/Lw4Ju9zHmVYoti3RiH-0en-stAafjwpW4pbdE42kym0XgAEXS44ZyXcnAqpPJ_4ECBreV27WZyX8wDq9YKRzkZ_t08XM-UU7hPTf_JRXpcHWPdt_834=w1200-h630-n-nu-rw',
+    archivo: 'posts/gemini-35-pro-lanzamiento-julio-17-2026.html'
+  },
+  {
+    id: 'kimi-k3-moonshot-modelo-open-source-julio-2026',
+    titulo: 'Kimi K3: el modelo open source de 2,8 billones de parámetros que China construyó sin los chips de NVIDIA',
+    extracto: 'Moonshot AI lanzó ayer Kimi K3: el modelo open weight más grande del mundo con 2,8 billones de parámetros y 1 millón de tokens de contexto. Afirman rendimiento comparable a Fable 5. Los pesos open source llegan el 27 de julio.',
+    fecha: '2026-07-17',
+    fechaDisplay: '17 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'kimi', 'moonshot', 'ia', 'open-source', 'china'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://asset.redpandaai.co/x-signal/kimi-k3-leak-what-is/cover-lm3c0j.jpg',
+    archivo: 'posts/kimi-k3-moonshot-modelo-open-source-julio-2026.html'
+  },
+  {
+    id: 'epic-gratis-foretales-julio-23-2026',
+    titulo: 'Epic gratis desde el 23 de julio: Foretales — el juego de cartas donde solucionás todo sin violencia',
+    extracto: 'El 23 de julio cambian los juegos gratis de Epic: llega Foretales, un juego de cartas narrativo donde los naipes son verbos (negociás, explorás, escapás) en vez de ataques. USD 19,99 de valor, disponible hasta el 30 de julio.',
+    fecha: '2026-07-17',
+    fechaDisplay: '17 de julio de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'indie', 'cartas', 'narrativo'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1170080/header.jpg',
+    archivo: 'posts/epic-gratis-foretales-julio-23-2026.html'
+  },
+  {
     id: 'prime-gaming-julio-2026-12-juegos-gratis',
     titulo: 'Prime Gaming julio 2026: 12 juegos gratis este mes — hoy entran Escape Academy y Framed Collection',
     extracto: 'Amazon Prime sumó 12 juegos gratuitos para julio. Hoy se sumaron los más esperados: Escape Academy (escape rooms cooperativos, Muy Positivo en Steam) y Framed Collection (puzzles noir de comic). Se quedan para siempre en tu biblioteca.',

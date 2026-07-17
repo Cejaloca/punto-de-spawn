@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kimi K3: el modelo open source de 2,8 billones de parámetros que China construyó sin los chips de NVIDIA — PuntoDeSpawn</title>
+  <meta name="description" content="Moonshot AI lanzó Kimi K3 ayer: el modelo open weight más grande del mundo con 2,8 billones de parámetros, 1M de tokens de contexto y rendimiento comparable a Fable 5.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel='icon' href='../favicon.svg' type='image/svg+xml'>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5515559999355995" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../tecnologia.html">Tecnología</a></li>
+          <li><a href="../gaming.html">Gaming</a></li>
+          <li><a href="../ofertas.html">Ofertas</a></li>
+          <li><a href="../comunidad.html">Comunidad</a></li>
+          <li><a href="../nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <div class="post-article">
+        <header class="post-header">
+          <div class="post-badges">
+            <span class="badge badge-tecnologia">Tecnología</span>
+          </div>
+          <h1 class="post-title">Kimi K3: el modelo open source de 2,8 billones de parámetros que China construyó sin los chips de NVIDIA</h1>
+          <div class="post-meta">
+            <span class="author">Cejaloca</span>
+            <span class="divider">·</span>
+            <span>17 de julio de 2026</span>
+            <button class="reading-mode-btn" id="reading-mode-btn">☰ Modo lectura</button>
+          </div>
+          <div class="post-tags">
+            <span class="tag">IA</span>
+            <span class="tag">Open Source</span>
+            <span class="tag">Moonshot AI</span>
+            <span class="tag">China</span>
+          </div>
+        </header>
+
+        <div class="post-body">
+
+          <img src="https://asset.redpandaai.co/x-signal/kimi-k3-leak-what-is/cover-lm3c0j.jpg" alt="Kimi K3 de Moonshot AI" class="post-hero-img" loading="lazy">
+
+          <p>Ayer, mientras todo el mundo esperaba el lanzamiento de Gemini 3.5 Pro para hoy, Moonshot AI mandó una bomba silenciosa: <strong>Kimi K3</strong>, el modelo de lenguaje abierto más grande del mundo, construido en China sin acceso a los chips H100 y A100 de NVIDIA que usan los laboratorios occidentales.</p>
+
+          <h2>Los números que importan</h2>
+
+          <p>Kimi K3 tiene <strong>2,8 billones de parámetros totales</strong>, más del doble que DeepSeek V4 (1,6 billones) y el mayor modelo open-weight que existe hoy. No hay nada parecido disponible públicamente. Usa una arquitectura Mixture-of-Experts (MoE), lo que significa que no activa todos esos parámetros a la vez — solo un subconjunto por cada token procesado.</p>
+
+          <p>La ventana de contexto es de <strong>1 millón de tokens</strong>, mismo nivel que los modelos premium de Anthropic y OpenAI. Hay dos variantes en el lanzamiento: <strong>K3 Max</strong> para chat y tareas agénticas generales, y <strong>K3 Swarm Max</strong> pensado para procesamiento paralelo masivo — básicamente para cuando querés correr miles de subtareas al mismo tiempo.</p>
+
+          <h2>Qué tan bueno es</h2>
+
+          <p>Moonshot afirma en su release oficial que K3 compite "de manera comparable" con <strong>Fable 5</strong> (el modelo más avanzado de Anthropic) y supera sustancialmente a Claude Opus 4.8 y GPT-5.6 Sol. Los benchmarks propios que publicaron respaldan esas afirmaciones: 93,5% en GPQA Diamond y 91,2% en BrowseComp, que son los dos benchmarks donde la diferencia entre modelos top es más visible.</p>
+
+          <p>Hay que leerlo con algo de escepticismo — son benchmarks del propio laboratorio. Lo que sí es cierto y verificable es que DoorDash ya usa Kimi para trabajo de bajo nivel internamente, y Cursor usó una versión anterior (K2) para construir su agente de código Composer 2. Eso es adopción real de empresas que eligieron Kimi sobre modelos de OpenAI y Anthropic.</p>
+
+          <h2>El contexto político que lo hace más relevante</h2>
+
+          <p>La parte interesante de esta historia no es solo técnica. El gobierno de EEUU aplicó controles de exportación que le impiden a China acceder a los chips de NVIDIA más avanzados. Moonshot tuvo que construir K3 con hardware más limitado, lo que los obligó a enfocarse en eficiencia algorítmica en lugar de escalar hardware. Como dijo el presidente de Moonshot en el Foro Económico Mundial: "Sabíamos que no teníamos el lujo de simplemente agregar más cómputo".</p>
+
+          <p>El resultado es que China ahora tiene un modelo open-weight que Fortune afirma compite con Fable 5 — el modelo que el propio gobierno de EEUU consideró lo suficientemente riesgoso como para restringirlo temporalmente en junio. Los analistas esperaban que China llegara a este nivel a principios de 2027. Llegaron medio año antes.</p>
+
+          <h2>Precio y acceso</h2>
+
+          <p>Vía API: <strong>USD 3 por millón de tokens de entrada y USD 15 por millón de salida</strong>. Es caro para un modelo chino (DeepSeek V4 sale a USD 0,87/M de output), pero mucho más barato que el equivalente occidental (Fable cuesta USD 50 por millón de tokens de salida). El modelo ya está disponible en Kimi Code y la app de Kimi (incluyendo iOS).</p>
+
+          <p>Los pesos open source llegan el <strong>27 de julio</strong>. Cuando eso pase, cualquiera va a poder descargarlo y ejecutarlo localmente — aunque con 2,8 billones de parámetros vas a necesitar hardware serio para que corra de manera útil.</p>
+
+          <h2>Por qué nos importa en Argentina</h2>
+
+          <p>Primero, porque el acceso a K3 vía API es significativamente más barato que los modelos de Anthropic y OpenAI si lo usás para desarrollo o automatización. Segundo, porque cuando lleguen los pesos abiertos el 27 de julio, K3 se convierte en una opción viable para cualquiera que quiera correr un modelo de frontera sin depender de servicios pagos. Para desarrolladores indie o equipos chicos, eso puede importar bastante.</p>
+
+        </div>
+
+        <div class="share-section">
+          <p class="share-label">¿Te gustó? Compartilo</p>
+          <div class="share-buttons">
+            <button class="share-btn" data-action="whatsapp">WhatsApp</button>
+            <button class="share-btn" data-action="twitter">Twitter / X</button>
+            <button class="share-btn" data-action="copy"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copiar link</button>
+          </div>
+        </div>
+
+        <div id="related-posts"></div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+          <p class="footer-tagline">Tu punto de spawn en el mundo tech y gaming.</p>
+          <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener" class="footer-social">@puntodespawn.ok</a>
+        </div>
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="../tecnologia.html">Tecnología</a></li>
+            <li><a href="../gaming.html">Gaming</a></li>
+            <li><a href="../ofertas.html">Ofertas</a></li>
+            <li><a href="../comunidad.html">Comunidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>El sitio</h4>
+          <ul>
+            <li><a href="../nosotros.html">Nosotros</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../data/posts.js"></script>
+  <script src="../js/posts.js"></script>
+  <script src="../js/main.js"></script>
+  <script>renderRelatedPosts('kimi-k3-moonshot-modelo-open-source-julio-2026', 'tecnologia');</script>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>
