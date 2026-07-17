@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'prime-gaming-julio-2026-12-juegos-gratis',
+    titulo: 'Prime Gaming julio 2026: 12 juegos gratis este mes — hoy entran Escape Academy y Framed Collection',
+    extracto: 'Amazon Prime sumó 12 juegos gratuitos para julio. Hoy se sumaron los más esperados: Escape Academy (escape rooms cooperativos, Muy Positivo en Steam) y Framed Collection (puzzles noir de comic). Se quedan para siempre en tu biblioteca.',
+    fecha: '2026-07-16',
+    fechaDisplay: '16 de julio de 2026',
+    categoria: 'ofertas',
+    tags: ['prime-gaming', 'amazon', 'gratis', 'ofertas', 'puzzle', 'escape-room'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1812090/header.jpg',
+    archivo: 'posts/prime-gaming-julio-2026-12-juegos-gratis.html'
+  },
+  {
+    id: 'valorant-parche-1301-yoru-iso-discord-julio-2026',
+    titulo: 'Valorant Patch 13.01: Yoru vuelve al meta y Riot activa su crackdown anti-smurf — Discord global el 21',
+    extracto: 'El parche 13.01 buffeó a Yoru (Gatecrash dura 5 segundos más, los clones de Fakeout usan tu arma real) e Iso (equipar arma después de Double Tap ahora es instantáneo). Riot lanza su sistema anti-rank manipulation con suspensiones y rank reversions. Y el 21 de julio, Discord se integra globalmente.',
+    fecha: '2026-07-16',
+    fechaDisplay: '16 de julio de 2026',
+    categoria: 'patch-notes',
+    tags: ['valorant', 'patch-notes', 'riot-games', 'fps', 'yoru', 'iso', 'discord'],
+    juego: 'valorant',
+    juegoDisplay: 'Valorant',
+    imagen: 'https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/04c6b3aab17969ae9a74294b0692dda88aade451-1920x1080.jpg',
+    archivo: 'posts/valorant-parche-1301-yoru-iso-discord-julio-2026.html'
+  },
+  {
     id: 'openai-io-parlante-chatgpt-jony-ive-julio-2026',
     titulo: 'OpenAI reveló su primer dispositivo: un parlante sin pantalla que se mueve, y Apple ya los demandó por robo de secretos',
     extracto: 'Bloomberg reveló el primer hardware de OpenAI: un parlante sin pantalla con cámara y sensores, diseñado como "compañero de IA que vive en casa". Lo construyeron con io, la empresa de ex-ingenieros de Apple incluyendo Jony Ive. Apple los demandó la semana pasada por robo de secretos comerciales.',
@@ -1648,46 +1674,7 @@ const POSTS = [
     tags: ['ia', 'tecnologia', 'openai', 'google', 'anthropic'],
     juego: null,
     juegoDisplay: null,
-    imagen: 'images/posts/ia.jpg',
-    archivo: 'posts/2026-04-04/ia-abril-2026.html'
-  },
-  {
-    id: 'juegos-mas-jugados-argentina-2026',
-    titulo: '¿Qué juega Argentina en 2026? Los más jugados en Steam y la escena local',
-    extracto: 'Steam rompió el récord de 42 millones de usuarios online. CS2 sigue dominando, ARC Raiders sorprende y Battlefield 6 la pasa mal. Qué juega Argentina.',
-    fecha: '2026-04-04',
-    fechaDisplay: '4 de abril de 2026',
-    categoria: 'comunidad',
-    tags: ['comunidad', 'gaming', 'steam', 'argentina'],
-    juego: null,
-    juegoDisplay: null,
-    imagen: null,
-    archivo: 'posts/2026-04-04/juegos-mas-jugados-argentina-2026.html'
-  },
-  {
-    id: 'marvel-rivals-abril-2026',
-    titulo: 'Novedades del Parche — Marvel Rivals (Abril 2026)',
-    extracto: 'Nuevo mapa en Lower Manhattan, evento de Wonder Man y el resumen completo del balance de la Temporada 7.',
-    fecha: '2026-04-02',
-    fechaDisplay: '2 de abril de 2026',
-    categoria: 'patch-notes',
-    tags: ['marvel-rivals', 'patch-notes'],
-    juego: 'marvel-rivals',
-    juegoDisplay: 'Marvel Rivals',
-    imagen: null,
-    archivo: 'posts/2026-04-02/marvel-rivals-abril-2026.html'
-  },
-  {
-    id: 'lol-abril-2026',
-    titulo: 'Novedades del Parche — League of Legends (Abril 2026)',
-    extracto: 'Parche 26.7 con ajustes al pool de supports y balance de outliers. Nami y Karma reciben nerfs, Rell vuelve al meta.',
-    fecha: '2026-03-31',
-    fechaDisplay: '31 de marzo de 2026',
-    categoria: 'patch-notes',
-    tags: ['lol', 'league-of-legends', 'patch-notes'],
-    juego: 'league-of-legends',
-    juegoDisplay: 'League of Legends',
-    imagen: null,
-    archivo: 'posts/2026-03-31/lol-abril-2026.html'
+    imagen: 'images/posts/ia-abril-2026.jpg',
+    archivo: 'posts/ia-abril-2026.html'
   }
 ];
