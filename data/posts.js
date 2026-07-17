@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'wow-midnight-revelations-sporefall-raid-julio-2026',
+    titulo: 'WoW: Midnight tiene su primera raid — enfrentá a Rotmire en Sporefall con loot hasta ilvl 298',
+    extracto: 'La actualización Revelaciones (Patch 12.0.7) de WoW: Midnight trajo dos nuevas áreas para cazar líderes del Vacío, el sistema Omnium Folio de runas de poder y la raid Sporefall con Rotmire como único boss. Gear desde ilvl 259 (LFR) hasta 298 (Mythic) sin upgrades extra.',
+    fecha: '2026-07-17',
+    fechaDisplay: '17 de julio de 2026',
+    categoria: 'patch-notes',
+    tags: ['world-of-warcraft', 'wow', 'blizzard', 'raid', 'mmorpg', 'midnight'],
+    juego: 'World of Warcraft: Midnight',
+    juegoDisplay: 'World of Warcraft: Midnight',
+    imagen: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/9l/9LZ56JB5G4HJ1780421151653.png',
+    archivo: 'posts/wow-midnight-revelations-sporefall-raid-julio-2026.html'
+  },
+  {
+    id: 'hearthstone-fuga-bastion-violeta-expansion-julio-2026',
+    titulo: 'Hearthstone rompió sus propias reglas: Fuga del Bastión Violeta tiene 135 cartas y mecánicas que nunca viste',
+    extracto: 'La expansión más audaz de Hearthstone en años llegó el 7 de julio: 135 cartas, la mecánica Preparar (pre-pagás maná para descontar cartas en turnos futuros), legendarios que violan reglas básicas del juego y — por primera vez — esbirros que podés jugar en el tablero de tu oponente.',
+    fecha: '2026-07-17',
+    fechaDisplay: '17 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['hearthstone', 'blizzard', 'cartas', 'expansion', 'gaming'],
+    juego: 'Hearthstone',
+    juegoDisplay: 'Hearthstone',
+    imagen: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/fr/FR9C5P0C0WAJ1779837507380.jpg',
+    archivo: 'posts/hearthstone-fuga-bastion-violeta-expansion-julio-2026.html'
+  },
+  {
+    id: 'diablo-4-lord-of-hatred-brujo-paladin-skovos-julio-2026',
+    titulo: 'Diablo 4: Lord of Hatred llegó con Brujo, Paladín y una nueva región — todo lo que trae la segunda expansión',
+    extracto: 'Lord of Hatred salió el 28 de abril y es el movimiento más ambicioso de Blizzard para Diablo IV: dos clases nuevas simultáneas (Brujo y Paladín), la región inédita de Skovos, rediseño del árbol de habilidades para las ocho clases y un endgame reformulado. Mefisto regresa y Santuario no la tiene fácil.',
+    fecha: '2026-07-17',
+    fechaDisplay: '17 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['diablo-4', 'blizzard', 'gaming', 'expansion', 'brujo', 'paladin'],
+    juego: 'Diablo IV',
+    juegoDisplay: 'Diablo IV',
+    imagen: 'https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt8409c2ec7041566a/6926318af4fa3f127a019f8a/D4_X2_OG.png',
+    archivo: 'posts/diablo-4-lord-of-hatred-brujo-paladin-skovos-julio-2026.html'
+  },
+  {
     id: 'gemini-35-pro-lanzamiento-julio-17-2026',
     titulo: 'Gemini 3.5 Pro ya está disponible: 2 millones de tokens, Deep Think y el golpe de Google contra GPT-5.6',
     extracto: 'Google DeepMind lanzó hoy Gemini 3.5 Pro: ventana de contexto de 2 millones de tokens (el doble del anterior), modo de razonamiento Deep Think en el plan Ultra y mejoras importantes en código. Construido desde cero después de descartar el modelo original.',
