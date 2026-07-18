@@ -101,6 +101,9 @@ document.addEventListener('DOMContentLoaded', function () {
   // ── Scroll Fade-in ──────────────────────────────────
   initScrollFadeIn();
 
+  // ── Header Search ────────────────────────────────────
+  initHeaderSearch();
+
   // ── Theme Toggle ─────────────────────────────────────
   initThemeToggle();
 
@@ -143,6 +146,69 @@ function initCardTilt() {
       activeCard.style.transform = '';
       activeCard = null;
     }
+  });
+}
+
+// ── Header search overlay ─────────────────────────────
+function initHeaderSearch() {
+  var SVG_SEARCH = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
+
+  var btn = document.createElement('button');
+  btn.className = 'search-toggle';
+  btn.setAttribute('aria-label', 'Buscar');
+  btn.innerHTML = SVG_SEARCH;
+
+  var headerInner = document.querySelector('.header-inner');
+  if (!headerInner) return;
+  headerInner.appendChild(btn);
+
+  // Overlay
+  var overlay = document.createElement('div');
+  overlay.className = 'search-overlay';
+  overlay.setAttribute('role', 'dialog');
+  overlay.setAttribute('aria-label', 'Buscar en el sitio');
+  overlay.innerHTML =
+    '<div class="search-overlay-inner">' +
+      '<form class="search-overlay-form" id="header-search-form">' +
+        '<span class="search-overlay-icon">' + SVG_SEARCH + '</span>' +
+        '<input type="text" class="search-overlay-input" id="header-search-input" ' +
+          'placeholder="Buscar artículos, juegos, categorías..." autocomplete="off">' +
+        '<button type="button" class="search-overlay-close" id="search-overlay-close" aria-label="Cerrar">✕</button>' +
+      '</form>' +
+      '<p class="search-overlay-hint">Presioná Enter para buscar · Esc para cerrar</p>' +
+    '</div>';
+  document.body.appendChild(overlay);
+
+  function openOverlay() {
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(function () { document.getElementById('header-search-input').focus(); }, 60);
+  }
+
+  function closeOverlay() {
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function goSearch() {
+    var q = document.getElementById('header-search-input').value.trim();
+    if (!q) return;
+    var isInPost = window.location.pathname.includes('/posts/');
+    var base = isInPost ? '../' : '';
+    window.location.href = base + 'buscar.html?q=' + encodeURIComponent(q);
+  }
+
+  btn.addEventListener('click', openOverlay);
+  document.getElementById('search-overlay-close').addEventListener('click', closeOverlay);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) closeOverlay(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && overlay.classList.contains('open')) closeOverlay();
+    // Ctrl+K / Cmd+K para abrir
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') { e.preventDefault(); openOverlay(); }
+  });
+  document.getElementById('header-search-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    goSearch();
   });
 }
 

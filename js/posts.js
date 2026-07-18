@@ -293,6 +293,76 @@ function getPostsByCategory(categoria) {
   return getSortedPosts().filter(function (p) { return p.categoria === categoria; });
 }
 
+// ── Búsqueda global ───────────────────────────────────────────────────────────
+
+function initSearchPage() {
+  var params = new URLSearchParams(window.location.search);
+  var q = params.get('q') || '';
+
+  var input     = document.getElementById('search-input');
+  var resultsEl = document.getElementById('posts-container');
+  var countEl   = document.getElementById('results-count');
+  var titleEl   = document.getElementById('search-query-display');
+
+  function doSearch(query) {
+    query = query.trim().toLowerCase();
+
+    // Actualizar título de resultados
+    if (titleEl) {
+      titleEl.textContent = query ? '"' + query + '"' : 'Todos los artículos';
+    }
+
+    var all = getSortedPosts();
+    var results = query
+      ? all.filter(function (p) {
+          return (
+            p.titulo.toLowerCase().includes(query) ||
+            p.extracto.toLowerCase().includes(query) ||
+            (p.tags && p.tags.some(function (t) { return t.toLowerCase().includes(query); })) ||
+            (p.juegoDisplay && p.juegoDisplay.toLowerCase().includes(query)) ||
+            (p.categoria && p.categoria.includes(query))
+          );
+        })
+      : all;
+
+    if (countEl) {
+      if (query) {
+        countEl.textContent = results.length === 0
+          ? 'Sin resultados'
+          : results.length + (results.length === 1 ? ' resultado' : ' resultados');
+      } else {
+        countEl.textContent = all.length + ' artículos';
+      }
+    }
+
+    if (!resultsEl) return;
+
+    if (results.length === 0) {
+      resultsEl.innerHTML =
+        '<div class="search-empty">' +
+          '<p class="search-empty-icon">🔍</p>' +
+          '<p class="search-empty-title">No encontramos nada para <strong>"' + query + '"</strong></p>' +
+          '<p class="search-empty-sub">Probá con otras palabras clave, o explorá las categorías desde el menú.</p>' +
+        '</div>';
+      return;
+    }
+
+    renderCardsLimited('posts-container', results, 12);
+  }
+
+  if (input) {
+    input.value = q;
+    input.addEventListener('input', function () { doSearch(this.value); });
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { this.value = ''; doSearch(''); }
+    });
+    // Focus automático al cargar
+    setTimeout(function () { if (!q) input.focus(); }, 100);
+  }
+
+  doSearch(q);
+}
+
 // ── Aplicar búsqueda y filtros ────────────────────────────────────────────────
 
 function applyFilters() {
