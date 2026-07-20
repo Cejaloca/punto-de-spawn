@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'qwen-38-alibaba-24-billones-parametros-julio-2026',
+    titulo: 'Alibaba lanzó Qwen 3.8: 2,4 billones de parámetros, multimodal y pesos open source "pronto"',
+    extracto: 'Alibaba sorprendió durante el World AI Conference en Shanghái con Qwen 3.8: 2,4 billones de parámetros MoE, multimodal (texto, imágenes, video, documentos) y acceso en preview desde ya. Dicen que es "segundo solo detrás de Fable 5", pero sin benchmarks independientes.',
+    fecha: '2026-07-20',
+    fechaDisplay: '20 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'alibaba', 'qwen', 'ia', 'open-source', 'china'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.marktechpost.com/wp-content/uploads/2026/07/blog19132-37-1024x731.png',
+    archivo: 'posts/qwen-38-alibaba-24-billones-parametros-julio-2026.html'
+  },
+  {
+    id: 'game-pass-segunda-ola-julio-2026-celeste-crusader-kings-planet-crafter',
+    titulo: 'Game Pass esta semana: llegan Planet Crafter y Tony Hawk, se van Celeste y Crusader Kings III el 31',
+    extracto: 'La segunda ola de julio trae The Planet Crafter y Tony Hawk\'s Pro Skater 1+2 el 21 de julio. Pero también llega la peor noticia del mes: Celeste (92 OpenCritic) y Crusader Kings III salen del catálogo el 31 de julio.',
+    fecha: '2026-07-20',
+    fechaDisplay: '20 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['xbox', 'game-pass', 'microsoft', 'ofertas', 'celeste', 'crusader-kings', 'planet-crafter'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/07/xbox-game-pass-toxic-green-and-red-logo-fumes-celeste-cave-composite.jpg?w=1600&h=900&fit=crop',
+    archivo: 'posts/game-pass-segunda-ola-julio-2026-celeste-crusader-kings-planet-crafter.html'
+  },
+  {
     id: 'wow-midnight-revelations-sporefall-raid-julio-2026',
     titulo: 'WoW: Midnight tiene su primera raid — enfrentá a Rotmire en Sporefall con loot hasta ilvl 298',
     extracto: 'La actualización Revelaciones (Patch 12.0.7) de WoW: Midnight trajo dos nuevas áreas para cazar líderes del Vacío, el sistema Omnium Folio de runas de poder y la raid Sporefall con Rotmire como único boss. Gear desde ilvl 259 (LFR) hasta 298 (Mythic) sin upgrades extra.',

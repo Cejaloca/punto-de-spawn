@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 17 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Alibaba lanzó Qwen 3.8: 2,4 billones de parámetros, multimodal y pesos open source &quot;pronto&quot;</title>
+      <link>https://puntodespawn.com/posts/qwen-38-alibaba-24-billones-parametros-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/qwen-38-alibaba-24-billones-parametros-julio-2026.html</guid>
+      <pubDate>Mon, 20 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Alibaba sorprendió durante el World AI Conference en Shanghái con Qwen 3.8: 2,4 billones de parámetros MoE, multimodal (texto, imágenes, video, documentos) y acceso en preview desde ya. Dicen que es &quot;segundo solo detrás de Fable 5&quot;, pero sin benchmarks independientes.</description>
+      <media:content url="https://www.marktechpost.com/wp-content/uploads/2026/07/blog19132-37-1024x731.png" medium="image"/>
+    </item>
+    <item>
+      <title>Game Pass esta semana: llegan Planet Crafter y Tony Hawk, se van Celeste y Crusader Kings III el 31</title>
+      <link>https://puntodespawn.com/posts/game-pass-segunda-ola-julio-2026-celeste-crusader-kings-planet-crafter.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/game-pass-segunda-ola-julio-2026-celeste-crusader-kings-planet-crafter.html</guid>
+      <pubDate>Mon, 20 Jul 2026 03:00:00 GMT</pubDate>
+      <description>La segunda ola de julio trae The Planet Crafter y Tony Hawk's Pro Skater 1+2 el 21 de julio. Pero también llega la peor noticia del mes: Celeste (92 OpenCritic) y Crusader Kings III salen del catálogo el 31 de julio.</description>
+      <media:content url="https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/07/xbox-game-pass-toxic-green-and-red-logo-fumes-celeste-cave-composite.jpg?w=1600&amp;h=900&amp;fit=crop" medium="image"/>
+    </item>
     <item>
       <title>WoW: Midnight tiene su primera raid — enfrentá a Rotmire en Sporefall con loot hasta ilvl 298</title>
       <link>https://puntodespawn.com/posts/wow-midnight-revelations-sporefall-raid-julio-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Mon, 06 Jul 2026 03:00:00 GMT</pubDate>
       <description>Claude Sonnet 5 llego el 30 de junio como el modelo mas agente de la familia Sonnet: navega la web, usa terminales y completa tareas complejas de forma autonoma. Ahora es el modelo por defecto en los planes Free y Pro.</description>
       <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png" medium="image"/>
-    </item>
-    <item>
-      <title>Marvel Rivals Season 9 arranca el 10 de julio: Jubilee y The Hood entran en escena bajo la era del Apocalipsis</title>
-      <link>https://puntodespawn.com/posts/marvel-rivals-season-9-jubilee-hood-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-season-9-jubilee-hood-julio-2026.html</guid>
-      <pubDate>Fri, 03 Jul 2026 03:00:00 GMT</pubDate>
-      <description>La Temporada 9 de Marvel Rivals llega el 10 de julio con el arco Age of Apocalypse y dos héroes nuevos: The Hood como Vanguard y Jubilee como Strategist. El Summer Festival sigue activo hasta ese día.</description>
-      <media:content url="https://static.beebom.com/wp-content/uploads/2026/07/Marvel-Rivals-Season-9-heroes-Jubilee-and-The-Hood.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI presentó GPT-5.6: Sol, Terra y Luna — los modelos más potentes de la historia, bloqueados por el gobierno de EEUU</title>
-      <link>https://puntodespawn.com/posts/openai-gpt-56-sol-terra-luna-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-56-sol-terra-luna-julio-2026.html</guid>
-      <pubDate>Fri, 03 Jul 2026 03:00:00 GMT</pubDate>
-      <description>OpenAI anunció el 26 de junio la familia GPT-5.6 con tres modelos (Sol, Terra y Luna), pero el gobierno de Trump pidió limitar el acceso a solo 20 organizaciones. La disponibilidad amplia se espera a mediados de julio.</description>
-      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/48XpR5dxhE6jJQ03HTUnWZ/ac68fbfb7761fa72ac7442c6744dba56/_.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
     </item>
   </channel>
 </rss>
