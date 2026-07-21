@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'lol-parche-2615-belveth-rework-julio-29-2026',
+    titulo: 'Parche 26.15 de LoL el 29 de julio: Bel\'Veth renace desde cero y arranca la Temporada 3',
+    extracto: 'El parche 26.15 llega el 29 de julio con el rework completo de Bel\'Veth (True Form permanente a los 80 stacks), buffs a Kai\'Sa para el meta competitivo, un segundo nerf a Locke y el arranque oficial de la Temporada 3 Ranked.',
+    fecha: '2026-07-21',
+    fechaDisplay: '21 de julio de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 'belveth', 'rework', 'season-3'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://www.hotspawn.com/wp-content/uploads/2026/07/League-of-Legends-Patch-26.15.webp',
+    archivo: 'posts/lol-parche-2615-belveth-rework-julio-29-2026.html'
+  },
+  {
+    id: 'razer-pokemon-espeon-umbreon-pikachu-eevee-julio-2026',
+    titulo: 'Razer celebra los 30 años de Pokémon con dos colecciones de periféricos: Espeon & Umbreon y Pikachu & Eevee',
+    extracto: 'Razer lanzó en julio dos colecciones completas de periféricos gaming temáticas de Pokémon: Espeon & Umbreon (6 de julio) y Pikachu & Eevee (15 de julio). Cada una incluye headset, teclado, mouse y pad, y están disponibles en América Latina.',
+    fecha: '2026-07-21',
+    fechaDisplay: '21 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'razer', 'pokemon', 'headset', 'mouse', 'teclado', 'gaming'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.razer.com/newsroom/wp-content/uploads/2026/07/KV-1.png',
+    archivo: 'posts/razer-pokemon-espeon-umbreon-pikachu-eevee-julio-2026.html'
+  },
+  {
+    id: 'nvidia-rtx-5090-se-filtrado-julio-2026',
+    titulo: 'Se filtró la RTX 5090 SE: 14.080 CUDA cores, 32GB y USD 1.500 para tapar el hueco entre la 5080 y la 5090',
+    extracto: 'Filtraciones de cadena de suministro apuntan a que NVIDIA prepara la RTX 5090 SE (14.080 CUDA cores, 32GB GDDR7, 500W, ~USD 1.500) para reemplazar la RTX 5080 Ti cancelada. También se rumorea una RTX 5080 Super con 24GB.',
+    fecha: '2026-07-21',
+    fechaDisplay: '21 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['nvidia', 'gpu', 'rtx-5090', 'hardware', 'blackwell', 'rtx-50'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.pcguide.com/wp-content/uploads/2025/08/ROG-Astral-RTX-5090-BTF-OC-front-fans-Image-by-PC-Guide-e1783685325799.jpg',
+    archivo: 'posts/nvidia-rtx-5090-se-filtrado-julio-2026.html'
+  },
+  {
     id: 'qwen-38-alibaba-24-billones-parametros-julio-2026',
     titulo: 'Alibaba lanzó Qwen 3.8: 2,4 billones de parámetros, multimodal y pesos open source "pronto"',
     extracto: 'Alibaba sorprendió durante el World AI Conference en Shanghái con Qwen 3.8: 2,4 billones de parámetros MoE, multimodal (texto, imágenes, video, documentos) y acceso en preview desde ya. Dicen que es "segundo solo detrás de Fable 5", pero sin benchmarks independientes.',
