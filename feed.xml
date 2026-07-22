@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 21 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Bethesda confirmó Fallout 5, el spin-off de Obsidian y remasters de Fallout 3 y New Vegas — todo sin fechas, todo real</title>
+      <link>https://puntodespawn.com/posts/bethesda-fallout-5-obsidian-fallout-3-new-vegas-remasters-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/bethesda-fallout-5-obsidian-fallout-3-new-vegas-remasters-julio-2026.html</guid>
+      <pubDate>Wed, 22 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Todd Howard publicó el roadmap más ambicioso de Bethesda: Fallout 5 en pre-producción, Obsidian (los de New Vegas) trabajando en un nuevo Fallout, y remasters de Fallout 3 y New Vegas en desarrollo simultáneo.</description>
+      <media:content url="https://gameinformer.com/sites/default/files/styles/content_header_l/public/2025/10/23/43bbbc48/fallout-4-anniversary-edition-art.jpg.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Google lanzó Gemini 3.6 Flash: más rápido, más barato y ya confirmaron que Gemini 4 está en entrenamiento</title>
+      <link>https://puntodespawn.com/posts/gemini-36-flash-35-flash-lite-lanzamiento-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-36-flash-35-flash-lite-lanzamiento-julio-2026.html</guid>
+      <pubDate>Wed, 22 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Google DeepMind lanzó tres modelos el 21 de julio: Gemini 3.6 Flash (17% menos tokens, mejor código), 3.5 Flash-Lite (350 tokens/seg, el más veloz) y 3.5 Flash Cyber para ciberseguridad. De paso, confirmaron que el pre-entrenamiento de Gemini 4 ya arrancó.</description>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art__statement_.width-1300.jpg" medium="image"/>
+    </item>
     <item>
       <title>Parche 26.15 de LoL el 29 de julio: Bel'Veth renace desde cero y arranca la Temporada 3</title>
       <link>https://puntodespawn.com/posts/lol-parche-2615-belveth-rework-julio-29-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Wed, 08 Jul 2026 03:00:00 GMT</pubDate>
       <description>Google confirmó el 17 de julio para Gemini 3.5 Pro, construido desde cero con nueva arquitectura, 2 millones de tokens de contexto y un modo de razonamiento profundo. La respuesta de DeepMind a Sol y a Fable 5.</description>
       <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keywordstatement__metacard__light.width-1300.png" medium="image"/>
-    </item>
-    <item>
-      <title>GPT-5.6 llega a todos desde el 9 de julio: Sol, Terra y Luna por fin fuera del gobierno</title>
-      <link>https://puntodespawn.com/posts/gpt-56-acceso-global-julio-9-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gpt-56-acceso-global-julio-9-2026.html</guid>
-      <pubDate>Wed, 08 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Tras semanas restringido a 20 organizaciones por orden del gobierno de EEUU, OpenAI confirma el lanzamiento global de Sol, Terra y Luna para el 9 de julio via API y Codex. Todavía no en ChatGPT consumer, pero así funciona cada modelo y cuánto cuesta.</description>
-      <media:content url="https://cdn.neowin.com/news/images/uploaded/2026/07/1783484496_openai_gpt_5.6_launch_story.webp" medium="image"/>
-    </item>
-    <item>
-      <title>AC Black Flag Resynced: 86 en Metacritic — el mejor Assassin's Creed en 13 años</title>
-      <link>https://puntodespawn.com/posts/ac-black-flag-resynced-reviews-metacritic-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ac-black-flag-resynced-reviews-metacritic-julio-2026.html</guid>
-      <pubDate>Wed, 08 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El embargo se levantó hoy y las reviews son claras: 86 en Metacritic y 88 en OpenCritic, solo superado por los AC históricos. Dexerto le dio 5/5, GameSpot se mandó en contra. Qué dicen los medios del remake de Ubisoft.</description>
-      <media:content url="https://static0.thegamerimages.com/wordpress/wp-content/uploads/wm/2026/07/new-project-2026-07-08t103245-234.jpg?w=1600&amp;h=900&amp;fit=crop" medium="image"/>
     </item>
   </channel>
 </rss>

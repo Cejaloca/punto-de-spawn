@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'bethesda-fallout-5-obsidian-fallout-3-new-vegas-remasters-julio-2026',
+    titulo: 'Bethesda confirmó Fallout 5, el spin-off de Obsidian y remasters de Fallout 3 y New Vegas — todo sin fechas, todo real',
+    extracto: 'Todd Howard publicó el roadmap más ambicioso de Bethesda: Fallout 5 en pre-producción, Obsidian (los de New Vegas) trabajando en un nuevo Fallout, y remasters de Fallout 3 y New Vegas en desarrollo simultáneo.',
+    fecha: '2026-07-22',
+    fechaDisplay: '22 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['fallout', 'bethesda', 'obsidian', 'rpg', 'gaming', 'xbox', 'remaster'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://gameinformer.com/sites/default/files/styles/content_header_l/public/2025/10/23/43bbbc48/fallout-4-anniversary-edition-art.jpg.webp',
+    archivo: 'posts/bethesda-fallout-5-obsidian-fallout-3-new-vegas-remasters-julio-2026.html'
+  },
+  {
+    id: 'gemini-36-flash-35-flash-lite-lanzamiento-julio-2026',
+    titulo: 'Google lanzó Gemini 3.6 Flash: más rápido, más barato y ya confirmaron que Gemini 4 está en entrenamiento',
+    extracto: 'Google DeepMind lanzó tres modelos el 21 de julio: Gemini 3.6 Flash (17% menos tokens, mejor código), 3.5 Flash-Lite (350 tokens/seg, el más veloz) y 3.5 Flash Cyber para ciberseguridad. De paso, confirmaron que el pre-entrenamiento de Gemini 4 ya arrancó.',
+    fecha: '2026-07-22',
+    fechaDisplay: '22 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'gemini', 'google', 'ia', 'deepmind', 'flash'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art__statement_.width-1300.jpg',
+    archivo: 'posts/gemini-36-flash-35-flash-lite-lanzamiento-julio-2026.html'
+  },
+  {
     id: 'lol-parche-2615-belveth-rework-julio-29-2026',
     titulo: 'Parche 26.15 de LoL el 29 de julio: Bel\'Veth renace desde cero y arranca la Temporada 3',
     extracto: 'El parche 26.15 llega el 29 de julio con el rework completo de Bel\'Veth (True Form permanente a los 80 stacks), buffs a Kai\'Sa para el meta competitivo, un segundo nerf a Locke y el arranque oficial de la Temporada 3 Ranked.',
