@@ -1,5 +1,18 @@
 const POSTS = [
   {
+    id: 'amd-advancing-ai-2026-zen6-venice-helios-mi455x-julio-2026',
+    titulo: 'AMD Advancing AI 2026: Zen 6 en 2nm, el rack Helios a $5M y Microsoft como primer cliente',
+    extracto: 'AMD presentó EPYC Venice (Zen 6, 2nm, 256 cores), el rack Helios con 2.9 exaflops y 31 TB de HBM4, y la GPU MI455X. Microsoft Azure es el primer cliente confirmado y empieza a recibir racks en el segundo semestre de 2026.',
+    fecha: '2026-07-23',
+    fechaDisplay: '23 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['amd', 'inteligencia-artificial', 'hardware', 'zen6', 'ia', 'microsoft', 'datacenter'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.wccftech.com/wp-content/uploads/2026/01/AMD-Helios-2nm-Venice-Zen-6-CPU-MI455X-GPU-_F-1920x1080.png',
+    archivo: 'posts/amd-advancing-ai-2026-zen6-venice-helios-mi455x-julio-2026.html'
+  },
+  {
     id: 'nba-2k27-wembanyama-caitlin-clark-derrick-rose-portadas-septiembre-2026',
     titulo: 'NBA 2K27 revela sus portadas: Wembanyama, Caitlin Clark y Derrick Rose — sale el 4 de septiembre',
     extracto: '2K confirmó las tres portadas del año: Victor Wembanyama en la edición estándar (primer Spur en la historia del juego), Caitlin Clark en la Deluxe (primera WNBA en portada global propia) y Derrick Rose en la Ultra, días después del retiro de su camiseta por los Bulls.',

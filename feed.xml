@@ -13,6 +13,14 @@
       <link>https://puntodespawn.com</link>
     </image>
     <item>
+      <title>AMD Advancing AI 2026: Zen 6 en 2nm, el rack Helios a $5M y Microsoft como primer cliente</title>
+      <link>https://puntodespawn.com/posts/amd-advancing-ai-2026-zen6-venice-helios-mi455x-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-advancing-ai-2026-zen6-venice-helios-mi455x-julio-2026.html</guid>
+      <pubDate>Thu, 23 Jul 2026 03:00:00 GMT</pubDate>
+      <description>AMD presentó EPYC Venice (Zen 6, 2nm, 256 cores), el rack Helios con 2.9 exaflops y 31 TB de HBM4, y la GPU MI455X. Microsoft Azure es el primer cliente confirmado y empieza a recibir racks en el segundo semestre de 2026.</description>
+      <media:content url="https://cdn.wccftech.com/wp-content/uploads/2026/01/AMD-Helios-2nm-Venice-Zen-6-CPU-MI455X-GPU-_F-1920x1080.png" medium="image"/>
+    </item>
+    <item>
       <title>NBA 2K27 revela sus portadas: Wembanyama, Caitlin Clark y Derrick Rose — sale el 4 de septiembre</title>
       <link>https://puntodespawn.com/posts/nba-2k27-wembanyama-caitlin-clark-derrick-rose-portadas-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/nba-2k27-wembanyama-caitlin-clark-derrick-rose-portadas-septiembre-2026.html</guid>
@@ -243,14 +251,6 @@
       <pubDate>Thu, 09 Jul 2026 03:00:00 GMT</pubDate>
       <description>El debate de siempre con números reales: qué conviene armar o comprar en Argentina en 2026. Analizamos costos, exclusivos, Game Pass y el factor dólar.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Lanzamos la sección de Ofertas: descuentos en Steam, juegos gratis de Epic y más</title>
-      <link>https://puntodespawn.com/posts/comunidad-nueva-seccion-ofertas-puntodespawn.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/comunidad-nueva-seccion-ofertas-puntodespawn.html</guid>
-      <pubDate>Thu, 09 Jul 2026 03:00:00 GMT</pubDate>
-      <description>PuntoDeSpawn ahora tiene sección de Ofertas. Descuentos en Steam, juegos gratis de Epic Games y las mejores deals del momento, actualizadas regularmente.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
