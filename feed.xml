@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 22 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>NBA 2K27 revela sus portadas: Wembanyama, Caitlin Clark y Derrick Rose — sale el 4 de septiembre</title>
+      <link>https://puntodespawn.com/posts/nba-2k27-wembanyama-caitlin-clark-derrick-rose-portadas-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/nba-2k27-wembanyama-caitlin-clark-derrick-rose-portadas-septiembre-2026.html</guid>
+      <pubDate>Thu, 23 Jul 2026 03:00:00 GMT</pubDate>
+      <description>2K confirmó las tres portadas del año: Victor Wembanyama en la edición estándar (primer Spur en la historia del juego), Caitlin Clark en la Deluxe (primera WNBA en portada global propia) y Derrick Rose en la Ultra, días después del retiro de su camiseta por los Bulls.</description>
+      <media:content url="https://cdn.prgloo.com/media/695f0daef4444c83beef30d57fdfac2e.jpg?width=968&amp;height=1452" medium="image"/>
+    </item>
+    <item>
+      <title>Splatoon Raiders llegó al Switch 2: el spin-off single-player que nadie esperaba y que vale cada peso</title>
+      <link>https://puntodespawn.com/posts/splatoon-raiders-switch-2-lanzamiento-review-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/splatoon-raiders-switch-2-lanzamiento-review-julio-2026.html</guid>
+      <pubDate>Thu, 23 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Splatoon Raiders lanzó el 23 de julio exclusivo para Switch 2 con 80 en OpenCritic y 9/10 de IGN. Por primera vez la saga prioriza la aventura en solitario: el mecánico de Deep Cut explora las Spirhalite Islands, caza tesoros y enfrenta oleadas de Salmonids. $49.99 digital.</description>
+      <media:content url="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch2/70010000122824/cf587e01f6f115398f411f280dba21e025795eb69f234a41722341ea999d170d" medium="image"/>
+    </item>
     <item>
       <title>Bethesda confirmó Fallout 5, el spin-off de Obsidian y remasters de Fallout 3 y New Vegas — todo sin fechas, todo real</title>
       <link>https://puntodespawn.com/posts/bethesda-fallout-5-obsidian-fallout-3-new-vegas-remasters-julio-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Thu, 09 Jul 2026 03:00:00 GMT</pubDate>
       <description>PuntoDeSpawn ahora tiene sección de Ofertas. Descuentos en Steam, juegos gratis de Epic Games y las mejores deals del momento, actualizadas regularmente.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Último día del Steam Summer Sale: las mejores ofertas y los nuevos gratis de Epic</title>
-      <link>https://puntodespawn.com/posts/steam-summer-sale-2026-epic-gratis-nova-lands-julio-9.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-summer-sale-2026-epic-gratis-nova-lands-julio-9.html</guid>
-      <pubDate>Thu, 09 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El Steam Summer Sale 2026 cierra hoy a las 14 hs Argentina. Cyberpunk 2077 a USD 17,99, RDR2 a USD 14,99, Dead Space Remake a USD 5,99. Y a partir de hoy, Nova Lands y Tattoo Tycoon gratis en Epic.</description>
-      <media:content url="https://www.pcguide.com/wp-content/uploads/2026/07/Steam-Summer-Sale-2026-end-time.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Gemini 3.5 Pro llega el 17 de julio: 2 millones de tokens y la jugada de Google contra GPT-5.6</title>
-      <link>https://puntodespawn.com/posts/gemini-35-pro-preview-julio-17-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-35-pro-preview-julio-17-2026.html</guid>
-      <pubDate>Wed, 08 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Google confirmó el 17 de julio para Gemini 3.5 Pro, construido desde cero con nueva arquitectura, 2 millones de tokens de contexto y un modo de razonamiento profundo. La respuesta de DeepMind a Sol y a Fable 5.</description>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keywordstatement__metacard__light.width-1300.png" medium="image"/>
     </item>
   </channel>
 </rss>

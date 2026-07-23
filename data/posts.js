@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'nba-2k27-wembanyama-caitlin-clark-derrick-rose-portadas-septiembre-2026',
+    titulo: 'NBA 2K27 revela sus portadas: Wembanyama, Caitlin Clark y Derrick Rose — sale el 4 de septiembre',
+    extracto: '2K confirmó las tres portadas del año: Victor Wembanyama en la edición estándar (primer Spur en la historia del juego), Caitlin Clark en la Deluxe (primera WNBA en portada global propia) y Derrick Rose en la Ultra, días después del retiro de su camiseta por los Bulls.',
+    fecha: '2026-07-23',
+    fechaDisplay: '23 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['nba-2k27', '2k', 'basketball', 'wembanyama', 'caitlin-clark', 'derrick-rose', 'deporte'],
+    juego: 'NBA 2K27',
+    juegoDisplay: 'NBA 2K27',
+    imagen: 'https://cdn.prgloo.com/media/695f0daef4444c83beef30d57fdfac2e.jpg?width=968&height=1452',
+    archivo: 'posts/nba-2k27-wembanyama-caitlin-clark-derrick-rose-portadas-septiembre-2026.html'
+  },
+  {
+    id: 'splatoon-raiders-switch-2-lanzamiento-review-julio-2026',
+    titulo: 'Splatoon Raiders llegó al Switch 2: el spin-off single-player que nadie esperaba y que vale cada peso',
+    extracto: 'Splatoon Raiders lanzó el 23 de julio exclusivo para Switch 2 con 80 en OpenCritic y 9/10 de IGN. Por primera vez la saga prioriza la aventura en solitario: el mecánico de Deep Cut explora las Spirhalite Islands, caza tesoros y enfrenta oleadas de Salmonids. $49.99 digital.',
+    fecha: '2026-07-23',
+    fechaDisplay: '23 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['splatoon', 'nintendo', 'switch-2', 'accion', 'single-player', 'review'],
+    juego: 'Splatoon Raiders',
+    juegoDisplay: 'Splatoon Raiders',
+    imagen: 'https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch2/70010000122824/cf587e01f6f115398f411f280dba21e025795eb69f234a41722341ea999d170d',
+    archivo: 'posts/splatoon-raiders-switch-2-lanzamiento-review-julio-2026.html'
+  },
+  {
     id: 'bethesda-fallout-5-obsidian-fallout-3-new-vegas-remasters-julio-2026',
     titulo: 'Bethesda confirmó Fallout 5, el spin-off de Obsidian y remasters de Fallout 3 y New Vegas — todo sin fechas, todo real',
     extracto: 'Todd Howard publicó el roadmap más ambicioso de Bethesda: Fallout 5 en pre-producción, Obsidian (los de New Vegas) trabajando en un nuevo Fallout, y remasters de Fallout 3 y New Vegas en desarrollo simultáneo.',
