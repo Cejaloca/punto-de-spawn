@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'deepseek-v4-stable-julio-2026',
+    titulo: 'DeepSeek V4 ya es estable: open weight, 1 millón de tokens de contexto y precios que hacen quedar mal a todos',
+    extracto: 'DeepSeek V4 salió de preview con su lanzamiento oficial en julio: V4-Pro (1.6T parámetros MoE, 49B activos) y V4-Flash con 1M de tokens de contexto por defecto y precios brutales — $0.87 por millón de tokens de salida. Los pesos están disponibles para bajar y hacer auto-hosting.',
+    fecha: '2026-07-24',
+    fechaDisplay: '24 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'deepseek', 'ia', 'open-source', 'china', 'llm'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://i0.wp.com/technode.com/wp-content/uploads/2026/04/deepseek-solen-feyissa-o9ZvZfNaovA-unsplash.jpg?fit=1200%2C801&ssl=1',
+    archivo: 'posts/deepseek-v4-stable-julio-2026.html'
+  },
+  {
+    id: 'epic-gratis-sol-cesto-otxo-julio-30-2026',
+    titulo: 'Epic gratis desde el 30 de julio: Sol Cesto y OTXO — dos roguelites muy distintos',
+    extracto: 'El jueves 30 de julio cambian los gratis de Epic: llegan Sol Cesto (roguelite táctico premiado, hecho por tres devs indie franceses) y OTXO (shooter top-down violento tipo Hotline Miami). USD 20.98 de valor combinado, disponibles hasta el 6 de agosto.',
+    fecha: '2026-07-24',
+    fechaDisplay: '24 de julio de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'roguelite', 'indie'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1608640/header.jpg',
+    archivo: 'posts/epic-gratis-sol-cesto-otxo-julio-30-2026.html'
+  },
+  {
+    id: 'avatar-legends-fighting-game-lanzamiento-julio-2026',
+    titulo: 'Avatar Legends: The Fighting Game llegó con 82 en OpenCritic — el mejor juego de Avatar de la historia',
+    extracto: 'El juego de pelea basado en Avatar: The Last Airbender y The Legend of Korra lanzó el 23 de julio a USD 29.99 con 12 personajes y el mejor score de un fighter en 2026. Arte dibujado a mano, sistema de apoyo y rollback netcode con crossplay.',
+    fecha: '2026-07-24',
+    fechaDisplay: '24 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['avatar-legends', 'fighting-game', 'nickelodeon', 'lanzamiento', 'review', 'ps5', 'pc', 'switch'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/07/avatar-legends-the-fighting-game-reviews-are-now-live-gamerant-feature.jpg?w=1600&h=900&fit=crop',
+    archivo: 'posts/avatar-legends-fighting-game-lanzamiento-julio-2026.html'
+  },
+  {
     id: 'amd-advancing-ai-2026-zen6-venice-helios-mi455x-julio-2026',
     titulo: 'AMD Advancing AI 2026: Zen 6 en 2nm, el rack Helios a $5M y Microsoft como primer cliente',
     extracto: 'AMD presentó EPYC Venice (Zen 6, 2nm, 256 cores), el rack Helios con 2.9 exaflops y 31 TB de HBM4, y la GPU MI455X. Microsoft Azure es el primer cliente confirmado y empieza a recibir racks en el segundo semestre de 2026.',

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeepSeek V4 ya es estable: open weight, 1 millón de tokens de contexto y precios que hacen quedar mal a todos — PuntoDeSpawn</title>
+  <meta name="description" content="DeepSeek V4 salió de preview: V4-Pro (1.6T parámetros MoE) y V4-Flash con 1M tokens de contexto y precios brutales. Los pesos están disponibles para bajar.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel='icon' href='../favicon.svg' type='image/svg+xml'>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5515559999355995" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../tecnologia.html">Tecnología</a></li>
+          <li><a href="../gaming.html">Gaming</a></li>
+          <li><a href="../ofertas.html">Ofertas</a></li>
+          <li><a href="../comunidad.html">Comunidad</a></li>
+          <li><a href="../nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <div class="post-article">
+        <header class="post-header">
+          <div class="post-badges">
+            <span class="badge badge-tecnologia">Tecnología</span>
+          </div>
+          <h1 class="post-title">DeepSeek V4 ya es estable: open weight, 1 millón de tokens de contexto y precios que hacen quedar mal a todos</h1>
+          <div class="post-meta">
+            <span class="author">Cejaloca</span>
+            <span class="divider">·</span>
+            <span>24 de julio de 2026</span>
+            <button class="reading-mode-btn" id="reading-mode-btn">☰ Modo lectura</button>
+          </div>
+          <div class="post-tags">
+            <span class="tag">Inteligencia Artificial</span>
+            <span class="tag">DeepSeek</span>
+            <span class="tag">Open Source</span>
+            <span class="tag">LLM</span>
+          </div>
+        </header>
+
+        <div class="post-body">
+          <img src="https://i0.wp.com/technode.com/wp-content/uploads/2026/04/deepseek-solen-feyissa-o9ZvZfNaovA-unsplash.jpg?fit=1200%2C801&ssl=1" alt="DeepSeek V4 — lanzamiento oficial estable" class="post-hero-img" loading="lazy">
+
+          <p>Después de semanas en preview, <strong>DeepSeek V4 llegó a su versión oficial estable en julio de 2026</strong>. La empresa china actualizó su API, retiró los modelos antiguos (deepseek-chat y deepseek-reasoner quedan deprecados) y presentó dos nuevas versiones con números que siguen poniendo en jaque a los modelos occidentales.</p>
+
+          <h2>Dos modelos, contexto de 1 millón de tokens</h2>
+          <p>La familia V4 tiene dos variantes. <strong>V4-Pro</strong> es el modelo grande: 1.6 billones de parámetros totales en arquitectura MoE (Mixture of Experts), con 49 billones activos por inferencia. En benchmarks de código, V4-Pro llega al 80.6% en SWE-bench Verified — a solo 0.2 puntos de Claude Opus 4.6. <strong>V4-Flash</strong> es la opción rápida y barata: 284B parámetros totales, 13B activos, pensado para producción a escala.</p>
+
+          <p>Lo más llamativo de la arquitectura V4 es que <strong>el contexto de 1 millón de tokens no es una feature opcional sino el default para ambos modelos</strong>. No es un add-on de pago como en otros providers — simplemente así funcionan. Eso significa que podés mandarle documentos enteros, codebases completas o conversaciones larguísimas sin recortar nada.</p>
+
+          <h2>Los precios, que son el chiste de siempre</h2>
+          <p>DeepSeek V4 introduce por primera vez un sistema de <strong>precios peak y off-peak</strong>. En horario pico (9–12 AM y 14–18 hs Beijing) el costo es el doble. Fuera de esas horas, los precios son:</p>
+
+          <p>V4-Pro: <strong>$0.435 por millón de tokens de entrada</strong> y <strong>$0.87 por millón de salida</strong>. Comparado con modelos de rendimiento similar en proveedores occidentales (que cobran entre $10 y $25 por millón de tokens de salida), estamos hablando de una diferencia de 10 a 30 veces. V4-Flash baja aún más: $0.28 por millón de salida en off-peak, y los cache hits de entrada a $0.0028 — básicamente gratis para prompts repetitivos.</p>
+
+          <h2>Open weight: lo podés bajar y hostearlo vos</h2>
+          <p>La otra noticia importante es que los pesos de ambos modelos están disponibles para descargar bajo licencia MIT. Si tenés hardware, podés correr V4-Flash localmente sin pagar nada. V4-Pro es más exigente (requiere infraestructura seria para los 1.6T de parámetros), pero V4-Flash es accesible para quien tenga un servidor decente.</p>
+
+          <p>Para el usuario común que usa IA a través de apps o interfaces web, la implicación más directa es que los servicios construidos sobre DeepSeek van a ser significativamente más baratos que los equivalentes sobre GPT o Claude. Es la misma dinámica de siempre con DeepSeek: presión de precios que obliga a todo el mercado a ajustar. El contexto de 1M tokens como default hace que sea particularmente competitivo para casos de uso con documentos largos.</p>
+        </div>
+
+        <div class="share-section">
+          <p class="share-label">¿Te gustó? Compartilo</p>
+          <div class="share-buttons">
+            <button class="share-btn" data-action="whatsapp">WhatsApp</button>
+            <button class="share-btn" data-action="twitter">Twitter / X</button>
+            <button class="share-btn" data-action="copy"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copiar link</button>
+          </div>
+        </div>
+
+        <div id="related-posts"></div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+          <p class="footer-tagline">Tu punto de spawn en el mundo tech y gaming.</p>
+          <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener" class="footer-social">@puntodespawn.ok</a>
+        </div>
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="../tecnologia.html">Tecnología</a></li>
+            <li><a href="../gaming.html">Gaming</a></li>
+            <li><a href="../ofertas.html">Ofertas</a></li>
+            <li><a href="../comunidad.html">Comunidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>El sitio</h4>
+          <ul>
+            <li><a href="../nosotros.html">Nosotros</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../data/posts.js"></script>
+  <script src="../js/posts.js"></script>
+  <script src="../js/main.js"></script>
+  <script>renderRelatedPosts('deepseek-v4-stable-julio-2026', 'tecnologia');</script>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>

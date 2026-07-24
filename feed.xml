@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 23 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>DeepSeek V4 ya es estable: open weight, 1 millón de tokens de contexto y precios que hacen quedar mal a todos</title>
+      <link>https://puntodespawn.com/posts/deepseek-v4-stable-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/deepseek-v4-stable-julio-2026.html</guid>
+      <pubDate>Fri, 24 Jul 2026 03:00:00 GMT</pubDate>
+      <description>DeepSeek V4 salió de preview con su lanzamiento oficial en julio: V4-Pro (1.6T parámetros MoE, 49B activos) y V4-Flash con 1M de tokens de contexto por defecto y precios brutales — $0.87 por millón de tokens de salida. Los pesos están disponibles para bajar y hacer auto-hosting.</description>
+      <media:content url="https://i0.wp.com/technode.com/wp-content/uploads/2026/04/deepseek-solen-feyissa-o9ZvZfNaovA-unsplash.jpg?fit=1200%2C801&amp;ssl=1" medium="image"/>
+    </item>
+    <item>
+      <title>Epic gratis desde el 30 de julio: Sol Cesto y OTXO — dos roguelites muy distintos</title>
+      <link>https://puntodespawn.com/posts/epic-gratis-sol-cesto-otxo-julio-30-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-sol-cesto-otxo-julio-30-2026.html</guid>
+      <pubDate>Fri, 24 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El jueves 30 de julio cambian los gratis de Epic: llegan Sol Cesto (roguelite táctico premiado, hecho por tres devs indie franceses) y OTXO (shooter top-down violento tipo Hotline Miami). USD 20.98 de valor combinado, disponibles hasta el 6 de agosto.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1608640/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Avatar Legends: The Fighting Game llegó con 82 en OpenCritic — el mejor juego de Avatar de la historia</title>
+      <link>https://puntodespawn.com/posts/avatar-legends-fighting-game-lanzamiento-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/avatar-legends-fighting-game-lanzamiento-julio-2026.html</guid>
+      <pubDate>Fri, 24 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El juego de pelea basado en Avatar: The Last Airbender y The Legend of Korra lanzó el 23 de julio a USD 29.99 con 12 personajes y el mejor score de un fighter en 2026. Arte dibujado a mano, sistema de apoyo y rollback netcode con crossplay.</description>
+      <media:content url="https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/07/avatar-legends-the-fighting-game-reviews-are-now-live-gamerant-feature.jpg?w=1600&amp;h=900&amp;fit=crop" medium="image"/>
+    </item>
     <item>
       <title>AMD Advancing AI 2026: Zen 6 en 2nm, el rack Helios a $5M y Microsoft como primer cliente</title>
       <link>https://puntodespawn.com/posts/amd-advancing-ai-2026-zen6-venice-helios-mi455x-julio-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 13 Jul 2026 03:00:00 GMT</pubDate>
       <description>Pocketpair cerró dos años de Early Access con Palworld 1.0 el 10 de julio: 72 Pals nuevos, el bioma Sky Islands, un Wing Pack para volar sin montura y la conclusión oficial de la historia. Sin borrado de save data y disponible en Game Pass.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Grok 4.5 de SpaceXAI: el primer modelo IA entrenado con Cursor es clase Opus y cuesta 4 veces menos</title>
-      <link>https://puntodespawn.com/posts/grok-45-spacexai-cursor-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/grok-45-spacexai-cursor-julio-2026.html</guid>
-      <pubDate>Fri, 10 Jul 2026 03:00:00 GMT</pubDate>
-      <description>SpaceXAI lanzó Grok 4.5 el 8 de julio: comparable a Claude Opus 4.7 pero a USD 2/6 por millón de tokens. Disponible ya en Cursor (todos los planes) sin costo extra.</description>
-      <media:content url="https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259661359.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Marvel Rivals Season 9 ya está live: Jubilee llega, el Team-Up cambia todo y hay que resolver un asesinato</title>
-      <link>https://puntodespawn.com/posts/marvel-rivals-season-9-live-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-season-9-live-julio-2026.html</guid>
-      <pubDate>Fri, 10 Jul 2026 03:00:00 GMT</pubDate>
-      <description>La Season 9 arrancó hoy: Jubilee entra como Strategist, el sistema de Team-Up se rehízo desde cero, Black Widow fue reworkeada y el evento &quot;Death of Apocalypse&quot; invita a resolver el asesinato de Apocalipsis en Tebas.</description>
-      <media:content url="https://static.beebom.com/wp-content/uploads/2026/07/Marvel-Rivals-Season-9-Jubilee.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>PC vs consola en Argentina 2026: ¿cuál conviene hoy?</title>
-      <link>https://puntodespawn.com/posts/comunidad-pc-vs-consola-argentina-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/comunidad-pc-vs-consola-argentina-2026.html</guid>
-      <pubDate>Thu, 09 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El debate de siempre con números reales: qué conviene armar o comprar en Argentina en 2026. Analizamos costos, exclusivos, Game Pass y el factor dólar.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
