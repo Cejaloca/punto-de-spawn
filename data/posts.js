@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'halo-campaign-evolved-review-julio-2026',
+    titulo: 'Halo: Campaign Evolved ya está disponible — qué dicen las reviews del primer Halo en PS5',
+    extracto: 'Halo: Campaign Evolved lanzó el 28 de julio en Xbox, PC y PS5 con 84 en OpenCritic y 82 en Metacritic. Es técnicamente el Halo con menor score agregado, pero el 90% de los críticos lo recomiendan igual.',
+    fecha: '2026-07-27',
+    fechaDisplay: '27 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['halo', 'xbox', 'ps5', 'pc', 'game-pass', 'review', 'remake'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.mos.cms.futurecdn.net/JEokbExaAM5ahTRvsN4WZa-2560-80.jpg',
+    archivo: 'posts/halo-campaign-evolved-review-julio-2026.html'
+  },
+  {
+    id: 'flux-3-black-forest-labs-video-audio-ia-julio-2026',
+    titulo: 'FLUX 3: el modelo que genera video, audio e imagen desde un solo cerebro — y ya aplastó a Runway',
+    extracto: 'Black Forest Labs lanzó FLUX 3 el 23 de julio: el primer modelo de IA que aprende video, imágenes y audio en una arquitectura unificada. Genera hasta 20 segundos de video con audio sincronizado y ya supera a Runway Gen-4.5 en el 77% de comparaciones. Está en early access.',
+    fecha: '2026-07-27',
+    fechaDisplay: '27 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'ia', 'generacion-video', 'black-forest-labs', 'flux', 'creatividad'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.sanity.io/images/2gpum2i6/production/8cfc4af7a44825034e3bc938927315b68d6696bd-1900x1264.png',
+    archivo: 'posts/flux-3-black-forest-labs-video-audio-ia-julio-2026.html'
+  },
+  {
+    id: 'valve-steam-machine-2026-consola-review',
+    titulo: 'Steam Machine 2026: un mes con la consola de Valve que no es consola — ¿vale USD 1.049?',
+    extracto: 'Valve lanzó la Steam Machine el 25 de junio a USD 1.049 (512GB) y USD 1.349 (2TB): un cubo compacto con SteamOS que corre toda tu biblioteca de Steam en el televisor con AMD Zen 4 y RDNA3. Un mes después, analizamos si la propuesta tiene sentido.',
+    fecha: '2026-07-27',
+    fechaDisplay: '27 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['hardware', 'valve', 'steam', 'consola', 'gaming', 'pc', 'steamos'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.mos.cms.futurecdn.net/8DezZHgBp4gfDfHJeE8WSR-1160-80.png',
+    archivo: 'posts/valve-steam-machine-2026-consola-review.html'
+  },
+  {
     id: 'deepseek-v4-stable-julio-2026',
     titulo: 'DeepSeek V4 ya es estable: open weight, 1 millón de tokens de contexto y precios que hacen quedar mal a todos',
     extracto: 'DeepSeek V4 salió de preview con su lanzamiento oficial en julio: V4-Pro (1.6T parámetros MoE, 49B activos) y V4-Flash con 1M de tokens de contexto por defecto y precios brutales — $0.87 por millón de tokens de salida. Los pesos están disponibles para bajar y hacer auto-hosting.',
