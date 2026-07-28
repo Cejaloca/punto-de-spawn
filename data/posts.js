@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'valorant-parche-1302-phoenix-ltm-julio-2026',
+    titulo: 'Valorant Patch 13.02 live: Phoenix pierde un ult point y llega el LTM All Random One Site Replication',
+    extracto: 'El parche 13.02 llegó hoy a los servidores de LATAM: Phoenix recibe su primer nerf serio (Run It Back sube de 6 a 7 puntos de ultimate), debuta el LTM All Random One Site: Replication y llega el bundle Neo Frontier 2.0 con skins para Vandal, Shorty y melee-lazo.',
+    fecha: '2026-07-28',
+    fechaDisplay: '28 de julio de 2026',
+    categoria: 'patch-notes',
+    tags: ['valorant', 'patch-notes', 'riot-games', 'fps', 'phoenix', 'ltm'],
+    juego: 'valorant',
+    juegoDisplay: 'Valorant',
+    imagen: 'https://gdm-universal-media.b-cdn.net/gfinityesports/e1c585cc-valorant-sage-skye-act-4-cinematic.webp?width=1600&height=840',
+    archivo: 'posts/valorant-parche-1302-phoenix-ltm-julio-2026.html'
+  },
+  {
+    id: 'claude-opus-5-anthropic-julio-2026',
+    titulo: 'Claude Opus 5 ya está disponible: supera a Fable 5 en coding y cuesta la mitad',
+    extracto: 'Anthropic lanzó Claude Opus 5 el 24 de julio: lidera Frontier-Bench (43.3% vs 33.7% de Fable 5), triplica el score en ARC-AGI-3 y supera a Fable 5 en 7 de 11 evaluaciones directas — todo al mismo precio que Opus 4.8 ($5/$25 por millón de tokens).',
+    fecha: '2026-07-28',
+    fechaDisplay: '28 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'claude', 'anthropic', 'ia', 'opus', 'coding', 'agentes'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png',
+    archivo: 'posts/claude-opus-5-anthropic-julio-2026.html'
+  },
+  {
     id: 'halo-campaign-evolved-review-julio-2026',
     titulo: 'Halo: Campaign Evolved ya está disponible — qué dicen las reviews del primer Halo en PS5',
     extracto: 'Halo: Campaign Evolved lanzó el 28 de julio en Xbox, PC y PS5 con 84 en OpenCritic y 82 en Metacritic. Es técnicamente el Halo con menor score agregado, pero el 90% de los críticos lo recomiendan igual.',

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Opus 5 ya está disponible: supera a Fable 5 en coding y cuesta la mitad — PuntoDeSpawn</title>
+  <meta name="description" content="Anthropic lanzó Claude Opus 5 el 24 de julio: lidera Frontier-Bench, triplica el score en ARC-AGI-3 y supera a Fable 5 en 7 de 11 evaluaciones directas — todo al mismo precio que Opus 4.8.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel='icon' href='../favicon.svg' type='image/svg+xml'>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5515559999355995" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../tecnologia.html">Tecnología</a></li>
+          <li><a href="../gaming.html">Gaming</a></li>
+          <li><a href="../ofertas.html">Ofertas</a></li>
+          <li><a href="../comunidad.html">Comunidad</a></li>
+          <li><a href="../nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <div class="post-article">
+        <header class="post-header">
+          <div class="post-badges">
+            <span class="badge badge-tecnologia">Tecnología</span>
+          </div>
+          <h1 class="post-title">Claude Opus 5 ya está disponible: supera a Fable 5 en coding y cuesta la mitad</h1>
+          <div class="post-meta">
+            <span class="author">Cejaloca</span>
+            <span class="divider">·</span>
+            <span>28 de julio de 2026</span>
+            <button class="reading-mode-btn" id="reading-mode-btn">☰ Modo lectura</button>
+          </div>
+          <div class="post-tags">
+            <span class="tag">Inteligencia Artificial</span>
+            <span class="tag">Anthropic</span>
+            <span class="tag">Claude</span>
+            <span class="tag">Coding</span>
+          </div>
+        </header>
+
+        <div class="post-body">
+          <img src="https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png" alt="Claude Opus 5 de Anthropic" class="post-hero-img" loading="lazy">
+
+          <p>El 24 de julio, Anthropic lanzó Claude Opus 5 — y los números que publicaron son de los más llamativos que vimos en mucho tiempo en el rubro de la IA. El modelo no solo mejora al Opus anterior: en varios benchmarks le gana directamente a Fable 5, el modelo más potente de Anthropic, y lo hace a la mitad del precio.</p>
+
+          <h2>¿Qué cambió exactamente?</h2>
+
+          <p>Opus 5 reemplaza a Opus 4.8 como el modelo de referencia para trabajo intensivo. El precio no cambió — $5 por millón de tokens de entrada y $25 por millón de salida —, pero el rendimiento es radicalmente distinto. En Frontier-Bench v0.1, el benchmark más exigente para tareas de programación complejas, Opus 5 sacó 43.3% en su configuración máxima, contra 33.7% de Fable 5 y 37.5% de GPT-5.6 Sol. Opus 4.8 estaba en 18.7%.</p>
+
+          <p>El número que más llama la atención es el de ARC-AGI-3, una evaluación que mide la capacidad de un modelo para resolver problemas completamente nuevos — los que no pudo haber visto durante el entrenamiento. Opus 5 llegó a 30.16%, tres veces el score del modelo que quedó en segundo lugar. En OSWorld 2.0, un benchmark de uso de la computadora, supera el pico de Fable 5 gastando apenas un tercio del costo por tarea.</p>
+
+          <h2>Para qué sirve en la práctica</h2>
+
+          <p>El modelo fue diseñado para trabajo agéntico de largo aliento: desarrollo de software complejo, debugging de root cause, análisis financiero con muchos pasos, investigación científica. No es el modelo para hacer una pregunta rápida — para eso están Sonnet 5 o Haiku. Es el modelo que encargás cuando el problema no tiene solución directa y necesitás algo que iterate, verifique su propio trabajo y no se rinda.</p>
+
+          <p>Anthropic habilitó una función nueva de control de esfuerzo: podés elegir entre cinco niveles (low, medium, high, xhigh, max) según qué tan profundo necesitás que trabaje el modelo. A mayor esfuerzo, más tokens consume — pero también hay mayor probabilidad de que resuelva el problema. Para el uso cotidiano, los niveles medio y alto ya son suficientes.</p>
+
+          <p>También lanzaron un <strong>Fast Mode</strong> que corre el modelo 2.5 veces más rápido al doble del precio base ($10/$50 por millón de tokens). Útil para pipelines que priorizan latencia sobre costo.</p>
+
+          <h2>Disponibilidad</h2>
+
+          <p>Opus 5 ya está disponible en Claude.ai para los planes Pro, Max, Team y Enterprise. En Pro es el modelo más potente disponible; en Max pasa a ser el modelo por defecto. Para desarrolladores, el identificador de API es <code>claude-opus-5</code> y está en el Claude Platform, AWS Bedrock, Google Cloud y Microsoft Foundry.</p>
+
+          <p>Dos novedades técnicas en beta acompañan el lanzamiento: mid-conversation tool changes (podés cambiar qué herramientas tiene disponibles Claude en medio de una conversación sin romper el caché) y automatic fallbacks (las solicitudes bloqueadas por clasificadores de seguridad en Opus 5 o Fable 5 pueden redirigirse automáticamente a otro modelo en lugar de fallar).</p>
+
+          <h2>El contexto importa</h2>
+
+          <p>Anthropic menciona que Opus 5 es su modelo más alineado hasta la fecha — menor tasa de comportamiento engañoso y mayor resistencia al jailbreak que Fable 5. En ciberseguridad, puede identificar vulnerabilidades en código fuente pero tiene restricciones más fuertes que Fable 5 para exploits. En biología, reemplaza a Opus 4.8 como el modelo disponible de forma general más capaz.</p>
+
+          <p>Si usás Claude Pro o Claude Code y querés el mejor rendimiento disponible sin pagar el precio de Fable 5, Opus 5 es el que tiene que estar en tu flujo de trabajo a partir de ahora.</p>
+        </div>
+
+        <div class="share-section">
+          <p class="share-label">¿Te gustó? Compartilo</p>
+          <div class="share-buttons">
+            <button class="share-btn" data-action="whatsapp">WhatsApp</button>
+            <button class="share-btn" data-action="twitter">Twitter / X</button>
+            <button class="share-btn" data-action="copy"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copiar link</button>
+          </div>
+        </div>
+
+        <div id="related-posts"></div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+          <p class="footer-tagline">Tu punto de spawn en el mundo tech y gaming.</p>
+          <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener" class="footer-social">@puntodespawn.ok</a>
+        </div>
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="../tecnologia.html">Tecnología</a></li>
+            <li><a href="../gaming.html">Gaming</a></li>
+            <li><a href="../ofertas.html">Ofertas</a></li>
+            <li><a href="../comunidad.html">Comunidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>El sitio</h4>
+          <ul>
+            <li><a href="../nosotros.html">Nosotros</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../data/posts.js"></script>
+  <script src="../js/posts.js"></script>
+  <script src="../js/main.js"></script>
+  <script>renderRelatedPosts('claude-opus-5-anthropic-julio-2026', 'tecnologia');</script>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>

@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 27 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Valorant Patch 13.02 live: Phoenix pierde un ult point y llega el LTM All Random One Site Replication</title>
+      <link>https://puntodespawn.com/posts/valorant-parche-1302-phoenix-ltm-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-parche-1302-phoenix-ltm-julio-2026.html</guid>
+      <pubDate>Tue, 28 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El parche 13.02 llegó hoy a los servidores de LATAM: Phoenix recibe su primer nerf serio (Run It Back sube de 6 a 7 puntos de ultimate), debuta el LTM All Random One Site: Replication y llega el bundle Neo Frontier 2.0 con skins para Vandal, Shorty y melee-lazo.</description>
+      <media:content url="https://gdm-universal-media.b-cdn.net/gfinityesports/e1c585cc-valorant-sage-skye-act-4-cinematic.webp?width=1600&amp;height=840" medium="image"/>
+    </item>
+    <item>
+      <title>Claude Opus 5 ya está disponible: supera a Fable 5 en coding y cuesta la mitad</title>
+      <link>https://puntodespawn.com/posts/claude-opus-5-anthropic-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-opus-5-anthropic-julio-2026.html</guid>
+      <pubDate>Tue, 28 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Anthropic lanzó Claude Opus 5 el 24 de julio: lidera Frontier-Bench (43.3% vs 33.7% de Fable 5), triplica el score en ARC-AGI-3 y supera a Fable 5 en 7 de 11 evaluaciones directas — todo al mismo precio que Opus 4.8 ($5/$25 por millón de tokens).</description>
+      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png" medium="image"/>
+    </item>
     <item>
       <title>Halo: Campaign Evolved ya está disponible — qué dicen las reviews del primer Halo en PS5</title>
       <link>https://puntodespawn.com/posts/halo-campaign-evolved-review-julio-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Wed, 15 Jul 2026 03:00:00 GMT</pubDate>
       <description>Meta Superintelligence Labs lanzó Muse Spark 1.1 el 9 de julio: su primer modelo de IA con precio. USD 1,25 por millón de tokens, multimodal, agéntico, 1 millón de contexto. Zuckerberg publicó en X por primera vez desde 2023 para anunciarlo.</description>
       <media:content url="https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024" medium="image"/>
-    </item>
-    <item>
-      <title>League of Legends Classic llega el 29 de julio: 60 campeones con kits viejos, runes de Season 3 y sin cliente aparte</title>
-      <link>https://puntodespawn.com/posts/lol-classic-modo-julio-29-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-classic-modo-julio-29-2026.html</guid>
-      <pubDate>Wed, 15 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Riot lanza League of Legends Classic el 29 de julio con el parche 26.15. 60 campeones con sus kits pre-rework, runes y masteries de Season 3, ítems clásicos, ranks propios y un sistema de votación (The Council) para decidir el futuro del modo.</description>
-      <media:content url="https://www.talkesport.com/wp-content/uploads/Riot-Games-Launches-League-of-Legends-Classic.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Parche 26.14 de LoL ya live: skins de T1 disponibles hoy, Locke cae fuerte y el Blue Buff por fin escala</title>
-      <link>https://puntodespawn.com/posts/lol-parche-2614-t1-skins-live-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2614-t1-skins-live-julio-2026.html</guid>
-      <pubDate>Wed, 15 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El parche 26.14 llegó hoy con los skins de T1 Worlds 2025 (Galio/Faker, Xin Zhao/Oner, Ambessa, Yunara, Seraphine, MVP Miss Fortune). Locke recibe su primer nerf, Garen y Jayce bajan, Corki y Mordekaiser suben. El Ranked Season 2 cierra el 28 de julio.</description>
-      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/46a5ba3715ef3590aa63bb4733f0185db286bc85-1920x1087.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
