@@ -1,5 +1,18 @@
 const POSTS = [
   {
+    id: 'microsoft-project-perception-mai-cyber-1-flash-julio-2026',
+    titulo: 'Microsoft lanzó su primer modelo de IA para ciberseguridad — y ya supera a Mythos 5 de Anthropic',
+    extracto: 'Microsoft presentó MAI-Cyber-1-Flash, su primer modelo especializado en encontrar vulnerabilidades en código, junto a Project Perception: una plataforma de agentes de seguridad con equipos red, blue y green que pasan de horas de trabajo manual a minutos. Entra en preview el 3 de agosto.',
+    fecha: '2026-07-28',
+    fechaDisplay: '28 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'microsoft', 'ia', 'ciberseguridad', 'agentes'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://techcrunch.com/wp-content/uploads/2026/07/IMG_4458.jpeg?resize=1200,900',
+    archivo: 'posts/microsoft-project-perception-mai-cyber-1-flash-julio-2026.html'
+  },
+  {
     id: 'valorant-parche-1302-phoenix-ltm-julio-2026',
     titulo: 'Valorant Patch 13.02 live: Phoenix pierde un ult point y llega el LTM All Random One Site Replication',
     extracto: 'El parche 13.02 llegó hoy a los servidores de LATAM: Phoenix recibe su primer nerf serio (Run It Back sube de 6 a 7 puntos de ultimate), debuta el LTM All Random One Site: Replication y llega el bundle Neo Frontier 2.0 con skins para Vandal, Shorty y melee-lazo.',

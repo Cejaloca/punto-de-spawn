@@ -13,6 +13,14 @@
       <link>https://puntodespawn.com</link>
     </image>
     <item>
+      <title>Microsoft lanzó su primer modelo de IA para ciberseguridad — y ya supera a Mythos 5 de Anthropic</title>
+      <link>https://puntodespawn.com/posts/microsoft-project-perception-mai-cyber-1-flash-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/microsoft-project-perception-mai-cyber-1-flash-julio-2026.html</guid>
+      <pubDate>Tue, 28 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Microsoft presentó MAI-Cyber-1-Flash, su primer modelo especializado en encontrar vulnerabilidades en código, junto a Project Perception: una plataforma de agentes de seguridad con equipos red, blue y green que pasan de horas de trabajo manual a minutos. Entra en preview el 3 de agosto.</description>
+      <media:content url="https://techcrunch.com/wp-content/uploads/2026/07/IMG_4458.jpeg?resize=1200,900" medium="image"/>
+    </item>
+    <item>
       <title>Valorant Patch 13.02 live: Phoenix pierde un ult point y llega el LTM All Random One Site Replication</title>
       <link>https://puntodespawn.com/posts/valorant-parche-1302-phoenix-ltm-julio-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-parche-1302-phoenix-ltm-julio-2026.html</guid>
@@ -243,14 +251,6 @@
       <pubDate>Thu, 16 Jul 2026 03:00:00 GMT</pubDate>
       <description>Resynced llegó el 9 de julio y vendió 2 millones de copias en su primer día con 104K jugadores simultáneos en Steam — el récord histórico de la franquicia. 85% en OpenCritic, las mejores notas de un AC desde el Black Flag original de 2013.</description>
       <media:content url="https://cdn.wccftech.com/wp-content/uploads/2026/07/ACBFR-2-Million-HD-1920x1079.jpeg" medium="image"/>
-    </item>
-    <item>
-      <title>Meta lanzó Muse Spark 1.1: la primera IA de Meta que cuesta plata, y compite directo con Claude y GPT</title>
-      <link>https://puntodespawn.com/posts/meta-muse-spark-11-primer-modelo-pago-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/meta-muse-spark-11-primer-modelo-pago-julio-2026.html</guid>
-      <pubDate>Wed, 15 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Meta Superintelligence Labs lanzó Muse Spark 1.1 el 9 de julio: su primer modelo de IA con precio. USD 1,25 por millón de tokens, multimodal, agéntico, 1 millón de contexto. Zuckerberg publicó en X por primera vez desde 2023 para anunciarlo.</description>
-      <media:content url="https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024" medium="image"/>
     </item>
   </channel>
 </rss>
