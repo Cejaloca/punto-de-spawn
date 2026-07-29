@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'dispatch-xbox-pc-julio-2026',
+    titulo: 'Dispatch ya está en Xbox y PC: 89 en Metacritic, Aaron Paul de protagonista y sin Game Pass',
+    extracto: 'El aclamado juego de comedia superheroica de AdHoc Studio llegó hoy a Xbox Series X|S y PC con Play Anywhere. 89 en Metacritic, 97% en OpenCritic, 4 millones de copias vendidas — y sin confirmación de Game Pass.',
+    fecha: '2026-07-29',
+    fechaDisplay: '29 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['dispatch', 'xbox', 'adhoc-studio', 'aventura', 'narrativo', 'aaron-paul', 'pc'],
+    juego: 'Dispatch',
+    juegoDisplay: 'Dispatch',
+    imagen: 'https://d.techtimes.com/en/full/470007/dispatch.png',
+    archivo: 'posts/dispatch-xbox-pc-julio-2026.html'
+  },
+  {
+    id: 'pokemon-tcg-pocket-pity-system-ruler-of-skies-julio-2026',
+    titulo: 'Pokémon TCG Pocket agrega sistema de pity hoy junto a la expansión Ruler of the Skies',
+    extracto: 'El 29 de julio Pokémon TCG Pocket estrena su primer sistema de pity: si abrís suficientes sobres de una expansión, el próximo te garantiza una carta de 4 diamantes o más. Llega junto a la B4 con Mega Rayquaza ex y 36 relojes de arena gratis.',
+    fecha: '2026-07-29',
+    fechaDisplay: '29 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['pokemon', 'tcg-pocket', 'mobile', 'gacha', 'cartas', 'dena'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://d.techtimes.com/en/full/469893/pokemon-tcg.png',
+    archivo: 'posts/pokemon-tcg-pocket-pity-system-ruler-of-skies-julio-2026.html'
+  },
+  {
     id: 'microsoft-project-perception-mai-cyber-1-flash-julio-2026',
     titulo: 'Microsoft lanzó su primer modelo de IA para ciberseguridad — y ya supera a Mythos 5 de Anthropic',
     extracto: 'Microsoft presentó MAI-Cyber-1-Flash, su primer modelo especializado en encontrar vulnerabilidades en código, junto a Project Perception: una plataforma de agentes de seguridad con equipos red, blue y green que pasan de horas de trabajo manual a minutos. Entra en preview el 3 de agosto.',

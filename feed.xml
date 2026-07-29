@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 28 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Dispatch ya está en Xbox y PC: 89 en Metacritic, Aaron Paul de protagonista y sin Game Pass</title>
+      <link>https://puntodespawn.com/posts/dispatch-xbox-pc-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/dispatch-xbox-pc-julio-2026.html</guid>
+      <pubDate>Wed, 29 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El aclamado juego de comedia superheroica de AdHoc Studio llegó hoy a Xbox Series X|S y PC con Play Anywhere. 89 en Metacritic, 97% en OpenCritic, 4 millones de copias vendidas — y sin confirmación de Game Pass.</description>
+      <media:content url="https://d.techtimes.com/en/full/470007/dispatch.png" medium="image"/>
+    </item>
+    <item>
+      <title>Pokémon TCG Pocket agrega sistema de pity hoy junto a la expansión Ruler of the Skies</title>
+      <link>https://puntodespawn.com/posts/pokemon-tcg-pocket-pity-system-ruler-of-skies-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/pokemon-tcg-pocket-pity-system-ruler-of-skies-julio-2026.html</guid>
+      <pubDate>Wed, 29 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El 29 de julio Pokémon TCG Pocket estrena su primer sistema de pity: si abrís suficientes sobres de una expansión, el próximo te garantiza una carta de 4 diamantes o más. Llega junto a la B4 con Mega Rayquaza ex y 36 relojes de arena gratis.</description>
+      <media:content url="https://d.techtimes.com/en/full/469893/pokemon-tcg.png" medium="image"/>
+    </item>
     <item>
       <title>Microsoft lanzó su primer modelo de IA para ciberseguridad — y ya supera a Mythos 5 de Anthropic</title>
       <link>https://puntodespawn.com/posts/microsoft-project-perception-mai-cyber-1-flash-julio-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Thu, 16 Jul 2026 03:00:00 GMT</pubDate>
       <description>Bloomberg reveló el primer hardware de OpenAI: un parlante sin pantalla con cámara y sensores, diseñado como &quot;compañero de IA que vive en casa&quot;. Lo construyeron con io, la empresa de ex-ingenieros de Apple incluyendo Jony Ive. Apple los demandó la semana pasada por robo de secretos comerciales.</description>
       <media:content url="https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273246979.jpg?resize=1200,800" medium="image"/>
-    </item>
-    <item>
-      <title>Overwatch 2 Summer Games arrancó hoy hasta el 30 de julio — Ramattra y Reaper salen fortalecidos, Sigma baja</title>
-      <link>https://puntodespawn.com/posts/overwatch-2-summer-games-parche-432-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/overwatch-2-summer-games-parche-432-julio-2026.html</guid>
-      <pubDate>Thu, 16 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Arrancaron los Summer Games 2026: Lucioball, Lucioball Remix y Winston's Beach Volleyball hasta el 30 de julio. El parche 4.32 trae buffs importantes — Ramattra duplica el daño de Vortex (15→30), Reaper sube lifesteal al 30%, Ana y Lúcio suben — y nerfs a Sigma y Cassidy.</description>
-      <media:content url="https://mp1st.com/wp-content/uploads/2026/07/overwatch-2-july-2026.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Assassin's Creed Black Flag Resynced vendió 2 millones en el día 1 y rompió el récord de Steam de la franquicia</title>
-      <link>https://puntodespawn.com/posts/ac-black-flag-resynced-record-ventas-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ac-black-flag-resynced-record-ventas-julio-2026.html</guid>
-      <pubDate>Thu, 16 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Resynced llegó el 9 de julio y vendió 2 millones de copias en su primer día con 104K jugadores simultáneos en Steam — el récord histórico de la franquicia. 85% en OpenCritic, las mejores notas de un AC desde el Black Flag original de 2013.</description>
-      <media:content url="https://cdn.wccftech.com/wp-content/uploads/2026/07/ACBFR-2-Million-HD-1920x1079.jpeg" medium="image"/>
     </item>
   </channel>
 </rss>
