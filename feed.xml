@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 29 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>OpenAI lanzó GPT Transcribe: la tasa de error cae a la mitad y ahora entiende jerga técnica</title>
+      <link>https://puntodespawn.com/posts/openai-gpt-transcribe-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-transcribe-julio-2026.html</guid>
+      <pubDate>Thu, 30 Jul 2026 03:00:00 GMT</pubDate>
+      <description>OpenAI presentó dos modelos de transcripción el 28 de julio: GPT Transcribe ($0.0045/min, 53% menos errores que Whisper) y GPT Live Transcribe para transcripción en tiempo real. Ambos entienden contexto, nombres propios y jerga sin entrenamiento previo.</description>
+      <media:content url="https://i.gzn.jp/img/2026/07/29/gpt-live-transcribe/00.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Xenoblade Chronicles 2 Switch 2 Edition ya está disponible: 4K, 60fps y MOMO de Xenosaga</title>
+      <link>https://puntodespawn.com/posts/xenoblade-chronicles-2-switch-2-edition-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/xenoblade-chronicles-2-switch-2-edition-julio-2026.html</guid>
+      <pubDate>Thu, 30 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El 30 de julio llegó la versión para Switch 2 del clásico JRPG de Monolith Soft: 4K a 60fps, el modo Merc Assault donde controlás hasta seis Blades directamente, y MOMO de Xenosaga como Blade rara con su propia questline. El upgrade digital cuesta USD 7,99 si ya tenés el juego original.</description>
+      <media:content url="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xenoblade-Chronicles-2-Switch-2-Edition.jpg" medium="image"/>
+    </item>
     <item>
       <title>Dispatch ya está en Xbox y PC: 89 en Metacritic, Aaron Paul de protagonista y sin Game Pass</title>
       <link>https://puntodespawn.com/posts/dispatch-xbox-pc-julio-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Thu, 16 Jul 2026 03:00:00 GMT</pubDate>
       <description>Amazon Prime sumó 12 juegos gratuitos para julio. Hoy se sumaron los más esperados: Escape Academy (escape rooms cooperativos, Muy Positivo en Steam) y Framed Collection (puzzles noir de comic). Se quedan para siempre en tu biblioteca.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1812090/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Valorant Patch 13.01: Yoru vuelve al meta y Riot activa su crackdown anti-smurf — Discord global el 21</title>
-      <link>https://puntodespawn.com/posts/valorant-parche-1301-yoru-iso-discord-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-parche-1301-yoru-iso-discord-julio-2026.html</guid>
-      <pubDate>Thu, 16 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El parche 13.01 buffeó a Yoru (Gatecrash dura 5 segundos más, los clones de Fakeout usan tu arma real) e Iso (equipar arma después de Double Tap ahora es instantáneo). Riot lanza su sistema anti-rank manipulation con suspensiones y rank reversions. Y el 21 de julio, Discord se integra globalmente.</description>
-      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/04c6b3aab17969ae9a74294b0692dda88aade451-1920x1080.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI reveló su primer dispositivo: un parlante sin pantalla que se mueve, y Apple ya los demandó por robo de secretos</title>
-      <link>https://puntodespawn.com/posts/openai-io-parlante-chatgpt-jony-ive-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-io-parlante-chatgpt-jony-ive-julio-2026.html</guid>
-      <pubDate>Thu, 16 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Bloomberg reveló el primer hardware de OpenAI: un parlante sin pantalla con cámara y sensores, diseñado como &quot;compañero de IA que vive en casa&quot;. Lo construyeron con io, la empresa de ex-ingenieros de Apple incluyendo Jony Ive. Apple los demandó la semana pasada por robo de secretos comerciales.</description>
-      <media:content url="https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273246979.jpg?resize=1200,800" medium="image"/>
     </item>
   </channel>
 </rss>

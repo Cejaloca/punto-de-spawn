@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'openai-gpt-transcribe-julio-2026',
+    titulo: 'OpenAI lanzó GPT Transcribe: la tasa de error cae a la mitad y ahora entiende jerga técnica',
+    extracto: 'OpenAI presentó dos modelos de transcripción el 28 de julio: GPT Transcribe ($0.0045/min, 53% menos errores que Whisper) y GPT Live Transcribe para transcripción en tiempo real. Ambos entienden contexto, nombres propios y jerga sin entrenamiento previo.',
+    fecha: '2026-07-30',
+    fechaDisplay: '30 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'ia', 'transcripcion', 'audio', 'chatgpt'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://i.gzn.jp/img/2026/07/29/gpt-live-transcribe/00.jpg',
+    archivo: 'posts/openai-gpt-transcribe-julio-2026.html'
+  },
+  {
+    id: 'xenoblade-chronicles-2-switch-2-edition-julio-2026',
+    titulo: 'Xenoblade Chronicles 2 Switch 2 Edition ya está disponible: 4K, 60fps y MOMO de Xenosaga',
+    extracto: 'El 30 de julio llegó la versión para Switch 2 del clásico JRPG de Monolith Soft: 4K a 60fps, el modo Merc Assault donde controlás hasta seis Blades directamente, y MOMO de Xenosaga como Blade rara con su propia questline. El upgrade digital cuesta USD 7,99 si ya tenés el juego original.',
+    fecha: '2026-07-30',
+    fechaDisplay: '30 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['xenoblade', 'nintendo', 'switch-2', 'jrpg', 'monolith-soft', 'lanzamiento'],
+    juego: 'Xenoblade Chronicles 2',
+    juegoDisplay: 'Xenoblade Chronicles 2',
+    imagen: 'https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Xenoblade-Chronicles-2-Switch-2-Edition.jpg',
+    archivo: 'posts/xenoblade-chronicles-2-switch-2-edition-julio-2026.html'
+  },
+  {
     id: 'dispatch-xbox-pc-julio-2026',
     titulo: 'Dispatch ya está en Xbox y PC: 89 en Metacritic, Aaron Paul de protagonista y sin Game Pass',
     extracto: 'El aclamado juego de comedia superheroica de AdHoc Studio llegó hoy a Xbox Series X|S y PC con Play Anywhere. 89 en Metacritic, 97% en OpenCritic, 4 millones de copias vendidas — y sin confirmación de Game Pass.',
