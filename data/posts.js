@@ -22,7 +22,7 @@ const POSTS = [
     tags: ['game-freak', 'game-pass', 'souls-like', 'rpg', 'lanzamiento', 'xbox', 'ps5', 'pc'],
     juego: 'Beast of Reincarnation',
     juegoDisplay: 'Beast of Reincarnation',
-    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/2001760/header.jpg',
+    imagen: 'https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Beast-of-Reincarnation.jpg',
     archivo: 'posts/beast-of-reincarnation-game-freak-game-pass-agosto-2026.html'
   },
   {
