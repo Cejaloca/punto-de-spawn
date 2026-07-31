@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 30 Jul 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Google presentó Gemini Robotics 2: la IA que controla robots completos de la cabeza a los pies</title>
+      <link>https://puntodespawn.com/posts/gemini-robotics-2-whole-body-ia-julio-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-robotics-2-whole-body-ia-julio-2026.html</guid>
+      <pubDate>Fri, 31 Jul 2026 03:00:00 GMT</pubDate>
+      <description>Google DeepMind lanzó Gemini Robotics 2 el 30 de julio: por primera vez un modelo de IA controla un humanoide completo —piernas, torso, brazos y dedos— bajo una sola política aprendida. Puede caminar, agacharse, atar bolsas y coordinar varios robots entre sí.</description>
+      <media:content url="https://lh3.googleusercontent.com/VZ5KwQMxv9xBcQnYipsQB2EUj3oX1yvFYLktIamY8V2a76Y6ctEEuaLF59TuPdnaVn6OAMINDilqnuhju1O-AXc7QlOVmcogjskrWxS7xVQ1mc5S7g=w1200-h630-n-nu-rw" medium="image"/>
+    </item>
+    <item>
+      <title>Beast of Reincarnation llega el 3 de agosto Day 1 en Game Pass — Game Freak abandona los Pokémon y apuesta al Soulslike</title>
+      <link>https://puntodespawn.com/posts/beast-of-reincarnation-game-freak-game-pass-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/beast-of-reincarnation-game-freak-game-pass-agosto-2026.html</guid>
+      <pubDate>Fri, 31 Jul 2026 03:00:00 GMT</pubDate>
+      <description>El 3 de agosto llega Beast of Reincarnation, el primer Soulslike de Game Freak (creadores de Pokémon): RPG oscuro en un Japón post-apocalíptico del año 4026 con combate híbrido tiempo real + por turnos y la mecánica única de una persona y un perro. Day 1 en Game Pass.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2001760/header.jpg" medium="image"/>
+    </item>
     <item>
       <title>OpenAI lanzó GPT Transcribe: la tasa de error cae a la mitad y ahora entiende jerga técnica</title>
       <link>https://puntodespawn.com/posts/openai-gpt-transcribe-julio-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Fri, 17 Jul 2026 03:00:00 GMT</pubDate>
       <description>Moonshot AI lanzó ayer Kimi K3: el modelo open weight más grande del mundo con 2,8 billones de parámetros y 1 millón de tokens de contexto. Afirman rendimiento comparable a Fable 5. Los pesos open source llegan el 27 de julio.</description>
       <media:content url="https://asset.redpandaai.co/x-signal/kimi-k3-leak-what-is/cover-lm3c0j.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Epic gratis desde el 23 de julio: Foretales — el juego de cartas donde solucionás todo sin violencia</title>
-      <link>https://puntodespawn.com/posts/epic-gratis-foretales-julio-23-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-foretales-julio-23-2026.html</guid>
-      <pubDate>Fri, 17 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El 23 de julio cambian los juegos gratis de Epic: llega Foretales, un juego de cartas narrativo donde los naipes son verbos (negociás, explorás, escapás) en vez de ataques. USD 19,99 de valor, disponible hasta el 30 de julio.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1170080/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Prime Gaming julio 2026: 12 juegos gratis este mes — hoy entran Escape Academy y Framed Collection</title>
-      <link>https://puntodespawn.com/posts/prime-gaming-julio-2026-12-juegos-gratis.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/prime-gaming-julio-2026-12-juegos-gratis.html</guid>
-      <pubDate>Thu, 16 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Amazon Prime sumó 12 juegos gratuitos para julio. Hoy se sumaron los más esperados: Escape Academy (escape rooms cooperativos, Muy Positivo en Steam) y Framed Collection (puzzles noir de comic). Se quedan para siempre en tu biblioteca.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1812090/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

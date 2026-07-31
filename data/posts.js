@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'gemini-robotics-2-whole-body-ia-julio-2026',
+    titulo: 'Google presentó Gemini Robotics 2: la IA que controla robots completos de la cabeza a los pies',
+    extracto: 'Google DeepMind lanzó Gemini Robotics 2 el 30 de julio: por primera vez un modelo de IA controla un humanoide completo —piernas, torso, brazos y dedos— bajo una sola política aprendida. Puede caminar, agacharse, atar bolsas y coordinar varios robots entre sí.',
+    fecha: '2026-07-31',
+    fechaDisplay: '31 de julio de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'google', 'deepmind', 'robotica', 'ia', 'humanoides', 'gemini'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://lh3.googleusercontent.com/VZ5KwQMxv9xBcQnYipsQB2EUj3oX1yvFYLktIamY8V2a76Y6ctEEuaLF59TuPdnaVn6OAMINDilqnuhju1O-AXc7QlOVmcogjskrWxS7xVQ1mc5S7g=w1200-h630-n-nu-rw',
+    archivo: 'posts/gemini-robotics-2-whole-body-ia-julio-2026.html'
+  },
+  {
+    id: 'beast-of-reincarnation-game-freak-game-pass-agosto-2026',
+    titulo: 'Beast of Reincarnation llega el 3 de agosto Day 1 en Game Pass — Game Freak abandona los Pokémon y apuesta al Soulslike',
+    extracto: 'El 3 de agosto llega Beast of Reincarnation, el primer Soulslike de Game Freak (creadores de Pokémon): RPG oscuro en un Japón post-apocalíptico del año 4026 con combate híbrido tiempo real + por turnos y la mecánica única de una persona y un perro. Day 1 en Game Pass.',
+    fecha: '2026-07-31',
+    fechaDisplay: '31 de julio de 2026',
+    categoria: 'gaming',
+    tags: ['game-freak', 'game-pass', 'souls-like', 'rpg', 'lanzamiento', 'xbox', 'ps5', 'pc'],
+    juego: 'Beast of Reincarnation',
+    juegoDisplay: 'Beast of Reincarnation',
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/2001760/header.jpg',
+    archivo: 'posts/beast-of-reincarnation-game-freak-game-pass-agosto-2026.html'
+  },
+  {
     id: 'openai-gpt-transcribe-julio-2026',
     titulo: 'OpenAI lanzó GPT Transcribe: la tasa de error cae a la mitad y ahora entiende jerga técnica',
     extracto: 'OpenAI presentó dos modelos de transcripción el 28 de julio: GPT Transcribe ($0.0045/min, 53% menos errores que Whisper) y GPT Live Transcribe para transcripción en tiempo real. Ambos entienden contexto, nombres propios y jerga sin entrenamiento previo.',
