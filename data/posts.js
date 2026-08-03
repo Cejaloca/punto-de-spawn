@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'star-wars-zero-company-preview-agosto-2026',
+    titulo: 'Star Wars Zero Company sale el 27 de agosto: el XCOM de la Guerra de los Clones hecho por ex-Firaxis',
+    extracto: 'Bit Reactor (fundada por ex-desarrolladores de Civilization y XCOM) y Respawn Entertainment presentan Star Wars Zero Company: un juego táctico por turnos single-player en la Guerra de los Clones. Hawks y Zero Company se meten en una conspiración que podría destruir la galaxia. Sale el 27 de agosto en PS5, Xbox Series X|S y PC.',
+    fecha: '2026-08-03',
+    fechaDisplay: '3 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['star-wars', 'estrategia', 'tactico', 'ea', 'respawn', 'bit-reactor', 'clone-wars', 'pc', 'ps5', 'xbox', 'lanzamiento'],
+    juego: 'Star Wars Zero Company',
+    juegoDisplay: 'Star Wars Zero Company',
+    imagen: 'https://lumiere-a.akamaihd.net/v1/images/star-wars-zero-company-key-art-standard-edition_c74dfdf2.jpeg',
+    archivo: 'posts/star-wars-zero-company-preview-agosto-2026.html'
+  },
+  {
+    id: 'grounded-2-into-the-abyss-agosto-11-2026',
+    titulo: 'Grounded 2: el update más grande llega el 11 de agosto con mundo subacuático y debut en PS5',
+    extracto: 'Into the Abyss abre el estanque de Brookhollow Park el 11 de agosto: buceo con trajes especiales, el buggy anfibio Toe-biter, nuevos biomas y criaturas. Es además el debut de Grounded 2 en PS5 y el mayor salto en contenido desde que el juego entró en acceso anticipado.',
+    fecha: '2026-08-03',
+    fechaDisplay: '3 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['grounded', 'obsidian', 'xbox', 'ps5', 'game-pass', 'survival', 'update', 'pc', 'early-access'],
+    juego: 'Grounded 2',
+    juegoDisplay: 'Grounded 2',
+    imagen: 'https://xboxwire.thesourcemediaassets.com/sites/2/2026/06/OEI_GROUNDED2_BAYOU_SWIMMING_FINAL_4KUHD-b1179b5a1dda53d97ca6.jpg',
+    archivo: 'posts/grounded-2-into-the-abyss-agosto-11-2026.html'
+  },
+  {
+    id: 'epic-gratis-beacon-pines-we-were-here-agosto-6-2026',
+    titulo: 'Epic gratis desde el 6 de agosto: Beacon Pines y We Were Here Together',
+    extracto: 'El jueves 6 de agosto cambian los gratis de Epic: Beacon Pines (aventura narrativa estilo libro ilustrado, USD 17,99) y We Were Here Together (puzzles cooperativos para dos jugadores, USD 14,99). USD 32,98 de valor combinado, disponibles hasta el 13 de agosto.',
+    fecha: '2026-08-03',
+    fechaDisplay: '3 de agosto de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'indie', 'cooperativo', 'puzzle', 'aventura'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1269640/header.jpg',
+    archivo: 'posts/epic-gratis-beacon-pines-we-were-here-agosto-6-2026.html'
+  },
+  {
     id: 'gemini-robotics-2-whole-body-ia-julio-2026',
     titulo: 'Google presentó Gemini Robotics 2: la IA que controla robots completos de la cabeza a los pies',
     extracto: 'Google DeepMind lanzó Gemini Robotics 2 el 30 de julio: por primera vez un modelo de IA controla un humanoide completo —piernas, torso, brazos y dedos— bajo una sola política aprendida. Puede caminar, agacharse, atar bolsas y coordinar varios robots entre sí.',
