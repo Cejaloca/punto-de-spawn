@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 03 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>NVIDIA DLSS 4.5 Ray Reconstruction llegó para todas las RTX: mejor ray tracing sin perder performance</title>
+      <link>https://puntodespawn.com/posts/nvidia-dlss-45-ray-reconstruction-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-dlss-45-ray-reconstruction-agosto-2026.html</guid>
+      <pubDate>Tue, 04 Aug 2026 03:00:00 GMT</pubDate>
+      <description>NVIDIA lanzó DLSS 4.5 Ray Reconstruction en agosto vía NVIDIA App: disponible para todas las RTX desde la 2060 hasta las RTX 50, modelo transformer de segunda generación con 35% más capacidad de cómputo, y 27 juegos compatibles desde el día uno incluyendo Cyberpunk 2077 y Alan Wake 2.</description>
+      <media:content url="https://www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/dlss-4-5-ray-reconstruction-1000-rtx-games-apps-out-now/dlss-4-5-ray-reconstruction-coming-this-august-ogimage.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Preview Parche 26.16 de LoL — el 12 de agosto: Riot le pone fin a los mages bot y bufféa a los ADC</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2616-preview-agosto-12-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2616-preview-agosto-12-2026.html</guid>
+      <pubDate>Tue, 04 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El parche 26.16 llega el 12 de agosto con el movimiento más esperado del año: la penalidad por roaming de soporte sube de 25% hasta nivel 3 a 33% hasta nivel 5, buffs directos a los ADC en Berserker's Greaves y Fleet Footwork, y nerfs de sistema a los mages bot. Bel'Veth también baja después del rework.</description>
+      <media:content url="https://www.hotspawn.com/wp-content/uploads/2026/07/league-of-legends-patch-26.16-.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Qwen3.8-Max ya está disponible: 2,4 billones de parámetros, precios agresivos y pesos open source la semana que viene</title>
+      <link>https://puntodespawn.com/posts/qwen38-max-disponible-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/qwen38-max-disponible-agosto-2026.html</guid>
+      <pubDate>Tue, 04 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Alibaba lanzó oficialmente Qwen3.8-Max el 3 de agosto: 95B parámetros activos de 2,4 billones totales, contexto de 1 millón de tokens y precios al 40% de Claude Opus 5 ($2/$6 por millón de tokens). Los pesos open source llegan la semana del 10 de agosto junto al checkpoint Qwen3.8-27B.</description>
+      <media:content url="https://www.marktechpost.com/wp-content/uploads/2026/08/blog6176-5-1024x731.png" medium="image"/>
+    </item>
     <item>
       <title>Star Wars Zero Company sale el 27 de agosto: el XCOM de la Guerra de los Clones hecho por ex-Firaxis</title>
       <link>https://puntodespawn.com/posts/star-wars-zero-company-preview-agosto-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 20 Jul 2026 03:00:00 GMT</pubDate>
       <description>Alibaba sorprendió durante el World AI Conference en Shanghái con Qwen 3.8: 2,4 billones de parámetros MoE, multimodal (texto, imágenes, video, documentos) y acceso en preview desde ya. Dicen que es &quot;segundo solo detrás de Fable 5&quot;, pero sin benchmarks independientes.</description>
       <media:content url="https://www.marktechpost.com/wp-content/uploads/2026/07/blog19132-37-1024x731.png" medium="image"/>
-    </item>
-    <item>
-      <title>Game Pass esta semana: llegan Planet Crafter y Tony Hawk, se van Celeste y Crusader Kings III el 31</title>
-      <link>https://puntodespawn.com/posts/game-pass-segunda-ola-julio-2026-celeste-crusader-kings-planet-crafter.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/game-pass-segunda-ola-julio-2026-celeste-crusader-kings-planet-crafter.html</guid>
-      <pubDate>Mon, 20 Jul 2026 03:00:00 GMT</pubDate>
-      <description>La segunda ola de julio trae The Planet Crafter y Tony Hawk's Pro Skater 1+2 el 21 de julio. Pero también llega la peor noticia del mes: Celeste (92 OpenCritic) y Crusader Kings III salen del catálogo el 31 de julio.</description>
-      <media:content url="https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/07/xbox-game-pass-toxic-green-and-red-logo-fumes-celeste-cave-composite.jpg?w=1600&amp;h=900&amp;fit=crop" medium="image"/>
-    </item>
-    <item>
-      <title>WoW: Midnight tiene su primera raid — enfrentá a Rotmire en Sporefall con loot hasta ilvl 298</title>
-      <link>https://puntodespawn.com/posts/wow-midnight-revelations-sporefall-raid-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/wow-midnight-revelations-sporefall-raid-julio-2026.html</guid>
-      <pubDate>Fri, 17 Jul 2026 03:00:00 GMT</pubDate>
-      <description>La actualización Revelaciones (Patch 12.0.7) de WoW: Midnight trajo dos nuevas áreas para cazar líderes del Vacío, el sistema Omnium Folio de runas de poder y la raid Sporefall con Rotmire como único boss. Gear desde ilvl 259 (LFR) hasta 298 (Mythic) sin upgrades extra.</description>
-      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/9l/9LZ56JB5G4HJ1780421151653.png" medium="image"/>
-    </item>
-    <item>
-      <title>Hearthstone rompió sus propias reglas: Fuga del Bastión Violeta tiene 135 cartas y mecánicas que nunca viste</title>
-      <link>https://puntodespawn.com/posts/hearthstone-fuga-bastion-violeta-expansion-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/hearthstone-fuga-bastion-violeta-expansion-julio-2026.html</guid>
-      <pubDate>Fri, 17 Jul 2026 03:00:00 GMT</pubDate>
-      <description>La expansión más audaz de Hearthstone en años llegó el 7 de julio: 135 cartas, la mecánica Preparar (pre-pagás maná para descontar cartas en turnos futuros), legendarios que violan reglas básicas del juego y — por primera vez — esbirros que podés jugar en el tablero de tu oponente.</description>
-      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/fr/FR9C5P0C0WAJ1779837507380.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

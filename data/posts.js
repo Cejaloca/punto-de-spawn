@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'nvidia-dlss-45-ray-reconstruction-agosto-2026',
+    titulo: 'NVIDIA DLSS 4.5 Ray Reconstruction llegó para todas las RTX: mejor ray tracing sin perder performance',
+    extracto: 'NVIDIA lanzó DLSS 4.5 Ray Reconstruction en agosto vía NVIDIA App: disponible para todas las RTX desde la 2060 hasta las RTX 50, modelo transformer de segunda generación con 35% más capacidad de cómputo, y 27 juegos compatibles desde el día uno incluyendo Cyberpunk 2077 y Alan Wake 2.',
+    fecha: '2026-08-04',
+    fechaDisplay: '4 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['nvidia', 'hardware', 'dlss', 'ray-tracing', 'gpu', 'rtx', 'actualizacion'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/dlss-4-5-ray-reconstruction-1000-rtx-games-apps-out-now/dlss-4-5-ray-reconstruction-coming-this-august-ogimage.jpg',
+    archivo: 'posts/nvidia-dlss-45-ray-reconstruction-agosto-2026.html'
+  },
+  {
+    id: 'lol-parche-2616-preview-agosto-12-2026',
+    titulo: 'Preview Parche 26.16 de LoL — el 12 de agosto: Riot le pone fin a los mages bot y bufféa a los ADC',
+    extracto: 'El parche 26.16 llega el 12 de agosto con el movimiento más esperado del año: la penalidad por roaming de soporte sube de 25% hasta nivel 3 a 33% hasta nivel 5, buffs directos a los ADC en Berserker\'s Greaves y Fleet Footwork, y nerfs de sistema a los mages bot. Bel\'Veth también baja después del rework.',
+    fecha: '2026-08-04',
+    fechaDisplay: '4 de agosto de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 'adc', 'meta', 'mages-bot'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://www.hotspawn.com/wp-content/uploads/2026/07/league-of-legends-patch-26.16-.webp',
+    archivo: 'posts/lol-parche-2616-preview-agosto-12-2026.html'
+  },
+  {
+    id: 'qwen38-max-disponible-agosto-2026',
+    titulo: 'Qwen3.8-Max ya está disponible: 2,4 billones de parámetros, precios agresivos y pesos open source la semana que viene',
+    extracto: 'Alibaba lanzó oficialmente Qwen3.8-Max el 3 de agosto: 95B parámetros activos de 2,4 billones totales, contexto de 1 millón de tokens y precios al 40% de Claude Opus 5 ($2/$6 por millón de tokens). Los pesos open source llegan la semana del 10 de agosto junto al checkpoint Qwen3.8-27B.',
+    fecha: '2026-08-04',
+    fechaDisplay: '4 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'alibaba', 'qwen', 'ia', 'open-source', 'china', 'llm'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.marktechpost.com/wp-content/uploads/2026/08/blog6176-5-1024x731.png',
+    archivo: 'posts/qwen38-max-disponible-agosto-2026.html'
+  },
+  {
     id: 'star-wars-zero-company-preview-agosto-2026',
     titulo: 'Star Wars Zero Company sale el 27 de agosto: el XCOM de la Guerra de los Clones hecho por ex-Firaxis',
     extracto: 'Bit Reactor (fundada por ex-desarrolladores de Civilization y XCOM) y Respawn Entertainment presentan Star Wars Zero Company: un juego táctico por turnos single-player en la Guerra de los Clones. Hawks y Zero Company se meten en una conspiración que podría destruir la galaxia. Sale el 27 de agosto en PS5, Xbox Series X|S y PC.',
