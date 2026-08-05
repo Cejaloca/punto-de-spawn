@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'steam-cyberpunk-fest-agosto-2026',
+    titulo: 'Steam Cyberpunk Fest: Cyberpunk 2077 a USD 13,49 y más ofertas hasta el 10 de agosto',
+    extracto: 'Steam arrancó su festival cyberpunk hasta el 10 de agosto: Cyberpunk 2077 al 70% off (USD 13,49), RoboCop Rogue City al 90% (USD 2,99), Deus Ex: Mankind Divided al 85% (USD 4,49), RUINER al 90% y mucho más.',
+    fecha: '2026-08-05',
+    fechaDisplay: '5 de agosto de 2026',
+    categoria: 'ofertas',
+    tags: ['steam', 'ofertas', 'cyberpunk', 'descuentos', 'gaming', 'pc'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg',
+    archivo: 'posts/steam-cyberpunk-fest-agosto-2026.html'
+  },
+  {
+    id: 'marvel-rivals-season-95-the-hood-agosto-2026',
+    titulo: 'Marvel Rivals Season 9.5 — The Hood llega el 7 de agosto como nuevo Vanguard',
+    extracto: 'The Hood se suma a Marvel Rivals el 7 de agosto como Vanguard: pistolas demoníacas, barreras de magia oscura y un ultimate que perfora escudos. Season 9.5 trae además buffs a 18 héroes y 40 GB menos de peso en PC.',
+    fecha: '2026-08-05',
+    fechaDisplay: '5 de agosto de 2026',
+    categoria: 'patch-notes',
+    tags: ['marvel-rivals', 'patch-notes', 'the-hood', 'season-9', 'netease', 'gaming'],
+    juego: 'marvel-rivals',
+    juegoDisplay: 'Marvel Rivals',
+    imagen: 'https://insider-gaming.com/wp-content/uploads/2026/08/Marvel-Rivals-The-Hood.jpg',
+    archivo: 'posts/marvel-rivals-season-95-the-hood-agosto-2026.html'
+  },
+  {
     id: 'nvidia-dlss-45-ray-reconstruction-agosto-2026',
     titulo: 'NVIDIA DLSS 4.5 Ray Reconstruction llegó para todas las RTX: mejor ray tracing sin perder performance',
     extracto: 'NVIDIA lanzó DLSS 4.5 Ray Reconstruction en agosto vía NVIDIA App: disponible para todas las RTX desde la 2060 hasta las RTX 50, modelo transformer de segunda generación con 35% más capacidad de cómputo, y 27 juegos compatibles desde el día uno incluyendo Cyberpunk 2077 y Alan Wake 2.',

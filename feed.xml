@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 04 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Steam Cyberpunk Fest: Cyberpunk 2077 a USD 13,49 y más ofertas hasta el 10 de agosto</title>
+      <link>https://puntodespawn.com/posts/steam-cyberpunk-fest-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-cyberpunk-fest-agosto-2026.html</guid>
+      <pubDate>Wed, 05 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Steam arrancó su festival cyberpunk hasta el 10 de agosto: Cyberpunk 2077 al 70% off (USD 13,49), RoboCop Rogue City al 90% (USD 2,99), Deus Ex: Mankind Divided al 85% (USD 4,49), RUINER al 90% y mucho más.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Marvel Rivals Season 9.5 — The Hood llega el 7 de agosto como nuevo Vanguard</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-season-95-the-hood-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-season-95-the-hood-agosto-2026.html</guid>
+      <pubDate>Wed, 05 Aug 2026 03:00:00 GMT</pubDate>
+      <description>The Hood se suma a Marvel Rivals el 7 de agosto como Vanguard: pistolas demoníacas, barreras de magia oscura y un ultimate que perfora escudos. Season 9.5 trae además buffs a 18 héroes y 40 GB menos de peso en PC.</description>
+      <media:content url="https://insider-gaming.com/wp-content/uploads/2026/08/Marvel-Rivals-The-Hood.jpg" medium="image"/>
+    </item>
     <item>
       <title>NVIDIA DLSS 4.5 Ray Reconstruction llegó para todas las RTX: mejor ray tracing sin perder performance</title>
       <link>https://puntodespawn.com/posts/nvidia-dlss-45-ray-reconstruction-agosto-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Tue, 21 Jul 2026 03:00:00 GMT</pubDate>
       <description>Razer lanzó en julio dos colecciones completas de periféricos gaming temáticas de Pokémon: Espeon &amp; Umbreon (6 de julio) y Pikachu &amp; Eevee (15 de julio). Cada una incluye headset, teclado, mouse y pad, y están disponibles en América Latina.</description>
       <media:content url="https://www.razer.com/newsroom/wp-content/uploads/2026/07/KV-1.png" medium="image"/>
-    </item>
-    <item>
-      <title>Se filtró la RTX 5090 SE: 14.080 CUDA cores, 32GB y USD 1.500 para tapar el hueco entre la 5080 y la 5090</title>
-      <link>https://puntodespawn.com/posts/nvidia-rtx-5090-se-filtrado-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-rtx-5090-se-filtrado-julio-2026.html</guid>
-      <pubDate>Tue, 21 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Filtraciones de cadena de suministro apuntan a que NVIDIA prepara la RTX 5090 SE (14.080 CUDA cores, 32GB GDDR7, 500W, ~USD 1.500) para reemplazar la RTX 5080 Ti cancelada. También se rumorea una RTX 5080 Super con 24GB.</description>
-      <media:content url="https://www.pcguide.com/wp-content/uploads/2025/08/ROG-Astral-RTX-5090-BTF-OC-front-fans-Image-by-PC-Guide-e1783685325799.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Alibaba lanzó Qwen 3.8: 2,4 billones de parámetros, multimodal y pesos open source &quot;pronto&quot;</title>
-      <link>https://puntodespawn.com/posts/qwen-38-alibaba-24-billones-parametros-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/qwen-38-alibaba-24-billones-parametros-julio-2026.html</guid>
-      <pubDate>Mon, 20 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Alibaba sorprendió durante el World AI Conference en Shanghái con Qwen 3.8: 2,4 billones de parámetros MoE, multimodal (texto, imágenes, video, documentos) y acceso en preview desde ya. Dicen que es &quot;segundo solo detrás de Fable 5&quot;, pero sin benchmarks independientes.</description>
-      <media:content url="https://www.marktechpost.com/wp-content/uploads/2026/07/blog19132-37-1024x731.png" medium="image"/>
     </item>
   </channel>
 </rss>
