@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 05 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Corsair NIGHTSWORD v2 WIRELESS SD: el primer mouse gaming con Stream Deck integrado llega a USD 129,99</title>
+      <link>https://puntodespawn.com/posts/corsair-nightsword-v2-wireless-sd-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/corsair-nightsword-v2-wireless-sd-agosto-2026.html</guid>
+      <pubDate>Thu, 06 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Corsair presentó el NIGHTSWORD v2 WIRELESS SD: el primer mouse gaming del mundo con un botón dedicado de Stream Deck incorporado. Sensor MARKSMAN S de 33.000 DPI, polling de 8.000Hz inalámbrico y 170 horas de batería a USD 129,99.</description>
+      <media:content url="https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Gaming-Mice/NIGHTSWORD-v2-WIRELESS/Gallery/NIGHTSWORLD_v2_WIRELESS_SD_Artboard01_AA.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Marvel Tōkon: Fighting Souls lanzó hoy en PS5 y PC — el sucesor espiritual de Marvel vs. Capcom hecho por Arc System Works</title>
+      <link>https://puntodespawn.com/posts/marvel-tokon-fighting-souls-agosto-6-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-tokon-fighting-souls-agosto-6-2026.html</guid>
+      <pubDate>Thu, 06 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Arc System Works (Guilty Gear, Dragon Ball FighterZ) y Sony lanzaron hoy Marvel Tōkon: Fighting Souls: un 4v4 tag team fighter con 20 personajes en 5 equipos, mecánicas de Wall Break y cross-play entre PS5 y PC.</description>
+      <media:content url="https://static.beebom.com/wp-content/uploads/2026/08/marvel-tokon-fighting-souls-release-time-featured-image-1.png?w=1200&amp;quality=75" medium="image"/>
+    </item>
     <item>
       <title>Steam Cyberpunk Fest: Cyberpunk 2077 a USD 13,49 y más ofertas hasta el 10 de agosto</title>
       <link>https://puntodespawn.com/posts/steam-cyberpunk-fest-agosto-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Wed, 22 Jul 2026 03:00:00 GMT</pubDate>
       <description>Google DeepMind lanzó tres modelos el 21 de julio: Gemini 3.6 Flash (17% menos tokens, mejor código), 3.5 Flash-Lite (350 tokens/seg, el más veloz) y 3.5 Flash Cyber para ciberseguridad. De paso, confirmaron que el pre-entrenamiento de Gemini 4 ya arrancó.</description>
       <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art__statement_.width-1300.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Parche 26.15 de LoL el 29 de julio: Bel'Veth renace desde cero y arranca la Temporada 3</title>
-      <link>https://puntodespawn.com/posts/lol-parche-2615-belveth-rework-julio-29-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2615-belveth-rework-julio-29-2026.html</guid>
-      <pubDate>Tue, 21 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El parche 26.15 llega el 29 de julio con el rework completo de Bel'Veth (True Form permanente a los 80 stacks), buffs a Kai'Sa para el meta competitivo, un segundo nerf a Locke y el arranque oficial de la Temporada 3 Ranked.</description>
-      <media:content url="https://www.hotspawn.com/wp-content/uploads/2026/07/League-of-Legends-Patch-26.15.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Razer celebra los 30 años de Pokémon con dos colecciones de periféricos: Espeon &amp; Umbreon y Pikachu &amp; Eevee</title>
-      <link>https://puntodespawn.com/posts/razer-pokemon-espeon-umbreon-pikachu-eevee-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/razer-pokemon-espeon-umbreon-pikachu-eevee-julio-2026.html</guid>
-      <pubDate>Tue, 21 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Razer lanzó en julio dos colecciones completas de periféricos gaming temáticas de Pokémon: Espeon &amp; Umbreon (6 de julio) y Pikachu &amp; Eevee (15 de julio). Cada una incluye headset, teclado, mouse y pad, y están disponibles en América Latina.</description>
-      <media:content url="https://www.razer.com/newsroom/wp-content/uploads/2026/07/KV-1.png" medium="image"/>
     </item>
   </channel>
 </rss>

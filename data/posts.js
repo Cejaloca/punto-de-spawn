@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'corsair-nightsword-v2-wireless-sd-agosto-2026',
+    titulo: 'Corsair NIGHTSWORD v2 WIRELESS SD: el primer mouse gaming con Stream Deck integrado llega a USD 129,99',
+    extracto: 'Corsair presentó el NIGHTSWORD v2 WIRELESS SD: el primer mouse gaming del mundo con un botón dedicado de Stream Deck incorporado. Sensor MARKSMAN S de 33.000 DPI, polling de 8.000Hz inalámbrico y 170 horas de batería a USD 129,99.',
+    fecha: '2026-08-06',
+    fechaDisplay: '6 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'mouse', 'corsair', 'gaming', 'stream-deck', 'elgato', 'hardware', 'inalambrico'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Gaming-Mice/NIGHTSWORD-v2-WIRELESS/Gallery/NIGHTSWORLD_v2_WIRELESS_SD_Artboard01_AA.webp',
+    archivo: 'posts/corsair-nightsword-v2-wireless-sd-agosto-2026.html'
+  },
+  {
+    id: 'marvel-tokon-fighting-souls-agosto-6-2026',
+    titulo: 'Marvel Tōkon: Fighting Souls lanzó hoy en PS5 y PC — el sucesor espiritual de Marvel vs. Capcom hecho por Arc System Works',
+    extracto: 'Arc System Works (Guilty Gear, Dragon Ball FighterZ) y Sony lanzaron hoy Marvel Tōkon: Fighting Souls: un 4v4 tag team fighter con 20 personajes en 5 equipos, mecánicas de Wall Break y cross-play entre PS5 y PC.',
+    fecha: '2026-08-06',
+    fechaDisplay: '6 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['marvel', 'fighting-game', 'arc-system-works', 'sony', 'playstation', 'pc', 'lanzamiento', 'tag-team', 'steam'],
+    juego: 'Marvel Tokon Fighting Souls',
+    juegoDisplay: 'Marvel Tōkon: Fighting Souls',
+    imagen: 'https://static.beebom.com/wp-content/uploads/2026/08/marvel-tokon-fighting-souls-release-time-featured-image-1.png?w=1200&quality=75',
+    archivo: 'posts/marvel-tokon-fighting-souls-agosto-6-2026.html'
+  },
+  {
     id: 'steam-cyberpunk-fest-agosto-2026',
     titulo: 'Steam Cyberpunk Fest: Cyberpunk 2077 a USD 13,49 y más ofertas hasta el 10 de agosto',
     extracto: 'Steam arrancó su festival cyberpunk hasta el 10 de agosto: Cyberpunk 2077 al 70% off (USD 13,49), RoboCop Rogue City al 90% (USD 2,99), Deus Ex: Mankind Divided al 85% (USD 4,49), RUINER al 90% y mucho más.',
