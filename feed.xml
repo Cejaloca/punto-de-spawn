@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 06 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>OpenAI Astra resolvió 10 problemas matemáticos sin resolver en décadas — y le costó USD 2.000</title>
+      <link>https://puntodespawn.com/posts/openai-astra-matematicas-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-astra-matematicas-agosto-2026.html</guid>
+      <pubDate>Fri, 07 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El modelo interno Astra de OpenAI resolvió 10 problemas abiertos de matemáticas el 1 de agosto, incluyendo la primera construcción de un grupo no-sófico en 27 años. Cada prueba viene con un certificado Lean 4 verificable en GitHub, y le costó a OpenAI unos USD 2.000 en cómputo.</description>
+      <media:content url="https://d.techtimes.com/en/full/471014/astra-canyon.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Meta lanzó Muse Code: su primer agente de código para la terminal — y puede trabajar 24 horas solo</title>
+      <link>https://puntodespawn.com/posts/meta-muse-code-spark-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/meta-muse-code-spark-agosto-2026.html</guid>
+      <pubDate>Fri, 07 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Meta Superintelligence Labs lanzó el 5 de agosto Muse Code (beta), un agente de programación que corre en la terminal de macOS y Linux impulsado por Muse Spark 1.2. Puede tomar proyectos de repositorios completos, coordinar sub-agentes en paralelo y trabajar autónomamente durante hasta 24 horas.</description>
+      <media:content url="https://lookaside.fbsbx.com/elementpath/media/?media_id=27275013325511244&amp;version=1785879996" medium="image"/>
+    </item>
+    <item>
+      <title>Epic gratis desde el 13 de agosto: Caravan SandWitch — exploración post-apocalíptica sin combates ni muerte</title>
+      <link>https://puntodespawn.com/posts/epic-gratis-caravan-sandwitch-agosto-13-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-caravan-sandwitch-agosto-13-2026.html</guid>
+      <pubDate>Fri, 07 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El próximo jueves 13 llega Caravan SandWitch gratis a Epic: una aventura narrativa en una Provenza sci-fi post-apocalíptica donde buscás a tu hermana sin combates, sin muerte y sin timer. Disponible hasta el 20 de agosto.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1582650/header.jpg" medium="image"/>
+    </item>
     <item>
       <title>Corsair NIGHTSWORD v2 WIRELESS SD: el primer mouse gaming con Stream Deck integrado llega a USD 129,99</title>
       <link>https://puntodespawn.com/posts/corsair-nightsword-v2-wireless-sd-agosto-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Thu, 23 Jul 2026 03:00:00 GMT</pubDate>
       <description>2K confirmó las tres portadas del año: Victor Wembanyama en la edición estándar (primer Spur en la historia del juego), Caitlin Clark en la Deluxe (primera WNBA en portada global propia) y Derrick Rose en la Ultra, días después del retiro de su camiseta por los Bulls.</description>
       <media:content url="https://cdn.prgloo.com/media/695f0daef4444c83beef30d57fdfac2e.jpg?width=968&amp;height=1452" medium="image"/>
-    </item>
-    <item>
-      <title>Splatoon Raiders llegó al Switch 2: el spin-off single-player que nadie esperaba y que vale cada peso</title>
-      <link>https://puntodespawn.com/posts/splatoon-raiders-switch-2-lanzamiento-review-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/splatoon-raiders-switch-2-lanzamiento-review-julio-2026.html</guid>
-      <pubDate>Thu, 23 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Splatoon Raiders lanzó el 23 de julio exclusivo para Switch 2 con 80 en OpenCritic y 9/10 de IGN. Por primera vez la saga prioriza la aventura en solitario: el mecánico de Deep Cut explora las Spirhalite Islands, caza tesoros y enfrenta oleadas de Salmonids. $49.99 digital.</description>
-      <media:content url="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch2/70010000122824/cf587e01f6f115398f411f280dba21e025795eb69f234a41722341ea999d170d" medium="image"/>
-    </item>
-    <item>
-      <title>Bethesda confirmó Fallout 5, el spin-off de Obsidian y remasters de Fallout 3 y New Vegas — todo sin fechas, todo real</title>
-      <link>https://puntodespawn.com/posts/bethesda-fallout-5-obsidian-fallout-3-new-vegas-remasters-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/bethesda-fallout-5-obsidian-fallout-3-new-vegas-remasters-julio-2026.html</guid>
-      <pubDate>Wed, 22 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Todd Howard publicó el roadmap más ambicioso de Bethesda: Fallout 5 en pre-producción, Obsidian (los de New Vegas) trabajando en un nuevo Fallout, y remasters de Fallout 3 y New Vegas en desarrollo simultáneo.</description>
-      <media:content url="https://gameinformer.com/sites/default/files/styles/content_header_l/public/2025/10/23/43bbbc48/fallout-4-anniversary-edition-art.jpg.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Google lanzó Gemini 3.6 Flash: más rápido, más barato y ya confirmaron que Gemini 4 está en entrenamiento</title>
-      <link>https://puntodespawn.com/posts/gemini-36-flash-35-flash-lite-lanzamiento-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-36-flash-35-flash-lite-lanzamiento-julio-2026.html</guid>
-      <pubDate>Wed, 22 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Google DeepMind lanzó tres modelos el 21 de julio: Gemini 3.6 Flash (17% menos tokens, mejor código), 3.5 Flash-Lite (350 tokens/seg, el más veloz) y 3.5 Flash Cyber para ciberseguridad. De paso, confirmaron que el pre-entrenamiento de Gemini 4 ya arrancó.</description>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art__statement_.width-1300.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

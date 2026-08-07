@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'openai-astra-matematicas-agosto-2026',
+    titulo: 'OpenAI Astra resolvió 10 problemas matemáticos sin resolver en décadas — y le costó USD 2.000',
+    extracto: 'El modelo interno Astra de OpenAI resolvió 10 problemas abiertos de matemáticas el 1 de agosto, incluyendo la primera construcción de un grupo no-sófico en 27 años. Cada prueba viene con un certificado Lean 4 verificable en GitHub, y le costó a OpenAI unos USD 2.000 en cómputo.',
+    fecha: '2026-08-07',
+    fechaDisplay: '7 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'ia', 'matematicas', 'astra', 'benchmark'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://d.techtimes.com/en/full/471014/astra-canyon.jpg',
+    archivo: 'posts/openai-astra-matematicas-agosto-2026.html'
+  },
+  {
+    id: 'meta-muse-code-spark-agosto-2026',
+    titulo: 'Meta lanzó Muse Code: su primer agente de código para la terminal — y puede trabajar 24 horas solo',
+    extracto: 'Meta Superintelligence Labs lanzó el 5 de agosto Muse Code (beta), un agente de programación que corre en la terminal de macOS y Linux impulsado por Muse Spark 1.2. Puede tomar proyectos de repositorios completos, coordinar sub-agentes en paralelo y trabajar autónomamente durante hasta 24 horas.',
+    fecha: '2026-08-07',
+    fechaDisplay: '7 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'meta', 'ia', 'coding', 'muse-code', 'agentes', 'terminal'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=27275013325511244&version=1785879996',
+    archivo: 'posts/meta-muse-code-spark-agosto-2026.html'
+  },
+  {
+    id: 'epic-gratis-caravan-sandwitch-agosto-13-2026',
+    titulo: 'Epic gratis desde el 13 de agosto: Caravan SandWitch — exploración post-apocalíptica sin combates ni muerte',
+    extracto: 'El próximo jueves 13 llega Caravan SandWitch gratis a Epic: una aventura narrativa en una Provenza sci-fi post-apocalíptica donde buscás a tu hermana sin combates, sin muerte y sin timer. Disponible hasta el 20 de agosto.',
+    fecha: '2026-08-07',
+    fechaDisplay: '7 de agosto de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'aventura', 'indie', 'narrativo'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1582650/header.jpg',
+    archivo: 'posts/epic-gratis-caravan-sandwitch-agosto-13-2026.html'
+  },
+  {
     id: 'corsair-nightsword-v2-wireless-sd-agosto-2026',
     titulo: 'Corsair NIGHTSWORD v2 WIRELESS SD: el primer mouse gaming con Stream Deck integrado llega a USD 129,99',
     extracto: 'Corsair presentó el NIGHTSWORD v2 WIRELESS SD: el primer mouse gaming del mundo con un botón dedicado de Stream Deck incorporado. Sensor MARKSMAN S de 33.000 DPI, polling de 8.000Hz inalámbrico y 170 horas de batería a USD 129,99.',

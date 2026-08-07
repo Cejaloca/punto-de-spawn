@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta lanzó Muse Code: su primer agente de código para la terminal — PuntoDeSpawn</title>
+  <meta name="description" content="Meta Superintelligence Labs lanzó Muse Code (beta) el 5 de agosto: un agente de programación que corre en la terminal de macOS y Linux, impulsado por Muse Spark 1.2. Puede trabajar en repos enteros durante hasta 24 horas sin intervención.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel='icon' href='../favicon.svg' type='image/svg+xml'>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5515559999355995" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../tecnologia.html">Tecnología</a></li>
+          <li><a href="../gaming.html">Gaming</a></li>
+          <li><a href="../ofertas.html">Ofertas</a></li>
+          <li><a href="../comunidad.html">Comunidad</a></li>
+          <li><a href="../nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <div class="post-article">
+        <header class="post-header">
+          <div class="post-badges">
+            <span class="badge badge-tecnologia">Tecnología</span>
+          </div>
+          <h1 class="post-title">Meta lanzó Muse Code: su primer agente de código para la terminal — y puede trabajar 24 horas solo</h1>
+          <div class="post-meta">
+            <span class="author">Cejaloca</span>
+            <span class="divider">·</span>
+            <span>7 de agosto de 2026</span>
+            <button class="reading-mode-btn" id="reading-mode-btn">☰ Modo lectura</button>
+          </div>
+          <div class="post-tags">
+            <span class="tag">inteligencia-artificial</span>
+            <span class="tag">meta</span>
+            <span class="tag">muse-code</span>
+            <span class="tag">coding</span>
+            <span class="tag">agentes</span>
+          </div>
+        </header>
+
+        <div class="post-body">
+          <img src="https://lookaside.fbsbx.com/elementpath/media/?media_id=27275013325511244&version=1785879996" alt="Meta Muse Code y Muse Spark 1.2" class="post-hero-img" loading="lazy">
+
+          <p>El 5 de agosto, Meta Superintelligence Labs lanzó <strong>Muse Code</strong> (beta) junto con <strong>Muse Spark 1.2</strong>, su nuevo modelo de IA enfocado en programación. La propuesta es directa: un agente que se instala en la terminal y puede tomar una tarea de código compleja, dividirla en partes, coordinar sub-agentes para resolverlas en paralelo y entregarte el resultado — durante horas si hace falta.</p>
+
+          <h2>¿Qué hace Muse Code que otros no hacen?</h2>
+
+          <p>La diferencia clave respecto a asistentes de código comunes es que Muse Code opera con <strong>agentes de fondo persistentes</strong> que se mantienen activos durante toda la sesión. No son agentes que se crean y destruyen por cada tarea — están siempre corriendo, acumulando contexto, y cuando terminan una parte del trabajo le avisan al agente principal. Esto permite que se enfrente a tareas largas (más de 1.000 llamadas a herramientas, hasta 24 horas de trabajo continuo) sin que el agente se pierda en el camino.</p>
+
+          <p>El runtime usa un <strong>registro de eventos local</strong> donde se registra cada llamada al modelo, cada tool run y cada edición. Si el proceso se cae, Muse Code puede reiniciarse exactamente donde quedó — restart-safe, le dicen. Viene con tres comandos built-in: <code>/plan</code> convierte una tarea en un plan aprobado por el usuario, <code>/grill</code> estresa ese plan hasta que aguante, y <code>/goal</code> trabaja autónomamente hasta completar el objetivo.</p>
+
+          <h2>Muse Spark 1.2: el modelo detrás</h2>
+
+          <p>Muse Spark 1.2 es una actualización coding-focused de la 1.1. Meta escala el cómputo de entrenamiento específicamente en tareas de código y expande la diversidad de entornos de entrenamiento. El modelo fue co-entrenado directamente con Muse Code, lo que significa que los dos están optimizados para funcionar juntos — las trayectorias del agente forman parte del dataset de entrenamiento del modelo.</p>
+
+          <p>En benchmarks de terminal coding (Terminal-Bench 2.1) y de ingeniería de software (DeepSWE 1.1), Muse Spark 1.2 supera a sus predecesores. Meta también lo probó en <strong>optimización de kernels de GPU</strong> para NVIDIA Hopper: el agente escribió, compiló, perfiló y mejoró kernels iterativamente durante más de 1.000 tool calls, logrando mejoras significativas sobre las implementaciones de referencia.</p>
+
+          <h2>Cómo instalarlo y cuánto cuesta</h2>
+
+          <p>Si usás macOS o Linux, instalás Muse Code con un solo comando:</p>
+
+          <pre><code>curl -fsSL https://dev.meta.ai/install.sh | bash</code></pre>
+
+          <p>El modelo en API tiene un precio de <strong>USD 1,25 por millón de tokens de entrada y USD 4,25 de salida</strong>. También existe un tier "contributor" a USD 0,10 / USD 0,20 a cambio de que Meta use tus prompts y completions para entrenar modelos futuros — avisado queda.</p>
+
+          <p>En perspectiva: Meta tenía Muse Spark 1.1 como su primer modelo de pago (lanzado en julio), y ahora en menos de un mes ya tiene un agente de código propio compitiendo directamente contra Claude Code, Gemini CLI y Cursor. La guerra de los coding agents se pone cada vez más interesante.</p>
+        </div>
+
+        <div class="share-section">
+          <p class="share-label">¿Te gustó? Compartilo</p>
+          <div class="share-buttons">
+            <button class="share-btn" data-action="whatsapp">WhatsApp</button>
+            <button class="share-btn" data-action="twitter">Twitter / X</button>
+            <button class="share-btn" data-action="copy"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copiar link</button>
+          </div>
+        </div>
+
+        <div id="related-posts"></div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+          <p class="footer-tagline">Tu punto de spawn en el mundo tech y gaming.</p>
+          <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener" class="footer-social">@puntodespawn.ok</a>
+        </div>
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="../tecnologia.html">Tecnología</a></li>
+            <li><a href="../gaming.html">Gaming</a></li>
+            <li><a href="../ofertas.html">Ofertas</a></li>
+            <li><a href="../comunidad.html">Comunidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>El sitio</h4>
+          <ul>
+            <li><a href="../nosotros.html">Nosotros</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../data/posts.js"></script>
+  <script src="../js/posts.js"></script>
+  <script src="../js/main.js"></script>
+  <script>renderRelatedPosts('meta-muse-code-spark-agosto-2026', 'tecnologia');</script>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>
