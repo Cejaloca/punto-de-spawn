@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta lanzó Muse Glimmer: 30B parámetros open source que corren en tu Mac o PC — PuntoDeSpawn</title>
+  <meta name="description" content="Meta Superintelligence Labs lanzó Muse Glimmer: un modelo de 30B parámetros con licencia Apache 2.0 que corre en tu computadora sin internet. Menos de 20GB cuantizado, optimizado para agentes locales, coding y tool use, compatible con GPUs de 24-32GB.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel='icon' href='../favicon.svg' type='image/svg+xml'>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5515559999355995" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../tecnologia.html">Tecnología</a></li>
+          <li><a href="../gaming.html">Gaming</a></li>
+          <li><a href="../ofertas.html">Ofertas</a></li>
+          <li><a href="../comunidad.html">Comunidad</a></li>
+          <li><a href="../nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <div class="post-article">
+        <header class="post-header">
+          <div class="post-badges">
+            <span class="badge badge-tecnologia">Tecnología</span>
+          </div>
+          <h1 class="post-title">Meta lanzó Muse Glimmer: 30B parámetros open source que corren en tu Mac o PC, sin internet</h1>
+          <div class="post-meta">
+            <span class="author">Cejaloca</span>
+            <span class="divider">·</span>
+            <span>10 de agosto de 2026</span>
+            <button class="reading-mode-btn" id="reading-mode-btn">☰ Modo lectura</button>
+          </div>
+          <div class="post-tags">
+            <span class="tag">inteligencia-artificial</span>
+            <span class="tag">meta</span>
+            <span class="tag">ia</span>
+            <span class="tag">open-source</span>
+            <span class="tag">muse-glimmer</span>
+            <span class="tag">agentes</span>
+            <span class="tag">local</span>
+          </div>
+        </header>
+
+        <div class="post-body">
+          <img src="https://lookaside.fbsbx.com/elementpath/media/?media_id=2272911630133843&version=1786289182" alt="Meta Muse Glimmer — modelo de IA local de 30B parámetros" class="post-hero-img" loading="lazy">
+
+          <p>Hoy Meta Superintelligence Labs lanzó <strong>Muse Glimmer</strong>: un modelo de 30.000 millones de parámetros diseñado para correr completamente en tu computadora, sin nube, sin internet, sin suscripción. Los pesos están disponibles gratis en Hugging Face bajo licencia <strong>Apache 2.0</strong>, o sea: podés bajarlo, modificarlo y usarlo en proyectos comerciales sin pagar nada.</p>
+
+          <h2>¿Qué tiene de especial?</h2>
+
+          <p>La mayoría de los modelos de IA potentes viven en la nube. Muse Glimmer apuesta por lo contrario: que puedas tener un agente de IA siempre disponible en tu máquina, que acceda a tus archivos locales, tu calendario y tus apps sin mandar nada a ningún servidor. Para gaming y creadores de contenido, eso significa <strong>cero latencia de red y privacidad total</strong> sobre todo lo que le das al modelo.</p>
+
+          <p>Técnicamente, los 30B parámetros quedarían en más de 55 GB si estuvieran en precisión completa — demasiado para cualquier GPU de consumo. Meta aplicó cuantización a 4 bits y lo comprimió a <strong>menos de 20 GB</strong>, lo que lo hace correr en GPUs de 24 GB (como una RTX 4090 o 5080) o 32 GB, junto con la caché y el encoder de imágenes incluidos. También probaron en MacBook con chip M4 Max y M5 Max.</p>
+
+          <h2>¿Qué puede hacer?</h2>
+
+          <p>Muse Glimmer fue entrenado específicamente para tareas agénticas, no solo para chatear. Entre sus puntos fuertes están el <strong>uso de herramientas</strong> (APIs, scripts, archivos), el <strong>coding</strong>, el seguimiento de instrucciones en múltiples pasos y la capacidad de recuperarse cuando algo falla en lugar de rendirse. También acepta imágenes como entrada, lo que lo hace útil para interpretar capturas de pantalla o documentos.</p>
+
+          <p>Meta distilló a Muse Glimmer desde Muse Spark — el modelo grande del que también salió Muse Code — usando un proceso de entrenamiento por fases: primero en los outputs del modelo maestro, luego en datos más agénticos con traces de razonamiento, y finalmente con reinforcement learning. El resultado supera en benchmarks agénticos a Gemma4-31B y Qwen3.6-27B, los competidores directos de tamaño similar.</p>
+
+          <h2>¿Cómo lo probás?</h2>
+
+          <p>Podés bajar los pesos desde <a href="https://huggingface.co/meta-models/Muse-Glimmer-30B" target="_blank" rel="noopener">Hugging Face</a> ahora mismo. En los próximos días llega soporte nativo en <strong>Ollama, LM Studio, llama.cpp y MLX</strong> (para Mac), que son las apps más usadas para correr LLMs locales. Si tenés una GPU Nvidia, también estará disponible vía vLLM y SGLang para deployment más serio.</p>
+
+          <p>Meta también anunció que <strong>Muse Spark 1.2</strong>, la versión más grande de la familia, va a salir pronto como open weights. Glimmer sería la opción para hardware de consumo; Spark 1.2 apuntaría a servers y máquinas de alta gama.</p>
+        </div>
+
+        <div class="share-section">
+          <p class="share-label">¿Te gustó? Compartilo</p>
+          <div class="share-buttons">
+            <button class="share-btn" data-action="whatsapp">WhatsApp</button>
+            <button class="share-btn" data-action="twitter">Twitter / X</button>
+            <button class="share-btn" data-action="copy"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copiar link</button>
+          </div>
+        </div>
+
+        <div id="related-posts"></div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+          <p class="footer-tagline">Tu punto de spawn en el mundo tech y gaming.</p>
+          <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener" class="footer-social">@puntodespawn.ok</a>
+        </div>
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="../tecnologia.html">Tecnología</a></li>
+            <li><a href="../gaming.html">Gaming</a></li>
+            <li><a href="../ofertas.html">Ofertas</a></li>
+            <li><a href="../comunidad.html">Comunidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>El sitio</h4>
+          <ul>
+            <li><a href="../nosotros.html">Nosotros</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../data/posts.js"></script>
+  <script src="../js/posts.js"></script>
+  <script src="../js/main.js"></script>
+  <script>renderRelatedPosts('meta-muse-glimmer-ia-local-agosto-2026', 'tecnologia');</script>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>

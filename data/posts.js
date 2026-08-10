@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'elden-ring-tarnished-edition-switch-2-agosto-28-2026',
+    titulo: 'Elden Ring Tarnished Edition llega el 28 de agosto al Switch 2: clases nuevas y contenido también para PS5 y PC',
+    extracto: 'FromSoftware anunció el 28 de agosto para Elden Ring Tarnished Edition en Switch 2: base game + Shadow of the Erdtree a USD 79,99, dos clases nuevas (Knight of Ides y Heavy Warrior), cuatro armaduras inéditas y personalización de Torrent. El "Tarnished Pack" llega el mismo día como DLC para PS4, PS5, Xbox y Steam.',
+    fecha: '2026-08-10',
+    fechaDisplay: '10 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['elden-ring', 'fromsoft', 'bandai-namco', 'switch-2', 'nintendo', 'soulslike', 'rpg', 'dlc'],
+    juego: 'Elden Ring',
+    juegoDisplay: 'Elden Ring: Tarnished Edition',
+    imagen: 'https://static.bandainamcoent.eu/high/elden-ring/elden-ring-tarnished-edition/01-news/ER_TE_Thumbnail-announcement.jpg',
+    archivo: 'posts/elden-ring-tarnished-edition-switch-2-agosto-28-2026.html'
+  },
+  {
+    id: 'meta-muse-glimmer-ia-local-agosto-2026',
+    titulo: 'Meta lanzó Muse Glimmer: 30B parámetros open source que corren en tu Mac o PC, sin internet',
+    extracto: 'Meta Superintelligence Labs lanzó Muse Glimmer: un modelo de 30.000 millones de parámetros con licencia Apache 2.0 diseñado para correr en tu computadora sin internet. Menos de 20GB cuantizado, optimizado para agentes locales, coding y tool use, y compatible con GPUs de 24-32GB.',
+    fecha: '2026-08-10',
+    fechaDisplay: '10 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'meta', 'ia', 'open-source', 'muse-glimmer', 'agentes', 'local'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=2272911630133843&version=1786289182',
+    archivo: 'posts/meta-muse-glimmer-ia-local-agosto-2026.html'
+  },
+  {
+    id: 'oblivion-remastered-switch-2-agosto-2026',
+    titulo: 'Oblivion Remastered llega mañana al Switch 2: todo el juego en el cartucho a USD 49,99',
+    extracto: 'The Elder Scrolls IV: Oblivion Remastered llega el 11 de agosto al Nintendo Switch 2: edición estándar a USD 49,99 con Shivering Isles, Knights of the Nine y todos los DLC incluidos. El cartucho físico trae el juego completo sin descarga adicional, y corre a 900p en modo portátil y 1080p en TV a 30fps.',
+    fecha: '2026-08-10',
+    fechaDisplay: '10 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['elder-scrolls', 'oblivion', 'bethesda', 'switch-2', 'nintendo', 'rpg', 'remaster', 'lanzamiento'],
+    juego: 'Oblivion Remastered',
+    juegoDisplay: 'The Elder Scrolls IV: Oblivion Remastered',
+    imagen: 'https://res.cloudinary.com/dewzjk72j/image/authenticated/s--_IiBc6df--/c_lfill,w_1200,h_630/f_auto:image,q_auto/v1/cms/OblivionRemastered_LargeHero_AvailableNow_inzwda',
+    archivo: 'posts/oblivion-remastered-switch-2-agosto-2026.html'
+  },
+  {
     id: 'openai-astra-matematicas-agosto-2026',
     titulo: 'OpenAI Astra resolvió 10 problemas matemáticos sin resolver en décadas — y le costó USD 2.000',
     extracto: 'El modelo interno Astra de OpenAI resolvió 10 problemas abiertos de matemáticas el 1 de agosto, incluyendo la primera construcción de un grupo no-sófico en 27 años. Cada prueba viene con un certificado Lean 4 verificable en GitHub, y le costó a OpenAI unos USD 2.000 en cómputo.',

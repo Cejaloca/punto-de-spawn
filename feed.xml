@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 07 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Elden Ring Tarnished Edition llega el 28 de agosto al Switch 2: clases nuevas y contenido también para PS5 y PC</title>
+      <link>https://puntodespawn.com/posts/elden-ring-tarnished-edition-switch-2-agosto-28-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/elden-ring-tarnished-edition-switch-2-agosto-28-2026.html</guid>
+      <pubDate>Mon, 10 Aug 2026 03:00:00 GMT</pubDate>
+      <description>FromSoftware anunció el 28 de agosto para Elden Ring Tarnished Edition en Switch 2: base game + Shadow of the Erdtree a USD 79,99, dos clases nuevas (Knight of Ides y Heavy Warrior), cuatro armaduras inéditas y personalización de Torrent. El &quot;Tarnished Pack&quot; llega el mismo día como DLC para PS4, PS5, Xbox y Steam.</description>
+      <media:content url="https://static.bandainamcoent.eu/high/elden-ring/elden-ring-tarnished-edition/01-news/ER_TE_Thumbnail-announcement.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Meta lanzó Muse Glimmer: 30B parámetros open source que corren en tu Mac o PC, sin internet</title>
+      <link>https://puntodespawn.com/posts/meta-muse-glimmer-ia-local-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/meta-muse-glimmer-ia-local-agosto-2026.html</guid>
+      <pubDate>Mon, 10 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Meta Superintelligence Labs lanzó Muse Glimmer: un modelo de 30.000 millones de parámetros con licencia Apache 2.0 diseñado para correr en tu computadora sin internet. Menos de 20GB cuantizado, optimizado para agentes locales, coding y tool use, y compatible con GPUs de 24-32GB.</description>
+      <media:content url="https://lookaside.fbsbx.com/elementpath/media/?media_id=2272911630133843&amp;version=1786289182" medium="image"/>
+    </item>
+    <item>
+      <title>Oblivion Remastered llega mañana al Switch 2: todo el juego en el cartucho a USD 49,99</title>
+      <link>https://puntodespawn.com/posts/oblivion-remastered-switch-2-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/oblivion-remastered-switch-2-agosto-2026.html</guid>
+      <pubDate>Mon, 10 Aug 2026 03:00:00 GMT</pubDate>
+      <description>The Elder Scrolls IV: Oblivion Remastered llega el 11 de agosto al Nintendo Switch 2: edición estándar a USD 49,99 con Shivering Isles, Knights of the Nine y todos los DLC incluidos. El cartucho físico trae el juego completo sin descarga adicional, y corre a 900p en modo portátil y 1080p en TV a 30fps.</description>
+      <media:content url="https://res.cloudinary.com/dewzjk72j/image/authenticated/s--_IiBc6df--/c_lfill,w_1200,h_630/f_auto:image,q_auto/v1/cms/OblivionRemastered_LargeHero_AvailableNow_inzwda" medium="image"/>
+    </item>
     <item>
       <title>OpenAI Astra resolvió 10 problemas matemáticos sin resolver en décadas — y le costó USD 2.000</title>
       <link>https://puntodespawn.com/posts/openai-astra-matematicas-agosto-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Fri, 24 Jul 2026 03:00:00 GMT</pubDate>
       <description>El jueves 30 de julio cambian los gratis de Epic: llegan Sol Cesto (roguelite táctico premiado, hecho por tres devs indie franceses) y OTXO (shooter top-down violento tipo Hotline Miami). USD 20.98 de valor combinado, disponibles hasta el 6 de agosto.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1608640/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Avatar Legends: The Fighting Game llegó con 82 en OpenCritic — el mejor juego de Avatar de la historia</title>
-      <link>https://puntodespawn.com/posts/avatar-legends-fighting-game-lanzamiento-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/avatar-legends-fighting-game-lanzamiento-julio-2026.html</guid>
-      <pubDate>Fri, 24 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El juego de pelea basado en Avatar: The Last Airbender y The Legend of Korra lanzó el 23 de julio a USD 29.99 con 12 personajes y el mejor score de un fighter en 2026. Arte dibujado a mano, sistema de apoyo y rollback netcode con crossplay.</description>
-      <media:content url="https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/07/avatar-legends-the-fighting-game-reviews-are-now-live-gamerant-feature.jpg?w=1600&amp;h=900&amp;fit=crop" medium="image"/>
-    </item>
-    <item>
-      <title>AMD Advancing AI 2026: Zen 6 en 2nm, el rack Helios a $5M y Microsoft como primer cliente</title>
-      <link>https://puntodespawn.com/posts/amd-advancing-ai-2026-zen6-venice-helios-mi455x-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-advancing-ai-2026-zen6-venice-helios-mi455x-julio-2026.html</guid>
-      <pubDate>Thu, 23 Jul 2026 03:00:00 GMT</pubDate>
-      <description>AMD presentó EPYC Venice (Zen 6, 2nm, 256 cores), el rack Helios con 2.9 exaflops y 31 TB de HBM4, y la GPU MI455X. Microsoft Azure es el primer cliente confirmado y empieza a recibir racks en el segundo semestre de 2026.</description>
-      <media:content url="https://cdn.wccftech.com/wp-content/uploads/2026/01/AMD-Helios-2nm-Venice-Zen-6-CPU-MI455X-GPU-_F-1920x1080.png" medium="image"/>
-    </item>
-    <item>
-      <title>NBA 2K27 revela sus portadas: Wembanyama, Caitlin Clark y Derrick Rose — sale el 4 de septiembre</title>
-      <link>https://puntodespawn.com/posts/nba-2k27-wembanyama-caitlin-clark-derrick-rose-portadas-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/nba-2k27-wembanyama-caitlin-clark-derrick-rose-portadas-septiembre-2026.html</guid>
-      <pubDate>Thu, 23 Jul 2026 03:00:00 GMT</pubDate>
-      <description>2K confirmó las tres portadas del año: Victor Wembanyama en la edición estándar (primer Spur en la historia del juego), Caitlin Clark en la Deluxe (primera WNBA en portada global propia) y Derrick Rose en la Ultra, días después del retiro de su camiseta por los Bulls.</description>
-      <media:content url="https://cdn.prgloo.com/media/695f0daef4444c83beef30d57fdfac2e.jpg?width=968&amp;height=1452" medium="image"/>
     </item>
   </channel>
 </rss>
