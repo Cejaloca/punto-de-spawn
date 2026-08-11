@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'gta-6-extended-look-netflix-agosto-27-2026',
+    titulo: 'GTA 6 muestra su primer gameplay el 27 de agosto: exclusivo en Netflix 6 horas antes que YouTube',
+    extracto: 'Rockstar anunció "Grand Theft Auto VI: An Extended Look": el primer footage real de GTA 6 llega el 27 de agosto en Netflix a las 16 hs Argentina, posiblemente ~30 minutos de gameplay. Recién a las 22 hs llega a YouTube. El juego sale el 19 de noviembre para PS5 y Xbox Series X|S.',
+    fecha: '2026-08-11',
+    fechaDisplay: '11 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['gta-6', 'rockstar', 'take-two', 'netflix', 'gameplay', 'trailer', 'ps5', 'xbox'],
+    juego: 'GTA VI',
+    juegoDisplay: 'Grand Theft Auto VI',
+    imagen: 'https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2kaa1o3297k9/4faf2f8d60cd657f09eb55707b31cc44008bfa4c.jpg',
+    archivo: 'posts/gta-6-extended-look-netflix-agosto-27-2026.html'
+  },
+  {
+    id: 'prime-gaming-agosto-2026-12-juegos-gratis',
+    titulo: 'Prime Gaming agosto 2026: 12 juegos gratis este mes — Civilization III y Thief disponibles ahora',
+    extracto: 'Amazon Prime trae 12 juegos gratuitos para agosto 2026: Civilization III Complete, Thief: Definitive Edition y The Academy ya disponibles. Otros 9 juegos llegan en olas el 14, 21 y 28 de agosto.',
+    fecha: '2026-08-11',
+    fechaDisplay: '11 de agosto de 2026',
+    categoria: 'ofertas',
+    tags: ['prime-gaming', 'amazon', 'gratis', 'ofertas', 'civilizacion', 'thief', 'indie'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/3910/header.jpg',
+    archivo: 'posts/prime-gaming-agosto-2026-12-juegos-gratis.html'
+  },
+  {
+    id: 'seedance-25-bytedance-video-ia-agosto-2026',
+    titulo: 'Seedance 2.5: el modelo de IA de ByteDance que genera 30 segundos de video nativo — ahora disponible',
+    extracto: 'ByteDance lanzó Seedance 2.5 en Dreamina y CapCut: hasta 30 segundos de video generados de una sola pasada sin stitching, 4K, audio en 10+ idiomas y hasta 50 referencias multimodales. Disponible desde el 7 de agosto vía API.',
+    fecha: '2026-08-11',
+    fechaDisplay: '11 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'ia', 'bytedance', 'video', 'seedance', 'capcut', 'dreamina', 'creatividad'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://mmx.prnewswire.com/media/MS1962863/20260803083530EDT_image_1.jpg?id=OA2821655&p=facebook',
+    archivo: 'posts/seedance-25-bytedance-video-ia-agosto-2026.html'
+  },
+  {
     id: 'elden-ring-tarnished-edition-switch-2-agosto-28-2026',
     titulo: 'Elden Ring Tarnished Edition llega el 28 de agosto al Switch 2: clases nuevas y contenido también para PS5 y PC',
     extracto: 'FromSoftware anunció el 28 de agosto para Elden Ring Tarnished Edition en Switch 2: base game + Shadow of the Erdtree a USD 79,99, dos clases nuevas (Knight of Ides y Heavy Warrior), cuatro armaduras inéditas y personalización de Torrent. El "Tarnished Pack" llega el mismo día como DLC para PS4, PS5, Xbox y Steam.',

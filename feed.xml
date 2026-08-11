@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 10 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>GTA 6 muestra su primer gameplay el 27 de agosto: exclusivo en Netflix 6 horas antes que YouTube</title>
+      <link>https://puntodespawn.com/posts/gta-6-extended-look-netflix-agosto-27-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gta-6-extended-look-netflix-agosto-27-2026.html</guid>
+      <pubDate>Tue, 11 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Rockstar anunció &quot;Grand Theft Auto VI: An Extended Look&quot;: el primer footage real de GTA 6 llega el 27 de agosto en Netflix a las 16 hs Argentina, posiblemente ~30 minutos de gameplay. Recién a las 22 hs llega a YouTube. El juego sale el 19 de noviembre para PS5 y Xbox Series X|S.</description>
+      <media:content url="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2kaa1o3297k9/4faf2f8d60cd657f09eb55707b31cc44008bfa4c.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Prime Gaming agosto 2026: 12 juegos gratis este mes — Civilization III y Thief disponibles ahora</title>
+      <link>https://puntodespawn.com/posts/prime-gaming-agosto-2026-12-juegos-gratis.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/prime-gaming-agosto-2026-12-juegos-gratis.html</guid>
+      <pubDate>Tue, 11 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Amazon Prime trae 12 juegos gratuitos para agosto 2026: Civilization III Complete, Thief: Definitive Edition y The Academy ya disponibles. Otros 9 juegos llegan en olas el 14, 21 y 28 de agosto.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/3910/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Seedance 2.5: el modelo de IA de ByteDance que genera 30 segundos de video nativo — ahora disponible</title>
+      <link>https://puntodespawn.com/posts/seedance-25-bytedance-video-ia-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/seedance-25-bytedance-video-ia-agosto-2026.html</guid>
+      <pubDate>Tue, 11 Aug 2026 03:00:00 GMT</pubDate>
+      <description>ByteDance lanzó Seedance 2.5 en Dreamina y CapCut: hasta 30 segundos de video generados de una sola pasada sin stitching, 4K, audio en 10+ idiomas y hasta 50 referencias multimodales. Disponible desde el 7 de agosto vía API.</description>
+      <media:content url="https://mmx.prnewswire.com/media/MS1962863/20260803083530EDT_image_1.jpg?id=OA2821655&amp;p=facebook" medium="image"/>
+    </item>
     <item>
       <title>Elden Ring Tarnished Edition llega el 28 de agosto al Switch 2: clases nuevas y contenido también para PS5 y PC</title>
       <link>https://puntodespawn.com/posts/elden-ring-tarnished-edition-switch-2-agosto-28-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 27 Jul 2026 03:00:00 GMT</pubDate>
       <description>Black Forest Labs lanzó FLUX 3 el 23 de julio: el primer modelo de IA que aprende video, imágenes y audio en una arquitectura unificada. Genera hasta 20 segundos de video con audio sincronizado y ya supera a Runway Gen-4.5 en el 77% de comparaciones. Está en early access.</description>
       <media:content url="https://cdn.sanity.io/images/2gpum2i6/production/8cfc4af7a44825034e3bc938927315b68d6696bd-1900x1264.png" medium="image"/>
-    </item>
-    <item>
-      <title>Steam Machine 2026: un mes con la consola de Valve que no es consola — ¿vale USD 1.049?</title>
-      <link>https://puntodespawn.com/posts/valve-steam-machine-2026-consola-review.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/valve-steam-machine-2026-consola-review.html</guid>
-      <pubDate>Mon, 27 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Valve lanzó la Steam Machine el 25 de junio a USD 1.049 (512GB) y USD 1.349 (2TB): un cubo compacto con SteamOS que corre toda tu biblioteca de Steam en el televisor con AMD Zen 4 y RDNA3. Un mes después, analizamos si la propuesta tiene sentido.</description>
-      <media:content url="https://cdn.mos.cms.futurecdn.net/8DezZHgBp4gfDfHJeE8WSR-1160-80.png" medium="image"/>
-    </item>
-    <item>
-      <title>DeepSeek V4 ya es estable: open weight, 1 millón de tokens de contexto y precios que hacen quedar mal a todos</title>
-      <link>https://puntodespawn.com/posts/deepseek-v4-stable-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/deepseek-v4-stable-julio-2026.html</guid>
-      <pubDate>Fri, 24 Jul 2026 03:00:00 GMT</pubDate>
-      <description>DeepSeek V4 salió de preview con su lanzamiento oficial en julio: V4-Pro (1.6T parámetros MoE, 49B activos) y V4-Flash con 1M de tokens de contexto por defecto y precios brutales — $0.87 por millón de tokens de salida. Los pesos están disponibles para bajar y hacer auto-hosting.</description>
-      <media:content url="https://i0.wp.com/technode.com/wp-content/uploads/2026/04/deepseek-solen-feyissa-o9ZvZfNaovA-unsplash.jpg?fit=1200%2C801&amp;ssl=1" medium="image"/>
-    </item>
-    <item>
-      <title>Epic gratis desde el 30 de julio: Sol Cesto y OTXO — dos roguelites muy distintos</title>
-      <link>https://puntodespawn.com/posts/epic-gratis-sol-cesto-otxo-julio-30-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-sol-cesto-otxo-julio-30-2026.html</guid>
-      <pubDate>Fri, 24 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El jueves 30 de julio cambian los gratis de Epic: llegan Sol Cesto (roguelite táctico premiado, hecho por tres devs indie franceses) y OTXO (shooter top-down violento tipo Hotline Miami). USD 20.98 de valor combinado, disponibles hasta el 6 de agosto.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1608640/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
