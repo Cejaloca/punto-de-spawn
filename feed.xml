@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 11 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>OpenAI frenó a Astra: la primera IA que puede hackear sistemas reales de forma autónoma</title>
+      <link>https://puntodespawn.com/posts/openai-astra-pausa-ciberseguridad-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-astra-pausa-ciberseguridad-agosto-2026.html</guid>
+      <pubDate>Wed, 12 Aug 2026 03:00:00 GMT</pubDate>
+      <description>OpenAI pausó el desarrollo de Astra el 7 de agosto después de detectar que puede identificar y ejecutar ciberataques autónomos en sistemas bien protegidos. Es la primera vez que un modelo activa el nivel &quot;crítico&quot; del framework de seguridad de un lab.</description>
+      <media:content url="https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024" medium="image"/>
+    </item>
+    <item>
+      <title>Parche 26.16 de LoL ya live: vuelven los ADC, mages bot nerfeados y llegan las Faerie Court</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2616-live-agosto-12-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2616-live-agosto-12-2026.html</guid>
+      <pubDate>Wed, 12 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El parche 26.16 llegó hoy a todos los servidores: todos los marksmen ganan resistencia mágica base, el roaming de soporte es más caro hasta nivel 5, y Sundered Sky pierde fuerza. Los skins de Faerie Court para Bel'Veth, Gwen y Lulu ya están disponibles.</description>
+      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e68f31a74579ce085c3de6798f56a26cc04f9767-1920x1080.jpg" medium="image"/>
+    </item>
     <item>
       <title>GTA 6 muestra su primer gameplay el 27 de agosto: exclusivo en Netflix 6 horas antes que YouTube</title>
       <link>https://puntodespawn.com/posts/gta-6-extended-look-netflix-agosto-27-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Tue, 28 Jul 2026 03:00:00 GMT</pubDate>
       <description>Anthropic lanzó Claude Opus 5 el 24 de julio: lidera Frontier-Bench (43.3% vs 33.7% de Fable 5), triplica el score en ARC-AGI-3 y supera a Fable 5 en 7 de 11 evaluaciones directas — todo al mismo precio que Opus 4.8 ($5/$25 por millón de tokens).</description>
       <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png" medium="image"/>
-    </item>
-    <item>
-      <title>Halo: Campaign Evolved ya está disponible — qué dicen las reviews del primer Halo en PS5</title>
-      <link>https://puntodespawn.com/posts/halo-campaign-evolved-review-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/halo-campaign-evolved-review-julio-2026.html</guid>
-      <pubDate>Mon, 27 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Halo: Campaign Evolved lanzó el 28 de julio en Xbox, PC y PS5 con 84 en OpenCritic y 82 en Metacritic. Es técnicamente el Halo con menor score agregado, pero el 90% de los críticos lo recomiendan igual.</description>
-      <media:content url="https://cdn.mos.cms.futurecdn.net/JEokbExaAM5ahTRvsN4WZa-2560-80.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>FLUX 3: el modelo que genera video, audio e imagen desde un solo cerebro — y ya aplastó a Runway</title>
-      <link>https://puntodespawn.com/posts/flux-3-black-forest-labs-video-audio-ia-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/flux-3-black-forest-labs-video-audio-ia-julio-2026.html</guid>
-      <pubDate>Mon, 27 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Black Forest Labs lanzó FLUX 3 el 23 de julio: el primer modelo de IA que aprende video, imágenes y audio en una arquitectura unificada. Genera hasta 20 segundos de video con audio sincronizado y ya supera a Runway Gen-4.5 en el 77% de comparaciones. Está en early access.</description>
-      <media:content url="https://cdn.sanity.io/images/2gpum2i6/production/8cfc4af7a44825034e3bc938927315b68d6696bd-1900x1264.png" medium="image"/>
     </item>
   </channel>
 </rss>

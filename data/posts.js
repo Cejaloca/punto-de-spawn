@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'openai-astra-pausa-ciberseguridad-agosto-2026',
+    titulo: 'OpenAI frenó a Astra: la primera IA que puede hackear sistemas reales de forma autónoma',
+    extracto: 'OpenAI pausó el desarrollo de Astra el 7 de agosto después de detectar que puede identificar y ejecutar ciberataques autónomos en sistemas bien protegidos. Es la primera vez que un modelo activa el nivel "crítico" del framework de seguridad de un lab.',
+    fecha: '2026-08-12',
+    fechaDisplay: '12 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'ia', 'ciberseguridad', 'astra', 'seguridad', 'agentes'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024',
+    archivo: 'posts/openai-astra-pausa-ciberseguridad-agosto-2026.html'
+  },
+  {
+    id: 'lol-parche-2616-live-agosto-12-2026',
+    titulo: 'Parche 26.16 de LoL ya live: vuelven los ADC, mages bot nerfeados y llegan las Faerie Court',
+    extracto: 'El parche 26.16 llegó hoy a todos los servidores: todos los marksmen ganan resistencia mágica base, el roaming de soporte es más caro hasta nivel 5, y Sundered Sky pierde fuerza. Los skins de Faerie Court para Bel\'Veth, Gwen y Lulu ya están disponibles.',
+    fecha: '2026-08-12',
+    fechaDisplay: '12 de agosto de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 'adc', 'meta', 'mages-bot', 'faerie-court'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e68f31a74579ce085c3de6798f56a26cc04f9767-1920x1080.jpg',
+    archivo: 'posts/lol-parche-2616-live-agosto-12-2026.html'
+  },
+  {
     id: 'gta-6-extended-look-netflix-agosto-27-2026',
     titulo: 'GTA 6 muestra su primer gameplay el 27 de agosto: exclusivo en Netflix 6 horas antes que YouTube',
     extracto: 'Rockstar anunció "Grand Theft Auto VI: An Extended Look": el primer footage real de GTA 6 llega el 27 de agosto en Netflix a las 16 hs Argentina, posiblemente ~30 minutos de gameplay. Recién a las 22 hs llega a YouTube. El juego sale el 19 de noviembre para PS5 y Xbox Series X|S.',
