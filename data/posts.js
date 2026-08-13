@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'chatgpt-publicidad-expansion-global-agosto-2026',
+    titulo: 'ChatGPT arrancó a mostrar publicidad en México, Brasil y más países — qué significa para usuarios gratuitos',
+    extracto: 'El 11 de agosto OpenAI expandió su sistema de publicidad a Reino Unido, México, Brasil, Japón y Corea del Sur. Los ads aparecen solo en las tiers Free y Go, siempre etiquetados y sin influir en las respuestas. Si no querés verlos, hay que pagar Plus o Pro.',
+    fecha: '2026-08-13',
+    fechaDisplay: '13 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['openai', 'chatgpt', 'inteligencia-artificial', 'publicidad', 'ia', 'ads', 'gratis'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://images.ctfassets.net/kftzwdyauwt9/21TdmlEzFwgoo7ZER7SNCV/001b3d542fd4d025a2dcd1a5ab9417fe/OAI_AdsTest_Blog_OpenGraph_1200x630.png?w=1600&h=900&fit=fill',
+    archivo: 'posts/chatgpt-publicidad-expansion-global-agosto-2026.html'
+  },
+  {
+    id: 'resonance-plague-tale-legacy-preview-agosto-2026',
+    titulo: 'Resonance: A Plague Tale Legacy sale el 27 de agosto — la precuela de Asobo con cultura minoica, Day 1 en Game Pass',
+    extracto: 'Asobo Studio (A Plague Tale: Innocence y Requiem) vuelve con una precuela: Sophia, una joven saqueadora, explora una isla minoica misteriosa 15 años antes del primer juego. 20 horas, dos líneas de tiempo y Day 1 en Xbox Game Pass. Sale el 27 de agosto en PS5, Xbox y PC.',
+    fecha: '2026-08-13',
+    fechaDisplay: '13 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['plague-tale', 'asobo', 'focus-entertainment', 'game-pass', 'xbox', 'ps5', 'pc', 'accion', 'aventura', 'lanzamiento'],
+    juego: 'Resonance A Plague Tale Legacy',
+    juegoDisplay: 'Resonance: A Plague Tale Legacy',
+    imagen: 'https://cdn.focus-home.com/fhi-fastforward-admin/resources/games/resonance-a-plague-tale-legacy/images/09062026_a1fb63adec40475a881f57fd9e6cf763.jpeg',
+    archivo: 'posts/resonance-plague-tale-legacy-preview-agosto-2026.html'
+  },
+  {
     id: 'openai-astra-pausa-ciberseguridad-agosto-2026',
     titulo: 'OpenAI frenó a Astra: la primera IA que puede hackear sistemas reales de forma autónoma',
     extracto: 'OpenAI pausó el desarrollo de Astra el 7 de agosto después de detectar que puede identificar y ejecutar ciberataques autónomos en sistemas bien protegidos. Es la primera vez que un modelo activa el nivel "crítico" del framework de seguridad de un lab.',

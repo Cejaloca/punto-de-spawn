@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 12 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>ChatGPT arrancó a mostrar publicidad en México, Brasil y más países — qué significa para usuarios gratuitos</title>
+      <link>https://puntodespawn.com/posts/chatgpt-publicidad-expansion-global-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/chatgpt-publicidad-expansion-global-agosto-2026.html</guid>
+      <pubDate>Thu, 13 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El 11 de agosto OpenAI expandió su sistema de publicidad a Reino Unido, México, Brasil, Japón y Corea del Sur. Los ads aparecen solo en las tiers Free y Go, siempre etiquetados y sin influir en las respuestas. Si no querés verlos, hay que pagar Plus o Pro.</description>
+      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/21TdmlEzFwgoo7ZER7SNCV/001b3d542fd4d025a2dcd1a5ab9417fe/OAI_AdsTest_Blog_OpenGraph_1200x630.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
+    </item>
+    <item>
+      <title>Resonance: A Plague Tale Legacy sale el 27 de agosto — la precuela de Asobo con cultura minoica, Day 1 en Game Pass</title>
+      <link>https://puntodespawn.com/posts/resonance-plague-tale-legacy-preview-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/resonance-plague-tale-legacy-preview-agosto-2026.html</guid>
+      <pubDate>Thu, 13 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Asobo Studio (A Plague Tale: Innocence y Requiem) vuelve con una precuela: Sophia, una joven saqueadora, explora una isla minoica misteriosa 15 años antes del primer juego. 20 horas, dos líneas de tiempo y Day 1 en Xbox Game Pass. Sale el 27 de agosto en PS5, Xbox y PC.</description>
+      <media:content url="https://cdn.focus-home.com/fhi-fastforward-admin/resources/games/resonance-a-plague-tale-legacy/images/09062026_a1fb63adec40475a881f57fd9e6cf763.jpeg" medium="image"/>
+    </item>
     <item>
       <title>OpenAI frenó a Astra: la primera IA que puede hackear sistemas reales de forma autónoma</title>
       <link>https://puntodespawn.com/posts/openai-astra-pausa-ciberseguridad-agosto-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Tue, 28 Jul 2026 03:00:00 GMT</pubDate>
       <description>Microsoft presentó MAI-Cyber-1-Flash, su primer modelo especializado en encontrar vulnerabilidades en código, junto a Project Perception: una plataforma de agentes de seguridad con equipos red, blue y green que pasan de horas de trabajo manual a minutos. Entra en preview el 3 de agosto.</description>
       <media:content url="https://techcrunch.com/wp-content/uploads/2026/07/IMG_4458.jpeg?resize=1200,900" medium="image"/>
-    </item>
-    <item>
-      <title>Valorant Patch 13.02 live: Phoenix pierde un ult point y llega el LTM All Random One Site Replication</title>
-      <link>https://puntodespawn.com/posts/valorant-parche-1302-phoenix-ltm-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-parche-1302-phoenix-ltm-julio-2026.html</guid>
-      <pubDate>Tue, 28 Jul 2026 03:00:00 GMT</pubDate>
-      <description>El parche 13.02 llegó hoy a los servidores de LATAM: Phoenix recibe su primer nerf serio (Run It Back sube de 6 a 7 puntos de ultimate), debuta el LTM All Random One Site: Replication y llega el bundle Neo Frontier 2.0 con skins para Vandal, Shorty y melee-lazo.</description>
-      <media:content url="https://gdm-universal-media.b-cdn.net/gfinityesports/e1c585cc-valorant-sage-skye-act-4-cinematic.webp?width=1600&amp;height=840" medium="image"/>
-    </item>
-    <item>
-      <title>Claude Opus 5 ya está disponible: supera a Fable 5 en coding y cuesta la mitad</title>
-      <link>https://puntodespawn.com/posts/claude-opus-5-anthropic-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-opus-5-anthropic-julio-2026.html</guid>
-      <pubDate>Tue, 28 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Anthropic lanzó Claude Opus 5 el 24 de julio: lidera Frontier-Bench (43.3% vs 33.7% de Fable 5), triplica el score en ARC-AGI-3 y supera a Fable 5 en 7 de 11 evaluaciones directas — todo al mismo precio que Opus 4.8 ($5/$25 por millón de tokens).</description>
-      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png" medium="image"/>
     </item>
   </channel>
 </rss>
