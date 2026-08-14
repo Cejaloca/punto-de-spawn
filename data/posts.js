@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'epic-gratis-cardpocalypse-agosto-20-2026',
+    titulo: 'Epic gratis desde el 20 de agosto: Cardpocalypse — el juego de cartas de los 90 que nunca fue gratis',
+    extracto: 'El 20 de agosto llega gratis a Epic Cardpocalypse: un RPG narrativo ambientado en los 90 donde sos Jess, una nena de 10 años que tiene que salvar a su escuela de mutantes de un juego de cartas prohibido. Disponible hasta el 27 de agosto, nunca había sido gratis en Epic.',
+    fecha: '2026-08-14',
+    fechaDisplay: '14 de agosto de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'indie', 'cartas', 'rpg', '90s'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/904400/header.jpg',
+    archivo: 'posts/epic-gratis-cardpocalypse-agosto-20-2026.html'
+  },
+  {
+    id: 'mafia-old-country-man-of-honor-dlc-agosto-14-2026',
+    titulo: 'Man of Honor ya está disponible: la primera expansión paga de Mafia: The Old Country llega hoy a USD 10',
+    extracto: 'Hangar 13 lanzó hoy Man of Honor, la primera expansión paga de Mafia: The Old Country: dos capítulos de historia con un Salieri más joven en Sicilia 1905 y contenido nuevo para el modo Free Ride. Sale separado de todas las ediciones del juego, incluso la Deluxe.',
+    fecha: '2026-08-14',
+    fechaDisplay: '14 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['mafia', 'hangar-13', '2k', 'dlc', 'expansion', 'ps5', 'xbox', 'pc', 'accion', 'lanzamiento'],
+    juego: 'Mafia The Old Country',
+    juegoDisplay: 'Mafia: The Old Country',
+    imagen: 'https://blog.playstation.com/tachyon/2026/08/450d96e30426485fe9fa14d92516dab1f4f36d21.jpg',
+    archivo: 'posts/mafia-old-country-man-of-honor-dlc-agosto-14-2026.html'
+  },
+  {
+    id: 'deepseek-v4-pro-0813-agentes-agosto-2026',
+    titulo: 'DeepSeek V4-Pro-0813: sale de preview, machaca benchmarks de agentes y sube los precios el sábado',
+    extracto: 'DeepSeek lanzó el 13 de agosto la versión GA de su modelo insignia: V4-Pro-0813. Massive salto en benchmarks de agentes (Terminal Bench pasa de 72.1 a 87.9, casi empatando con Fable 5), y a un costo 57 veces menor. La contra: a partir del sábado 16 los precios de la API suben hasta 12 veces.',
+    fecha: '2026-08-14',
+    fechaDisplay: '14 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'deepseek', 'ia', 'agentes', 'china', 'llm', 'coding'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.wccftech.com/wp-content/uploads/2025/01/DeepSeek-4.jpg',
+    archivo: 'posts/deepseek-v4-pro-0813-agentes-agosto-2026.html'
+  },
+  {
     id: 'chatgpt-publicidad-expansion-global-agosto-2026',
     titulo: 'ChatGPT arrancó a mostrar publicidad en México, Brasil y más países — qué significa para usuarios gratuitos',
     extracto: 'El 11 de agosto OpenAI expandió su sistema de publicidad a Reino Unido, México, Brasil, Japón y Corea del Sur. Los ads aparecen solo en las tiers Free y Go, siempre etiquetados y sin influir en las respuestas. Si no querés verlos, hay que pagar Plus o Pro.',

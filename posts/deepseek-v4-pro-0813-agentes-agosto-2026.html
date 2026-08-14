@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeepSeek V4-Pro-0813: sale de preview, machaca benchmarks de agentes y sube los precios el sábado — PuntoDeSpawn</title>
+  <meta name="description" content="DeepSeek lanzó el 13 de agosto la versión GA de V4-Pro-0813: benchmarks de agentes casi iguales a Fable 5 a 57 veces menos costo. Pero desde el sábado 16, la API sube hasta 12 veces de precio.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel='icon' href='../favicon.svg' type='image/svg+xml'>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5515559999355995" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../tecnologia.html">Tecnología</a></li>
+          <li><a href="../gaming.html">Gaming</a></li>
+          <li><a href="../ofertas.html">Ofertas</a></li>
+          <li><a href="../comunidad.html">Comunidad</a></li>
+          <li><a href="../nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <div class="post-article">
+        <header class="post-header">
+          <div class="post-badges">
+            <span class="badge badge-tecnologia">Tecnología</span>
+          </div>
+          <h1 class="post-title">DeepSeek V4-Pro-0813: sale de preview, machaca benchmarks de agentes y sube los precios el sábado</h1>
+          <div class="post-meta">
+            <span class="author">Cejaloca</span>
+            <span class="divider">·</span>
+            <span>14 de agosto de 2026</span>
+            <button class="reading-mode-btn" id="reading-mode-btn">☰ Modo lectura</button>
+          </div>
+          <div class="post-tags">
+            <span class="tag">inteligencia-artificial</span>
+            <span class="tag">deepseek</span>
+            <span class="tag">ia</span>
+            <span class="tag">agentes</span>
+            <span class="tag">china</span>
+            <span class="tag">llm</span>
+          </div>
+        </header>
+
+        <div class="post-body">
+          <img src="https://cdn.wccftech.com/wp-content/uploads/2025/01/DeepSeek-4.jpg" alt="DeepSeek V4-Pro-0813 model release" class="post-hero-img" loading="lazy">
+
+          <p>El martes 13 de agosto, DeepSeek actualizó silenciosamente su endpoint de API principal y pasó al modelo <strong>DeepSeek-V4-Pro-0813</strong>: la versión de disponibilidad general (GA) de su modelo insignia, que hasta ahora estaba en preview desde abril. No hubo anuncio oficial grande. Solo apareció en la página de precios y empezó a rodar en DeepSeek Chat y la API.</p>
+
+          <p>Y los números que circulan por redes impresionan.</p>
+
+          <h2>Qué cambió en los benchmarks</h2>
+
+          <p>El foco de V4-Pro-0813 está en tareas agénticas: código, ejecución de herramientas, operaciones de terminal y flujos de trabajo multi-paso. Los benchmarks publicados por DeepSeek muestran saltos importantes respecto al modelo preview de abril:</p>
+
+          <ul>
+            <li><strong>Terminal Bench 2.1</strong>: de 72.1 a <strong>87.9</strong> — casi empatando con Fable 5 que tiene 88</li>
+            <li><strong>CyberGym</strong>: de 52.7 a <strong>83.3</strong></li>
+            <li><strong>DeepSWE</strong>: de 12.8 a <strong>62.7</strong></li>
+            <li><strong>AutomationBench</strong>: mejora comparable</li>
+          </ul>
+
+          <p>Para ponerlo en contexto: según quienes lo están probando en producción, el modelo entrega rendimiento comparable a Fable 5 de Anthropic en tareas de agente, pero a un costo aproximadamente 57 veces menor usando los precios actuales (antes del aumento del sábado).</p>
+
+          <h2>Las specs del modelo</h2>
+
+          <p>V4-Pro-0813 es el mismo modelo masivo de siempre: <strong>1.6 billones de parámetros totales</strong> con arquitectura MoE (Mixture of Experts), donde solo se activan unos 49 mil millones por token. Contexto de 1 millón de tokens y hasta 384.000 tokens de salida. Soporta tool calling, modo de razonamiento y la Responses API.</p>
+
+          <h2>La mala noticia: sube el precio el sábado 16</h2>
+
+          <p>Acá está el truco. DeepSeek anunció que a las 16:00 UTC del <strong>sábado 16 de agosto</strong>, los precios de la API suben de forma significativa, y estrenan además un sistema de hora pico y hora baja.</p>
+
+          <p>El cambio más dramático: el modelo V4-Pro pasará de <strong>USD 0,87 por millón de tokens de salida</strong> a <strong>USD 3,96 en hora pico</strong> (y USD 1,98 en hora baja). Los tokens de entrada cache-hit pueden subir hasta 12 veces en hora pico. El V4-Flash también sube, aunque menos.</p>
+
+          <p>La explicación de DeepSeek es que los precios ultra-bajos con los que respondieron a OpenAI en julio desataron una demanda que supera su capacidad de cómputo (operan con alrededor de 20.000 GPUs H100, bastante menos que los grandes labs occidentales). El sistema de hora pico/baja apunta a distribuir el tráfico de forma más pareja.</p>
+
+          <h2>¿Qué significa para el usuario promedio?</h2>
+
+          <p>Si usás DeepSeek de forma casual vía chat en deepseek.com, nada cambia por ahora. Los aumentos afectan al acceso por API, que es lo que usan los desarrolladores y herramientas como Cursor o ClinePass.</p>
+
+          <p>Para quien programa o usa agentes de IA con acceso directo a la API, esta semana es el momento de stockear créditos o evaluar si el nuevo precio sigue siendo competitivo. Spoiler: incluso con el aumento, V4-Pro sigue siendo más barato que los modelos equivalentes de OpenAI o Anthropic. Pero ya no es el absurdo precio de regalo que fue en julio.</p>
+
+          <p>El dato adicional que vale la pena destacar: en julio 2026, DeepSeek fue el <strong>segundo laboratorio de IA con más tokens consumidos en el mundo</strong>, solo detrás de Anthropic. La demanda no es un tema menor.</p>
+        </div>
+
+        <div class="share-section">
+          <p class="share-label">¿Te gustó? Compartilo</p>
+          <div class="share-buttons">
+            <button class="share-btn" data-action="whatsapp">WhatsApp</button>
+            <button class="share-btn" data-action="twitter">Twitter / X</button>
+            <button class="share-btn" data-action="copy"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copiar link</button>
+          </div>
+        </div>
+
+        <div id="related-posts"></div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+          <p class="footer-tagline">Tu punto de spawn en el mundo tech y gaming.</p>
+          <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener" class="footer-social">@puntodespawn.ok</a>
+        </div>
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="../tecnologia.html">Tecnología</a></li>
+            <li><a href="../gaming.html">Gaming</a></li>
+            <li><a href="../ofertas.html">Ofertas</a></li>
+            <li><a href="../comunidad.html">Comunidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>El sitio</h4>
+          <ul>
+            <li><a href="../nosotros.html">Nosotros</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../data/posts.js"></script>
+  <script src="../js/posts.js"></script>
+  <script src="../js/main.js"></script>
+  <script>renderRelatedPosts('deepseek-v4-pro-0813-agentes-agosto-2026', 'tecnologia');</script>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>
