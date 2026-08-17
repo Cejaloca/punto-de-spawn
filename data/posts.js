@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'chatgpt-gpt56-luna-ilimitado-gratis-agosto-2026',
+    titulo: 'ChatGPT Free ahora tiene texto ilimitado con GPT-5.6 Luna — y el botón Think llegó gratis',
+    extracto: 'OpenAI eliminó el límite de mensajes de texto para el plan gratuito de ChatGPT: GPT-5.6 Luna es el nuevo modelo por defecto con 62% menos errores factuales. El botón Think para razonamiento más profundo también llegó al plan Free sin pagar.',
+    fecha: '2026-08-17',
+    fechaDisplay: '17 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['openai', 'chatgpt', 'inteligencia-artificial', 'ia', 'gratis', 'gpt-5', 'luna'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://images.ctfassets.net/kftzwdyauwt9/3T0kxQLJk1VcXVxMwXF97J/4345df401f2b08ed6a1eef88c9588d2e/OAI_ChatGPTWork_ModelBlog_OpenGraph_16x9_1200x630.png?w=1600&h=900&fit=fill',
+    archivo: 'posts/chatgpt-gpt56-luna-ilimitado-gratis-agosto-2026.html'
+  },
+  {
+    id: 'metal-gear-solid-master-collection-vol-2-agosto-27-2026',
+    titulo: 'Metal Gear Solid: Master Collection Vol. 2 llega el 27 de agosto — MGS4 sale del PS3 después de 18 años',
+    extracto: 'Konami lanza el 27 de agosto la Master Collection Vol. 2: MGS4 Guns of the Patriots llega por primera vez a PC, PS5, Xbox Series y Switch 2, junto a Peace Walker y Ghost Babel, a USD 49,99.',
+    fecha: '2026-08-17',
+    fechaDisplay: '17 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['metal-gear', 'mgs4', 'konami', 'ps5', 'pc', 'switch-2', 'xbox', 'remaster', 'coleccion', 'lanzamiento'],
+    juego: 'Metal Gear Solid Master Collection Vol 2',
+    juegoDisplay: 'Metal Gear Solid: Master Collection Vol. 2',
+    imagen: 'https://www.techspot.com/images2/news/bigimage/2026/02/2026-02-14-image-15.jpg',
+    archivo: 'posts/metal-gear-solid-master-collection-vol-2-agosto-27-2026.html'
+  },
+  {
+    id: 'marvels-wolverine-ps5-septiembre-15-2026',
+    titulo: "Marvel's Wolverine sale el 15 de septiembre: hands-on, PS5 Battle Yellow y todo lo que sabemos del juego de Insomniac",
+    extracto: "Insomniac Games presenta su Wolverine el 15 de septiembre exclusivo para PS5: sistema de rage en 3 niveles, alianzas con Mystique y Sabretooth, y un bundle Battle Yellow a USD 649,99 con pre-orders desde el 19 de agosto.",
+    fecha: '2026-08-17',
+    fechaDisplay: '17 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['marvel', 'wolverine', 'insomniac', 'ps5', 'sony', 'accion', 'lanzamiento', 'exclusivo'],
+    juego: "Marvel's Wolverine",
+    juegoDisplay: "Marvel's Wolverine",
+    imagen: 'https://blog.playstation.com/tachyon/2026/08/b7cefde486f02afa6e023a85a5688501d99bc660.jpg',
+    archivo: 'posts/marvels-wolverine-ps5-septiembre-15-2026.html'
+  },
+  {
     id: 'epic-gratis-cardpocalypse-agosto-20-2026',
     titulo: 'Epic gratis desde el 20 de agosto: Cardpocalypse — el juego de cartas de los 90 que nunca fue gratis',
     extracto: 'El 20 de agosto llega gratis a Epic Cardpocalypse: un RPG narrativo ambientado en los 90 donde sos Jess, una nena de 10 años que tiene que salvar a su escuela de mutantes de un juego de cartas prohibido. Disponible hasta el 27 de agosto, nunca había sido gratis en Epic.',
