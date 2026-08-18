@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 17 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Gemini 3.7 Flash ya está disponible: mejora brutal en coding y la mitad del precio</title>
+      <link>https://puntodespawn.com/posts/gemini-37-flash-google-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-37-flash-google-agosto-2026.html</guid>
+      <pubDate>Tue, 18 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Google lanzó Gemini 3.7 Flash el 13 de agosto, solo tres semanas después de 3.6 Flash: DeepSWE sube de 49% a 65.3%, AutomationBench de 17% a 30.4%, y el precio se mantiene en $0.75/$3.75 por millón de tokens hasta fin de año.</description>
+      <media:content url="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/07/gemini-new-logo-1.jpg?resize=1200%2C628&amp;quality=82&amp;strip=all&amp;ssl=1" medium="image"/>
+    </item>
+    <item>
+      <title>Preview Parche 26.17 de LoL — llega el 26 de agosto: Yone y Yasuo suben, Vayne y Graves bajan</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2617-preview-agosto-26-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2617-preview-agosto-26-2026.html</guid>
+      <pubDate>Tue, 18 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El parche 26.17 llega el 26 de agosto como patch de estabilización post-26.16: buffs a Hecarim, Trundle, Yasuo y Yone; nerfs a Vayne, Nocturne, Graves y Sundered Sky. Skins de Ocean Song para Jinx y Soraka, más la legendaria Heartsong Seraphine con recaudación a caridad.</description>
+      <media:content url="https://www.hotspawn.com/wp-content/uploads/2026/08/league-of-legends-patch-26-17.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Fortnite Override llega el 20 de agosto: Sonic, Mega Man, Crash Bandicoot y cartuchos que rompen las reglas del juego</title>
+      <link>https://puntodespawn.com/posts/fortnite-chapter-7-season-4-override-agosto-20-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/fortnite-chapter-7-season-4-override-agosto-20-2026.html</guid>
+      <pubDate>Tue, 18 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Fortnite Chapter 7 Season 4 Override arranca el 20 de agosto con el roster de crossovers más grande en años: Sonic y Tetris en el Battle Pass, Mega Man, Joker de Persona 5, Crash Bandicoot y más en el Item Shop. Los cartuchos Match Hacks cambian las reglas de la partida para toda la lobby.</description>
+      <media:content url="https://static.allthings.how/wp-content/uploads/2026/08/everything-you-missed-in-fortnite-c7s4-override-trailer-spri-cover-1600x900.webp" medium="image"/>
+    </item>
     <item>
       <title>ChatGPT Free ahora tiene texto ilimitado con GPT-5.6 Luna — y el botón Think llegó gratis</title>
       <link>https://puntodespawn.com/posts/chatgpt-gpt56-luna-ilimitado-gratis-agosto-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 03 Aug 2026 03:00:00 GMT</pubDate>
       <description>Bit Reactor (fundada por ex-desarrolladores de Civilization y XCOM) y Respawn Entertainment presentan Star Wars Zero Company: un juego táctico por turnos single-player en la Guerra de los Clones. Hawks y Zero Company se meten en una conspiración que podría destruir la galaxia. Sale el 27 de agosto en PS5, Xbox Series X|S y PC.</description>
       <media:content url="https://lumiere-a.akamaihd.net/v1/images/star-wars-zero-company-key-art-standard-edition_c74dfdf2.jpeg" medium="image"/>
-    </item>
-    <item>
-      <title>Grounded 2: el update más grande llega el 11 de agosto con mundo subacuático y debut en PS5</title>
-      <link>https://puntodespawn.com/posts/grounded-2-into-the-abyss-agosto-11-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/grounded-2-into-the-abyss-agosto-11-2026.html</guid>
-      <pubDate>Mon, 03 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Into the Abyss abre el estanque de Brookhollow Park el 11 de agosto: buceo con trajes especiales, el buggy anfibio Toe-biter, nuevos biomas y criaturas. Es además el debut de Grounded 2 en PS5 y el mayor salto en contenido desde que el juego entró en acceso anticipado.</description>
-      <media:content url="https://xboxwire.thesourcemediaassets.com/sites/2/2026/06/OEI_GROUNDED2_BAYOU_SWIMMING_FINAL_4KUHD-b1179b5a1dda53d97ca6.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Epic gratis desde el 6 de agosto: Beacon Pines y We Were Here Together</title>
-      <link>https://puntodespawn.com/posts/epic-gratis-beacon-pines-we-were-here-agosto-6-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-beacon-pines-we-were-here-agosto-6-2026.html</guid>
-      <pubDate>Mon, 03 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El jueves 6 de agosto cambian los gratis de Epic: Beacon Pines (aventura narrativa estilo libro ilustrado, USD 17,99) y We Were Here Together (puzzles cooperativos para dos jugadores, USD 14,99). USD 32,98 de valor combinado, disponibles hasta el 13 de agosto.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1269640/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Google presentó Gemini Robotics 2: la IA que controla robots completos de la cabeza a los pies</title>
-      <link>https://puntodespawn.com/posts/gemini-robotics-2-whole-body-ia-julio-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-robotics-2-whole-body-ia-julio-2026.html</guid>
-      <pubDate>Fri, 31 Jul 2026 03:00:00 GMT</pubDate>
-      <description>Google DeepMind lanzó Gemini Robotics 2 el 30 de julio: por primera vez un modelo de IA controla un humanoide completo —piernas, torso, brazos y dedos— bajo una sola política aprendida. Puede caminar, agacharse, atar bolsas y coordinar varios robots entre sí.</description>
-      <media:content url="https://lh3.googleusercontent.com/VZ5KwQMxv9xBcQnYipsQB2EUj3oX1yvFYLktIamY8V2a76Y6ctEEuaLF59TuPdnaVn6OAMINDilqnuhju1O-AXc7QlOVmcogjskrWxS7xVQ1mc5S7g=w1200-h630-n-nu-rw" medium="image"/>
     </item>
   </channel>
 </rss>

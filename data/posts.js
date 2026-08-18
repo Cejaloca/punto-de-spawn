@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'gemini-37-flash-google-agosto-2026',
+    titulo: 'Gemini 3.7 Flash ya está disponible: mejora brutal en coding y la mitad del precio',
+    extracto: 'Google lanzó Gemini 3.7 Flash el 13 de agosto, solo tres semanas después de 3.6 Flash: DeepSWE sube de 49% a 65.3%, AutomationBench de 17% a 30.4%, y el precio se mantiene en $0.75/$3.75 por millón de tokens hasta fin de año.',
+    fecha: '2026-08-18',
+    fechaDisplay: '18 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'gemini', 'google', 'ia', 'deepmind', 'flash', 'coding'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/07/gemini-new-logo-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1',
+    archivo: 'posts/gemini-37-flash-google-agosto-2026.html'
+  },
+  {
+    id: 'lol-parche-2617-preview-agosto-26-2026',
+    titulo: 'Preview Parche 26.17 de LoL — llega el 26 de agosto: Yone y Yasuo suben, Vayne y Graves bajan',
+    extracto: 'El parche 26.17 llega el 26 de agosto como patch de estabilización post-26.16: buffs a Hecarim, Trundle, Yasuo y Yone; nerfs a Vayne, Nocturne, Graves y Sundered Sky. Skins de Ocean Song para Jinx y Soraka, más la legendaria Heartsong Seraphine con recaudación a caridad.',
+    fecha: '2026-08-18',
+    fechaDisplay: '18 de agosto de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 'yone', 'vayne', 'ocean-song'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://www.hotspawn.com/wp-content/uploads/2026/08/league-of-legends-patch-26-17.webp',
+    archivo: 'posts/lol-parche-2617-preview-agosto-26-2026.html'
+  },
+  {
+    id: 'fortnite-chapter-7-season-4-override-agosto-20-2026',
+    titulo: 'Fortnite Override llega el 20 de agosto: Sonic, Mega Man, Crash Bandicoot y cartuchos que rompen las reglas del juego',
+    extracto: 'Fortnite Chapter 7 Season 4 Override arranca el 20 de agosto con el roster de crossovers más grande en años: Sonic y Tetris en el Battle Pass, Mega Man, Joker de Persona 5, Crash Bandicoot y más en el Item Shop. Los cartuchos Match Hacks cambian las reglas de la partida para toda la lobby.',
+    fecha: '2026-08-18',
+    fechaDisplay: '18 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['fortnite', 'epic-games', 'gaming', 'sonic', 'battle-pass', 'crossover', 'temporada'],
+    juego: 'Fortnite',
+    juegoDisplay: 'Fortnite',
+    imagen: 'https://static.allthings.how/wp-content/uploads/2026/08/everything-you-missed-in-fortnite-c7s4-override-trailer-spri-cover-1600x900.webp',
+    archivo: 'posts/fortnite-chapter-7-season-4-override-agosto-20-2026.html'
+  },
+  {
     id: 'chatgpt-gpt56-luna-ilimitado-gratis-agosto-2026',
     titulo: 'ChatGPT Free ahora tiene texto ilimitado con GPT-5.6 Luna — y el botón Think llegó gratis',
     extracto: 'OpenAI eliminó el límite de mensajes de texto para el plan gratuito de ChatGPT: GPT-5.6 Luna es el nuevo modelo por defecto con 62% menos errores factuales. El botón Think para razonamiento más profundo también llegó al plan Free sin pagar.',
