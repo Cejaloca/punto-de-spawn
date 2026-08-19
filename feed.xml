@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 18 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Gamescom Opening Night Live el 25 de agosto: FF7 Revelation, Witcher 3 DLC, Metro 2039 y todo lo que viene</title>
+      <link>https://puntodespawn.com/posts/gamescom-2026-opening-night-live-preview-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gamescom-2026-opening-night-live-preview-agosto-2026.html</guid>
+      <pubDate>Wed, 19 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El 25 de agosto arranca Gamescom 2026 con el Opening Night Live de Geoff Keighley: confirmados Final Fantasy VII Revelation con nueva mirada, la expansión Songs of the Past de The Witcher 3 y Game of Thrones: War for Westeros. El show arranca a las 15hs de Argentina.</description>
+      <media:content url="https://images.nintendolife.com/e4bb576020a8c/large.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>1666: Amsterdam entra en Early Access el 25 de agosto — el proyecto de una década del creador de Assassin's Creed</title>
+      <link>https://puntodespawn.com/posts/1666-amsterdam-early-access-agosto-25-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/1666-amsterdam-early-access-agosto-25-2026.html</guid>
+      <pubDate>Wed, 19 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Patrice Désilets —el padre de Assassin's Creed— lanza su proyecto personal en Early Access el 25 de agosto por $29.99. Exploración sobrenatural del Ámsterdam del siglo XVII, dos personajes jugables (una bruja y su gato con mente humana) y 15 horas de campaña desde el día uno.</description>
+      <media:content url="https://gamesreviews.com/wp-content/uploads/2026/08/gr-1666-amsterdam-267019.jpg" medium="image"/>
+    </item>
     <item>
       <title>Gemini 3.7 Flash ya está disponible: mejora brutal en coding y la mitad del precio</title>
       <link>https://puntodespawn.com/posts/gemini-37-flash-google-agosto-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Tue, 04 Aug 2026 03:00:00 GMT</pubDate>
       <description>El parche 26.16 llega el 12 de agosto con el movimiento más esperado del año: la penalidad por roaming de soporte sube de 25% hasta nivel 3 a 33% hasta nivel 5, buffs directos a los ADC en Berserker's Greaves y Fleet Footwork, y nerfs de sistema a los mages bot. Bel'Veth también baja después del rework.</description>
       <media:content url="https://www.hotspawn.com/wp-content/uploads/2026/07/league-of-legends-patch-26.16-.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Qwen3.8-Max ya está disponible: 2,4 billones de parámetros, precios agresivos y pesos open source la semana que viene</title>
-      <link>https://puntodespawn.com/posts/qwen38-max-disponible-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/qwen38-max-disponible-agosto-2026.html</guid>
-      <pubDate>Tue, 04 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Alibaba lanzó oficialmente Qwen3.8-Max el 3 de agosto: 95B parámetros activos de 2,4 billones totales, contexto de 1 millón de tokens y precios al 40% de Claude Opus 5 ($2/$6 por millón de tokens). Los pesos open source llegan la semana del 10 de agosto junto al checkpoint Qwen3.8-27B.</description>
-      <media:content url="https://www.marktechpost.com/wp-content/uploads/2026/08/blog6176-5-1024x731.png" medium="image"/>
-    </item>
-    <item>
-      <title>Star Wars Zero Company sale el 27 de agosto: el XCOM de la Guerra de los Clones hecho por ex-Firaxis</title>
-      <link>https://puntodespawn.com/posts/star-wars-zero-company-preview-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/star-wars-zero-company-preview-agosto-2026.html</guid>
-      <pubDate>Mon, 03 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Bit Reactor (fundada por ex-desarrolladores de Civilization y XCOM) y Respawn Entertainment presentan Star Wars Zero Company: un juego táctico por turnos single-player en la Guerra de los Clones. Hawks y Zero Company se meten en una conspiración que podría destruir la galaxia. Sale el 27 de agosto en PS5, Xbox Series X|S y PC.</description>
-      <media:content url="https://lumiere-a.akamaihd.net/v1/images/star-wars-zero-company-key-art-standard-edition_c74dfdf2.jpeg" medium="image"/>
     </item>
   </channel>
 </rss>

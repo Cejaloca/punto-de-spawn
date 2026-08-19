@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'gamescom-2026-opening-night-live-preview-agosto-2026',
+    titulo: 'Gamescom Opening Night Live el 25 de agosto: FF7 Revelation, Witcher 3 DLC, Metro 2039 y todo lo que viene',
+    extracto: 'El 25 de agosto arranca Gamescom 2026 con el Opening Night Live de Geoff Keighley: confirmados Final Fantasy VII Revelation con nueva mirada, la expansión Songs of the Past de The Witcher 3 y Game of Thrones: War for Westeros. El show arranca a las 15hs de Argentina.',
+    fecha: '2026-08-19',
+    fechaDisplay: '19 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['gamescom', 'gaming', 'ff7', 'witcher', 'metro-2039', 'events', 'opening-night-live'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://images.nintendolife.com/e4bb576020a8c/large.jpg',
+    archivo: 'posts/gamescom-2026-opening-night-live-preview-agosto-2026.html'
+  },
+  {
+    id: '1666-amsterdam-early-access-agosto-25-2026',
+    titulo: '1666: Amsterdam entra en Early Access el 25 de agosto — el proyecto de una década del creador de Assassin\'s Creed',
+    extracto: 'Patrice Désilets —el padre de Assassin\'s Creed— lanza su proyecto personal en Early Access el 25 de agosto por $29.99. Exploración sobrenatural del Ámsterdam del siglo XVII, dos personajes jugables (una bruja y su gato con mente humana) y 15 horas de campaña desde el día uno.',
+    fecha: '2026-08-19',
+    fechaDisplay: '19 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['gaming', 'early-access', 'accion', 'aventura', 'steam', 'pc', 'assassins-creed', 'indie'],
+    juego: '1666 Amsterdam',
+    juegoDisplay: '1666: Amsterdam',
+    imagen: 'https://gamesreviews.com/wp-content/uploads/2026/08/gr-1666-amsterdam-267019.jpg',
+    archivo: 'posts/1666-amsterdam-early-access-agosto-25-2026.html'
+  },
+  {
     id: 'gemini-37-flash-google-agosto-2026',
     titulo: 'Gemini 3.7 Flash ya está disponible: mejora brutal en coding y la mitad del precio',
     extracto: 'Google lanzó Gemini 3.7 Flash el 13 de agosto, solo tres semanas después de 3.6 Flash: DeepSWE sube de 49% a 65.3%, AutomationBench de 17% a 30.4%, y el precio se mantiene en $0.75/$3.75 por millón de tokens hasta fin de año.',
