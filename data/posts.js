@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'grok-46-xai-1753-elo-agosto-2026',
+    titulo: 'Grok 4.6 de xAI: 1753 ELO, mitad de precio y trabaja solo 22 minutos sin parar',
+    extracto: 'xAI lanzó Grok 4.6 el 12 de agosto: 1753 ELO en LMSYS, #1 en Databricks, $2 por millón de tokens y capaz de completar proyectos de código de forma autónoma durante 22 minutos seguidos sin intervención.',
+    fecha: '2026-08-20',
+    fechaDisplay: '20 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'xai', 'grok', 'ia', 'agentes', 'coding'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.basenor.com/cdn/shop/articles/0ad8178c7c71d81d686bb3977400ad05.png?v=1786550821',
+    archivo: 'posts/grok-46-xai-1753-elo-agosto-2026.html'
+  },
+  {
+    id: 'mortal-shell-2-review-agosto-20-2026',
+    titulo: 'Mortal Shell II ya está disponible: 84 en Metacritic, sin stamina y con jank',
+    extracto: 'Mortal Shell II lanzó hoy en PC, PS5 y Xbox Series con 84 en Metacritic: el sistema de Shells vuelve ampliado, el combate ya no tiene barra de stamina y el mundo es interconectado. La contra: hay glitches y los checkpoints escasean.',
+    fecha: '2026-08-20',
+    fechaDisplay: '20 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['mortal-shell', 'soulslike', 'cold-symmetry', 'pc', 'ps5', 'xbox', 'review', 'lanzamiento'],
+    juego: 'Mortal Shell II',
+    juegoDisplay: 'Mortal Shell II',
+    imagen: 'https://cdn.wccftech.com/wp-content/uploads/2026/08/Mortal-Shell-II-Header-1920x937.jpg',
+    archivo: 'posts/mortal-shell-2-review-agosto-20-2026.html'
+  },
+  {
+    id: 'valorant-parche-1304-abyss-acto-5-agosto-2026',
+    titulo: 'Valorant Patch 13.04: Abyss vuelve, Breeze sale y arranca el Acto 5',
+    extracto: 'El parche 13.04 de Valorant llegó el 18 de agosto: Abyss vuelve al pool competitivo, Breeze sale, arranca el Acto 5 con la Stage V26A5 de Premier y Riot promete novedades grandes en septiembre.',
+    fecha: '2026-08-20',
+    fechaDisplay: '20 de agosto de 2026',
+    categoria: 'patch-notes',
+    tags: ['valorant', 'patch-notes', 'riot-games', 'fps', 'abyss', 'acto-5'],
+    juego: 'valorant',
+    juegoDisplay: 'Valorant',
+    imagen: 'https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/610c12b411c40e6af76eec5d50646a56baf5dc26-1920x1080.jpg',
+    archivo: 'posts/valorant-parche-1304-abyss-acto-5-agosto-2026.html'
+  },
+  {
     id: 'gamescom-2026-opening-night-live-preview-agosto-2026',
     titulo: 'Gamescom Opening Night Live el 25 de agosto: FF7 Revelation, Witcher 3 DLC, Metro 2039 y todo lo que viene',
     extracto: 'El 25 de agosto arranca Gamescom 2026 con el Opening Night Live de Geoff Keighley: confirmados Final Fantasy VII Revelation con nueva mirada, la expansión Songs of the Past de The Witcher 3 y Game of Thrones: War for Westeros. El show arranca a las 15hs de Argentina.',
