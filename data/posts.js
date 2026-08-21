@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'god-of-war-prime-video-dave-bautista-kratos-agosto-2026',
+    titulo: 'Dave Bautista es el nuevo Kratos en la serie de God of War de Prime Video',
+    extracto: 'Amazon Prime Video confirmó que Dave Bautista reemplaza a Ryan Hurst como Kratos: Hurst sufrió una lesión en un stunt que requirió cirugía. Dos temporadas, showrunner Ronald D. Moore, rodaje reinicia en Vancouver este otoño.',
+    fecha: '2026-08-21',
+    fechaDisplay: '21 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['god-of-war', 'prime-video', 'amazon', 'series', 'dave-bautista', 'playstation', 'entretenimiento'],
+    juego: 'God of War',
+    juegoDisplay: 'God of War',
+    imagen: 'https://www.engadget.com/img/gallery/amazons-god-of-war-show-brings-in-dave-bautista-as-its-new-kratos/l-intro-1787266230.jpg',
+    archivo: 'posts/god-of-war-prime-video-dave-bautista-kratos-agosto-2026.html'
+  },
+  {
+    id: 'epic-gratis-breathedge-rival-stars-agosto-27-2026',
+    titulo: 'Epic gratis desde el 27 de agosto: Breathedge y Rival Stars Horse Racing',
+    extracto: 'El jueves 27 cambian los gratis de Epic: llegan Breathedge (survival en primera persona en el espacio con humor negro) y Rival Stars Horse Racing: Desktop Edition (gestión de establos, cría y carreras de caballos). Disponibles hasta el 3 de septiembre.',
+    fecha: '2026-08-21',
+    fechaDisplay: '21 de agosto de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'survival', 'indie', 'pc'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/738520/header.jpg',
+    archivo: 'posts/epic-gratis-breathedge-rival-stars-agosto-27-2026.html'
+  },
+  {
+    id: 'stalker-2-cost-of-hope-dlc-agosto-21-2026',
+    titulo: 'STALKER 2: Cost of Hope lanzó ayer con 85 en Metacritic — y la Update 2.0 es gratis para todos',
+    extracto: 'El primer DLC pago de STALKER 2 llegó el 20 de agosto con 85 en Metacritic, ocho puntos por encima del juego base: 21 horas de historia, dos nuevas regiones y nuevas facciones. La Update 2.0 (Unreal Engine 5.5.4) es gratis para todos los dueños.',
+    fecha: '2026-08-21',
+    fechaDisplay: '21 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['stalker-2', 'gsc-game-world', 'dlc', 'expansion', 'pc', 'xbox', 'ps5', 'survival', 'shooter'],
+    juego: 'STALKER 2',
+    juegoDisplay: 'S.T.A.L.K.E.R. 2: Heart of Chornobyl',
+    imagen: 'https://media.altchar.com/prod/images/gm_featured_image/8478782a3268-cost-of-hope-review.jpg',
+    archivo: 'posts/stalker-2-cost-of-hope-dlc-agosto-21-2026.html'
+  },
+  {
     id: 'grok-46-xai-1753-elo-agosto-2026',
     titulo: 'Grok 4.6 de xAI: 1753 ELO, mitad de precio y trabaja solo 22 minutos sin parar',
     extracto: 'xAI lanzó Grok 4.6 el 12 de agosto: 1753 ELO en LMSYS, #1 en Databricks, $2 por millón de tokens y capaz de completar proyectos de código de forma autónoma durante 22 minutos seguidos sin intervención.',
