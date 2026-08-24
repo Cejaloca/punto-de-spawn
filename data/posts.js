@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'cherry-xtrfy-k63w-pro-teclado-8k-uwb-agosto-2026',
+    titulo: 'Cherry XTRFY K63W Pro: el primer teclado gaming inalámbrico con 8000 Hz reales llega a USD 169.99',
+    extracto: 'Cherry XTRFY lanzó el K63W Pro a USD 169.99: primer teclado gaming con Ultra-Wideband inalámbrico y polling de 8000 Hz sin pérdidas, layout 70%, switches MX Low Profile 2.0 lubricados y 1100 horas de batería.',
+    fecha: '2026-08-24',
+    fechaDisplay: '24 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'teclado', 'gaming', 'cherry', 'inalambrico', 'hardware', 'ultra-wideband'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://i0.wp.com/cdnbunny.ubergizmo.com/wp-content/uploads/2026/06/CHERRY-XTRFY-K63W-Pro-3.jpg',
+    archivo: 'posts/cherry-xtrfy-k63w-pro-teclado-8k-uwb-agosto-2026.html'
+  },
+  {
+    id: 'steam-summer-of-screams-2026-terror',
+    titulo: 'Steam Summer of Screams 2026: horror hasta un 90% off — quedan pocos días',
+    extracto: 'La sale de terror de Steam corre hasta el 31 de agosto con descuentos de hasta 90%: Aliens vs. Predator a USD 1.49, Texas Chain Saw Massacre a USD 3.74, CARRION a USD 3.99 y cientos de títulos más.',
+    fecha: '2026-08-24',
+    fechaDisplay: '24 de agosto de 2026',
+    categoria: 'ofertas',
+    tags: ['steam', 'ofertas', 'descuentos', 'terror', 'horror', 'sale'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/2231450/header.jpg',
+    archivo: 'posts/steam-summer-of-screams-2026-terror.html'
+  },
+  {
+    id: 'gears-of-war-eday-preview-octubre-6-2026',
+    titulo: 'Gears of War: E-Day sale el 6 de octubre — todo lo que sabemos del prequel más esperado de Xbox',
+    extracto: 'Fecha confirmada: 6 de octubre en Xbox Series X|S, PC y Game Pass day 1. Prequel del Gears original, nuevo modo Horde Siege de 12 jugadores, demo jugable en Gamescom mañana y Collector\'s Edition con estatua de Marcus y Dom.',
+    fecha: '2026-08-24',
+    fechaDisplay: '24 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['gears-of-war', 'xbox', 'game-pass', 'the-coalition', 'pc', 'lanzamiento', 'prequel'],
+    juego: 'Gears of War E-Day',
+    juegoDisplay: 'Gears of War: E-Day',
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/3010850/header.jpg',
+    archivo: 'posts/gears-of-war-eday-preview-octubre-6-2026.html'
+  },
+  {
     id: 'god-of-war-prime-video-dave-bautista-kratos-agosto-2026',
     titulo: 'Dave Bautista es el nuevo Kratos en la serie de God of War de Prime Video',
     extracto: 'Amazon Prime Video confirmó que Dave Bautista reemplaza a Ryan Hurst como Kratos: Hurst sufrió una lesión en un stunt que requirió cirugía. Dos temporadas, showrunner Ronald D. Moore, rodaje reinicia en Vancouver este otoño.',

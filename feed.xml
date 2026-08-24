@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 21 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Cherry XTRFY K63W Pro: el primer teclado gaming inalámbrico con 8000 Hz reales llega a USD 169.99</title>
+      <link>https://puntodespawn.com/posts/cherry-xtrfy-k63w-pro-teclado-8k-uwb-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/cherry-xtrfy-k63w-pro-teclado-8k-uwb-agosto-2026.html</guid>
+      <pubDate>Mon, 24 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Cherry XTRFY lanzó el K63W Pro a USD 169.99: primer teclado gaming con Ultra-Wideband inalámbrico y polling de 8000 Hz sin pérdidas, layout 70%, switches MX Low Profile 2.0 lubricados y 1100 horas de batería.</description>
+      <media:content url="https://i0.wp.com/cdnbunny.ubergizmo.com/wp-content/uploads/2026/06/CHERRY-XTRFY-K63W-Pro-3.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Steam Summer of Screams 2026: horror hasta un 90% off — quedan pocos días</title>
+      <link>https://puntodespawn.com/posts/steam-summer-of-screams-2026-terror.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-summer-of-screams-2026-terror.html</guid>
+      <pubDate>Mon, 24 Aug 2026 03:00:00 GMT</pubDate>
+      <description>La sale de terror de Steam corre hasta el 31 de agosto con descuentos de hasta 90%: Aliens vs. Predator a USD 1.49, Texas Chain Saw Massacre a USD 3.74, CARRION a USD 3.99 y cientos de títulos más.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2231450/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Gears of War: E-Day sale el 6 de octubre — todo lo que sabemos del prequel más esperado de Xbox</title>
+      <link>https://puntodespawn.com/posts/gears-of-war-eday-preview-octubre-6-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gears-of-war-eday-preview-octubre-6-2026.html</guid>
+      <pubDate>Mon, 24 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Fecha confirmada: 6 de octubre en Xbox Series X|S, PC y Game Pass day 1. Prequel del Gears original, nuevo modo Horde Siege de 12 jugadores, demo jugable en Gamescom mañana y Collector's Edition con estatua de Marcus y Dom.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/3010850/header.jpg" medium="image"/>
+    </item>
     <item>
       <title>Dave Bautista es el nuevo Kratos en la serie de God of War de Prime Video</title>
       <link>https://puntodespawn.com/posts/god-of-war-prime-video-dave-bautista-kratos-agosto-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 10 Aug 2026 03:00:00 GMT</pubDate>
       <description>The Elder Scrolls IV: Oblivion Remastered llega el 11 de agosto al Nintendo Switch 2: edición estándar a USD 49,99 con Shivering Isles, Knights of the Nine y todos los DLC incluidos. El cartucho físico trae el juego completo sin descarga adicional, y corre a 900p en modo portátil y 1080p en TV a 30fps.</description>
       <media:content url="https://res.cloudinary.com/dewzjk72j/image/authenticated/s--_IiBc6df--/c_lfill,w_1200,h_630/f_auto:image,q_auto/v1/cms/OblivionRemastered_LargeHero_AvailableNow_inzwda" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI Astra resolvió 10 problemas matemáticos sin resolver en décadas — y le costó USD 2.000</title>
-      <link>https://puntodespawn.com/posts/openai-astra-matematicas-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-astra-matematicas-agosto-2026.html</guid>
-      <pubDate>Fri, 07 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El modelo interno Astra de OpenAI resolvió 10 problemas abiertos de matemáticas el 1 de agosto, incluyendo la primera construcción de un grupo no-sófico en 27 años. Cada prueba viene con un certificado Lean 4 verificable en GitHub, y le costó a OpenAI unos USD 2.000 en cómputo.</description>
-      <media:content url="https://d.techtimes.com/en/full/471014/astra-canyon.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Meta lanzó Muse Code: su primer agente de código para la terminal — y puede trabajar 24 horas solo</title>
-      <link>https://puntodespawn.com/posts/meta-muse-code-spark-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/meta-muse-code-spark-agosto-2026.html</guid>
-      <pubDate>Fri, 07 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Meta Superintelligence Labs lanzó el 5 de agosto Muse Code (beta), un agente de programación que corre en la terminal de macOS y Linux impulsado por Muse Spark 1.2. Puede tomar proyectos de repositorios completos, coordinar sub-agentes en paralelo y trabajar autónomamente durante hasta 24 horas.</description>
-      <media:content url="https://lookaside.fbsbx.com/elementpath/media/?media_id=27275013325511244&amp;version=1785879996" medium="image"/>
-    </item>
-    <item>
-      <title>Epic gratis desde el 13 de agosto: Caravan SandWitch — exploración post-apocalíptica sin combates ni muerte</title>
-      <link>https://puntodespawn.com/posts/epic-gratis-caravan-sandwitch-agosto-13-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-caravan-sandwitch-agosto-13-2026.html</guid>
-      <pubDate>Fri, 07 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El próximo jueves 13 llega Caravan SandWitch gratis a Epic: una aventura narrativa en una Provenza sci-fi post-apocalíptica donde buscás a tu hermana sin combates, sin muerte y sin timer. Disponible hasta el 20 de agosto.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1582650/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
