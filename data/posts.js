@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'gamescom-onl-2026-recap-todos-anuncios-agosto-25',
+    titulo: 'Gamescom ONL 2026: todos los anuncios — Witcher 3 DLC, Tides of Annihilation, Silent Hill y más',
+    extracto: 'El Opening Night Live del 25 de agosto dejó una lista enorme: The Witcher 3 vuelve con la expansión Songs of the Past, se reveló Tides of Annihilation de Eclipse Glow Games, regresó Silent Hill: Townfall, y hubo trailers de Metro 2039, CONTROL Resonant, Monster Hunter Outlanders y más.',
+    fecha: '2026-08-25',
+    fechaDisplay: '25 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['gamescom', 'gaming', 'witcher', 'silent-hill', 'metro', 'opening-night-live', 'anuncios'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://insider-gaming.com/wp-content/uploads/2025/08/gamescom-2026.webp',
+    archivo: 'posts/gamescom-onl-2026-recap-todos-anuncios-agosto-25.html'
+  },
+  {
+    id: 'grok-voice-think-fast-2-xai-agosto-2026',
+    titulo: 'Grok Voice Think Fast 2.0: la IA de voz de xAI que responde en 0,7 segundos y le gana a GPT en tiempo real',
+    extracto: 'xAI lanzó Grok Voice Think Fast 2.0 el 29 de julio: 82,9% en el benchmark de voz de Artificial Analysis (vs 79,1% de GPT-Realtime), respuesta en 0,70 segundos, 1,4x de mejora en transcripción y razonamiento en paralelo con el habla. Disponible a USD 0,08/min.',
+    fecha: '2026-08-25',
+    fechaDisplay: '25 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'xai', 'grok', 'ia', 'voz', 'voice', 'speech-to-speech', 'agentes'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://media.x.ai/v1/website/grok-voice-think-fast-2-19ad1e0b.webp',
+    archivo: 'posts/grok-voice-think-fast-2-xai-agosto-2026.html'
+  },
+  {
     id: 'cherry-xtrfy-k63w-pro-teclado-8k-uwb-agosto-2026',
     titulo: 'Cherry XTRFY K63W Pro: el primer teclado gaming inalámbrico con 8000 Hz reales llega a USD 169.99',
     extracto: 'Cherry XTRFY lanzó el K63W Pro a USD 169.99: primer teclado gaming con Ultra-Wideband inalámbrico y polling de 8000 Hz sin pérdidas, layout 70%, switches MX Low Profile 2.0 lubricados y 1100 horas de batería.',

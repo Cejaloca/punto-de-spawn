@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 24 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Gamescom ONL 2026: todos los anuncios — Witcher 3 DLC, Tides of Annihilation, Silent Hill y más</title>
+      <link>https://puntodespawn.com/posts/gamescom-onl-2026-recap-todos-anuncios-agosto-25.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gamescom-onl-2026-recap-todos-anuncios-agosto-25.html</guid>
+      <pubDate>Tue, 25 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El Opening Night Live del 25 de agosto dejó una lista enorme: The Witcher 3 vuelve con la expansión Songs of the Past, se reveló Tides of Annihilation de Eclipse Glow Games, regresó Silent Hill: Townfall, y hubo trailers de Metro 2039, CONTROL Resonant, Monster Hunter Outlanders y más.</description>
+      <media:content url="https://insider-gaming.com/wp-content/uploads/2025/08/gamescom-2026.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Grok Voice Think Fast 2.0: la IA de voz de xAI que responde en 0,7 segundos y le gana a GPT en tiempo real</title>
+      <link>https://puntodespawn.com/posts/grok-voice-think-fast-2-xai-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/grok-voice-think-fast-2-xai-agosto-2026.html</guid>
+      <pubDate>Tue, 25 Aug 2026 03:00:00 GMT</pubDate>
+      <description>xAI lanzó Grok Voice Think Fast 2.0 el 29 de julio: 82,9% en el benchmark de voz de Artificial Analysis (vs 79,1% de GPT-Realtime), respuesta en 0,70 segundos, 1,4x de mejora en transcripción y razonamiento en paralelo con el habla. Disponible a USD 0,08/min.</description>
+      <media:content url="https://media.x.ai/v1/website/grok-voice-think-fast-2-19ad1e0b.webp" medium="image"/>
+    </item>
     <item>
       <title>Cherry XTRFY K63W Pro: el primer teclado gaming inalámbrico con 8000 Hz reales llega a USD 169.99</title>
       <link>https://puntodespawn.com/posts/cherry-xtrfy-k63w-pro-teclado-8k-uwb-agosto-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Mon, 10 Aug 2026 03:00:00 GMT</pubDate>
       <description>FromSoftware anunció el 28 de agosto para Elden Ring Tarnished Edition en Switch 2: base game + Shadow of the Erdtree a USD 79,99, dos clases nuevas (Knight of Ides y Heavy Warrior), cuatro armaduras inéditas y personalización de Torrent. El &quot;Tarnished Pack&quot; llega el mismo día como DLC para PS4, PS5, Xbox y Steam.</description>
       <media:content url="https://static.bandainamcoent.eu/high/elden-ring/elden-ring-tarnished-edition/01-news/ER_TE_Thumbnail-announcement.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Meta lanzó Muse Glimmer: 30B parámetros open source que corren en tu Mac o PC, sin internet</title>
-      <link>https://puntodespawn.com/posts/meta-muse-glimmer-ia-local-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/meta-muse-glimmer-ia-local-agosto-2026.html</guid>
-      <pubDate>Mon, 10 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Meta Superintelligence Labs lanzó Muse Glimmer: un modelo de 30.000 millones de parámetros con licencia Apache 2.0 diseñado para correr en tu computadora sin internet. Menos de 20GB cuantizado, optimizado para agentes locales, coding y tool use, y compatible con GPUs de 24-32GB.</description>
-      <media:content url="https://lookaside.fbsbx.com/elementpath/media/?media_id=2272911630133843&amp;version=1786289182" medium="image"/>
-    </item>
-    <item>
-      <title>Oblivion Remastered llega mañana al Switch 2: todo el juego en el cartucho a USD 49,99</title>
-      <link>https://puntodespawn.com/posts/oblivion-remastered-switch-2-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/oblivion-remastered-switch-2-agosto-2026.html</guid>
-      <pubDate>Mon, 10 Aug 2026 03:00:00 GMT</pubDate>
-      <description>The Elder Scrolls IV: Oblivion Remastered llega el 11 de agosto al Nintendo Switch 2: edición estándar a USD 49,99 con Shivering Isles, Knights of the Nine y todos los DLC incluidos. El cartucho físico trae el juego completo sin descarga adicional, y corre a 900p en modo portátil y 1080p en TV a 30fps.</description>
-      <media:content url="https://res.cloudinary.com/dewzjk72j/image/authenticated/s--_IiBc6df--/c_lfill,w_1200,h_630/f_auto:image,q_auto/v1/cms/OblivionRemastered_LargeHero_AvailableNow_inzwda" medium="image"/>
     </item>
   </channel>
 </rss>
