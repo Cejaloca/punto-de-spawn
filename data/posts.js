@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'semana-27-agosto-2026-star-wars-mgs-gta6-resonance',
+    titulo: 'Semana del 27 de agosto: GTA 6 gameplay, Star Wars Zero Company, MGS Collection Vol 2 y Resonance',
+    extracto: 'El 27 de agosto es uno de los días más cargados del año en gaming: primer gameplay real de GTA 6 en Netflix, lanza Star Wars Zero Company (el XCOM de la Guerra de los Clones), MGS4 sale del PS3 después de 18 años y llega Resonance: A Plague Tale Legacy.',
+    fecha: '2026-08-26',
+    fechaDisplay: '26 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['gaming', 'gta-6', 'star-wars', 'metal-gear', 'plague-tale', 'lanzamiento', 'rockstar', 'konami'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2kaa1o3297k9/4faf2f8d60cd657f09eb55707b31cc44008bfa4c.jpg',
+    archivo: 'posts/semana-27-agosto-2026-star-wars-mgs-gta6-resonance.html'
+  },
+  {
+    id: 'claude-sonnet-5-precio-permanente-agosto-2026',
+    titulo: 'Anthropic cancela el aumento de precios de Claude Sonnet 5: los $2/$10 por millón de tokens son permanentes',
+    extracto: 'Anthropic confirmó el 10 de agosto que el precio introductorio de Claude Sonnet 5 ($2/MTok input y $10/MTok output) es ahora permanente. El aumento a $3/$15 planificado para el 1° de septiembre no va a ocurrir.',
+    fecha: '2026-08-26',
+    fechaDisplay: '26 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'ia', 'precios', 'sonnet', 'agentes'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.sanity.io/images/4zrzovbb/website/2039cc549c023bc855671308211d20d3382828a9-2880x1620.jpg',
+    archivo: 'posts/claude-sonnet-5-precio-permanente-agosto-2026.html'
+  },
+  {
+    id: 'lol-parche-2617-live-agosto-26-2026',
+    titulo: 'Parche 26.17 de LoL live: Yasuo y Yone al fin escalan, Vayne y Xerath nerfeados',
+    extracto: 'El parche 26.17 llegó hoy a los servidores de LATAM: Yasuo y Yone reducen su penalidad de crítico para escalar en late game, Vayne recibe el nerf más completo del año en stat bases, Q y W, Xerath baja de potencia y llegan Heartsong Seraphine y las skins Ocean Song.',
+    fecha: '2026-08-26',
+    fechaDisplay: '26 de agosto de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 'yasuo', 'yone', 'vayne', 'xerath', 'heartsong'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e7061804e74e43de5c3cb98cc4892d318f3c7081-1920x1080.jpg',
+    archivo: 'posts/lol-parche-2617-live-agosto-26-2026.html'
+  },
+  {
     id: 'gamescom-onl-2026-recap-todos-anuncios-agosto-25',
     titulo: 'Gamescom ONL 2026: todos los anuncios — Witcher 3 DLC, Tides of Annihilation, Silent Hill y más',
     extracto: 'El Opening Night Live del 25 de agosto dejó una lista enorme: The Witcher 3 vuelve con la expansión Songs of the Past, se reveló Tides of Annihilation de Eclipse Glow Games, regresó Silent Hill: Townfall, y hubo trailers de Metro 2039, CONTROL Resonant, Monster Hunter Outlanders y más.',

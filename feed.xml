@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 25 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Semana del 27 de agosto: GTA 6 gameplay, Star Wars Zero Company, MGS Collection Vol 2 y Resonance</title>
+      <link>https://puntodespawn.com/posts/semana-27-agosto-2026-star-wars-mgs-gta6-resonance.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/semana-27-agosto-2026-star-wars-mgs-gta6-resonance.html</guid>
+      <pubDate>Wed, 26 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El 27 de agosto es uno de los días más cargados del año en gaming: primer gameplay real de GTA 6 en Netflix, lanza Star Wars Zero Company (el XCOM de la Guerra de los Clones), MGS4 sale del PS3 después de 18 años y llega Resonance: A Plague Tale Legacy.</description>
+      <media:content url="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2kaa1o3297k9/4faf2f8d60cd657f09eb55707b31cc44008bfa4c.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Anthropic cancela el aumento de precios de Claude Sonnet 5: los $2/$10 por millón de tokens son permanentes</title>
+      <link>https://puntodespawn.com/posts/claude-sonnet-5-precio-permanente-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-sonnet-5-precio-permanente-agosto-2026.html</guid>
+      <pubDate>Wed, 26 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Anthropic confirmó el 10 de agosto que el precio introductorio de Claude Sonnet 5 ($2/MTok input y $10/MTok output) es ahora permanente. El aumento a $3/$15 planificado para el 1° de septiembre no va a ocurrir.</description>
+      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/2039cc549c023bc855671308211d20d3382828a9-2880x1620.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Parche 26.17 de LoL live: Yasuo y Yone al fin escalan, Vayne y Xerath nerfeados</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2617-live-agosto-26-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2617-live-agosto-26-2026.html</guid>
+      <pubDate>Wed, 26 Aug 2026 03:00:00 GMT</pubDate>
+      <description>El parche 26.17 llegó hoy a los servidores de LATAM: Yasuo y Yone reducen su penalidad de crítico para escalar en late game, Vayne recibe el nerf más completo del año en stat bases, Q y W, Xerath baja de potencia y llegan Heartsong Seraphine y las skins Ocean Song.</description>
+      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e7061804e74e43de5c3cb98cc4892d318f3c7081-1920x1080.jpg" medium="image"/>
+    </item>
     <item>
       <title>Gamescom ONL 2026: todos los anuncios — Witcher 3 DLC, Tides of Annihilation, Silent Hill y más</title>
       <link>https://puntodespawn.com/posts/gamescom-onl-2026-recap-todos-anuncios-agosto-25.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Tue, 11 Aug 2026 03:00:00 GMT</pubDate>
       <description>Rockstar anunció &quot;Grand Theft Auto VI: An Extended Look&quot;: el primer footage real de GTA 6 llega el 27 de agosto en Netflix a las 16 hs Argentina, posiblemente ~30 minutos de gameplay. Recién a las 22 hs llega a YouTube. El juego sale el 19 de noviembre para PS5 y Xbox Series X|S.</description>
       <media:content url="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2kaa1o3297k9/4faf2f8d60cd657f09eb55707b31cc44008bfa4c.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Prime Gaming agosto 2026: 12 juegos gratis este mes — Civilization III y Thief disponibles ahora</title>
-      <link>https://puntodespawn.com/posts/prime-gaming-agosto-2026-12-juegos-gratis.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/prime-gaming-agosto-2026-12-juegos-gratis.html</guid>
-      <pubDate>Tue, 11 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Amazon Prime trae 12 juegos gratuitos para agosto 2026: Civilization III Complete, Thief: Definitive Edition y The Academy ya disponibles. Otros 9 juegos llegan en olas el 14, 21 y 28 de agosto.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/3910/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Seedance 2.5: el modelo de IA de ByteDance que genera 30 segundos de video nativo — ahora disponible</title>
-      <link>https://puntodespawn.com/posts/seedance-25-bytedance-video-ia-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/seedance-25-bytedance-video-ia-agosto-2026.html</guid>
-      <pubDate>Tue, 11 Aug 2026 03:00:00 GMT</pubDate>
-      <description>ByteDance lanzó Seedance 2.5 en Dreamina y CapCut: hasta 30 segundos de video generados de una sola pasada sin stitching, 4K, audio en 10+ idiomas y hasta 50 referencias multimodales. Disponible desde el 7 de agosto vía API.</description>
-      <media:content url="https://mmx.prnewswire.com/media/MS1962863/20260803083530EDT_image_1.jpg?id=OA2821655&amp;p=facebook" medium="image"/>
-    </item>
-    <item>
-      <title>Elden Ring Tarnished Edition llega el 28 de agosto al Switch 2: clases nuevas y contenido también para PS5 y PC</title>
-      <link>https://puntodespawn.com/posts/elden-ring-tarnished-edition-switch-2-agosto-28-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/elden-ring-tarnished-edition-switch-2-agosto-28-2026.html</guid>
-      <pubDate>Mon, 10 Aug 2026 03:00:00 GMT</pubDate>
-      <description>FromSoftware anunció el 28 de agosto para Elden Ring Tarnished Edition en Switch 2: base game + Shadow of the Erdtree a USD 79,99, dos clases nuevas (Knight of Ides y Heavy Warrior), cuatro armaduras inéditas y personalización de Torrent. El &quot;Tarnished Pack&quot; llega el mismo día como DLC para PS4, PS5, Xbox y Steam.</description>
-      <media:content url="https://static.bandainamcoent.eu/high/elden-ring/elden-ring-tarnished-edition/01-news/ER_TE_Thumbnail-announcement.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
