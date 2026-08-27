@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esports — PuntoDeSpawn</title>
+  <meta name="description" content="Seguí los torneos de Dota 2, CS2, LoL, VALORANT y Hearthstone en vivo. Calendario, streams y resultados en PuntoDeSpawn.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel='icon' href='favicon.svg' type='image/svg+xml'>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5515559999355995" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGPHS744ZY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JGPHS744ZY');
+  </script>
+  <link rel="alternate" type="application/rss+xml" title="PuntoDeSpawn RSS" href="https://puntodespawn.com/feed.xml">
+  <style>
+    /* ── ESPORTS PAGE STYLES ───────────────────────────── */
+
+    /* Badges de estado */
+    .es-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      padding: 0.18rem 0.6rem;
+      border-radius: 3px;
+      white-space: nowrap;
+    }
+    .es-badge-live {
+      background: rgba(255,60,60,0.18);
+      color: #ff6060;
+      border: 1px solid rgba(255,60,60,0.4);
+    }
+    .es-badge-upcoming {
+      background: rgba(100,160,255,0.15);
+      color: #80b0ff;
+      border: 1px solid rgba(100,160,255,0.3);
+    }
+    .es-badge-done {
+      background: rgba(120,120,120,0.12);
+      color: #888;
+      border: 1px solid rgba(120,120,120,0.2);
+    }
+    .es-pulse {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #ff5050;
+      animation: esPulse 1.4s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+    @keyframes esPulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.75); }
+    }
+
+    /* ── SECCIÓN LIVE ────────────────────────────────── */
+    .es-live-section {
+      background: #0d0d14;
+      border-bottom: 1px solid var(--border);
+      padding: 2rem 0;
+    }
+    .es-live-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .es-live-label {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    .es-live-grid {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 1.5rem;
+      align-items: start;
+    }
+    @media (max-width: 860px) {
+      .es-live-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Player */
+    .es-player-wrap {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      background: #080810;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .es-player-wrap iframe,
+    .es-player-wrap > div {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+    }
+    .es-player-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    /* Panel derecho */
+    .es-live-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .es-live-panel h3 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.25rem;
+    }
+    .es-live-panel p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .es-embed-info {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.75rem;
+      color: var(--accent);
+      min-height: 1.2rem;
+    }
+
+    /* Barra de canales rápidos */
+    .es-canal-bar-wrap {
+      margin-top: 0.5rem;
+    }
+    .es-canal-bar-label {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--text-secondary);
+      margin-bottom: 0.6rem;
+    }
+    #es-canal-bar {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .es-canal-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 0.5rem 0.8rem;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.18s;
+    }
+    .es-canal-btn:hover,
+    .es-canal-btn.active {
+      background: rgba(176,128,255,0.1);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    @media (max-width: 860px) {
+      #es-canal-bar { flex-direction: row; flex-wrap: wrap; }
+      .es-canal-btn { flex: 1; min-width: 100px; text-align: center; }
+    }
+
+    /* ── FILTRO POR JUEGO ────────────────────────────── */
+    .es-filter-bar {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0 1.25rem;
+    }
+    .es-game-tab {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      padding: 0.35rem 0.9rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+    .es-game-tab:hover { border-color: rgba(176,128,255,0.4); color: var(--text-primary); }
+    .es-game-tab.active {
+      background: rgba(176,128,255,0.12);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* ── GRID DE TORNEOS ─────────────────────────────── */
+    #es-torneos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.25rem;
+    }
+    .es-torneo-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+    .es-torneo-card:hover {
+      border-color: rgba(176,128,255,0.35);
+      transform: translateY(-2px);
+    }
+    .es-torneo-header {
+      padding: 1rem 1.1rem 0.75rem;
+    }
+    .es-torneo-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+    .es-juego-chip {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      border: 1px solid currentColor;
+      opacity: 0.9;
+    }
+    .es-torneo-nombre {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.3;
+      margin-bottom: 0.3rem;
+    }
+    .es-torneo-loc {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+    }
+    .es-torneo-body {
+      padding: 0.75rem 1.1rem;
+      flex: 1;
+    }
+    .es-torneo-desc {
+      font-size: 0.84rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      margin-bottom: 0.9rem;
+    }
+    .es-torneo-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem 1rem;
+    }
+    .es-stat { display: flex; flex-direction: column; gap: 1px; }
+    .es-stat-label {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-secondary);
+    }
+    .es-stat-val {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .es-torneo-footer {
+      padding: 0.75rem 1.1rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+    }
+    .es-watch-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: #6441a5;
+      color: #fff;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 0.4rem 0.85rem;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.18s;
+      white-space: nowrap;
+    }
+    .es-watch-btn:hover { background: #7d5bbe; }
+    .es-watch-btn:disabled { background: #333; color: #666; cursor: not-allowed; }
+    .es-liq-btn {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      transition: color 0.18s;
+      white-space: nowrap;
+    }
+    .es-liq-btn:hover { color: var(--accent); }
+
+    /* ── PARTIDOS (PandaScore) ────────────────────────── */
+    #es-partidos-section { display: none; }
+    #es-partidos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+    .es-partido-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 0.9rem 1rem;
+    }
+    .es-partido-juego {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.25rem;
+    }
+    .es-partido-fecha {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.6rem;
+    }
+    .es-partido-match {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      justify-content: center;
+      margin-bottom: 0.4rem;
+    }
+    .es-partido-team {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #fff;
+      flex: 1;
+      text-align: center;
+    }
+    .es-partido-vs {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+      flex-shrink: 0;
+    }
+    .es-partido-liga {
+      font-size: 0.72rem;
+      color: var(--text-secondary);
+      text-align: center;
+    }
+
+    /* ── EMPTY ───────────────────────────────────────── */
+    .es-empty {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      padding: 2rem 0;
+      grid-column: 1 / -1;
+    }
+
+    /* ── SECTION TITLE ───────────────────────────────── */
+    .es-section-title {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0;
+    }
+    .es-section-title span { color: var(--accent); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">Punto<span>De</span>Spawn</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="tecnologia.html">Tecnología</a></li>
+          <li><a href="gaming.html">Gaming</a></li>
+          <li><a href="ofertas.html">Ofertas</a></li>
+          <li><a href="comunidad.html">Comunidad</a></li>
+          <li><a href="esports.html" class="active">Esports</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+      <div class="container">
+        <h1><span class="accent">Esports</span></h1>
+        <p>Torneos, calendarios y streams en vivo de Dota 2, CS2, LoL, VALORANT y Hearthstone.</p>
+      </div>
+    </div>
+
+    <!-- LIVE SECTION -->
+    <div class="es-live-section">
+      <div class="es-live-inner">
+        <p class="es-live-label">Stream en vivo</p>
+        <div class="es-live-grid">
+
+          <!-- PLAYER -->
+          <div>
+            <div class="es-player-wrap" id="es-player-wrap">
+              <!-- cargado por JS -->
+            </div>
+            <p class="es-embed-info" id="es-embed-info" style="margin-top:0.5rem; padding:0 0.1rem;"></p>
+            <p style="font-size:0.72rem; color:#555; margin-top:0.3rem; padding:0 0.1rem;">
+              El embed usa Twitch. Si hay algo en vivo, aparece directamente acá. Si no, seleccioná un juego para ver el canal oficial.
+            </p>
+          </div>
+
+          <!-- PANEL DERECHO: canales rápidos -->
+          <div class="es-live-panel">
+            <div>
+              <h3>Ver canal por juego</h3>
+              <p>Hacé clic en un juego para cargar el canal oficial de Twitch directamente en el player.</p>
+            </div>
+            <div class="es-canal-bar-wrap">
+              <p class="es-canal-bar-label">Canales oficiales</p>
+              <div id="es-canal-bar"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- TORNEOS -->
+    <section class="section">
+      <div class="container">
+
+        <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; margin-bottom:0.25rem;">
+          <h2 class="es-section-title">Torneos <span>2026</span></h2>
+        </div>
+
+        <!-- Filtros -->
+        <div class="es-filter-bar">
+          <button class="es-game-tab active" data-juego="todos">Todos</button>
+          <button class="es-game-tab" data-juego="dota2">Dota 2</button>
+          <button class="es-game-tab" data-juego="cs2">CS2</button>
+          <button class="es-game-tab" data-juego="lol">League of Legends</button>
+          <button class="es-game-tab" data-juego="valorant">VALORANT</button>
+          <button class="es-game-tab" data-juego="hearthstone">Hearthstone</button>
+        </div>
+
+        <!-- Grid de torneos -->
+        <div id="es-torneos-grid">
+          <p style="color:var(--text-secondary)">Cargando torneos...</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PRÓXIMOS PARTIDOS (PandaScore — aparece si hay API key) -->
+    <section class="section section-alt" id="es-partidos-section">
+      <div class="container">
+        <h2 class="es-section-title">Próximos <span>partidos</span></h2>
+        <p style="font-size:0.85rem; color:var(--text-secondary); margin-top:0.35rem;">
+          Partidos en tiempo real vía PandaScore API.
+        </p>
+        <div id="es-partidos-grid"></div>
+      </div>
+    </section>
+
+    <!-- INFO PANDASCORE -->
+    <section class="section">
+      <div class="container">
+        <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:6px; padding:1.5rem; max-width:680px;">
+          <h3 style="font-family:'Rajdhani',sans-serif; font-size:1rem; font-weight:700; color:#fff; margin-bottom:0.6rem;">
+            🔗 Conectar datos en tiempo real
+          </h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.6; margin-bottom:0.75rem;">
+            Esta página puede traer partidos en tiempo real de Dota 2, CS2, LoL, VALORANT y Hearthstone usando la API gratuita de <strong style="color:var(--text-primary)">PandaScore</strong> (1000 req/hora, sin costo).
+          </p>
+          <ol style="font-size:0.82rem; color:var(--text-secondary); line-height:1.8; padding-left:1.2rem;">
+            <li>Registrate en <a href="https://pandascore.co" target="_blank" rel="noopener">pandascore.co</a> (es gratis)</li>
+            <li>Copiá tu token de API</li>
+            <li>En <code style="background:#111; padding:1px 5px; border-radius:3px; font-size:0.8rem;">js/esports.js</code>, pegalo en la línea <code style="background:#111; padding:1px 5px; border-radius:3px; font-size:0.8rem;">PANDASCORE_TOKEN = ''</code></li>
+            <li>Los partidos aparecen automáticamente en la sección de arriba</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Punto<span>De</span>Spawn</a>
+          <p class="footer-tagline">Tu punto de spawn en el mundo tech y gaming.</p>
+          <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener" class="footer-social"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg> @puntodespawn.ok</a>
+        </div>
+        <div class="footer-col">
+          <h4>Secciones</h4>
+          <ul>
+            <li><a href="tecnologia.html">Tecnología</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="comunidad.html">Comunidad</a></li>
+            <li><a href="esports.html">Esports</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>El sitio</h4>
+          <ul>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/esports.js"></script>
+  <script src="js/esports.js"></script>
+  <script src="js/main.js?v=20260718"></script>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>
