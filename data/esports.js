@@ -1,153 +1,171 @@
 // ============================================================
 // data/esports.js — Datos de torneos de Esports
-// Actualizar este archivo con nuevos torneos manualmente,
-// o conectar PandaScore API (free tier) desde js/esports.js
+// Curado a mano, con foco en Argentina/Latam donde hay gancho local.
+// Todas las fechas verificadas por research (agosto 2026). Actualizar
+// cuando arranque/termine un torneo, o cuando salgan fechas nuevas.
 // ============================================================
 
-// Canales de Twitch y YouTube por juego
+// Canales de Twitch y YouTube por juego (fallback general, no ligado a un torneo puntual)
 const ESPORTS_CANALES = {
   dota2: {
     label: 'Dota 2',
     twitch: 'dota2ti',
     twitchAlt: 'esl_dota2',
-    color: '#c23b22',
-    icon: '🔴'
+    color: '#c23b22'
   },
   cs2: {
     label: 'CS2',
     twitch: 'blast_cs',
     twitchAlt: 'esl_cs2',
-    color: '#ff6b35',
-    icon: '🟠'
+    color: '#ff6b35'
   },
   lol: {
     label: 'League of Legends',
     twitch: 'lck',
     twitchAlt: 'riotgames',
-    color: '#c89b3c',
-    icon: '🟡'
+    color: '#c89b3c'
   },
   valorant: {
     label: 'VALORANT',
     twitch: 'valorantesports',
     twitchAlt: 'valorant_es',
-    color: '#ff4655',
-    icon: '🔺'
+    color: '#ff4655'
   },
   hearthstone: {
     label: 'Hearthstone',
     twitch: 'playhearthstone',
     twitchAlt: 'blizzard_esports',
-    color: '#c97d0e',
-    icon: '🟤'
+    color: '#c97d0e'
   }
 };
 
-// Torneos — actualizar fechaInicio/fechaFin cuando empiecen nuevos eventos
+// Torneos — lista curada, no exhaustiva. Priorizamos gancho argentino/latam
+// (Leviatán, ShindeN, 9z/Bestia/CONTER) y un torneo global de referencia por juego.
 const ESPORTS_TORNEOS = [
+  {
+    id: 'vct-americas-2026-stage2-playoffs',
+    nombre: 'VCT Americas 2026 — Playoffs: Leviatán vs MIBR',
+    juego: 'valorant',
+    fechaInicio: '2026-08-27',
+    fechaFin: '2026-08-27',
+    ubicacion: 'Online',
+    premios: 'Clasificación a VCT Champions',
+    equipos: 2,
+    descripcion: 'Leviatán se mide con MIBR en la primera ronda de playoffs de VCT Americas Stage 2. Se enfrentaron 4 veces esta temporada, 2-2. Leviatán llega como favorito por su forma en fase de grupos.',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Valorant_Champions_Tour_logo.png',
+    liquipedia: 'https://liquipedia.net/valorant/VCT/2026/Americas/Stage_2',
+    twitch: 'valorantesports'
+  },
+  {
+    id: 'cblol-2026-split1-leviatan',
+    nombre: 'CBLOL 2026 Split 1 — Leviatán entre los ocho equipos',
+    juego: 'lol',
+    fechaInicio: '2026-08-01',
+    fechaFin: '2026-09-20',
+    ubicacion: 'Riot Games Arena, São Paulo',
+    premios: 'Clasificación a Playoffs + Worlds',
+    equipos: 8,
+    descripcion: 'Leviatán, la organización argentina, compite en CBLOL 2026 Split 1 junto a Fluxo, FURIA, Keyd Stars, LOUD, paiN Gaming, RED Canids y LOS. Pelean por un lugar en los playoffs y en Worlds.',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/CBLOL_logo.png',
+    liquipedia: 'https://liquipedia.net/leagueoflegends/CBLOL/2026/Split_1',
+    twitch: 'riotgames'
+  },
+  {
+    id: 'esl-pro-league-s24-shinden',
+    nombre: 'ESL Pro League Season 24 — ShindeN clasificó',
+    juego: 'cs2',
+    fechaInicio: '2026-10-03',
+    fechaFin: '2026-10-11',
+    ubicacion: 'Spodek Arena, Katowice, Polonia',
+    premios: '$1,000,000',
+    equipos: 16,
+    descripcion: 'ShindeN, la organización argentina fundada por Lit Killah y Spreen, clasificó a la EPL S24 tras ganar la ESL Challenger League Finals de Sudamérica. Debutan en el torneo S-Tier más importante del semestre.',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Counter_Strike_2_Logo.png',
+    liquipedia: 'https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24',
+    twitch: 'esl_csgo'
+  },
+  {
+    id: 'blast-open-porto-2026-s2',
+    nombre: 'BLAST Open Porto 2026',
+    juego: 'cs2',
+    fechaInicio: '2026-08-26',
+    fechaFin: '2026-09-06',
+    ubicacion: 'Copenhague (grupos) → Super Bock Arena, Porto (playoffs)',
+    premios: '$1,100,000',
+    equipos: 16,
+    descripcion: 'Fase de grupos en BLAST Studios (Copenhague) hasta el 31/8, con playoffs presenciales en Porto del 4 al 6 de septiembre. Incluye a Spirit, Falcons, FURIA, Vitality y MOUZ, entre los mejores del ranking Valve.',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Counter_Strike_2_Logo.png',
+    liquipedia: 'https://liquipedia.net/counterstrike/BLAST/Open/2026/Porto',
+    twitch: 'blast_cs'
+  },
+  {
+    id: 'conter-argentina-2026',
+    nombre: 'CONTER — El circuito argentino de CS2 camino al Major 2027',
+    juego: 'cs2',
+    fechaInicio: '2026-01-29',
+    fechaFin: '2026-12-20',
+    ubicacion: 'Buenos Aires, Argentina',
+    premios: 'Puntos de ranking Valve',
+    equipos: 16,
+    descripcion: 'Primer circuito profesional de CS2 en Argentina (FiReSPORTS), con 9z y Bestia entre los equipos top. Reparte puntos oficiales de cara al Major de Buenos Aires 2027 — el primero que se juega en el país.',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Counter_Strike_2_Logo.png',
+    liquipedia: 'https://liquipedia.net/counterstrike/Conter/2026',
+    twitch: 'blast_cs'
+  },
   {
     id: 'vct-champions-2026',
     nombre: 'VCT Champions 2026',
     juego: 'valorant',
-    estado: 'en-curso',
-    fechaInicio: '2026-08-15',
-    fechaFin: '2026-09-07',
-    ubicacion: 'Londres, Reino Unido',
+    fechaInicio: '2026-09-24',
+    fechaFin: '2026-10-18',
+    ubicacion: 'Shanghái, China',
     premios: '$2,250,000',
     equipos: 16,
-    descripcion: 'El torneo más importante del año para VALORANT. 16 equipos de EMEA, Americas y Pacific pelean por el título mundial en el O2 Arena.',
-    imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VALORANT_logo.svg/1200px-VALORANT_logo.svg.png',
+    descripcion: 'El cierre de temporada de VALORANT. Primera vez que Champions se juega en China. 16 equipos de todas las regiones pelean por el título mundial.',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Valorant_Champions_Tour_logo.png',
     liquipedia: 'https://liquipedia.net/valorant/VCT/2026/Champions',
     twitch: 'valorantesports'
-  },
-  {
-    id: 'lck-summer-2026-playoffs',
-    nombre: 'LCK Summer 2026 — Playoffs',
-    juego: 'lol',
-    estado: 'en-curso',
-    fechaInicio: '2026-08-18',
-    fechaFin: '2026-09-01',
-    ubicacion: 'LoL Park, Seúl',
-    premios: 'Clasificación a Worlds',
-    equipos: 8,
-    descripcion: 'Los playoffs de la Liga Korean Champions determinan cuáles equipos representarán a LCK en el Campeonato Mundial de LoL.',
-    imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/LCK_2023_logo.svg/1200px-LCK_2023_logo.svg.png',
-    liquipedia: 'https://liquipedia.net/leagueoflegends/LCK/2026/Summer/Playoffs',
-    twitch: 'lck'
-  },
-  {
-    id: 'esl-one-bangkok-dota2-2026',
-    nombre: 'ESL One Bangkok 2026',
-    juego: 'dota2',
-    estado: 'en-curso',
-    fechaInicio: '2026-08-20',
-    fechaFin: '2026-08-31',
-    ubicacion: 'Bangkok, Tailandia',
-    premios: '$500,000',
-    equipos: 12,
-    descripcion: 'Un Major crucial antes del TI 2026. Los mejores equipos de Dota 2 compiten por puntos DPC y práctica antes del campeonato mundial.',
-    imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ESL_Gaming_logo.svg/1200px-ESL_Gaming_logo.svg.png',
-    liquipedia: 'https://liquipedia.net/dota2/ESL_One/Bangkok/2026',
-    twitch: 'esl_dota2'
-  },
-  {
-    id: 'blast-premier-fall-2026',
-    nombre: 'BLAST Premier Fall Groups 2026',
-    juego: 'cs2',
-    estado: 'proximo',
-    fechaInicio: '2026-09-10',
-    fechaFin: '2026-09-22',
-    ubicacion: 'Online / LAN',
-    premios: '$177,500',
-    equipos: 12,
-    descripcion: 'La etapa de grupos otoñal de BLAST Premier — uno de los circuitos más importantes de CS2. Los mejores equipos del mundo por el clasificatorio.',
-    imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/BLAST_Premier_logo.png/800px-BLAST_Premier_logo.png',
-    liquipedia: 'https://liquipedia.net/counterstrike/BLAST/Premier/2026/Fall',
-    twitch: 'blast_cs'
   },
   {
     id: 'lol-worlds-2026',
     nombre: 'Worlds 2026 — LoL World Championship',
     juego: 'lol',
-    estado: 'proximo',
-    fechaInicio: '2026-10-01',
-    fechaFin: '2026-11-08',
-    ubicacion: 'Por confirmar',
-    premios: '$2,225,000',
+    fechaInicio: '2026-10-15',
+    fechaFin: '2026-11-14',
+    ubicacion: 'Los Ángeles → Allen, TX → Nueva York (final en Barclays Center)',
+    premios: '$2,225,000+',
     equipos: 22,
-    descripcion: 'El Campeonato Mundial de League of Legends. El evento más grande del año reúne a los mejores equipos de LCK, LPL, LEC y LCS.',
-    imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/League_of_Legends_Worlds_logo.svg/1200px-League_of_Legends_Worlds_logo.svg.png',
+    descripcion: 'El Mundial de League of Legends vuelve a Norteamérica. Play-Ins en Los Ángeles, Swiss Stage en Allen (Texas), y la final el 14 de noviembre en el Barclays Center de Brooklyn.',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/League_of_Legends_2019_vector.svg',
     liquipedia: 'https://liquipedia.net/leagueoflegends/World_Championship/2026',
     twitch: 'riotgames'
-  },
-  {
-    id: 'ti2026-dota2',
-    nombre: 'The International 2026',
-    juego: 'dota2',
-    estado: 'proximo',
-    fechaInicio: '2026-10-12',
-    fechaFin: '2026-10-26',
-    ubicacion: 'Por confirmar',
-    premios: '$15,000,000+',
-    equipos: 18,
-    descripcion: 'El torneo más legendario de Dota 2. El prize pool del TI supera los $15M, el más grande del esports. La Gran Final de 2026.',
-    imagen: 'https://upload.wikimedia.org/wikipedia/commons/6/6f/Dota2_International_Logo.png',
-    liquipedia: 'https://liquipedia.net/dota2/The_International/2026',
-    twitch: 'dota2ti'
   },
   {
     id: 'hs-world-championship-2026',
     nombre: 'Hearthstone World Championship 2026',
     juego: 'hearthstone',
-    estado: 'proximo',
-    fechaInicio: '2026-11-01',
-    fechaFin: '2026-11-03',
-    ubicacion: 'BlizzCon 2026',
+    fechaInicio: '2026-09-12',
+    fechaFin: '2026-09-13',
+    ubicacion: 'Anaheim, California',
     premios: '$500,000',
     equipos: 16,
-    descripcion: 'Los 16 mejores jugadores de Hearthstone del mundo se reúnen en BlizzCon para competir por el título mundial y el pozo de premios.',
-    imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Hearthstone_Logo.png/1200px-Hearthstone_Logo.png',
-    liquipedia: 'https://liquipedia.net/hearthstone/World_Championship/2026',
+    descripcion: 'Los 16 mejores jugadores de Hearthstone del año, incluyendo el top 3 de cada Masters Tour, compiten por el título mundial. Se corona campeón el domingo 13 de septiembre.',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Gamescom_2015_-_Hearthstone_tournament.jpg',
+    liquipedia: 'https://liquipedia.net/hearthstone/Hearthstone_World_Championship/2026',
     twitch: 'playhearthstone'
+  },
+  {
+    id: 'pgl-wallachia-s9-dota2',
+    nombre: 'PGL Wallachia Season 9',
+    juego: 'dota2',
+    fechaInicio: '2026-09-17',
+    fechaFin: '2026-09-27',
+    ubicacion: 'Por confirmar',
+    premios: 'Por confirmar',
+    equipos: 8,
+    descripcion: 'Uno de los torneos Tier 1 de Dota 2 post-TI 2026 (que se jugó en agosto en Shanghái). Los equipos top se reacomodan de cara a la nueva temporada competitiva.',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Dota_logo_without_bee.png',
+    liquipedia: 'https://liquipedia.net/dota2/PGL/Wallachia/Season_9',
+    twitch: 'dota2ti'
   }
 ];
