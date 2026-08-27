@@ -2,20 +2,26 @@
 // js/esports.js — Lógica de la página de Esports
 // ============================================================
 
-// ── CONFIG PANDASCORE (opcional) ────────────────────────────
-// Registrate gratis en pandascore.co y pega tu token acá
-// para traer partidos en tiempo real automáticamente.
-// Si está vacío, usa solo los datos de data/esports.js
-const PANDASCORE_TOKEN = '';
+// ── CONFIG LOL ESPORTS API (automático, sin registro) ───────
+// API pública que usa lolesports.com internamente. CORS abierto,
+// no requiere cuenta ni token propio — usa la clave pública
+// que Riot expone en su propio frontend.
+const LOL_API_KEY = '0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z';
+const LOL_API_BASE = 'https://esports-api.lolesports.com/persisted/gw';
 
-// Mapeo de juego → id de PandaScore
-const PS_VIDEOGAME = {
-  dota2: 'dota-2',
-  cs2: 'cs-go',
-  lol: 'league-of-legends',
-  valorant: 'valorant',
-  hearthstone: 'hearthstone'
-};
+// Ligas mayores a mostrar (se ignoran ligas regionales menores para no saturar)
+const LOL_LEAGUE_IDS = [
+  '98767975604431411', // Worlds
+  '98767991325878492', // MSI
+  '98767991310872058', // LCK
+  '98767991302996019', // LEC
+  '98767991314006698', // LPL
+  '113475181634818701', // LTA Sur
+  '113470291645289904', // LTA Norte
+  '113475149040947852', // LTA Cross-Conference
+  '101382741235120470', // LLA (Latinoamérica)
+  '98767991332355509'  // CBLOL
+];
 
 // ── ESTADO GLOBAL ───────────────────────────────────────────
 let filtroActivo = 'todos';
@@ -152,53 +158,78 @@ function aplicarFiltro(juego) {
   renderTorneos(filtrados);
 }
 
-// ── PANDASCORE FETCH (opcional) ──────────────────────────────
-async function fetchPandaScore() {
-  if (!PANDASCORE_TOKEN) return null;
-
-  const juegos = Object.values(PS_VIDEOGAME).join(',');
-  const url = `https://api.pandascore.co/matches/upcoming?videogame=${encodeURIComponent(juegos)}&per_page=20&sort=scheduled_at&token=${PANDASCORE_TOKEN}`;
-
+// ── LOL ESPORTS API (automático) ─────────────────────────────
+async function lolFetch(endpoint, params) {
+  const url = `${LOL_API_BASE}/${endpoint}?${new URLSearchParams(params).toString()}`;
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, { headers: { 'x-api-key': LOL_API_KEY } });
     if (!res.ok) return null;
-    const data = await res.json();
-    return data;
-  } catch(e) {
-    console.warn('[Esports] PandaScore no disponible:', e.message);
+    return await res.json();
+  } catch (e) {
+    console.warn(`[Esports] LoL Esports API (${endpoint}) no disponible:`, e.message);
     return null;
   }
 }
 
-function renderPartidosPS(partidos) {
+// Partidos en vivo ahora mismo (si hay, se pueden auto-embeber)
+async function fetchLolLive() {
+  const data = await lolFetch('getLive', { hl: 'es-MX' });
+  return data?.data?.schedule?.events || [];
+}
+
+// Próximos partidos de las ligas mayores
+async function fetchLolSchedule() {
+  const data = await lolFetch('getSchedule', {
+    hl: 'es-MX',
+    leagueId: LOL_LEAGUE_IDS.join(',')
+  });
+  const events = data?.data?.schedule?.events || [];
+  return events
+    .filter(e => e.state === 'unstarted')
+    .sort((a, b) => new Date(a.startTime) - new Date(b.startTime))
+    .slice(0, 12);
+}
+
+function formatFechaLol(iso) {
+  const d = new Date(iso);
+  return d.toLocaleString('es-AR', {
+    timeZone: 'America/Argentina/Buenos_Aires',
+    weekday: 'short', day: 'numeric', month: 'short',
+    hour: '2-digit', minute: '2-digit'
+  });
+}
+
+function renderLolFixture(events, liveIds) {
   const sec = document.getElementById('es-partidos-section');
   const grid = document.getElementById('es-partidos-grid');
-  if (!partidos || !partidos.length) { sec.style.display = 'none'; return; }
+  if (!sec || !grid) return;
 
+  if (!events || !events.length) { sec.style.display = 'none'; return; }
   sec.style.display = 'block';
 
-  const juegoReverso = {};
-  Object.entries(PS_VIDEOGAME).forEach(([k,v]) => { juegoReverso[v] = k; });
-
-  grid.innerHTML = partidos.slice(0,12).map(m => {
-    const jugA = m.opponents[0]?.opponent?.name || 'TBD';
-    const jugB = m.opponents[1]?.opponent?.name || 'TBD';
-    const fecha = m.scheduled_at ? new Date(m.scheduled_at).toLocaleString('es-AR', {
-      month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
-    }) : 'TBD';
-    const juego = juegoReverso[m.videogame?.slug] || 'lol';
-    const color = juegoColor(juego);
+  grid.innerHTML = events.map(e => {
+    const teams = e.match?.teams || [];
+    const t1 = teams[0] || {};
+    const t2 = teams[1] || {};
+    const enVivo = liveIds.has(e.match?.id);
 
     return `
     <div class="es-partido-card">
-      <div class="es-partido-juego" style="color:${color}">${juegoLabel(juego)}</div>
-      <div class="es-partido-fecha">${fecha}</div>
-      <div class="es-partido-match">
-        <span class="es-partido-team">${jugA}</span>
-        <span class="es-partido-vs">VS</span>
-        <span class="es-partido-team">${jugB}</span>
+      <div class="es-partido-juego" style="color:${juegoColor('lol')}; display:flex; align-items:center; justify-content:space-between;">
+        <span>${e.league?.name || 'LoL'}</span>
+        ${enVivo ? '<span class="es-badge es-badge-live"><span class="es-pulse"></span>EN VIVO</span>' : ''}
       </div>
-      <div class="es-partido-liga">${m.league?.name || ''} — ${m.serie?.full_name || ''}</div>
+      <div class="es-partido-fecha">${e.blockName || ''} — ${formatFechaLol(e.startTime)}</div>
+      <div class="es-partido-match">
+        ${t1.image ? `<img src="${t1.image}" alt="${t1.code||''}" style="width:24px;height:24px;object-fit:contain;">` : ''}
+        <span class="es-partido-team">${t1.code || t1.name || 'TBD'}</span>
+        <span class="es-partido-vs">VS</span>
+        <span class="es-partido-team">${t2.code || t2.name || 'TBD'}</span>
+        ${t2.image ? `<img src="${t2.image}" alt="${t2.code||''}" style="width:24px;height:24px;object-fit:contain;">` : ''}
+      </div>
+      ${enVivo ? `<div style="text-align:center; margin-top:0.5rem;">
+        <button class="es-watch-btn" onclick="cargarEmbed('riotgames','${(e.league?.name||'LoL').replace(/'/g,'')}')">Ver en vivo</button>
+      </div>` : ''}
     </div>`;
   }).join('');
 }
@@ -233,11 +264,21 @@ async function initEsports() {
     tab.addEventListener('click', () => aplicarFiltro(tab.dataset.juego));
   });
 
-  // PandaScore (si hay clave)
-  const psData = await fetchPandaScore();
-  if (psData) renderPartidosPS(psData);
-
   mostrarPlaceholderEmbed();
+
+  // LoL Esports API — fixture automático + detección de partidos en vivo
+  const [liveEvents, schedule] = await Promise.all([
+    fetchLolLive(),
+    fetchLolSchedule()
+  ]);
+
+  const liveIds = new Set(liveEvents.map(e => e.match?.id).filter(Boolean));
+  renderLolFixture(schedule, liveIds);
+
+  // Si hay un partido de LoL en vivo ahora, cargarlo automáticamente en el player
+  if (liveEvents.length > 0) {
+    cargarEmbed('riotgames', liveEvents[0].league?.name || 'LoL en vivo');
+  }
 }
 
 document.addEventListener('DOMContentLoaded', initEsports);
