@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 26 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Nvidia negocia comprar Hugging Face por USD 12.900 millones: quiere ser dueño del hub de IA open source más grande</title>
+      <link>https://puntodespawn.com/posts/nvidia-hugging-face-adquisicion-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-hugging-face-adquisicion-agosto-2026.html</guid>
+      <pubDate>Fri, 28 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Nvidia acordó pagar cerca de USD 13.000 millones por Hugging Face, la plataforma donde se comparten la mayoría de los modelos de IA abiertos. El objetivo: blindar su negocio de chips justo cuando los grandes labs empiezan a diseñar los propios.</description>
+      <media:content url="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192223928.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Diablo IV Temporada 15 llega el 15 de septiembre: Soul Splinters, 9 Uniques legendarios de vuelta y el sistema Rebirth</title>
+      <link>https://puntodespawn.com/posts/diablo-4-season-15-soul-splinters-preview-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/diablo-4-season-15-soul-splinters-preview-agosto-2026.html</guid>
+      <pubDate>Fri, 28 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Blizzard confirmó el contenido de la Temporada 15 tras la PTR de agosto: un nuevo socketable llamado Soul Splinters, ítems Únicos que vuelven de Diablo, Diablo II y Diablo III, y una forma de pasar tu personaje Eterno a la temporada sin empezar de cero.</description>
+      <media:content url="https://dfbmfbnnydoln.cloudfront.net/production/images/thumbnails/social-sharing-diablo-4.32a76540da8e17a15d840138d604ae9a848a9c51.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>ASUS ROG mostró el monitor gaming más rápido del mundo: 720 Hz, y ya es el oficial del Mundial de CS2</title>
+      <link>https://puntodespawn.com/posts/asus-rog-monitor-720hz-gladius-iv-gamescom-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/asus-rog-monitor-720hz-gladius-iv-gamescom-2026.html</guid>
+      <pubDate>Fri, 28 Aug 2026 03:00:00 GMT</pubDate>
+      <description>En Gamescom 2026, ASUS ROG presentó el Swift OLED PG259QWS Ace de 720 Hz —elegido monitor oficial del PGL CS2 Major— junto al mouse Gladius IV Ace de 65.000 DPI y el teclado inalámbrico Strix Morph 96 X.</description>
+      <media:content url="https://press.asus.com/assets/w_1920,h_1080/fee4c315-9227-4921-95da-ed9f02f69835/ROG%20OLED%20Esports%20Monitors.jpg" medium="image"/>
+    </item>
     <item>
       <title>Semana del 27 de agosto: GTA 6 gameplay, Star Wars Zero Company, MGS Collection Vol 2 y Resonance</title>
       <link>https://puntodespawn.com/posts/semana-27-agosto-2026-star-wars-mgs-gta6-resonance.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Thu, 13 Aug 2026 03:00:00 GMT</pubDate>
       <description>Asobo Studio (A Plague Tale: Innocence y Requiem) vuelve con una precuela: Sophia, una joven saqueadora, explora una isla minoica misteriosa 15 años antes del primer juego. 20 horas, dos líneas de tiempo y Day 1 en Xbox Game Pass. Sale el 27 de agosto en PS5, Xbox y PC.</description>
       <media:content url="https://cdn.focus-home.com/fhi-fastforward-admin/resources/games/resonance-a-plague-tale-legacy/images/09062026_a1fb63adec40475a881f57fd9e6cf763.jpeg" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI frenó a Astra: la primera IA que puede hackear sistemas reales de forma autónoma</title>
-      <link>https://puntodespawn.com/posts/openai-astra-pausa-ciberseguridad-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-astra-pausa-ciberseguridad-agosto-2026.html</guid>
-      <pubDate>Wed, 12 Aug 2026 03:00:00 GMT</pubDate>
-      <description>OpenAI pausó el desarrollo de Astra el 7 de agosto después de detectar que puede identificar y ejecutar ciberataques autónomos en sistemas bien protegidos. Es la primera vez que un modelo activa el nivel &quot;crítico&quot; del framework de seguridad de un lab.</description>
-      <media:content url="https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024" medium="image"/>
-    </item>
-    <item>
-      <title>Parche 26.16 de LoL ya live: vuelven los ADC, mages bot nerfeados y llegan las Faerie Court</title>
-      <link>https://puntodespawn.com/posts/lol-parche-2616-live-agosto-12-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2616-live-agosto-12-2026.html</guid>
-      <pubDate>Wed, 12 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El parche 26.16 llegó hoy a todos los servidores: todos los marksmen ganan resistencia mágica base, el roaming de soporte es más caro hasta nivel 5, y Sundered Sky pierde fuerza. Los skins de Faerie Court para Bel'Veth, Gwen y Lulu ya están disponibles.</description>
-      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e68f31a74579ce085c3de6798f56a26cc04f9767-1920x1080.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>GTA 6 muestra su primer gameplay el 27 de agosto: exclusivo en Netflix 6 horas antes que YouTube</title>
-      <link>https://puntodespawn.com/posts/gta-6-extended-look-netflix-agosto-27-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gta-6-extended-look-netflix-agosto-27-2026.html</guid>
-      <pubDate>Tue, 11 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Rockstar anunció &quot;Grand Theft Auto VI: An Extended Look&quot;: el primer footage real de GTA 6 llega el 27 de agosto en Netflix a las 16 hs Argentina, posiblemente ~30 minutos de gameplay. Recién a las 22 hs llega a YouTube. El juego sale el 19 de noviembre para PS5 y Xbox Series X|S.</description>
-      <media:content url="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2kaa1o3297k9/4faf2f8d60cd657f09eb55707b31cc44008bfa4c.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

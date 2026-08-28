@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'nvidia-hugging-face-adquisicion-agosto-2026',
+    titulo: 'Nvidia negocia comprar Hugging Face por USD 12.900 millones: quiere ser dueño del hub de IA open source más grande',
+    extracto: 'Nvidia acordó pagar cerca de USD 13.000 millones por Hugging Face, la plataforma donde se comparten la mayoría de los modelos de IA abiertos. El objetivo: blindar su negocio de chips justo cuando los grandes labs empiezan a diseñar los propios.',
+    fecha: '2026-08-28',
+    fechaDisplay: '28 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'nvidia', 'hugging-face', 'ia', 'open-source', 'adquisicion'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192223928.jpg',
+    archivo: 'posts/nvidia-hugging-face-adquisicion-agosto-2026.html'
+  },
+  {
+    id: 'diablo-4-season-15-soul-splinters-preview-agosto-2026',
+    titulo: 'Diablo IV Temporada 15 llega el 15 de septiembre: Soul Splinters, 9 Uniques legendarios de vuelta y el sistema Rebirth',
+    extracto: 'Blizzard confirmó el contenido de la Temporada 15 tras la PTR de agosto: un nuevo socketable llamado Soul Splinters, ítems Únicos que vuelven de Diablo, Diablo II y Diablo III, y una forma de pasar tu personaje Eterno a la temporada sin empezar de cero.',
+    fecha: '2026-08-28',
+    fechaDisplay: '28 de agosto de 2026',
+    categoria: 'patch-notes',
+    tags: ['diablo-4', 'patch-notes', 'blizzard', 'temporada-15', 'soul-splinters', 'rpg'],
+    juego: 'Diablo IV',
+    juegoDisplay: 'Diablo IV',
+    imagen: 'https://dfbmfbnnydoln.cloudfront.net/production/images/thumbnails/social-sharing-diablo-4.32a76540da8e17a15d840138d604ae9a848a9c51.jpg',
+    archivo: 'posts/diablo-4-season-15-soul-splinters-preview-agosto-2026.html'
+  },
+  {
+    id: 'asus-rog-monitor-720hz-gladius-iv-gamescom-2026',
+    titulo: 'ASUS ROG mostró el monitor gaming más rápido del mundo: 720 Hz, y ya es el oficial del Mundial de CS2',
+    extracto: 'En Gamescom 2026, ASUS ROG presentó el Swift OLED PG259QWS Ace de 720 Hz —elegido monitor oficial del PGL CS2 Major— junto al mouse Gladius IV Ace de 65.000 DPI y el teclado inalámbrico Strix Morph 96 X.',
+    fecha: '2026-08-28',
+    fechaDisplay: '28 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'asus', 'rog', 'monitor', 'oled', 'mouse', 'gamescom'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://press.asus.com/assets/w_1920,h_1080/fee4c315-9227-4921-95da-ed9f02f69835/ROG%20OLED%20Esports%20Monitors.jpg',
+    archivo: 'posts/asus-rog-monitor-720hz-gladius-iv-gamescom-2026.html'
+  },
+  {
     id: 'semana-27-agosto-2026-star-wars-mgs-gta6-resonance',
     titulo: 'Semana del 27 de agosto: GTA 6 gameplay, Star Wars Zero Company, MGS Collection Vol 2 y Resonance',
     extracto: 'El 27 de agosto es uno de los días más cargados del año en gaming: primer gameplay real de GTA 6 en Netflix, lanza Star Wars Zero Company (el XCOM de la Guerra de los Clones), MGS4 sale del PS3 después de 18 años y llega Resonance: A Plague Tale Legacy.',
