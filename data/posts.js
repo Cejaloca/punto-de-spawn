@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'gta-6-extended-look-recap-agosto-28-2026',
+    titulo: "GTA 6 Extended Look: las claves de los 27 minutos de gameplay real que mostró Rockstar en Netflix",
+    extracto: 'Rockstar estrenó su primer gameplay real de GTA 6 en Netflix: nivel de búsqueda de seis estrellas, cambio de personaje instantáneo entre Jason y Lucia, sistema de karma y un Vice City lleno de actividades. Repasamos lo más importante antes del lanzamiento del 19 de noviembre.',
+    fecha: '2026-08-28',
+    fechaDisplay: '28 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['gta-6', 'rockstar', 'netflix', 'gameplay', 'ps5', 'xbox', 'vice-city'],
+    juego: 'GTA VI',
+    juegoDisplay: 'Grand Theft Auto VI',
+    imagen: 'https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2kaa1o3297k9/4faf2f8d60cd657f09eb55707b31cc44008bfa4c.jpg',
+    archivo: 'posts/gta-6-extended-look-recap-agosto-28-2026.html'
+  },
+  {
+    id: 'hearthstone-parche-364-azeroths-most-wanted-agosto-2026',
+    titulo: "Hearthstone Parche 36.4: llegó Azeroth's Most Wanted con 29 cartas nuevas para Priest, Rogue, Warlock y Warrior",
+    extracto: "El parche 36.4 metió los Class Sets de Azeroth's Most Wanted, precuela de Escape from Violet Hold: siete cartas por clase, nueva temporada de Arena, eventos gratis hasta el 15 de septiembre y el Mythic Hero Skin más ambicioso hasta ahora, Kel'Thuzad.",
+    fecha: '2026-08-28',
+    fechaDisplay: '28 de agosto de 2026',
+    categoria: 'patch-notes',
+    tags: ['hearthstone', 'patch-notes', 'blizzard', 'azeroths-most-wanted', 'class-sets', 'cartas'],
+    juego: 'Hearthstone',
+    juegoDisplay: 'Hearthstone',
+    imagen: 'https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/E7OPGDY2GXCO1785960769139.jpg',
+    archivo: 'posts/hearthstone-parche-364-azeroths-most-wanted-agosto-2026.html'
+  },
+  {
+    id: 'nvidia-rtx-subida-precios-30-por-ciento-agosto-2026',
+    titulo: 'Nvidia sube el precio de las RTX hasta un 30%: la tercera suba del año golpea de nuevo a los gamers',
+    extracto: 'La crisis de memoria GDDR7 no da tregua: Nvidia encareció los kits de GPU que vende a sus partners hasta un 30%, la tercera suba en lo que va de 2026. Qué significa esto para quien esté por armar o actualizar su PC.',
+    fecha: '2026-08-28',
+    fechaDisplay: '28 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['nvidia', 'hardware', 'gpu', 'rtx', 'precios', 'gddr7', 'pc'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/geforce-rtx-50series-og-1200x630.jpg',
+    archivo: 'posts/nvidia-rtx-subida-precios-30-por-ciento-agosto-2026.html'
+  },
+  {
     id: 'nvidia-hugging-face-adquisicion-agosto-2026',
     titulo: 'Nvidia negocia comprar Hugging Face por USD 12.900 millones: quiere ser dueño del hub de IA open source más grande',
     extracto: 'Nvidia acordó pagar cerca de USD 13.000 millones por Hugging Face, la plataforma donde se comparten la mayoría de los modelos de IA abiertos. El objetivo: blindar su negocio de chips justo cuando los grandes labs empiezan a diseñar los propios.',
