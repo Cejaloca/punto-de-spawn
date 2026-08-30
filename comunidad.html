@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Comunidad — PuntoDeSpawn</title>
-  <meta name="description" content="Opiniones, debates y contenido de la comunidad gamer argentina.">
+  <title>Comunidad — Foro — PuntoDeSpawn</title>
+  <meta name="description" content="El foro de la comunidad gamer argentina: publicá, debatí y votá los mejores posts sobre gaming y tecnología.">
   <link rel="stylesheet" href="css/style.css">
   <link rel='icon' href='favicon.svg' type='image/svg+xml'>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5515559999355995" crossorigin="anonymous"></script>
@@ -32,6 +32,7 @@
           <li><a href="gaming.html">Gaming</a></li>
           <li><a href="ofertas.html">Ofertas</a></li>
           <li><a href="comunidad.html" class="active">Comunidad</a></li>
+          <li><a href="esports.html">Esports</a></li>
           <li><a href="nosotros.html">Nosotros</a></li>
         </ul>
       </nav>
@@ -43,23 +44,50 @@
     <div class="page-header">
       <div class="container">
         <h1><span class="accent">Comunidad</span></h1>
-        <p>Opiniones, debates y recomendaciones de la comunidad.</p>
+        <p>El foro de PuntoDeSpawn: publicá, debatí y votá. Iniciá sesión con Google para participar.</p>
       </div>
     </div>
 
     <section class="section">
       <div class="container">
-        <div class="list-controls">
-          <div class="search-box">
-            <span class="search-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
-            <input type="text" id="search-input" class="search-input" placeholder="Buscar artículos...">
+
+        <div class="forum-header-row">
+          <div id="forum-auth-box" class="forum-auth-box"><span class="loading">Cargando…</span></div>
+          <button class="btn-primary forum-requires-auth" id="forum-toggle-new-post" style="display:none">+ Nuevo post</button>
+        </div>
+
+        <form id="forum-new-post-form">
+          <input type="text" id="forum-new-title" placeholder="Título del post" maxlength="200" required>
+          <textarea id="forum-new-content" placeholder="¿De qué querés hablar?" maxlength="5000" required></textarea>
+          <select id="forum-new-tag">
+            <option value="general">General</option>
+            <option value="gaming">Gaming</option>
+            <option value="tecnologia">Tecnología</option>
+            <option value="ofertas">Ofertas</option>
+            <option value="patch-notes">Patch Notes</option>
+          </select>
+          <button type="submit" class="btn-primary" id="forum-new-post-submit" style="align-self:flex-start">Publicar</button>
+        </form>
+
+        <div class="forum-controls-row">
+          <div class="forum-pill-group" id="forum-tag-filters">
+            <button class="forum-tag-pill active" data-tag="todos">Todos</button>
+            <button class="forum-tag-pill" data-tag="gaming">Gaming</button>
+            <button class="forum-tag-pill" data-tag="tecnologia">Tecnología</button>
+            <button class="forum-tag-pill" data-tag="ofertas">Ofertas</button>
+            <button class="forum-tag-pill" data-tag="patch-notes">Patch Notes</button>
+            <button class="forum-tag-pill" data-tag="general">General</button>
           </div>
-          <div class="game-filters" id="game-filters"></div>
-          <span class="results-count" id="results-count"></span>
+          <div class="forum-pill-group" id="forum-sort-filters">
+            <button class="forum-sort-pill active" data-sort="created_at">Recientes</button>
+            <button class="forum-sort-pill" data-sort="score">Más votados</button>
+          </div>
         </div>
-        <div class="cards-grid" id="posts-container">
-          <div class="loading">Cargando...</div>
+
+        <div id="forum-feed">
+          <div class="loading">Cargando…</div>
         </div>
+
       </div>
     </section>
 
@@ -78,16 +106,15 @@
           <ul>
             <li><a href="tecnologia.html">Tecnología</a></li>
             <li><a href="gaming.html">Gaming</a></li>
-          <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
             <li><a href="comunidad.html">Comunidad</a></li>
-          <li><a href="esports.html">Esports</a></li>
+            <li><a href="esports.html">Esports</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>El sitio</h4>
           <ul>
             <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
             <li><a href="index.html">Inicio</a></li>
           </ul>
         </div>
@@ -98,10 +125,20 @@
     </div>
   </footer>
 
-  <script src="data/posts.js?v=20260706b"></script>
-  <script src="js/posts.js"></script>
-  <script src="js/main.js?v=20260718"></script>
-  <script>initCategoryPage('comunidad');</script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="js/foro-config.js"></script>
+  <script src="js/foro-core.js"></script>
+  <script src="js/foro-feed.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var toggleBtn = document.getElementById('forum-toggle-new-post');
+      var form = document.getElementById('forum-new-post-form');
+      if (toggleBtn && form) {
+        toggleBtn.addEventListener('click', function () { form.classList.toggle('open'); });
+      }
+    });
+  </script>
 
   <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
 </body>

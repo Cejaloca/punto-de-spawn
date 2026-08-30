@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foro — PuntoDeSpawn</title>
+  <meta name="description" content="Hilo del foro de la comunidad de PuntoDeSpawn.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel='icon' href='../favicon.svg' type='image/svg+xml'>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5515559999355995" crossorigin="anonymous"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGPHS744ZY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JGPHS744ZY');
+  </script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../tecnologia.html">Tecnología</a></li>
+          <li><a href="../gaming.html">Gaming</a></li>
+          <li><a href="../ofertas.html">Ofertas</a></li>
+          <li><a href="../comunidad.html" class="active">Comunidad</a></li>
+          <li><a href="../esports.html">Esports</a></li>
+          <li><a href="../nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <div class="post-article">
+
+        <p style="margin-bottom:1rem"><a href="../comunidad.html">← Volver al foro</a></p>
+
+        <div class="forum-header-row">
+          <div id="forum-auth-box" class="forum-auth-box"><span class="loading">Cargando…</span></div>
+        </div>
+
+        <div id="forum-post-box">
+          <div class="loading">Cargando post…</div>
+        </div>
+
+        <div id="forum-thread"></div>
+
+        <section class="forum-comments-section">
+          <h2><span id="forum-comment-count">0</span> comentarios</h2>
+
+          <form id="forum-new-comment-form" class="forum-requires-auth" style="display:none">
+            <textarea placeholder="Sumá tu comentario..." maxlength="3000" required></textarea>
+            <button type="submit" class="btn-primary" style="align-self:flex-start">Comentar</button>
+          </form>
+          <p class="forum-requires-guest loading" style="display:none">Iniciá sesión con Google arriba para comentar.</p>
+
+          <div id="forum-comments"></div>
+        </section>
+
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">Punto<span>De</span>Spawn</a>
+          <p class="footer-tagline">Tu punto de spawn en el mundo tech y gaming.</p>
+          <a href="https://www.instagram.com/puntodespawn.ok" target="_blank" rel="noopener" class="footer-social">@puntodespawn.ok</a>
+        </div>
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="../tecnologia.html">Tecnología</a></li>
+            <li><a href="../gaming.html">Gaming</a></li>
+            <li><a href="../ofertas.html">Ofertas</a></li>
+            <li><a href="../comunidad.html">Comunidad</a></li>
+            <li><a href="../esports.html">Esports</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>El sitio</h4>
+          <ul>
+            <li><a href="../nosotros.html">Nosotros</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PuntoDeSpawn — Hecho en Argentina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="../js/foro-config.js"></script>
+  <script src="../js/foro-core.js"></script>
+  <script src="../js/foro-thread.js"></script>
+  <script src="../js/main.js"></script>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+</body>
+</html>
