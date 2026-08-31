@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'claude-cowork-navegador-integrado-agosto-2026',
+    titulo: 'Claude ya tiene su propio navegador integrado en Cowork: no hace falta instalar nada',
+    extracto: 'Anthropic lanzó un navegador propio adentro de Claude Cowork de escritorio: Claude abre sitios, lee páginas y completa formularios sin tocar tu Chrome. Ya está disponible para los planes Pro, Max y Team.',
+    fecha: '2026-08-31',
+    fechaDisplay: '31 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'ia', 'cowork', 'navegador', 'agentes'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg',
+    archivo: 'posts/claude-cowork-navegador-integrado-agosto-2026.html'
+  },
+  {
+    id: 'razer-huntsman-v3-pro-low-profile-8khz-agosto-2026',
+    titulo: 'Razer Huntsman V3 Pro Low-Profile TKL 8KHz: el primer teclado esports de perfil bajo con switches ópticos analógicos, y ya ganó un torneo',
+    extracto: 'Razer presentó el teclado gaming de perfil bajo más rápido que probó: 0,39 ms de latencia promedio, 8000 Hz reales y el arma con la que Spinx se consagró MVP en BLAST Bounty. Cuesta USD 259,99.',
+    fecha: '2026-08-31',
+    fechaDisplay: '31 de agosto de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'teclado', 'razer', 'gaming', 'esports', 'hardware', 'low-profile'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://press.razer.com/wp-content/uploads/2026/08/Huntsman-V3-Pro-LP-TKL-8KHz-KV-1024x576.png',
+    archivo: 'posts/razer-huntsman-v3-pro-low-profile-8khz-agosto-2026.html'
+  },
+  {
+    id: 'serious-sam-shatterverse-lanzamiento-agosto-31-2026',
+    titulo: 'Serious Sam: Shatterverse ya está disponible: el roguelite cooperativo que junta a todos los Sam del multiverso',
+    extracto: 'Behaviour Interactive y Devolver Digital lanzaron hoy Shatterverse: hasta 5 jugadores, boons, modificadores de partida y los enemigos clásicos de la saga rediseñados. Ya se puede jugar en PC, PS5 y Xbox Series.',
+    fecha: '2026-08-31',
+    fechaDisplay: '31 de agosto de 2026',
+    categoria: 'gaming',
+    tags: ['serious-sam', 'shatterverse', 'devolver-digital', 'roguelite', 'fps', 'coop', 'lanzamiento'],
+    juego: 'Serious Sam Shatterverse',
+    juegoDisplay: 'Serious Sam: Shatterverse',
+    imagen: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2067210/3171c0ddcebcb0888ed8ff80469792ded64a7aa4/header.jpg?t=1788162719',
+    archivo: 'posts/serious-sam-shatterverse-lanzamiento-agosto-31-2026.html'
+  },
+  {
     id: 'gta-6-extended-look-recap-agosto-28-2026',
     titulo: "GTA 6 Extended Look: las claves de los 27 minutos de gameplay real que mostró Rockstar en Netflix",
     extracto: 'Rockstar estrenó su primer gameplay real de GTA 6 en Netflix: nivel de búsqueda de seis estrellas, cambio de personaje instantáneo entre Jason y Lucia, sistema de karma y un Vice City lleno de actividades. Repasamos lo más importante antes del lanzamiento del 19 de noviembre.',

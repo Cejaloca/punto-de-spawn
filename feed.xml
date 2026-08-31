@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 28 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Claude ya tiene su propio navegador integrado en Cowork: no hace falta instalar nada</title>
+      <link>https://puntodespawn.com/posts/claude-cowork-navegador-integrado-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-cowork-navegador-integrado-agosto-2026.html</guid>
+      <pubDate>Mon, 31 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Anthropic lanzó un navegador propio adentro de Claude Cowork de escritorio: Claude abre sitios, lee páginas y completa formularios sin tocar tu Chrome. Ya está disponible para los planes Pro, Max y Team.</description>
+      <media:content url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg" medium="image"/>
+    </item>
+    <item>
+      <title>Razer Huntsman V3 Pro Low-Profile TKL 8KHz: el primer teclado esports de perfil bajo con switches ópticos analógicos, y ya ganó un torneo</title>
+      <link>https://puntodespawn.com/posts/razer-huntsman-v3-pro-low-profile-8khz-agosto-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/razer-huntsman-v3-pro-low-profile-8khz-agosto-2026.html</guid>
+      <pubDate>Mon, 31 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Razer presentó el teclado gaming de perfil bajo más rápido que probó: 0,39 ms de latencia promedio, 8000 Hz reales y el arma con la que Spinx se consagró MVP en BLAST Bounty. Cuesta USD 259,99.</description>
+      <media:content url="https://press.razer.com/wp-content/uploads/2026/08/Huntsman-V3-Pro-LP-TKL-8KHz-KV-1024x576.png" medium="image"/>
+    </item>
+    <item>
+      <title>Serious Sam: Shatterverse ya está disponible: el roguelite cooperativo que junta a todos los Sam del multiverso</title>
+      <link>https://puntodespawn.com/posts/serious-sam-shatterverse-lanzamiento-agosto-31-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/serious-sam-shatterverse-lanzamiento-agosto-31-2026.html</guid>
+      <pubDate>Mon, 31 Aug 2026 03:00:00 GMT</pubDate>
+      <description>Behaviour Interactive y Devolver Digital lanzaron hoy Shatterverse: hasta 5 jugadores, boons, modificadores de partida y los enemigos clásicos de la saga rediseñados. Ya se puede jugar en PC, PS5 y Xbox Series.</description>
+      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2067210/3171c0ddcebcb0888ed8ff80469792ded64a7aa4/header.jpg?t=1788162719" medium="image"/>
+    </item>
     <item>
       <title>GTA 6 Extended Look: las claves de los 27 minutos de gameplay real que mostró Rockstar en Netflix</title>
       <link>https://puntodespawn.com/posts/gta-6-extended-look-recap-agosto-28-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 17 Aug 2026 03:00:00 GMT</pubDate>
       <description>Konami lanza el 27 de agosto la Master Collection Vol. 2: MGS4 Guns of the Patriots llega por primera vez a PC, PS5, Xbox Series y Switch 2, junto a Peace Walker y Ghost Babel, a USD 49,99.</description>
       <media:content url="https://www.techspot.com/images2/news/bigimage/2026/02/2026-02-14-image-15.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Marvel's Wolverine sale el 15 de septiembre: hands-on, PS5 Battle Yellow y todo lo que sabemos del juego de Insomniac</title>
-      <link>https://puntodespawn.com/posts/marvels-wolverine-ps5-septiembre-15-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/marvels-wolverine-ps5-septiembre-15-2026.html</guid>
-      <pubDate>Mon, 17 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Insomniac Games presenta su Wolverine el 15 de septiembre exclusivo para PS5: sistema de rage en 3 niveles, alianzas con Mystique y Sabretooth, y un bundle Battle Yellow a USD 649,99 con pre-orders desde el 19 de agosto.</description>
-      <media:content url="https://blog.playstation.com/tachyon/2026/08/b7cefde486f02afa6e023a85a5688501d99bc660.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Epic gratis desde el 20 de agosto: Cardpocalypse — el juego de cartas de los 90 que nunca fue gratis</title>
-      <link>https://puntodespawn.com/posts/epic-gratis-cardpocalypse-agosto-20-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-cardpocalypse-agosto-20-2026.html</guid>
-      <pubDate>Fri, 14 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El 20 de agosto llega gratis a Epic Cardpocalypse: un RPG narrativo ambientado en los 90 donde sos Jess, una nena de 10 años que tiene que salvar a su escuela de mutantes de un juego de cartas prohibido. Disponible hasta el 27 de agosto, nunca había sido gratis en Epic.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/904400/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Man of Honor ya está disponible: la primera expansión paga de Mafia: The Old Country llega hoy a USD 10</title>
-      <link>https://puntodespawn.com/posts/mafia-old-country-man-of-honor-dlc-agosto-14-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/mafia-old-country-man-of-honor-dlc-agosto-14-2026.html</guid>
-      <pubDate>Fri, 14 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Hangar 13 lanzó hoy Man of Honor, la primera expansión paga de Mafia: The Old Country: dos capítulos de historia con un Salieri más joven en Sicilia 1905 y contenido nuevo para el modo Free Ride. Sale separado de todas las ediciones del juego, incluso la Deluxe.</description>
-      <media:content url="https://blog.playstation.com/tachyon/2026/08/450d96e30426485fe9fa14d92516dab1f4f36d21.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
