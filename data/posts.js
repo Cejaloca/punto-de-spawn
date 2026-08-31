@@ -2819,6 +2819,6 @@ const POSTS = [
     juego: null,
     juegoDisplay: null,
     imagen: 'images/posts/ia-abril-2026.jpg',
-    archivo: 'posts/ia-abril-2026.html'
+    archivo: 'posts/2026-04-04/ia-abril-2026.html'
   }
 ];
