@@ -1748,7 +1748,7 @@ body.light-mode .btn-load-more:hover {
   margin-bottom: 1.25rem;
 }
 
-.forum-auth-box { display: flex; align-items: center; }
+.forum-auth-box { display: flex; align-items: center; min-height: 38px; }
 
 .forum-user {
   display: flex;
@@ -1765,38 +1765,25 @@ body.light-mode .btn-load-more:hover {
   border: 1px solid var(--border);
 }
 
-.forum-username { color: var(--text-primary); font-weight: 600; }
+.forum-username {
+  font-family: 'Rajdhani', sans-serif;
+  color: var(--text-primary);
+  font-weight: 700;
+}
 
 .forum-logout-btn { padding: 0.35rem 0.8rem !important; font-size: 0.78rem !important; }
 
 .forum-controls-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
-.forum-pill-group { display: flex; gap: 0.4rem; flex-wrap: wrap; }
-
-.forum-tag-pill, .forum-sort-pill {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  color: var(--text-secondary);
-  padding: 0.35rem 0.85rem;
-  border-radius: 999px;
-  font-size: 0.78rem;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.forum-tag-pill:hover, .forum-sort-pill:hover { border-color: var(--accent-dark); color: var(--text-primary); }
-
-.forum-tag-pill.active, .forum-sort-pill.active {
-  background: rgba(176,128,255,0.15);
-  border-color: var(--accent);
-  color: var(--accent);
-}
+/* Los filtros de tag/orden reusan .game-filters + .filter-btn (mismo look que gaming.html) */
+#forum-sort-filters.game-filters { margin-left: auto; }
 
 .forum-new-post-toggle { margin-bottom: 1.25rem; }
 
@@ -1804,7 +1791,7 @@ body.light-mode .btn-load-more:hover {
   display: none;
   flex-direction: column;
   gap: 0.75rem;
-  background: var(--bg-card);
+  background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1.25rem;
@@ -1817,7 +1804,7 @@ body.light-mode .btn-load-more:hover {
 #forum-new-post-form textarea,
 #forum-new-post-form select {
   width: 100%;
-  background: var(--bg-surface);
+  background: var(--bg-base);
   border: 1px solid var(--border);
   border-radius: 4px;
   color: var(--text-primary);
@@ -1836,15 +1823,30 @@ body.light-mode .btn-load-more:hover {
   box-shadow: 0 0 0 2px rgba(112,64,208,0.15);
 }
 
+/* Tarjeta de post del foro — mismo lenguaje visual que .post-card */
 .forum-post-card {
   display: flex;
   gap: 1rem;
-  background: var(--bg-card);
+  background: var(--bg-surface);
   border: 1px solid var(--border);
+  border-top: 2px solid var(--border);
   border-radius: 8px;
   padding: 1rem 1.1rem;
   margin-bottom: 0.85rem;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
 }
+
+.forum-post-card:hover {
+  border-color: var(--accent-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(112,64,208,0.12);
+}
+
+.forum-post-card[data-tag="tecnologia"]  { border-top-color: rgba(64,128,208,0.75); }
+.forum-post-card[data-tag="gaming"]      { border-top-color: rgba(112,64,208,0.75); }
+.forum-post-card[data-tag="patch-notes"] { border-top-color: rgba(42,122,74,0.75); }
+.forum-post-card[data-tag="ofertas"]     { border-top-color: rgba(200,160,0,0.75); }
+.forum-post-card[data-tag="general"]     { border-top-color: rgba(192,96,32,0.75); }
 
 .forum-vote-col {
   display: flex;
@@ -1867,12 +1869,13 @@ body.light-mode .btn-load-more:hover {
   transition: color 0.15s ease;
 }
 
-.forum-vote-btn:hover { color: var(--text-primary); background: var(--bg-surface); }
+.forum-vote-btn:hover { color: var(--text-primary); background: var(--bg-base); }
 .forum-vote-btn.active-up { color: var(--accent); }
 .forum-vote-btn.active-down { color: #ff7070; }
 .forum-vote-btn.small { font-size: 0.8rem; }
 
 .forum-score {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -1884,27 +1887,31 @@ body.light-mode .btn-load-more:hover {
 
 .forum-post-title {
   display: block;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--text-primary);
   text-decoration: none;
-  margin: 0.3rem 0 0.4rem;
+  margin: 0.5rem 0 0.4rem;
+  transition: color 0.2s;
 }
 
 .forum-post-title:hover { color: var(--accent); }
 
 .forum-post-title-full {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.5rem;
-  margin: 0.3rem 0 0.5rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.25;
+  margin: 0.5rem 0 0.5rem;
 }
 
 .forum-post-excerpt {
-  font-size: 0.85rem;
+  font-size: 0.86rem;
   color: var(--text-secondary);
   margin-bottom: 0.5rem;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .forum-post-content-full {
@@ -1915,7 +1922,7 @@ body.light-mode .btn-load-more:hover {
 }
 
 .forum-post-meta {
-  font-size: 0.75rem;
+  font-size: 0.76rem;
   color: var(--text-secondary);
 }
 
@@ -1926,15 +1933,26 @@ body.light-mode .btn-load-more:hover {
 #forum-post-box {
   display: flex;
   gap: 1rem;
-  background: var(--bg-card);
+  background: var(--bg-surface);
   border: 1px solid var(--border);
+  border-top: 2px solid var(--border);
   border-radius: 8px;
   padding: 1.25rem;
   margin-bottom: 1.5rem;
 }
 
+#forum-post-box[data-tag="tecnologia"]  { border-top-color: rgba(64,128,208,0.75); }
+#forum-post-box[data-tag="gaming"]      { border-top-color: rgba(112,64,208,0.75); }
+#forum-post-box[data-tag="patch-notes"] { border-top-color: rgba(42,122,74,0.75); }
+#forum-post-box[data-tag="ofertas"]     { border-top-color: rgba(200,160,0,0.75); }
+#forum-post-box[data-tag="general"]     { border-top-color: rgba(192,96,32,0.75); }
+
 .forum-comments-section h2 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
   margin-bottom: 1rem;
 }
 
@@ -1971,6 +1989,8 @@ body.light-mode .btn-load-more:hover {
   margin-bottom: 0.2rem;
 }
 
+.forum-comment-meta strong { color: var(--text-primary); font-family: 'Rajdhani', sans-serif; }
+
 .forum-comment-content {
   font-size: 0.9rem;
   line-height: 1.55;
@@ -1991,6 +2011,9 @@ body.light-mode .btn-load-more:hover {
   font-size: 0.75rem;
   cursor: pointer;
   margin-left: 0.4rem;
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .forum-reply-toggle:hover { color: var(--accent); text-decoration: underline; }
@@ -2000,4 +2023,6 @@ body.light-mode .btn-load-more:hover {
 @media (max-width: 640px) {
   .forum-post-card, #forum-post-box { padding: 0.85rem; gap: 0.6rem; }
   .forum-post-title-full { font-size: 1.2rem; }
+  .forum-controls-row { flex-direction: column; align-items: flex-start; }
+  #forum-sort-filters.game-filters { margin-left: 0; }
 }

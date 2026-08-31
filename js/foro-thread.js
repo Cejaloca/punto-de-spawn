@@ -46,6 +46,7 @@ function forumRenderPost(p) {
   var box = document.getElementById('forum-post-box');
 
   var afterVotesRender = function (myVote) {
+    box.setAttribute('data-tag', p.tag);
     box.innerHTML =
       '<div class="forum-vote-col">' +
         '<button class="forum-vote-btn' + (myVote === 1 ? ' active-up' : '') + '" id="forum-post-up" aria-label="Votar arriba">▲</button>' +
@@ -53,7 +54,7 @@ function forumRenderPost(p) {
         '<button class="forum-vote-btn' + (myVote === -1 ? ' active-down' : '') + '" id="forum-post-down" aria-label="Votar abajo">▼</button>' +
       '</div>' +
       '<div class="forum-post-body">' +
-        '<div class="post-tags"><span class="tag">' + forumEscapeHtml(p.tag) + '</span></div>' +
+        '<div class="post-tags"><span class="badge ' + forumTagBadgeClass(p.tag) + '">' + forumTagLabel(p.tag) + '</span></div>' +
         '<h1 class="forum-post-title-full">' + forumEscapeHtml(p.titulo) + '</h1>' +
         '<div class="forum-post-meta">' +
           '<span>' + forumEscapeHtml(author) + '</span> · <span>' + forumTimeAgo(p.created_at) + '</span>' +

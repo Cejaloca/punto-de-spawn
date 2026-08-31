@@ -12,18 +12,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
   window.forumOnAuthChange = forumLoadFeed;
 
-  document.querySelectorAll('.forum-tag-pill').forEach(function (btn) {
+  document.querySelectorAll('#forum-tag-filters .filter-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      document.querySelectorAll('.forum-tag-pill').forEach(function (b) { b.classList.remove('active'); });
+      document.querySelectorAll('#forum-tag-filters .filter-btn').forEach(function (b) { b.classList.remove('active'); });
       btn.classList.add('active');
       forumCurrentTag = btn.dataset.tag;
       forumLoadFeed();
     });
   });
 
-  document.querySelectorAll('.forum-sort-pill').forEach(function (btn) {
+  document.querySelectorAll('#forum-sort-filters .filter-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      document.querySelectorAll('.forum-sort-pill').forEach(function (b) { b.classList.remove('active'); });
+      document.querySelectorAll('#forum-sort-filters .filter-btn').forEach(function (b) { b.classList.remove('active'); });
       btn.classList.add('active');
       forumCurrentSort = btn.dataset.sort;
       forumLoadFeed();
@@ -82,14 +82,14 @@ function forumRenderFeed(posts, myVotes) {
     var author = (p.forum_profiles && p.forum_profiles.username) || 'Usuario';
     var myVote = myVotes[p.id] || 0;
     return (
-      '<article class="forum-post-card" data-post-id="' + p.id + '">' +
+      '<article class="forum-post-card" data-tag="' + p.tag + '" data-post-id="' + p.id + '">' +
         '<div class="forum-vote-col">' +
           '<button class="forum-vote-btn' + (myVote === 1 ? ' active-up' : '') + '" data-post-id="' + p.id + '" data-value="1" aria-label="Votar arriba">▲</button>' +
           '<span class="forum-score">' + p.score + '</span>' +
           '<button class="forum-vote-btn' + (myVote === -1 ? ' active-down' : '') + '" data-post-id="' + p.id + '" data-value="-1" aria-label="Votar abajo">▼</button>' +
         '</div>' +
         '<div class="forum-post-body">' +
-          '<div class="post-tags"><span class="tag">' + forumEscapeHtml(p.tag) + '</span></div>' +
+          '<div class="post-tags"><span class="badge ' + forumTagBadgeClass(p.tag) + '">' + forumTagLabel(p.tag) + '</span></div>' +
           '<a href="foro/post.html?id=' + p.id + '" class="forum-post-title">' + forumEscapeHtml(p.titulo) + '</a>' +
           '<p class="forum-post-excerpt">' + forumEscapeHtml(p.contenido.slice(0, 220)) + (p.contenido.length > 220 ? '…' : '') + '</p>' +
           '<div class="forum-post-meta">' +

@@ -24,6 +24,23 @@ function forumEscapeHtml(str) {
   return div.innerHTML;
 }
 
+// Mapea el tag de un post del foro a las clases/labels de badge ya usadas en el resto del sitio
+var FORUM_TAG_BADGES = {
+  'tecnologia':  { cls: 'badge-tech',        label: 'Tecnología' },
+  'gaming':      { cls: 'badge-gaming',      label: 'Gaming' },
+  'patch-notes': { cls: 'badge-patch-notes', label: 'Patch Notes' },
+  'ofertas':     { cls: 'badge-ofertas',     label: 'Ofertas' },
+  'general':     { cls: 'badge-comunidad',   label: 'General' }
+};
+
+function forumTagBadgeClass(tag) {
+  return (FORUM_TAG_BADGES[tag] || FORUM_TAG_BADGES.general).cls;
+}
+
+function forumTagLabel(tag) {
+  return (FORUM_TAG_BADGES[tag] || FORUM_TAG_BADGES.general).label;
+}
+
 function forumTimeAgo(iso) {
   var diff = (Date.now() - new Date(iso).getTime()) / 1000;
   if (diff < 60) return 'recién';
