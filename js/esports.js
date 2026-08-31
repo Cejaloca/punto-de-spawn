@@ -46,6 +46,17 @@ function getEstadoHoy(torneo) {
   return 'finalizado';
 }
 
+// Distingue un evento puntual y acotado (VCT playoffs, un Major, un Mundial — algo
+// que realmente se transmite en vivo esos días) de un circuito/split largo (CBLOL,
+// CONTER) que dura meses y no está "en vivo" todos los días. Solo los primeros
+// disparan el auto-embed prioritario.
+function esEventoAcotado(torneo) {
+  const inicio = new Date(torneo.fechaInicio + 'T00:00:00');
+  const fin    = new Date(torneo.fechaFin    + 'T23:59:59');
+  const dias   = (fin - inicio) / (1000 * 60 * 60 * 24);
+  return dias <= 14;
+}
+
 function estadoBadge(estado) {
   if (estado === 'en-curso') {
     return `<span class="es-badge es-badge-live"><span class="es-pulse"></span>EN VIVO</span>`;
@@ -247,6 +258,36 @@ function renderLolFixture(events, liveIds) {
   }).join('');
 }
 
+// ── PRIORIDAD DE AUTO-EMBED ───────────────────────────────────
+// Orden de prioridad para decidir qué se carga solo al entrar a la página:
+//   1) Torneo/evento oficial puntual y acotado que está en curso hoy (BLAST Porto,
+//      VCT Playoffs, un Mundial, etc.) — es un evento real, no un circuito largo.
+//   2) Partido de LoL confirmado en vivo AHORA MISMO vía la API oficial de LoL Esports
+//      (el único chequeo en tiempo real que tenemos, más confiable que una fecha).
+//   3) Si no hay nada de lo anterior, se deja el placeholder — no se fuerza un canal
+//      genérico que puede estar desconectado (ej. circuitos largos como CONTER/CBLOL
+//      que figuran "en curso" por fecha pero no juegan todos los días).
+function elegirEmbedPrioritario(lolLiveEvents) {
+  const torneoOficialEnVivo = torneosData.find(t =>
+    t.estadoCalculado === 'en-curso' &&
+    esEventoAcotado(t) &&
+    (t.twitch || ESPORTS_CANALES[t.juego]?.twitch)
+  );
+
+  if (torneoOficialEnVivo) {
+    const canal = torneoOficialEnVivo.twitch || ESPORTS_CANALES[torneoOficialEnVivo.juego].twitch;
+    cargarEmbed(canal, torneoOficialEnVivo.nombre, 'twitch');
+    return;
+  }
+
+  if (lolLiveEvents && lolLiveEvents.length > 0) {
+    cargarEmbed('riotgames', lolLiveEvents[0].league?.name || 'LoL en vivo', 'twitch');
+    return;
+  }
+
+  // Nada confirmado en vivo: queda el placeholder para que el usuario elija un canal.
+}
+
 // ── INIT ─────────────────────────────────────────────────────
 async function initEsports() {
   // Recalcular estado en base a hoy
@@ -288,10 +329,9 @@ async function initEsports() {
   const liveIds = new Set(liveEvents.map(e => e.match?.id).filter(Boolean));
   renderLolFixture(schedule, liveIds);
 
-  // Si hay un partido de LoL en vivo ahora, cargarlo automáticamente en el player
-  if (liveEvents.length > 0) {
-    cargarEmbed('riotgames', liveEvents[0].league?.name || 'LoL en vivo');
-  }
+  // Auto-embed con prioridad: evento oficial/torneo acotado en curso > partido de
+  // LoL confirmado en vivo > nada (se deja el placeholder).
+  elegirEmbedPrioritario(liveEvents);
 }
 
 document.addEventListener('DOMContentLoaded', initEsports);
