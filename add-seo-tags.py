@@ -18,7 +18,7 @@ import sys
 from pathlib import Path
 
 DOMINIO = "https://puntodespawn.com"
-IMG_DEFAULT = f"{DOMINIO}/images/og-default.jpg"
+IMG_DEFAULT = f"{DOMINIO}/images/og-social.jpg"
 
 # Páginas estáticas: (archivo, tipo_og)
 PAGINAS_ESTATICAS = [
