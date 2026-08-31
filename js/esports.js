@@ -26,6 +26,7 @@ const LOL_LEAGUE_IDS = [
 // ── ESTADO GLOBAL ───────────────────────────────────────────
 let filtroActivo = 'todos';
 let canalActivo = null;
+let plataformaActiva = null;
 let torneosData = [];
 
 // ── HELPERS ─────────────────────────────────────────────────
@@ -63,29 +64,36 @@ function juegoColor(juego) {
   return ESPORTS_CANALES[juego]?.color || '#888';
 }
 
-// ── TWITCH EMBED ─────────────────────────────────────────────
-function cargarEmbed(canal, nombreTorneo) {
-  if (canalActivo === canal) return;
+// ── EMBED (Twitch o Kick) ────────────────────────────────────
+function cargarEmbed(canal, nombreTorneo, plataforma) {
+  plataforma = plataforma || 'twitch';
+  if (canalActivo === canal && plataformaActiva === plataforma) return;
   canalActivo = canal;
+  plataformaActiva = plataforma;
 
   const wrap = document.getElementById('es-player-wrap');
   const info = document.getElementById('es-embed-info');
 
+  const src = plataforma === 'kick'
+    ? `https://player.kick.com/${canal}?autoplay=true&muted=false`
+    : `https://player.twitch.tv/?channel=${canal}&parent=puntodespawn.com&autoplay=true&muted=false`;
+
   wrap.innerHTML = `
     <iframe
-      src="https://player.twitch.tv/?channel=${canal}&parent=puntodespawn.com&autoplay=true&muted=false"
+      src="${src}"
       width="100%" height="100%"
       allowfullscreen
       style="border:0; display:block; width:100%; height:100%;"
     ></iframe>`;
 
   if (info) {
-    info.textContent = `▶ Viendo: ${canal} ${nombreTorneo ? '— '+nombreTorneo : ''}`;
+    const plataformaLabel = plataforma === 'kick' ? 'Kick' : 'Twitch';
+    info.textContent = `▶ Viendo en ${plataformaLabel}: ${canal} ${nombreTorneo ? '— '+nombreTorneo : ''}`;
   }
 
   // Highlight botón activo
   document.querySelectorAll('.es-canal-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.canal === canal);
+    b.classList.toggle('active', b.dataset.canal === canal && b.dataset.plataforma === plataforma);
   });
 }
 
@@ -110,6 +118,8 @@ function renderTorneos(lista) {
     const estado = getEstadoHoy(t);
     const color  = juegoColor(t.juego);
     const canal  = t.twitch || ESPORTS_CANALES[t.juego]?.twitch || '';
+    const canalKick = t.kick || ESPORTS_CANALES[t.juego]?.kick || '';
+    const nombreEsc = t.nombre.replace(/'/g,'');
 
     return `
     <div class="es-torneo-card" data-juego="${t.juego}" data-estado="${estado}">
@@ -131,9 +141,12 @@ function renderTorneos(lista) {
         </div>
       </div>
       <div class="es-torneo-footer">
-        ${canal ? `<button class="es-watch-btn" onclick="cargarEmbed('${canal}','${t.nombre.replace(/'/g,'')}')" ${estado==='finalizado'?'disabled':''}>
+        ${canal ? `<button class="es-watch-btn" onclick="cargarEmbed('${canal}','${nombreEsc}','twitch')" ${estado==='finalizado'?'disabled':''}>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M21 2H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 16H3V4h18v14z"/><polygon points="10,8 16,12 10,16"/></svg>
           Ver en vivo
+        </button>` : ''}
+        ${canalKick ? `<button class="es-watch-btn es-watch-btn-kick" onclick="cargarEmbed('${canalKick}','${nombreEsc}','kick')" ${estado==='finalizado'?'disabled':''}>
+          Ver en Kick
         </button>` : ''}
         <a href="${t.liquipedia}" target="_blank" rel="noopener" class="es-liq-btn">
           Liquipedia →
@@ -252,8 +265,8 @@ async function initEsports() {
   const canalBar = document.getElementById('es-canal-bar');
   if (canalBar) {
     canalBar.innerHTML = Object.entries(ESPORTS_CANALES).map(([key, c]) => `
-      <button class="es-canal-btn" data-canal="${c.twitch}" data-juego="${key}"
-        onclick="cargarEmbed('${c.twitch}', '${c.label}'); aplicarFiltro('${key}')">
+      <button class="es-canal-btn" data-canal="${c.twitch}" data-plataforma="twitch" data-juego="${key}"
+        onclick="cargarEmbed('${c.twitch}', '${c.label}', 'twitch'); aplicarFiltro('${key}')">
         ${c.label}
       </button>
     `).join('');

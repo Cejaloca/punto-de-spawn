@@ -5,18 +5,22 @@
 // cuando arranque/termine un torneo, o cuando salgan fechas nuevas.
 // ============================================================
 
-// Canales de Twitch y YouTube por juego (fallback general, no ligado a un torneo puntual)
+// Canales de Twitch (y Kick, donde aplica) por juego — fallback general,
+// no ligado a un torneo puntual. Verificados por research en agosto 2026:
+// - CS2 (blastpremier/esl_csgo) tiene simulcast confirmado en Kick.
+// - El resto son los canales oficiales de Twitch de cada organizador.
 const ESPORTS_CANALES = {
   dota2: {
     label: 'Dota 2',
     twitch: 'dota2ti',
-    twitchAlt: 'esl_dota2',
+    twitchAlt: 'pgl_dota2',
     color: '#c23b22'
   },
   cs2: {
     label: 'CS2',
-    twitch: 'blast_cs',
-    twitchAlt: 'esl_cs2',
+    twitch: 'blastpremier',
+    twitchAlt: 'esl_csgo',
+    kick: 'blastpremier',
     color: '#ff6b35'
   },
   lol: {
@@ -27,14 +31,14 @@ const ESPORTS_CANALES = {
   },
   valorant: {
     label: 'VALORANT',
-    twitch: 'valorantesports',
-    twitchAlt: 'valorant_es',
+    twitch: 'valorant_americas',
+    twitchAlt: 'valorant',
     color: '#ff4655'
   },
   hearthstone: {
     label: 'Hearthstone',
     twitch: 'playhearthstone',
-    twitchAlt: 'blizzard_esports',
+    twitchAlt: 'blizzard',
     color: '#c97d0e'
   }
 };
@@ -54,7 +58,7 @@ const ESPORTS_TORNEOS = [
     descripcion: 'Leviatán se mide con MIBR en la primera ronda de playoffs de VCT Americas Stage 2. Se enfrentaron 4 veces esta temporada, 2-2. Leviatán llega como favorito por su forma en fase de grupos.',
     imagen: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Valorant_Champions_Tour_logo.png',
     liquipedia: 'https://liquipedia.net/valorant/VCT/2026/Americas/Stage_2',
-    twitch: 'valorantesports'
+    twitch: 'valorant_americas'
   },
   {
     id: 'cblol-2026-split1-leviatan',
@@ -68,7 +72,7 @@ const ESPORTS_TORNEOS = [
     descripcion: 'Leviatán, la organización argentina, compite en CBLOL 2026 Split 1 junto a Fluxo, FURIA, Keyd Stars, LOUD, paiN Gaming, RED Canids y LOS. Pelean por un lugar en los playoffs y en Worlds.',
     imagen: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/CBLOL_logo.png',
     liquipedia: 'https://liquipedia.net/leagueoflegends/CBLOL/2026/Split_1',
-    twitch: 'riotgames'
+    twitch: 'cblol'
   },
   {
     id: 'esl-pro-league-s24-shinden',
@@ -82,7 +86,8 @@ const ESPORTS_TORNEOS = [
     descripcion: 'ShindeN, la organización argentina fundada por Lit Killah y Spreen, clasificó a la EPL S24 tras ganar la ESL Challenger League Finals de Sudamérica. Debutan en el torneo S-Tier más importante del semestre.',
     imagen: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Counter_Strike_2_Logo.png',
     liquipedia: 'https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24',
-    twitch: 'esl_csgo'
+    twitch: 'esl_csgo',
+    kick: 'eslcs'
   },
   {
     id: 'blast-open-porto-2026-s2',
@@ -96,7 +101,8 @@ const ESPORTS_TORNEOS = [
     descripcion: 'Fase de grupos en BLAST Studios (Copenhague) hasta el 31/8, con playoffs presenciales en Porto del 4 al 6 de septiembre. Incluye a Spirit, Falcons, FURIA, Vitality y MOUZ, entre los mejores del ranking Valve.',
     imagen: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Counter_Strike_2_Logo.png',
     liquipedia: 'https://liquipedia.net/counterstrike/BLAST/Open/2026/Porto',
-    twitch: 'blast_cs'
+    twitch: 'blastpremier',
+    kick: 'blastpremier'
   },
   {
     id: 'conter-argentina-2026',
@@ -110,7 +116,7 @@ const ESPORTS_TORNEOS = [
     descripcion: 'Primer circuito profesional de CS2 en Argentina (FiReSPORTS), con 9z y Bestia entre los equipos top. Reparte puntos oficiales de cara al Major de Buenos Aires 2027 — el primero que se juega en el país.',
     imagen: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Counter_Strike_2_Logo.png',
     liquipedia: 'https://liquipedia.net/counterstrike/Conter/2026',
-    twitch: 'blast_cs'
+    twitch: 'fireleaguetv'
   },
   {
     id: 'vct-champions-2026',
@@ -124,7 +130,7 @@ const ESPORTS_TORNEOS = [
     descripcion: 'El cierre de temporada de VALORANT. Primera vez que Champions se juega en China. 16 equipos de todas las regiones pelean por el título mundial.',
     imagen: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Valorant_Champions_Tour_logo.png',
     liquipedia: 'https://liquipedia.net/valorant/VCT/2026/Champions',
-    twitch: 'valorantesports'
+    twitch: 'valorant'
   },
   {
     id: 'lol-worlds-2026',
@@ -166,6 +172,6 @@ const ESPORTS_TORNEOS = [
     descripcion: 'Uno de los torneos Tier 1 de Dota 2 post-TI 2026 (que se jugó en agosto en Shanghái). Los equipos top se reacomodan de cara a la nueva temporada competitiva.',
     imagen: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Dota_logo_without_bee.png',
     liquipedia: 'https://liquipedia.net/dota2/PGL/Wallachia/Season_9',
-    twitch: 'dota2ti'
+    twitch: 'pgl_dota2'
   }
 ];
