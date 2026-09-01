@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 31 Aug 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Steam Survival &amp; Crafting Fest: Green Hell a USD 2,79, Don't Starve a USD 2,49 y descuentos de hasta 90% hasta el 7 de septiembre</title>
+      <link>https://puntodespawn.com/posts/steam-survival-crafting-fest-agosto-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-survival-crafting-fest-agosto-septiembre-2026.html</guid>
+      <pubDate>Tue, 01 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Steam lanzó su festival de supervivencia y crafteo: ocho días de descuentos en Green Hell, Palworld, Don't Starve, Raft, Subnautica, ICARUS, DayZ y Grounded, entre cientos de juegos más.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/815370/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Anthropic 'sube' los límites de Claude Code un 25%, pero en la práctica es un recorte del 17%</title>
+      <link>https://puntodespawn.com/posts/claude-code-recorte-limites-semanales-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-code-recorte-limites-semanales-septiembre-2026.html</guid>
+      <pubDate>Tue, 01 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Desde el 14 de septiembre los límites semanales estándar de Claude Code suben un 25% de forma permanente. Suena a mejora, pero como reemplaza al boost temporal del 50% que está activo hoy, el resultado real es 17% menos capacidad que la que tenés ahora.</description>
+      <media:content url="https://www.bleepstatic.com/content/hl-images/2026/05/07/ClaudeChats.png" medium="image"/>
+    </item>
+    <item>
+      <title>Valorant Patch 13.05: penalizaciones para stream snipers, Pick'Ems de Champions Shanghai y el rework de Agent Gear que se viene</title>
+      <link>https://puntodespawn.com/posts/valorant-patch-1305-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-patch-1305-septiembre-2026.html</guid>
+      <pubDate>Tue, 01 Sep 2026 03:00:00 GMT</pubDate>
+      <description>El parche 13.05 llegó con cambios menores pero importantes: Riot empieza a banear a quienes usan herramientas de stream sniping e instalock, vuelven los Pick'Ems para Champions Shanghai y adelantan un rework grande del sistema de Agent Gear para el parche 13.06.</description>
+      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/727fb02ae2fc0a5d8c98ea46885b29a782ac2bd5-1920x1080.jpg?accountingTag=VAL" medium="image"/>
+    </item>
     <item>
       <title>Claude ya tiene su propio navegador integrado en Cowork: no hace falta instalar nada</title>
       <link>https://puntodespawn.com/posts/claude-cowork-navegador-integrado-agosto-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Tue, 18 Aug 2026 03:00:00 GMT</pubDate>
       <description>El parche 26.17 llega el 26 de agosto como patch de estabilización post-26.16: buffs a Hecarim, Trundle, Yasuo y Yone; nerfs a Vayne, Nocturne, Graves y Sundered Sky. Skins de Ocean Song para Jinx y Soraka, más la legendaria Heartsong Seraphine con recaudación a caridad.</description>
       <media:content url="https://www.hotspawn.com/wp-content/uploads/2026/08/league-of-legends-patch-26-17.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Fortnite Override llega el 20 de agosto: Sonic, Mega Man, Crash Bandicoot y cartuchos que rompen las reglas del juego</title>
-      <link>https://puntodespawn.com/posts/fortnite-chapter-7-season-4-override-agosto-20-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/fortnite-chapter-7-season-4-override-agosto-20-2026.html</guid>
-      <pubDate>Tue, 18 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Fortnite Chapter 7 Season 4 Override arranca el 20 de agosto con el roster de crossovers más grande en años: Sonic y Tetris en el Battle Pass, Mega Man, Joker de Persona 5, Crash Bandicoot y más en el Item Shop. Los cartuchos Match Hacks cambian las reglas de la partida para toda la lobby.</description>
-      <media:content url="https://static.allthings.how/wp-content/uploads/2026/08/everything-you-missed-in-fortnite-c7s4-override-trailer-spri-cover-1600x900.webp" medium="image"/>
-    </item>
-    <item>
-      <title>ChatGPT Free ahora tiene texto ilimitado con GPT-5.6 Luna — y el botón Think llegó gratis</title>
-      <link>https://puntodespawn.com/posts/chatgpt-gpt56-luna-ilimitado-gratis-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/chatgpt-gpt56-luna-ilimitado-gratis-agosto-2026.html</guid>
-      <pubDate>Mon, 17 Aug 2026 03:00:00 GMT</pubDate>
-      <description>OpenAI eliminó el límite de mensajes de texto para el plan gratuito de ChatGPT: GPT-5.6 Luna es el nuevo modelo por defecto con 62% menos errores factuales. El botón Think para razonamiento más profundo también llegó al plan Free sin pagar.</description>
-      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/3T0kxQLJk1VcXVxMwXF97J/4345df401f2b08ed6a1eef88c9588d2e/OAI_ChatGPTWork_ModelBlog_OpenGraph_16x9_1200x630.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
-    </item>
-    <item>
-      <title>Metal Gear Solid: Master Collection Vol. 2 llega el 27 de agosto — MGS4 sale del PS3 después de 18 años</title>
-      <link>https://puntodespawn.com/posts/metal-gear-solid-master-collection-vol-2-agosto-27-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/metal-gear-solid-master-collection-vol-2-agosto-27-2026.html</guid>
-      <pubDate>Mon, 17 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Konami lanza el 27 de agosto la Master Collection Vol. 2: MGS4 Guns of the Patriots llega por primera vez a PC, PS5, Xbox Series y Switch 2, junto a Peace Walker y Ghost Babel, a USD 49,99.</description>
-      <media:content url="https://www.techspot.com/images2/news/bigimage/2026/02/2026-02-14-image-15.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

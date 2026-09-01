@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'steam-survival-crafting-fest-agosto-septiembre-2026',
+    titulo: "Steam Survival & Crafting Fest: Green Hell a USD 2,79, Don't Starve a USD 2,49 y descuentos de hasta 90% hasta el 7 de septiembre",
+    extracto: "Steam lanzó su festival de supervivencia y crafteo: ocho días de descuentos en Green Hell, Palworld, Don't Starve, Raft, Subnautica, ICARUS, DayZ y Grounded, entre cientos de juegos más.",
+    fecha: '2026-09-01',
+    fechaDisplay: '1 de septiembre de 2026',
+    categoria: 'ofertas',
+    tags: ['steam', 'ofertas', 'descuentos', 'survival', 'crafting', 'supervivencia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/815370/header.jpg',
+    archivo: 'posts/steam-survival-crafting-fest-agosto-septiembre-2026.html'
+  },
+  {
+    id: 'claude-code-recorte-limites-semanales-septiembre-2026',
+    titulo: "Anthropic 'sube' los límites de Claude Code un 25%, pero en la práctica es un recorte del 17%",
+    extracto: 'Desde el 14 de septiembre los límites semanales estándar de Claude Code suben un 25% de forma permanente. Suena a mejora, pero como reemplaza al boost temporal del 50% que está activo hoy, el resultado real es 17% menos capacidad que la que tenés ahora.',
+    fecha: '2026-09-01',
+    fechaDisplay: '1 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'claude-code', 'ia', 'limites', 'desarrollo'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.bleepstatic.com/content/hl-images/2026/05/07/ClaudeChats.png',
+    archivo: 'posts/claude-code-recorte-limites-semanales-septiembre-2026.html'
+  },
+  {
+    id: 'valorant-patch-1305-septiembre-2026',
+    titulo: "Valorant Patch 13.05: penalizaciones para stream snipers, Pick'Ems de Champions Shanghai y el rework de Agent Gear que se viene",
+    extracto: "El parche 13.05 llegó con cambios menores pero importantes: Riot empieza a banear a quienes usan herramientas de stream sniping e instalock, vuelven los Pick'Ems para Champions Shanghai y adelantan un rework grande del sistema de Agent Gear para el parche 13.06.",
+    fecha: '2026-09-01',
+    fechaDisplay: '1 de septiembre de 2026',
+    categoria: 'patch-notes',
+    tags: ['valorant', 'patch-notes', 'riot-games', 'stream-sniping', 'pickems', 'champions-shanghai', 'agent-gear'],
+    juego: 'valorant',
+    juegoDisplay: 'Valorant',
+    imagen: 'https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/727fb02ae2fc0a5d8c98ea46885b29a782ac2bd5-1920x1080.jpg?accountingTag=VAL',
+    archivo: 'posts/valorant-patch-1305-septiembre-2026.html'
+  },
+  {
     id: 'claude-cowork-navegador-integrado-agosto-2026',
     titulo: 'Claude ya tiene su propio navegador integrado en Cowork: no hace falta instalar nada',
     extracto: 'Anthropic lanzó un navegador propio adentro de Claude Cowork de escritorio: Claude abre sitios, lee páginas y completa formularios sin tocar tu Chrome. Ya está disponible para los planes Pro, Max y Team.',
