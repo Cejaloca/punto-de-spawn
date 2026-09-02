@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'claude-fable-51-mythos-51-septiembre-2026',
+    titulo: 'Claude Fable 5.1 y Mythos 5.1: hasta 45% más barato y encontró un bug que nadie pudo explicar en 5 años',
+    extracto: 'Anthropic lanzó Claude Fable 5.1 y Claude Mythos 5.1: mejor en coding e investigación científica, hasta 45% menos costo en tareas agénticas y 60% menos falsos positivos de ciberseguridad en Claude Code.',
+    fecha: '2026-09-02',
+    fechaDisplay: '2 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'fable', 'mythos', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.sanity.io/images/4zrzovbb/website/932ca7d6f414ca22fd5a26dcc131410575b9b3e5-1200x630.jpg',
+    archivo: 'posts/claude-fable-51-mythos-51-septiembre-2026.html'
+  },
+  {
+    id: 'marvel-rivals-endgame-encore-septiembre-2026',
+    titulo: 'Marvel Rivals: llegó el evento Endgame Encore con cupones en cadena para skins del MCU',
+    extracto: 'El parche 1.70 de Marvel Rivals trajo el evento Endgame Encore: 20% de descuento en cadena para bundles del MCU, nuevos bundles de Angela y Squirrel Girl, y arreglos para Doctor Strange y Angela. Disponible hasta el 11 de septiembre.',
+    fecha: '2026-09-02',
+    fechaDisplay: '2 de septiembre de 2026',
+    categoria: 'patch-notes',
+    tags: ['marvel-rivals', 'patch-notes', 'endgame-encore', 'netease', 'mcu'],
+    juego: 'marvel-rivals',
+    juegoDisplay: 'Marvel Rivals',
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg',
+    archivo: 'posts/marvel-rivals-endgame-encore-septiembre-2026.html'
+  },
+  {
+    id: 'blood-of-dawnwalker-lanzamiento-septiembre-2026',
+    titulo: 'The Blood of Dawnwalker: llega el 3 de septiembre el RPG de vampiros del director de The Witcher 3',
+    extracto: 'Rebel Wolves, el estudio fundado por el ex director de The Witcher 3, lanza The Blood of Dawnwalker el 3 de septiembre: un RPG de vampiros con ciclo día/noche, 30 días de plazo narrativo y críticas espectaculares.',
+    fecha: '2026-09-02',
+    fechaDisplay: '2 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['blood-of-dawnwalker', 'rebel-wolves', 'rpg', 'witcher', 'lanzamiento'],
+    juego: 'The Blood of Dawnwalker',
+    juegoDisplay: 'The Blood of Dawnwalker',
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/3751260/library_hero.jpg',
+    archivo: 'posts/blood-of-dawnwalker-lanzamiento-septiembre-2026.html'
+  },
+  {
     id: 'steam-survival-crafting-fest-agosto-septiembre-2026',
     titulo: "Steam Survival & Crafting Fest: Green Hell a USD 2,79, Don't Starve a USD 2,49 y descuentos de hasta 90% hasta el 7 de septiembre",
     extracto: "Steam lanzó su festival de supervivencia y crafteo: ocho días de descuentos en Green Hell, Palworld, Don't Starve, Raft, Subnautica, ICARUS, DayZ y Grounded, entre cientos de juegos más.",

@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 01 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Claude Fable 5.1 y Mythos 5.1: hasta 45% más barato y encontró un bug que nadie pudo explicar en 5 años</title>
+      <link>https://puntodespawn.com/posts/claude-fable-51-mythos-51-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-fable-51-mythos-51-septiembre-2026.html</guid>
+      <pubDate>Wed, 02 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Anthropic lanzó Claude Fable 5.1 y Claude Mythos 5.1: mejor en coding e investigación científica, hasta 45% menos costo en tareas agénticas y 60% menos falsos positivos de ciberseguridad en Claude Code.</description>
+      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/932ca7d6f414ca22fd5a26dcc131410575b9b3e5-1200x630.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Marvel Rivals: llegó el evento Endgame Encore con cupones en cadena para skins del MCU</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-endgame-encore-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-endgame-encore-septiembre-2026.html</guid>
+      <pubDate>Wed, 02 Sep 2026 03:00:00 GMT</pubDate>
+      <description>El parche 1.70 de Marvel Rivals trajo el evento Endgame Encore: 20% de descuento en cadena para bundles del MCU, nuevos bundles de Angela y Squirrel Girl, y arreglos para Doctor Strange y Angela. Disponible hasta el 11 de septiembre.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>The Blood of Dawnwalker: llega el 3 de septiembre el RPG de vampiros del director de The Witcher 3</title>
+      <link>https://puntodespawn.com/posts/blood-of-dawnwalker-lanzamiento-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/blood-of-dawnwalker-lanzamiento-septiembre-2026.html</guid>
+      <pubDate>Wed, 02 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Rebel Wolves, el estudio fundado por el ex director de The Witcher 3, lanza The Blood of Dawnwalker el 3 de septiembre: un RPG de vampiros con ciclo día/noche, 30 días de plazo narrativo y críticas espectaculares.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/3751260/library_hero.jpg" medium="image"/>
+    </item>
     <item>
       <title>Steam Survival &amp; Crafting Fest: Green Hell a USD 2,79, Don't Starve a USD 2,49 y descuentos de hasta 90% hasta el 7 de septiembre</title>
       <link>https://puntodespawn.com/posts/steam-survival-crafting-fest-agosto-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 19 Aug 2026 03:00:00 GMT</pubDate>
       <description>El 25 de agosto arranca Gamescom 2026 con el Opening Night Live de Geoff Keighley: confirmados Final Fantasy VII Revelation con nueva mirada, la expansión Songs of the Past de The Witcher 3 y Game of Thrones: War for Westeros. El show arranca a las 15hs de Argentina.</description>
       <media:content url="https://images.nintendolife.com/e4bb576020a8c/large.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>1666: Amsterdam entra en Early Access el 25 de agosto — el proyecto de una década del creador de Assassin's Creed</title>
-      <link>https://puntodespawn.com/posts/1666-amsterdam-early-access-agosto-25-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/1666-amsterdam-early-access-agosto-25-2026.html</guid>
-      <pubDate>Wed, 19 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Patrice Désilets —el padre de Assassin's Creed— lanza su proyecto personal en Early Access el 25 de agosto por $29.99. Exploración sobrenatural del Ámsterdam del siglo XVII, dos personajes jugables (una bruja y su gato con mente humana) y 15 horas de campaña desde el día uno.</description>
-      <media:content url="https://gamesreviews.com/wp-content/uploads/2026/08/gr-1666-amsterdam-267019.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Gemini 3.7 Flash ya está disponible: mejora brutal en coding y la mitad del precio</title>
-      <link>https://puntodespawn.com/posts/gemini-37-flash-google-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-37-flash-google-agosto-2026.html</guid>
-      <pubDate>Tue, 18 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Google lanzó Gemini 3.7 Flash el 13 de agosto, solo tres semanas después de 3.6 Flash: DeepSWE sube de 49% a 65.3%, AutomationBench de 17% a 30.4%, y el precio se mantiene en $0.75/$3.75 por millón de tokens hasta fin de año.</description>
-      <media:content url="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/07/gemini-new-logo-1.jpg?resize=1200%2C628&amp;quality=82&amp;strip=all&amp;ssl=1" medium="image"/>
-    </item>
-    <item>
-      <title>Preview Parche 26.17 de LoL — llega el 26 de agosto: Yone y Yasuo suben, Vayne y Graves bajan</title>
-      <link>https://puntodespawn.com/posts/lol-parche-2617-preview-agosto-26-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2617-preview-agosto-26-2026.html</guid>
-      <pubDate>Tue, 18 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El parche 26.17 llega el 26 de agosto como patch de estabilización post-26.16: buffs a Hecarim, Trundle, Yasuo y Yone; nerfs a Vayne, Nocturne, Graves y Sundered Sky. Skins de Ocean Song para Jinx y Soraka, más la legendaria Heartsong Seraphine con recaudación a caridad.</description>
-      <media:content url="https://www.hotspawn.com/wp-content/uploads/2026/08/league-of-legends-patch-26-17.webp" medium="image"/>
     </item>
   </channel>
 </rss>
