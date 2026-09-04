@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'ofertas-gratis-semana-septiembre-4-2026',
+    titulo: 'Juegos gratis y ofertas de la semana: Alone With You en Epic, arranca Prime Gaming de septiembre y Red Dead Redemption 2 a USD 14,99 en Steam',
+    extracto: 'Repasamos las mejores ofertas activas: Epic regala el aventura narrativo Alone With You hasta el 10/9, Amazon abre su tanda de 25 juegos gratis de septiembre en Prime Gaming, y Steam tiene a Red Dead Redemption 2, Space Marine 2 y CoD Black Ops III con 75% off.',
+    fecha: '2026-09-04',
+    fechaDisplay: '4 de septiembre de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'steam', 'prime-gaming', 'gratis', 'descuentos', 'ofertas'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg',
+    archivo: 'posts/ofertas-gratis-semana-septiembre-4-2026.html'
+  },
+  {
+    id: 'gemini-38-flash-google-septiembre-2026',
+    titulo: 'Google lanzó Gemini 3.8 Flash: le gana a Claude Opus 5 en varios benchmarks y ya tiene una versión para ciberseguridad',
+    extracto: 'Google presentó Gemini 3.8 Flash el 2 de septiembre, su tercera actualización de la línea Flash en seis semanas: mejor en coding y agentes que 3.7 Flash, mismo precio ($0,75/$3,75 por millón de tokens) y una variante restringida para ciberdefensa, Gemini 3.8 Flash Cyber.',
+    fecha: '2026-09-04',
+    fechaDisplay: '4 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'google', 'gemini', 'ia', 'coding', 'agentes', 'ciberseguridad'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png',
+    archivo: 'posts/gemini-38-flash-google-septiembre-2026.html'
+  },
+  {
+    id: 'monster-hunter-wilds-ascendance-anuncio-septiembre-2026',
+    titulo: 'Monster Hunter Wilds: Ascendance es la nueva expansión: un Elder Dragon que domina las tormentas y una isla flotante para cazar',
+    extracto: 'Capcom reveló Ascendance en el State of Play del 3 de septiembre: nueva zona Skybound Eyrie entre las nubes, el Elder Dragon Gundoraja, el Bird Wyvern Araketa y el Boost Bracer, un equipo nuevo que potencia las 14 armas. Llega en 2027 a PS5, Xbox Series y PC.',
+    fecha: '2026-09-04',
+    fechaDisplay: '4 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['monster-hunter-wilds', 'ascendance', 'capcom', 'expansion', 'ps5', 'xbox', 'pc', 'state-of-play'],
+    juego: 'Monster Hunter Wilds',
+    juegoDisplay: 'Monster Hunter Wilds: Ascendance',
+    imagen: 'https://blog.playstation.com/tachyon/2026/09/8a93478d5f8adf948ac0dcf35b3e57d2cb2d741c.png',
+    archivo: 'posts/monster-hunter-wilds-ascendance-anuncio-septiembre-2026.html'
+  },
+  {
     id: 'claude-fable-51-mythos-51-septiembre-2026',
     titulo: 'Claude Fable 5.1 y Mythos 5.1: hasta 45% más barato y encontró un bug que nadie pudo explicar en 5 años',
     extracto: 'Anthropic lanzó Claude Fable 5.1 y Claude Mythos 5.1: mejor en coding e investigación científica, hasta 45% menos costo en tareas agénticas y 60% menos falsos positivos de ciberseguridad en Claude Code.',

@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 02 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Juegos gratis y ofertas de la semana: Alone With You en Epic, arranca Prime Gaming de septiembre y Red Dead Redemption 2 a USD 14,99 en Steam</title>
+      <link>https://puntodespawn.com/posts/ofertas-gratis-semana-septiembre-4-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-gratis-semana-septiembre-4-2026.html</guid>
+      <pubDate>Fri, 04 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Repasamos las mejores ofertas activas: Epic regala el aventura narrativo Alone With You hasta el 10/9, Amazon abre su tanda de 25 juegos gratis de septiembre en Prime Gaming, y Steam tiene a Red Dead Redemption 2, Space Marine 2 y CoD Black Ops III con 75% off.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Google lanzó Gemini 3.8 Flash: le gana a Claude Opus 5 en varios benchmarks y ya tiene una versión para ciberseguridad</title>
+      <link>https://puntodespawn.com/posts/gemini-38-flash-google-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-38-flash-google-septiembre-2026.html</guid>
+      <pubDate>Fri, 04 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Google presentó Gemini 3.8 Flash el 2 de septiembre, su tercera actualización de la línea Flash en seis semanas: mejor en coding y agentes que 3.7 Flash, mismo precio ($0,75/$3,75 por millón de tokens) y una variante restringida para ciberdefensa, Gemini 3.8 Flash Cyber.</description>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png" medium="image"/>
+    </item>
+    <item>
+      <title>Monster Hunter Wilds: Ascendance es la nueva expansión: un Elder Dragon que domina las tormentas y una isla flotante para cazar</title>
+      <link>https://puntodespawn.com/posts/monster-hunter-wilds-ascendance-anuncio-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/monster-hunter-wilds-ascendance-anuncio-septiembre-2026.html</guid>
+      <pubDate>Fri, 04 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Capcom reveló Ascendance en el State of Play del 3 de septiembre: nueva zona Skybound Eyrie entre las nubes, el Elder Dragon Gundoraja, el Bird Wyvern Araketa y el Boost Bracer, un equipo nuevo que potencia las 14 armas. Llega en 2027 a PS5, Xbox Series y PC.</description>
+      <media:content url="https://blog.playstation.com/tachyon/2026/09/8a93478d5f8adf948ac0dcf35b3e57d2cb2d741c.png" medium="image"/>
+    </item>
     <item>
       <title>Claude Fable 5.1 y Mythos 5.1: hasta 45% más barato y encontró un bug que nadie pudo explicar en 5 años</title>
       <link>https://puntodespawn.com/posts/claude-fable-51-mythos-51-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Thu, 20 Aug 2026 03:00:00 GMT</pubDate>
       <description>xAI lanzó Grok 4.6 el 12 de agosto: 1753 ELO en LMSYS, #1 en Databricks, $2 por millón de tokens y capaz de completar proyectos de código de forma autónoma durante 22 minutos seguidos sin intervención.</description>
       <media:content url="https://www.basenor.com/cdn/shop/articles/0ad8178c7c71d81d686bb3977400ad05.png?v=1786550821" medium="image"/>
-    </item>
-    <item>
-      <title>Mortal Shell II ya está disponible: 84 en Metacritic, sin stamina y con jank</title>
-      <link>https://puntodespawn.com/posts/mortal-shell-2-review-agosto-20-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/mortal-shell-2-review-agosto-20-2026.html</guid>
-      <pubDate>Thu, 20 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Mortal Shell II lanzó hoy en PC, PS5 y Xbox Series con 84 en Metacritic: el sistema de Shells vuelve ampliado, el combate ya no tiene barra de stamina y el mundo es interconectado. La contra: hay glitches y los checkpoints escasean.</description>
-      <media:content url="https://cdn.wccftech.com/wp-content/uploads/2026/08/Mortal-Shell-II-Header-1920x937.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Valorant Patch 13.04: Abyss vuelve, Breeze sale y arranca el Acto 5</title>
-      <link>https://puntodespawn.com/posts/valorant-parche-1304-abyss-acto-5-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-parche-1304-abyss-acto-5-agosto-2026.html</guid>
-      <pubDate>Thu, 20 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El parche 13.04 de Valorant llegó el 18 de agosto: Abyss vuelve al pool competitivo, Breeze sale, arranca el Acto 5 con la Stage V26A5 de Premier y Riot promete novedades grandes en septiembre.</description>
-      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/610c12b411c40e6af76eec5d50646a56baf5dc26-1920x1080.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Gamescom Opening Night Live el 25 de agosto: FF7 Revelation, Witcher 3 DLC, Metro 2039 y todo lo que viene</title>
-      <link>https://puntodespawn.com/posts/gamescom-2026-opening-night-live-preview-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gamescom-2026-opening-night-live-preview-agosto-2026.html</guid>
-      <pubDate>Wed, 19 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El 25 de agosto arranca Gamescom 2026 con el Opening Night Live de Geoff Keighley: confirmados Final Fantasy VII Revelation con nueva mirada, la expansión Songs of the Past de The Witcher 3 y Game of Thrones: War for Westeros. El show arranca a las 15hs de Argentina.</description>
-      <media:content url="https://images.nintendolife.com/e4bb576020a8c/large.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
