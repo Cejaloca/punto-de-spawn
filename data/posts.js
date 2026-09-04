@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'ff7-revelation-fecha-abril-2027-septiembre-2026',
+    titulo: 'Final Fantasy VII Revelation tiene fecha: 8 de abril de 2027, con Highwind pilotable y personaje libre en el mundo abierto',
+    extracto: 'Square Enix confirmó en el State of Play del 3 de septiembre la fecha del cierre de la trilogía remake: exploración a escala planetaria con el Highwind, el sistema de trajes FITS y la posibilidad de elegir qué personaje lleva cada misión.',
+    fecha: '2026-09-04',
+    fechaDisplay: '4 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['final-fantasy-vii', 'revelation', 'square-enix', 'ps5', 'state-of-play', 'rpg', 'mundo-abierto'],
+    juego: 'Final Fantasy VII Revelation',
+    juegoDisplay: 'Final Fantasy VII Revelation',
+    imagen: 'https://blog.playstation.com/tachyon/2026/09/b2011ae5a054c3ae375a364174ee44aff00a0602.jpg?resize=1088%2C612&crop_strategy=smart',
+    archivo: 'posts/ff7-revelation-fecha-abril-2027-septiembre-2026.html'
+  },
+  {
+    id: 'gpt-6-astra-openai-septiembre-2026',
+    titulo: 'OpenAI lanzó GPT-6 Astra: el modelo que ellos mismos comparan con el arranque de la AGI',
+    extracto: 'GPT-6 Astra llega con el mejor desempeño en uso de computadora, coding y ciencia que tuvo nunca un modelo de OpenAI, pero también es el primero en cruzar el umbral "crítico" de ciberseguridad de la compañía. Cuesta $10/$50 por millón de tokens.',
+    fecha: '2026-09-04',
+    fechaDisplay: '4 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'chatgpt', 'gpt-6', 'astra', 'ia', 'agentes', 'ciberseguridad'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://9to5mac.com/wp-content/uploads/sites/6/2026/09/chatgpt-codex-gpt-6-astra-1.webp?resize=1200,628',
+    archivo: 'posts/gpt-6-astra-openai-septiembre-2026.html'
+  },
+  {
+    id: 'lol-parche-2618-preview-septiembre-2026',
+    titulo: 'Preview Parche 26.18 de LoL — llega el 10 de septiembre: Cassiopeia se reparte, vuelven Ekko y Kassadin',
+    extracto: 'El parche 26.18 sale un jueves excepcional para preparar el terreno del Mundial: Ekko, Kassadin, Master Yi, Viego y Zaahen reciben buffs, Zeri y Seraphine se bajan un cambio, y Cassiopeia recibe el ajuste más grande del parche entre su daño base y su escalado en AP.',
+    fecha: '2026-09-04',
+    fechaDisplay: '4 de septiembre de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 'cassiopeia', 'ekko', 'kassadin', 'worlds'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://media.dotesports.com/wp-content/uploads/2026/08/Immortalized-Legend-Tristana-League-of-Legends.webp',
+    archivo: 'posts/lol-parche-2618-preview-septiembre-2026.html'
+  },
+  {
     id: 'ofertas-gratis-semana-septiembre-4-2026',
     titulo: 'Juegos gratis y ofertas de la semana: Alone With You en Epic, arranca Prime Gaming de septiembre y Red Dead Redemption 2 a USD 14,99 en Steam',
     extracto: 'Repasamos las mejores ofertas activas: Epic regala el aventura narrativo Alone With You hasta el 10/9, Amazon abre su tanda de 25 juegos gratis de septiembre en Prime Gaming, y Steam tiene a Red Dead Redemption 2, Space Marine 2 y CoD Black Ops III con 75% off.',
