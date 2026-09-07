@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 04 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>World of Warcraft: el parche 12.1.5 ya tiene fecha en PTR — Labyrinths, la raid contra Kith'ix y el cierre de la saga de Zul'Aman</title>
+      <link>https://puntodespawn.com/posts/wow-parche-1215-kithix-preview-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/wow-parche-1215-kithix-preview-septiembre-2026.html</guid>
+      <pubDate>Mon, 07 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Blizzard reveló el contenido de Midnight 12.1.5: una raid de un solo jefe contra el general C'Thraxxi Kith'ix, el nuevo sistema de Labyrinths (mazmorras gigantes al estilo Delve) y las invasiones aqir de Eversong y Zul'Aman.</description>
+      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/d7/D73SVKWIUK9E1786560571925.png" medium="image"/>
+    </item>
+    <item>
+      <title>Xbox Game Pass suma RuneScape: Dragonwilds, SpeedRunners 2 y Call of Duty: Black Ops Cold War en la primera mitad de septiembre</title>
+      <link>https://puntodespawn.com/posts/xbox-game-pass-septiembre-2026-runescape-dragonwilds.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/xbox-game-pass-septiembre-2026-runescape-dragonwilds.html</guid>
+      <pubDate>Mon, 07 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Microsoft confirmó la primera tanda de altas de septiembre: el survival-crafting RuneScape Dragonwilds llega el 15, SpeedRunners 2 ya está disponible y Black Ops Cold War se suma el 8. A cambio, Dead Cells y Spiritfarer salen del catálogo.</description>
+      <media:content url="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/6f6bba2ddccb49f3a0abb831684ca085e453c721/header_alt_assets_3.jpg?t=1788340069" medium="image"/>
+    </item>
+    <item>
+      <title>PlayStation Plus de septiembre ya está disponible: Sniper Elite Resistance, MLB The Show 26, Wobbly Life y Chained Echoes gratis</title>
+      <link>https://puntodespawn.com/posts/ps-plus-septiembre-2026-juegos-gratis.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ps-plus-septiembre-2026-juegos-gratis.html</guid>
+      <pubDate>Mon, 07 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Sony sumó los cuatro juegos mensuales de PS Plus para septiembre, disponibles hasta el 5 de octubre: un shooter táctico en la Francia ocupada, el simulador de béisbol más nuevo, un sandbox cooperativo y un JRPG retro hecho por una sola persona.</description>
+      <media:content url="https://blog.playstation.com/tachyon/2026/08/026ebfc8756a24447327087a1d65a62295f2b3fc.jpg" medium="image"/>
+    </item>
     <item>
       <title>Final Fantasy VII Revelation tiene fecha: 8 de abril de 2027, con Highwind pilotable y personaje libre en el mundo abierto</title>
       <link>https://puntodespawn.com/posts/ff7-revelation-fecha-abril-2027-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 24 Aug 2026 03:00:00 GMT</pubDate>
       <description>Cherry XTRFY lanzó el K63W Pro a USD 169.99: primer teclado gaming con Ultra-Wideband inalámbrico y polling de 8000 Hz sin pérdidas, layout 70%, switches MX Low Profile 2.0 lubricados y 1100 horas de batería.</description>
       <media:content url="https://i0.wp.com/cdnbunny.ubergizmo.com/wp-content/uploads/2026/06/CHERRY-XTRFY-K63W-Pro-3.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Steam Summer of Screams 2026: horror hasta un 90% off — quedan pocos días</title>
-      <link>https://puntodespawn.com/posts/steam-summer-of-screams-2026-terror.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-summer-of-screams-2026-terror.html</guid>
-      <pubDate>Mon, 24 Aug 2026 03:00:00 GMT</pubDate>
-      <description>La sale de terror de Steam corre hasta el 31 de agosto con descuentos de hasta 90%: Aliens vs. Predator a USD 1.49, Texas Chain Saw Massacre a USD 3.74, CARRION a USD 3.99 y cientos de títulos más.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2231450/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Gears of War: E-Day sale el 6 de octubre — todo lo que sabemos del prequel más esperado de Xbox</title>
-      <link>https://puntodespawn.com/posts/gears-of-war-eday-preview-octubre-6-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gears-of-war-eday-preview-octubre-6-2026.html</guid>
-      <pubDate>Mon, 24 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Fecha confirmada: 6 de octubre en Xbox Series X|S, PC y Game Pass day 1. Prequel del Gears original, nuevo modo Horde Siege de 12 jugadores, demo jugable en Gamescom mañana y Collector's Edition con estatua de Marcus y Dom.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/3010850/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Dave Bautista es el nuevo Kratos en la serie de God of War de Prime Video</title>
-      <link>https://puntodespawn.com/posts/god-of-war-prime-video-dave-bautista-kratos-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/god-of-war-prime-video-dave-bautista-kratos-agosto-2026.html</guid>
-      <pubDate>Fri, 21 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Amazon Prime Video confirmó que Dave Bautista reemplaza a Ryan Hurst como Kratos: Hurst sufrió una lesión en un stunt que requirió cirugía. Dos temporadas, showrunner Ronald D. Moore, rodaje reinicia en Vancouver este otoño.</description>
-      <media:content url="https://www.engadget.com/img/gallery/amazons-god-of-war-show-brings-in-dave-bautista-as-its-new-kratos/l-intro-1787266230.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

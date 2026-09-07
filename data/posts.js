@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'wow-parche-1215-kithix-preview-septiembre-2026',
+    titulo: 'World of Warcraft: el parche 12.1.5 ya tiene fecha en PTR — Labyrinths, la raid contra Kith\'ix y el cierre de la saga de Zul\'Aman',
+    extracto: 'Blizzard reveló el contenido de Midnight 12.1.5: una raid de un solo jefe contra el general C\'Thraxxi Kith\'ix, el nuevo sistema de Labyrinths (mazmorras gigantes al estilo Delve) y las invasiones aqir de Eversong y Zul\'Aman.',
+    fecha: '2026-09-07',
+    fechaDisplay: '7 de septiembre de 2026',
+    categoria: 'patch-notes',
+    tags: ['world-of-warcraft', 'patch-notes', 'blizzard', 'midnight', 'kithix', 'labyrinths', 'ptr'],
+    juego: 'world-of-warcraft',
+    juegoDisplay: 'World of Warcraft',
+    imagen: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/d7/D73SVKWIUK9E1786560571925.png',
+    archivo: 'posts/wow-parche-1215-kithix-preview-septiembre-2026.html'
+  },
+  {
+    id: 'xbox-game-pass-septiembre-2026-runescape-dragonwilds',
+    titulo: 'Xbox Game Pass suma RuneScape: Dragonwilds, SpeedRunners 2 y Call of Duty: Black Ops Cold War en la primera mitad de septiembre',
+    extracto: 'Microsoft confirmó la primera tanda de altas de septiembre: el survival-crafting RuneScape Dragonwilds llega el 15, SpeedRunners 2 ya está disponible y Black Ops Cold War se suma el 8. A cambio, Dead Cells y Spiritfarer salen del catálogo.',
+    fecha: '2026-09-07',
+    fechaDisplay: '7 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['xbox-game-pass', 'xbox', 'runescape-dragonwilds', 'speedrunners-2', 'call-of-duty', 'pc-game-pass'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/6f6bba2ddccb49f3a0abb831684ca085e453c721/header_alt_assets_3.jpg?t=1788340069',
+    archivo: 'posts/xbox-game-pass-septiembre-2026-runescape-dragonwilds.html'
+  },
+  {
+    id: 'ps-plus-septiembre-2026-juegos-gratis',
+    titulo: 'PlayStation Plus de septiembre ya está disponible: Sniper Elite Resistance, MLB The Show 26, Wobbly Life y Chained Echoes gratis',
+    extracto: 'Sony sumó los cuatro juegos mensuales de PS Plus para septiembre, disponibles hasta el 5 de octubre: un shooter táctico en la Francia ocupada, el simulador de béisbol más nuevo, un sandbox cooperativo y un JRPG retro hecho por una sola persona.',
+    fecha: '2026-09-07',
+    fechaDisplay: '7 de septiembre de 2026',
+    categoria: 'ofertas',
+    tags: ['ps-plus', 'playstation', 'gratis', 'ofertas', 'sniper-elite', 'mlb-the-show', 'chained-echoes', 'wobbly-life'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://blog.playstation.com/tachyon/2026/08/026ebfc8756a24447327087a1d65a62295f2b3fc.jpg',
+    archivo: 'posts/ps-plus-septiembre-2026-juegos-gratis.html'
+  },
+  {
     id: 'ff7-revelation-fecha-abril-2027-septiembre-2026',
     titulo: 'Final Fantasy VII Revelation tiene fecha: 8 de abril de 2027, con Highwind pilotable y personaje libre en el mundo abierto',
     extracto: 'Square Enix confirmó en el State of Play del 3 de septiembre la fecha del cierre de la trilogía remake: exploración a escala planetaria con el Highwind, el sistema de trajes FITS y la posibilidad de elegir qué personaje lleva cada misión.',
