@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 07 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Nvidia compra Hugging Face por USD 12.900 millones: la jugada más grande de su historia en IA abierta</title>
+      <link>https://puntodespawn.com/posts/nvidia-compra-hugging-face-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-compra-hugging-face-septiembre-2026.html</guid>
+      <pubDate>Tue, 08 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Es la adquisición más grande que hizo Nvidia, superando a Mellanox. Se queda con la plataforma que usan 18 millones de developers para modelos y datasets abiertos, mientras OpenAI y Anthropic buscan sus propios chips.</description>
+      <media:content url="https://blogs.nvidia.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.png" medium="image"/>
+    </item>
+    <item>
+      <title>El Mundial de Hearthstone vuelve a BlizzCon: arrancó la fase de grupos con USD 500.000 en juego</title>
+      <link>https://puntodespawn.com/posts/hearthstone-mundial-2026-blizzcon-septiembre.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/hearthstone-mundial-2026-blizzcon-septiembre.html</guid>
+      <pubDate>Tue, 08 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Dieciséis jugadores se juegan el título de Campeón Mundial 2026 de Hearthstone. La fase de grupos ya empezó (8 al 10/9) y las semifinales se juegan en vivo en BlizzCon el 12 y 13.</description>
+      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/l1/L131SXIA0VTI1788283917764.png" medium="image"/>
+    </item>
+    <item>
+      <title>Diablo IV Temporada 15: Soul Splinters, el sistema que te hace más fuerte y más débil a la vez</title>
+      <link>https://puntodespawn.com/posts/diablo-4-temporada-15-soul-splinters-preview-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/diablo-4-temporada-15-soul-splinters-preview-septiembre-2026.html</guid>
+      <pubDate>Tue, 08 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Blizzard reveló en el PTR 3.2.0 el gran sistema de la Temporada 15: Soul Splinters, socketables que te potencian con una desventaja real. También llega Rebirth, para convertir personajes eternos en de temporada sin perder el progreso cosmético.</description>
+      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VF2YF3V2URW81760550738062.png" medium="image"/>
+    </item>
     <item>
       <title>World of Warcraft: el parche 12.1.5 ya tiene fecha en PTR — Labyrinths, la raid contra Kith'ix y el cierre de la saga de Zul'Aman</title>
       <link>https://puntodespawn.com/posts/wow-parche-1215-kithix-preview-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 26 Aug 2026 03:00:00 GMT</pubDate>
       <description>El parche 26.17 llegó hoy a los servidores de LATAM: Yasuo y Yone reducen su penalidad de crítico para escalar en late game, Vayne recibe el nerf más completo del año en stat bases, Q y W, Xerath baja de potencia y llegan Heartsong Seraphine y las skins Ocean Song.</description>
       <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e7061804e74e43de5c3cb98cc4892d318f3c7081-1920x1080.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Gamescom ONL 2026: todos los anuncios — Witcher 3 DLC, Tides of Annihilation, Silent Hill y más</title>
-      <link>https://puntodespawn.com/posts/gamescom-onl-2026-recap-todos-anuncios-agosto-25.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gamescom-onl-2026-recap-todos-anuncios-agosto-25.html</guid>
-      <pubDate>Tue, 25 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El Opening Night Live del 25 de agosto dejó una lista enorme: The Witcher 3 vuelve con la expansión Songs of the Past, se reveló Tides of Annihilation de Eclipse Glow Games, regresó Silent Hill: Townfall, y hubo trailers de Metro 2039, CONTROL Resonant, Monster Hunter Outlanders y más.</description>
-      <media:content url="https://insider-gaming.com/wp-content/uploads/2025/08/gamescom-2026.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Grok Voice Think Fast 2.0: la IA de voz de xAI que responde en 0,7 segundos y le gana a GPT en tiempo real</title>
-      <link>https://puntodespawn.com/posts/grok-voice-think-fast-2-xai-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/grok-voice-think-fast-2-xai-agosto-2026.html</guid>
-      <pubDate>Tue, 25 Aug 2026 03:00:00 GMT</pubDate>
-      <description>xAI lanzó Grok Voice Think Fast 2.0 el 29 de julio: 82,9% en el benchmark de voz de Artificial Analysis (vs 79,1% de GPT-Realtime), respuesta en 0,70 segundos, 1,4x de mejora en transcripción y razonamiento en paralelo con el habla. Disponible a USD 0,08/min.</description>
-      <media:content url="https://media.x.ai/v1/website/grok-voice-think-fast-2-19ad1e0b.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Cherry XTRFY K63W Pro: el primer teclado gaming inalámbrico con 8000 Hz reales llega a USD 169.99</title>
-      <link>https://puntodespawn.com/posts/cherry-xtrfy-k63w-pro-teclado-8k-uwb-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/cherry-xtrfy-k63w-pro-teclado-8k-uwb-agosto-2026.html</guid>
-      <pubDate>Mon, 24 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Cherry XTRFY lanzó el K63W Pro a USD 169.99: primer teclado gaming con Ultra-Wideband inalámbrico y polling de 8000 Hz sin pérdidas, layout 70%, switches MX Low Profile 2.0 lubricados y 1100 horas de batería.</description>
-      <media:content url="https://i0.wp.com/cdnbunny.ubergizmo.com/wp-content/uploads/2026/06/CHERRY-XTRFY-K63W-Pro-3.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

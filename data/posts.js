@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'nvidia-compra-hugging-face-septiembre-2026',
+    titulo: 'Nvidia compra Hugging Face por USD 12.900 millones: la jugada más grande de su historia en IA abierta',
+    extracto: 'Es la adquisición más grande que hizo Nvidia, superando a Mellanox. Se queda con la plataforma que usan 18 millones de developers para modelos y datasets abiertos, mientras OpenAI y Anthropic buscan sus propios chips.',
+    fecha: '2026-09-08',
+    fechaDisplay: '8 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'nvidia', 'hugging-face', 'ia', 'open-source'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://blogs.nvidia.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.png',
+    archivo: 'posts/nvidia-compra-hugging-face-septiembre-2026.html'
+  },
+  {
+    id: 'hearthstone-mundial-2026-blizzcon-septiembre',
+    titulo: 'El Mundial de Hearthstone vuelve a BlizzCon: arrancó la fase de grupos con USD 500.000 en juego',
+    extracto: 'Dieciséis jugadores se juegan el título de Campeón Mundial 2026 de Hearthstone. La fase de grupos ya empezó (8 al 10/9) y las semifinales se juegan en vivo en BlizzCon el 12 y 13.',
+    fecha: '2026-09-08',
+    fechaDisplay: '8 de septiembre de 2026',
+    categoria: 'comunidad',
+    tags: ['hearthstone', 'blizzcon', 'esports', 'mundial', 'blizzard'],
+    juego: 'hearthstone',
+    juegoDisplay: 'Hearthstone',
+    imagen: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/l1/L131SXIA0VTI1788283917764.png',
+    archivo: 'posts/hearthstone-mundial-2026-blizzcon-septiembre.html'
+  },
+  {
+    id: 'diablo-4-temporada-15-soul-splinters-preview-septiembre-2026',
+    titulo: 'Diablo IV Temporada 15: Soul Splinters, el sistema que te hace más fuerte y más débil a la vez',
+    extracto: 'Blizzard reveló en el PTR 3.2.0 el gran sistema de la Temporada 15: Soul Splinters, socketables que te potencian con una desventaja real. También llega Rebirth, para convertir personajes eternos en de temporada sin perder el progreso cosmético.',
+    fecha: '2026-09-08',
+    fechaDisplay: '8 de septiembre de 2026',
+    categoria: 'patch-notes',
+    tags: ['diablo-iv', 'patch-notes', 'blizzard', 'soul-splinters', 'ptr'],
+    juego: 'diablo-iv',
+    juegoDisplay: 'Diablo IV',
+    imagen: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VF2YF3V2URW81760550738062.png',
+    archivo: 'posts/diablo-4-temporada-15-soul-splinters-preview-septiembre-2026.html'
+  },
+  {
     id: 'wow-parche-1215-kithix-preview-septiembre-2026',
     titulo: 'World of Warcraft: el parche 12.1.5 ya tiene fecha en PTR — Labyrinths, la raid contra Kith\'ix y el cierre de la saga de Zul\'Aman',
     extracto: 'Blizzard reveló el contenido de Midnight 12.1.5: una raid de un solo jefe contra el general C\'Thraxxi Kith\'ix, el nuevo sistema de Labyrinths (mazmorras gigantes al estilo Delve) y las invasiones aqir de Eversong y Zul\'Aman.',
