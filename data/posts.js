@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'marvel-rivals-season-10-gorr-god-butcher-septiembre-2026',
+    titulo: 'Marvel Rivals Season 10 ya está disponible: Gorr the God Butcher llega como Duelist y Scarlet Witch tiene rework completo',
+    extracto: 'La Temporada 10 "Butcher\'s Blasphemy" arrancó hoy con el héroe 54 del roster, un rework grande de Scarlet Witch y cambios de balance que tocan cerca del 70% de los personajes.',
+    fecha: '2026-09-11',
+    fechaDisplay: '11 de septiembre de 2026',
+    categoria: 'patch-notes',
+    tags: ['marvel-rivals', 'patch-notes', 'gorr', 'scarlet-witch', 'netease', 'temporada-10'],
+    juego: 'marvel-rivals',
+    juegoDisplay: 'Marvel Rivals',
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg',
+    archivo: 'posts/marvel-rivals-season-10-gorr-god-butcher-septiembre-2026.html'
+  },
+  {
+    id: 'ofertas-semana-epic-astral-ascent-luftrausers-prime-gaming-septiembre-2026',
+    titulo: 'Juegos gratis de la semana: Epic regala Astral Ascent y Luftrausers, Prime Gaming ya liberó la primera tanda de septiembre',
+    extracto: 'Epic Games Store cambió su gratis semanal con dos juegos de acción bien distintos, mientras Amazon ya destrabó DOOM + DOOM II y otros cuatro títulos de su catálogo mensual.',
+    fecha: '2026-09-11',
+    fechaDisplay: '11 de septiembre de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'prime-gaming', 'gratis', 'descuentos', 'ofertas'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1280930/header.jpg',
+    archivo: 'posts/ofertas-semana-epic-astral-ascent-luftrausers-prime-gaming-septiembre-2026.html'
+  },
+  {
+    id: 'chatgpt-images-25-openai-septiembre-2026',
+    titulo: 'OpenAI lanzó ChatGPT Images 2.5: generación 50% más rápida y un modo Sketch para dibujar tus ideas',
+    extracto: 'El nuevo modelo de imágenes de OpenAI mejora la fidelidad y la edición precisa, llega gratis a todos los planes de ChatGPT, y ya lo integraron Adobe Firefly y Runway.',
+    fecha: '2026-09-11',
+    fechaDisplay: '11 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'chatgpt', 'imagenes', 'ia', 'sketch'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://images.ctfassets.net/kftzwdyauwt9/6J668sj93QnQ8PWP7epUDv/3dbd2d2350053d96b03477d0fdb2e2c6/images2point5_16-9c.png?w=1600&h=900&fit=fill',
+    archivo: 'posts/chatgpt-images-25-openai-septiembre-2026.html'
+  },
+  {
     id: 'nvidia-compra-hugging-face-septiembre-2026',
     titulo: 'Nvidia compra Hugging Face por USD 12.900 millones: la jugada más grande de su historia en IA abierta',
     extracto: 'Es la adquisición más grande que hizo Nvidia, superando a Mellanox. Se queda con la plataforma que usan 18 millones de developers para modelos y datasets abiertos, mientras OpenAI y Anthropic buscan sus propios chips.',

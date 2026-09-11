@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 08 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Marvel Rivals Season 10 ya está disponible: Gorr the God Butcher llega como Duelist y Scarlet Witch tiene rework completo</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-season-10-gorr-god-butcher-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-season-10-gorr-god-butcher-septiembre-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 03:00:00 GMT</pubDate>
+      <description>La Temporada 10 &quot;Butcher's Blasphemy&quot; arrancó hoy con el héroe 54 del roster, un rework grande de Scarlet Witch y cambios de balance que tocan cerca del 70% de los personajes.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Juegos gratis de la semana: Epic regala Astral Ascent y Luftrausers, Prime Gaming ya liberó la primera tanda de septiembre</title>
+      <link>https://puntodespawn.com/posts/ofertas-semana-epic-astral-ascent-luftrausers-prime-gaming-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-epic-astral-ascent-luftrausers-prime-gaming-septiembre-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Epic Games Store cambió su gratis semanal con dos juegos de acción bien distintos, mientras Amazon ya destrabó DOOM + DOOM II y otros cuatro títulos de su catálogo mensual.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1280930/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>OpenAI lanzó ChatGPT Images 2.5: generación 50% más rápida y un modo Sketch para dibujar tus ideas</title>
+      <link>https://puntodespawn.com/posts/chatgpt-images-25-openai-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/chatgpt-images-25-openai-septiembre-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 03:00:00 GMT</pubDate>
+      <description>El nuevo modelo de imágenes de OpenAI mejora la fidelidad y la edición precisa, llega gratis a todos los planes de ChatGPT, y ya lo integraron Adobe Firefly y Runway.</description>
+      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/6J668sj93QnQ8PWP7epUDv/3dbd2d2350053d96b03477d0fdb2e2c6/images2point5_16-9c.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
+    </item>
     <item>
       <title>Nvidia compra Hugging Face por USD 12.900 millones: la jugada más grande de su historia en IA abierta</title>
       <link>https://puntodespawn.com/posts/nvidia-compra-hugging-face-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Fri, 28 Aug 2026 03:00:00 GMT</pubDate>
       <description>En Gamescom 2026, ASUS ROG presentó el Swift OLED PG259QWS Ace de 720 Hz —elegido monitor oficial del PGL CS2 Major— junto al mouse Gladius IV Ace de 65.000 DPI y el teclado inalámbrico Strix Morph 96 X.</description>
       <media:content url="https://press.asus.com/assets/w_1920,h_1080/fee4c315-9227-4921-95da-ed9f02f69835/ROG%20OLED%20Esports%20Monitors.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Semana del 27 de agosto: GTA 6 gameplay, Star Wars Zero Company, MGS Collection Vol 2 y Resonance</title>
-      <link>https://puntodespawn.com/posts/semana-27-agosto-2026-star-wars-mgs-gta6-resonance.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/semana-27-agosto-2026-star-wars-mgs-gta6-resonance.html</guid>
-      <pubDate>Wed, 26 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El 27 de agosto es uno de los días más cargados del año en gaming: primer gameplay real de GTA 6 en Netflix, lanza Star Wars Zero Company (el XCOM de la Guerra de los Clones), MGS4 sale del PS3 después de 18 años y llega Resonance: A Plague Tale Legacy.</description>
-      <media:content url="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2kaa1o3297k9/4faf2f8d60cd657f09eb55707b31cc44008bfa4c.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Anthropic cancela el aumento de precios de Claude Sonnet 5: los $2/$10 por millón de tokens son permanentes</title>
-      <link>https://puntodespawn.com/posts/claude-sonnet-5-precio-permanente-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-sonnet-5-precio-permanente-agosto-2026.html</guid>
-      <pubDate>Wed, 26 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Anthropic confirmó el 10 de agosto que el precio introductorio de Claude Sonnet 5 ($2/MTok input y $10/MTok output) es ahora permanente. El aumento a $3/$15 planificado para el 1° de septiembre no va a ocurrir.</description>
-      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/2039cc549c023bc855671308211d20d3382828a9-2880x1620.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Parche 26.17 de LoL live: Yasuo y Yone al fin escalan, Vayne y Xerath nerfeados</title>
-      <link>https://puntodespawn.com/posts/lol-parche-2617-live-agosto-26-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2617-live-agosto-26-2026.html</guid>
-      <pubDate>Wed, 26 Aug 2026 03:00:00 GMT</pubDate>
-      <description>El parche 26.17 llegó hoy a los servidores de LATAM: Yasuo y Yone reducen su penalidad de crítico para escalar en late game, Vayne recibe el nerf más completo del año en stat bases, Q y W, Xerath baja de potencia y llegan Heartsong Seraphine y las skins Ocean Song.</description>
-      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e7061804e74e43de5c3cb98cc4892d318f3c7081-1920x1080.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
