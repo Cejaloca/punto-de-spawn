@@ -124,6 +124,7 @@
     .cat-tecnologia { background: #16a34a22; color: #4ade80; }
     .cat-ofertas { background: #d9770622; color: #fb923c; }
     .cat-comunidad { background: #e11d4822; color: #fb7185; }
+    .cat-biotecnologia { background: #14b89622; color: #2dd4bf; }
     .post-title-small { font-size: 13px; font-weight: 500; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .post-date-small { font-size: 11px; color: var(--muted); white-space: nowrap; }
 
@@ -1062,7 +1063,7 @@ async function loadPosts() {
 function renderPostsTab(posts) {
   // Category chart
   const catCount = {};
-  const catColors = { gaming: '#7c3aed', 'patch-notes': '#0ea5e9', tecnologia: '#16a34a', ofertas: '#d97706', comunidad: '#e11d48' };
+  const catColors = { gaming: '#7c3aed', 'patch-notes': '#0ea5e9', tecnologia: '#16a34a', ofertas: '#d97706', comunidad: '#e11d48', biotecnologia: '#14b896' };
   posts.forEach(p => { catCount[p.categoria] = (catCount[p.categoria]||0)+1; });
   const catLabels = Object.keys(catCount);
   makeDoughnutChart('chart-categories', catLabels, catLabels.map(k=>catCount[k]), catLabels.map(k=>catColors[k]||'#6366f1'));
@@ -1083,7 +1084,7 @@ function renderPostsTab(posts) {
   }]);
 
   // Posts list
-  const catClass = { gaming:'cat-gaming', 'patch-notes':'cat-patch-notes', tecnologia:'cat-tecnologia', ofertas:'cat-ofertas', comunidad:'cat-comunidad' };
+  const catClass = { gaming:'cat-gaming', 'patch-notes':'cat-patch-notes', tecnologia:'cat-tecnologia', ofertas:'cat-ofertas', comunidad:'cat-comunidad', biotecnologia:'cat-biotecnologia' };
   document.getElementById('posts-list').innerHTML = posts.slice(0,20).map(p =>
     `<div class="post-row">
       <span class="post-cat-badge ${catClass[p.categoria]||''}">${p.categoria}</span>
@@ -1114,7 +1115,7 @@ function renderTopPosts(posts) {
   });
 
   // Match posts to pageview data
-  const catClass = { gaming:'cat-gaming', 'patch-notes':'cat-patch-notes', tecnologia:'cat-tecnologia', ofertas:'cat-ofertas', comunidad:'cat-comunidad' };
+  const catClass = { gaming:'cat-gaming', 'patch-notes':'cat-patch-notes', tecnologia:'cat-tecnologia', ofertas:'cat-ofertas', comunidad:'cat-comunidad', biotecnologia:'cat-biotecnologia' };
   const matched = posts.map(p => {
     const path = (p.archivo || '').toLowerCase();
     const views = pageMap[path] || pageMap[path + 'index.html'] || 0;

@@ -374,6 +374,9 @@ main { margin-top: 60px; min-height: calc(100vh - 60px - 200px); }
 .card-cover-gradient.cat-ofertas {
   background: linear-gradient(135deg, #1a1400 0%, #3d2e00 60%, #7a5a00 100%);
 }
+.card-cover-gradient.cat-biotecnologia {
+  background: linear-gradient(135deg, #001a14 0%, #0a3d30 60%, #10805f 100%);
+}
 
 /* Card body */
 .card-body {
@@ -406,10 +409,12 @@ main { margin-top: 60px; min-height: calc(100vh - 60px - 200px); }
 }
 
 .badge-tech        { background: rgba(64,128,208,0.18); color: #5090e0; border-color: rgba(64,128,208,0.3); }
+.badge-tecnologia  { background: rgba(64,128,208,0.18); color: #5090e0; border-color: rgba(64,128,208,0.3); }
 .badge-gaming      { background: rgba(112,64,208,0.2);  color: #9060e0; border-color: rgba(112,64,208,0.35); }
 .badge-patch-notes { background: rgba(42,122,74,0.22);  color: #45b86a; border-color: rgba(42,122,74,0.4); }
 .badge-comunidad   { background: rgba(192,96,32,0.2);   color: #d07835; border-color: rgba(192,96,32,0.35); }
 .badge-ofertas     { background: rgba(200,160,0,0.2);   color: #c8a000; border-color: rgba(200,160,0,0.35); }
+.badge-biotecnologia { background: rgba(20,180,150,0.2); color: #22c4a6; border-color: rgba(20,180,150,0.4); }
 .badge-game        { background: rgba(176,128,255,0.08); color: var(--text-secondary); border-color: var(--border); font-size: 0.63rem; }
 .badge-affiliate   { background: #FFE600; color: #000; border: none; font-weight: 700; font-size: 0.63rem; }
 

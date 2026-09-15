@@ -12,15 +12,15 @@ let _tagFilter    = '';
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function getCategoryLabel(cat) {
-  return { tecnologia: 'Tecnología', gaming: 'Gaming', 'patch-notes': 'Patch Notes', comunidad: 'Comunidad', ofertas: 'Ofertas' }[cat] || cat;
+  return { tecnologia: 'Tecnología', gaming: 'Gaming', 'patch-notes': 'Patch Notes', comunidad: 'Comunidad', ofertas: 'Ofertas', biotecnologia: 'Biotecnología' }[cat] || cat;
 }
 
 function getBadgeClass(cat) {
-  return { tecnologia: 'badge-tech', gaming: 'badge-gaming', 'patch-notes': 'badge-patch-notes', comunidad: 'badge-comunidad', ofertas: 'badge-ofertas' }[cat] || 'badge-gaming';
+  return { tecnologia: 'badge-tecnologia', gaming: 'badge-gaming', 'patch-notes': 'badge-patch-notes', comunidad: 'badge-comunidad', ofertas: 'badge-ofertas', biotecnologia: 'badge-biotecnologia' }[cat] || 'badge-gaming';
 }
 
 function getCoverGradientClass(cat) {
-  return { tecnologia: 'cat-tecnologia', gaming: 'cat-gaming', 'patch-notes': 'cat-patch-notes', comunidad: 'cat-comunidad', ofertas: 'cat-ofertas' }[cat] || 'cat-gaming';
+  return { tecnologia: 'cat-tecnologia', gaming: 'cat-gaming', 'patch-notes': 'cat-patch-notes', comunidad: 'cat-comunidad', ofertas: 'cat-ofertas', biotecnologia: 'cat-biotecnologia' }[cat] || 'cat-gaming';
 }
 
 function getCoverIcon(cat) {
@@ -58,6 +58,13 @@ function getCoverIcon(cat) {
       "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'>" +
       "<path d='M8 8 L8 28 L36 56 Q39 59 43 56 L56 43 Q59 39 56 36 L28 8 Z'/>" +
       "<circle cx='20' cy='20' r='4' fill='currentColor' stroke='none'/>" +
+      "</svg>",
+    biotecnologia:
+      "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'>" +
+      "<path d='M20 8 Q32 20 44 8'/><path d='M20 56 Q32 44 44 56'/>" +
+      "<path d='M20 8 Q8 20 20 32 Q32 44 20 56'/><path d='M44 8 Q56 20 44 32 Q32 44 44 56'/>" +
+      "<line x1='23' y1='16' x2='41' y2='16'/><line x1='19' y1='24' x2='45' y2='24'/>" +
+      "<line x1='19' y1='40' x2='45' y2='40'/><line x1='23' y1='48' x2='41' y2='48'/>" +
       "</svg>"
   };
   return icons[cat] || icons['gaming'];
