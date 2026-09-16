@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026',
+    titulo: 'Juegos gratis de la semana: Epic regala Mindcop y Shogun Showdown, Prime Gaming suma DOOM Eternal y Rims Racing',
+    extracto: 'Desde el 17 de septiembre cambian los gratis en las dos plataformas grandes: Epic estrena un thriller detectivesco y un roguelike de estrategia, mientras Prime Gaming libera DOOM Eternal, Rims Racing y Wall World 2.',
+    fecha: '2026-09-16',
+    fechaDisplay: '16 de septiembre de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'prime-gaming', 'gratis', 'descuentos', 'ofertas', 'doom-eternal'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg',
+    archivo: 'posts/ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026.html'
+  },
+  {
+    id: 'amodei-pace-the-frontier-slowdown-ia-septiembre-2026',
+    titulo: 'Dario Amodei pide frenar la carrera de la IA, y Altman, Musk y Hassabis le dan la razón en horas',
+    extracto: 'El CEO de Anthropic publicó "We Must Pace the Frontier", un ensayo que propone un plan de tres pasos para bajar el ritmo de desarrollo de la IA. Los jefes de OpenAI, xAI y Google DeepMind coincidieron públicamente casi de inmediato.',
+    fecha: '2026-09-16',
+    fechaDisplay: '16 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'dario-amodei', 'openai', 'sam-altman', 'seguridad-ia', 'regulacion'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg',
+    archivo: 'posts/amodei-pace-the-frontier-slowdown-ia-septiembre-2026.html'
+  },
+  {
+    id: 'lol-parche-2619-preview-worlds-septiembre-2026',
+    titulo: 'Preview del Parche 26.19 de LoL: el primer ajuste de cara al Mundial nerfea a Nasus y trae de vuelta las skins Coven',
+    extracto: 'El parche 26.19 llega el 23 de septiembre con 10 campeones buffeados, 8 nerfeados y cambios de sistema para los supports melee y el top lane. Es el primero de los dos ajustes pensados para el Mundial 2026, que se juega en el parche 26.20.',
+    fecha: '2026-09-16',
+    fechaDisplay: '16 de septiembre de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 'worlds', 'nasus', 'coven', 'lucian'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://static.allthings.how/wp-content/uploads/2026/09/league-of-legends-patch-26-19-preview-lucian-mid-buffs-orian-cover-1600x900.webp',
+    archivo: 'posts/lol-parche-2619-preview-worlds-septiembre-2026.html'
+  },
+  {
     id: 'valorant-patch-1306-gauntlet-glitched-warden-septiembre-2026',
     titulo: 'Valorant Patch 13.06: el modo Gauntlet: Glitched, el rifle Warden y el nuevo sistema Agent Mastery',
     extracto: 'Riot reveló el contenido de su próximo parche grande: un modo de duelos por equipos con habilidades randomizadas, un rifle nuevo que compite con Vandal y Phantom, y un sistema de progresión que reemplaza a Agent Gear. Llega el 22 de septiembre.',

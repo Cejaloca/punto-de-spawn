@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 15 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Juegos gratis de la semana: Epic regala Mindcop y Shogun Showdown, Prime Gaming suma DOOM Eternal y Rims Racing</title>
+      <link>https://puntodespawn.com/posts/ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026.html</guid>
+      <pubDate>Wed, 16 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Desde el 17 de septiembre cambian los gratis en las dos plataformas grandes: Epic estrena un thriller detectivesco y un roguelike de estrategia, mientras Prime Gaming libera DOOM Eternal, Rims Racing y Wall World 2.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Dario Amodei pide frenar la carrera de la IA, y Altman, Musk y Hassabis le dan la razón en horas</title>
+      <link>https://puntodespawn.com/posts/amodei-pace-the-frontier-slowdown-ia-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/amodei-pace-the-frontier-slowdown-ia-septiembre-2026.html</guid>
+      <pubDate>Wed, 16 Sep 2026 03:00:00 GMT</pubDate>
+      <description>El CEO de Anthropic publicó &quot;We Must Pace the Frontier&quot;, un ensayo que propone un plan de tres pasos para bajar el ritmo de desarrollo de la IA. Los jefes de OpenAI, xAI y Google DeepMind coincidieron públicamente casi de inmediato.</description>
+      <media:content url="https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Preview del Parche 26.19 de LoL: el primer ajuste de cara al Mundial nerfea a Nasus y trae de vuelta las skins Coven</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2619-preview-worlds-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2619-preview-worlds-septiembre-2026.html</guid>
+      <pubDate>Wed, 16 Sep 2026 03:00:00 GMT</pubDate>
+      <description>El parche 26.19 llega el 23 de septiembre con 10 campeones buffeados, 8 nerfeados y cambios de sistema para los supports melee y el top lane. Es el primero de los dos ajustes pensados para el Mundial 2026, que se juega en el parche 26.20.</description>
+      <media:content url="https://static.allthings.how/wp-content/uploads/2026/09/league-of-legends-patch-26-19-preview-lucian-mid-buffs-orian-cover-1600x900.webp" medium="image"/>
+    </item>
     <item>
       <title>Valorant Patch 13.06: el modo Gauntlet: Glitched, el rifle Warden y el nuevo sistema Agent Mastery</title>
       <link>https://puntodespawn.com/posts/valorant-patch-1306-gauntlet-glitched-warden-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Tue, 01 Sep 2026 03:00:00 GMT</pubDate>
       <description>Desde el 14 de septiembre los límites semanales estándar de Claude Code suben un 25% de forma permanente. Suena a mejora, pero como reemplaza al boost temporal del 50% que está activo hoy, el resultado real es 17% menos capacidad que la que tenés ahora.</description>
       <media:content url="https://www.bleepstatic.com/content/hl-images/2026/05/07/ClaudeChats.png" medium="image"/>
-    </item>
-    <item>
-      <title>Valorant Patch 13.05: penalizaciones para stream snipers, Pick'Ems de Champions Shanghai y el rework de Agent Gear que se viene</title>
-      <link>https://puntodespawn.com/posts/valorant-patch-1305-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-patch-1305-septiembre-2026.html</guid>
-      <pubDate>Tue, 01 Sep 2026 03:00:00 GMT</pubDate>
-      <description>El parche 13.05 llegó con cambios menores pero importantes: Riot empieza a banear a quienes usan herramientas de stream sniping e instalock, vuelven los Pick'Ems para Champions Shanghai y adelantan un rework grande del sistema de Agent Gear para el parche 13.06.</description>
-      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/727fb02ae2fc0a5d8c98ea46885b29a782ac2bd5-1920x1080.jpg?accountingTag=VAL" medium="image"/>
-    </item>
-    <item>
-      <title>Claude ya tiene su propio navegador integrado en Cowork: no hace falta instalar nada</title>
-      <link>https://puntodespawn.com/posts/claude-cowork-navegador-integrado-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-cowork-navegador-integrado-agosto-2026.html</guid>
-      <pubDate>Mon, 31 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Anthropic lanzó un navegador propio adentro de Claude Cowork de escritorio: Claude abre sitios, lee páginas y completa formularios sin tocar tu Chrome. Ya está disponible para los planes Pro, Max y Team.</description>
-      <media:content url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg" medium="image"/>
-    </item>
-    <item>
-      <title>Razer Huntsman V3 Pro Low-Profile TKL 8KHz: el primer teclado esports de perfil bajo con switches ópticos analógicos, y ya ganó un torneo</title>
-      <link>https://puntodespawn.com/posts/razer-huntsman-v3-pro-low-profile-8khz-agosto-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/razer-huntsman-v3-pro-low-profile-8khz-agosto-2026.html</guid>
-      <pubDate>Mon, 31 Aug 2026 03:00:00 GMT</pubDate>
-      <description>Razer presentó el teclado gaming de perfil bajo más rápido que probó: 0,39 ms de latencia promedio, 8000 Hz reales y el arma con la que Spinx se consagró MVP en BLAST Bounty. Cuesta USD 259,99.</description>
-      <media:content url="https://press.razer.com/wp-content/uploads/2026/08/Huntsman-V3-Pro-LP-TKL-8KHz-KV-1024x576.png" medium="image"/>
     </item>
   </channel>
 </rss>
