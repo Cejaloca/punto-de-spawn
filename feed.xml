@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 16 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Claude ya no es dos apps: Anthropic fusiona Chat y Cowork, y suma Claude Docs y Claude Slides</title>
+      <link>https://puntodespawn.com/posts/anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026.html</guid>
+      <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Anthropic unificó la interfaz de Claude: chat, Cowork y Artifacts ahora conviven en una sola ventana que decide sola a dónde mandar cada tarea. También debutan Claude Docs y Claude Slides, documentos y presentaciones colaborativas hechas con IA.</description>
+      <media:content url="https://techcrunch.com/wp-content/uploads/2026/09/Claude-1920x1080-1.jpeg" medium="image"/>
+    </item>
+    <item>
+      <title>Overwatch 2: el parche del 8 de septiembre reordena la Temporada 18 — nerfs a D.Mon, Mauga y Kiriko, buffs para Wuyang</title>
+      <link>https://puntodespawn.com/posts/overwatch-2-parche-8-septiembre-hotfix-balance-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/overwatch-2-parche-8-septiembre-hotfix-balance-2026.html</guid>
+      <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Blizzard metió un paquete grande de balance a mitad de temporada: los tanques dominantes bajan de potencia, Freja y Sierra se ajustan, y un hotfix del 10/9 corrigió bugs de Ramattra, Jetpack Cat y Vendetta.</description>
+      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/jo/JOJDBY1NZMH51755225823895.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>AMD y Nvidia patearían sus próximas GPU hasta 2028: qué significa para quien esté por armar una PC</title>
+      <link>https://puntodespawn.com/posts/amd-nvidia-gpu-retraso-2028-crisis-precios-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-nvidia-gpu-retraso-2028-crisis-precios-septiembre-2026.html</guid>
+      <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Filtraciones indican que ninguno de los dos fabricantes lanzaría una nueva generación completa en 2027 por la crisis de memoria GDDR7. Mientras tanto, la RTX 5090 ya cuesta más del doble de su precio oficial en Europa.</description>
+      <media:content url="https://www.profesionalreview.com/wp-content/uploads/2026/09/AMD-y-Nvidia-retrasarian-sus-nuevas-tarjetas-graficas-hasta-2028.jpg" medium="image"/>
+    </item>
     <item>
       <title>Juegos gratis de la semana: Epic regala Mindcop y Shogun Showdown, Prime Gaming suma DOOM Eternal y Rims Racing</title>
       <link>https://puntodespawn.com/posts/ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 02 Sep 2026 03:00:00 GMT</pubDate>
       <description>El parche 1.70 de Marvel Rivals trajo el evento Endgame Encore: 20% de descuento en cadena para bundles del MCU, nuevos bundles de Angela y Squirrel Girl, y arreglos para Doctor Strange y Angela. Disponible hasta el 11 de septiembre.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>The Blood of Dawnwalker: llega el 3 de septiembre el RPG de vampiros del director de The Witcher 3</title>
-      <link>https://puntodespawn.com/posts/blood-of-dawnwalker-lanzamiento-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/blood-of-dawnwalker-lanzamiento-septiembre-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Rebel Wolves, el estudio fundado por el ex director de The Witcher 3, lanza The Blood of Dawnwalker el 3 de septiembre: un RPG de vampiros con ciclo día/noche, 30 días de plazo narrativo y críticas espectaculares.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/3751260/library_hero.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Steam Survival &amp; Crafting Fest: Green Hell a USD 2,79, Don't Starve a USD 2,49 y descuentos de hasta 90% hasta el 7 de septiembre</title>
-      <link>https://puntodespawn.com/posts/steam-survival-crafting-fest-agosto-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-survival-crafting-fest-agosto-septiembre-2026.html</guid>
-      <pubDate>Tue, 01 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Steam lanzó su festival de supervivencia y crafteo: ocho días de descuentos en Green Hell, Palworld, Don't Starve, Raft, Subnautica, ICARUS, DayZ y Grounded, entre cientos de juegos más.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/815370/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Anthropic 'sube' los límites de Claude Code un 25%, pero en la práctica es un recorte del 17%</title>
-      <link>https://puntodespawn.com/posts/claude-code-recorte-limites-semanales-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-code-recorte-limites-semanales-septiembre-2026.html</guid>
-      <pubDate>Tue, 01 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Desde el 14 de septiembre los límites semanales estándar de Claude Code suben un 25% de forma permanente. Suena a mejora, pero como reemplaza al boost temporal del 50% que está activo hoy, el resultado real es 17% menos capacidad que la que tenés ahora.</description>
-      <media:content url="https://www.bleepstatic.com/content/hl-images/2026/05/07/ClaudeChats.png" medium="image"/>
     </item>
   </channel>
 </rss>

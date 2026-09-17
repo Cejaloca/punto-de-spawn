@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026',
+    titulo: 'Claude ya no es dos apps: Anthropic fusiona Chat y Cowork, y suma Claude Docs y Claude Slides',
+    extracto: 'Anthropic unificó la interfaz de Claude: chat, Cowork y Artifacts ahora conviven en una sola ventana que decide sola a dónde mandar cada tarea. También debutan Claude Docs y Claude Slides, documentos y presentaciones colaborativas hechas con IA.',
+    fecha: '2026-09-17',
+    fechaDisplay: '17 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'claude-cowork', 'claude-docs', 'claude-slides', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://techcrunch.com/wp-content/uploads/2026/09/Claude-1920x1080-1.jpeg',
+    archivo: 'posts/anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026.html'
+  },
+  {
+    id: 'overwatch-2-parche-8-septiembre-hotfix-balance-2026',
+    titulo: 'Overwatch 2: el parche del 8 de septiembre reordena la Temporada 18 — nerfs a D.Mon, Mauga y Kiriko, buffs para Wuyang',
+    extracto: 'Blizzard metió un paquete grande de balance a mitad de temporada: los tanques dominantes bajan de potencia, Freja y Sierra se ajustan, y un hotfix del 10/9 corrigió bugs de Ramattra, Jetpack Cat y Vendetta.',
+    fecha: '2026-09-17',
+    fechaDisplay: '17 de septiembre de 2026',
+    categoria: 'patch-notes',
+    tags: ['overwatch-2', 'patch-notes', 'blizzard', 'wuyang', 'temporada-18', 'balance'],
+    juego: 'overwatch-2',
+    juegoDisplay: 'Overwatch 2',
+    imagen: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/jo/JOJDBY1NZMH51755225823895.jpg',
+    archivo: 'posts/overwatch-2-parche-8-septiembre-hotfix-balance-2026.html'
+  },
+  {
+    id: 'amd-nvidia-gpu-retraso-2028-crisis-precios-septiembre-2026',
+    titulo: 'AMD y Nvidia patearían sus próximas GPU hasta 2028: qué significa para quien esté por armar una PC',
+    extracto: 'Filtraciones indican que ninguno de los dos fabricantes lanzaría una nueva generación completa en 2027 por la crisis de memoria GDDR7. Mientras tanto, la RTX 5090 ya cuesta más del doble de su precio oficial en Europa.',
+    fecha: '2026-09-17',
+    fechaDisplay: '17 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['nvidia', 'amd', 'hardware', 'gpu', 'rtx', 'rdna-5', 'precios', 'gddr7'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.profesionalreview.com/wp-content/uploads/2026/09/AMD-y-Nvidia-retrasarian-sus-nuevas-tarjetas-graficas-hasta-2028.jpg',
+    archivo: 'posts/amd-nvidia-gpu-retraso-2028-crisis-precios-septiembre-2026.html'
+  },
+  {
     id: 'ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026',
     titulo: 'Juegos gratis de la semana: Epic regala Mindcop y Shogun Showdown, Prime Gaming suma DOOM Eternal y Rims Racing',
     extracto: 'Desde el 17 de septiembre cambian los gratis en las dos plataformas grandes: Epic estrena un thriller detectivesco y un roguelike de estrategia, mientras Prime Gaming libera DOOM Eternal, Rims Racing y Wall World 2.',
