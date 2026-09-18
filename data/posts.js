@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'marvels-wolverine-lanzamiento-reviews-septiembre-2026',
+    titulo: "Marvel's Wolverine ya está disponible: por qué las críticas lo dejan como el juego peor puntuado de Insomniac",
+    extracto: 'El exclusivo de PS5 llegó el 15 de septiembre con un Metascore de 77, muy por debajo de los Spider-Man. Combate visceral y una gran actuación de Liam McIntyre, pero críticas duras a la profundidad jugable y el guion.',
+    fecha: '2026-09-18',
+    fechaDisplay: '18 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['marvels-wolverine', 'insomniac-games', 'ps5', 'reviews', 'marvel'],
+    juego: 'Marvel\'s Wolverine',
+    juegoDisplay: "Marvel's Wolverine",
+    imagen: 'https://blog.playstation.com/tachyon/2028/09/21072d2c0c79f076f7e8021c619da5d0708d1ee7-scaled.jpg',
+    archivo: 'posts/marvels-wolverine-lanzamiento-reviews-septiembre-2026.html'
+  },
+  {
+    id: 'cs2-update-cologne-major-vacnet-septiembre-2026',
+    titulo: 'Counter-Strike 2: el último update tapó un exploit contra VACnet y sumó los cosméticos del Cologne 2026',
+    extracto: 'Valve cerró un agujero que dejaba esquivar el anti-cheat VACnet, arregló bugs de mapas como Cache y metió los Champions Autograph Stickers y Highlight Souvenir Charms de la victoria de Falcons en Cologne 2026.',
+    fecha: '2026-09-18',
+    fechaDisplay: '18 de septiembre de 2026',
+    categoria: 'patch-notes',
+    tags: ['counter-strike-2', 'patch-notes', 'valve', 'vacnet', 'cologne-2026'],
+    juego: 'counter-strike-2',
+    juegoDisplay: 'Counter-Strike 2',
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg',
+    archivo: 'posts/cs2-update-cologne-major-vacnet-septiembre-2026.html'
+  },
+  {
+    id: 'playstation-pulse-pulse-edge-auriculares-septiembre-2026',
+    titulo: 'Sony mostró los nuevos PlayStation Pulse y Pulse Edge: drivers planares más grandes y cancelación de ruido activa',
+    extracto: 'Sony renueva su línea de audio para PS5 con dos auriculares inalámbricos: Pulse suma drivers planos más grandes, y Pulse Edge agrega cancelación activa de ruido, boom mic desmontable y control de balance de audio y chat.',
+    fecha: '2026-09-18',
+    fechaDisplay: '18 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'auriculares', 'playstation', 'ps5', 'sony'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://blog.playstation.com/tachyon/2026/09/c3264d1288aa06463593f0265685177048507fa8.jpg',
+    archivo: 'posts/playstation-pulse-pulse-edge-auriculares-septiembre-2026.html'
+  },
+  {
     id: 'anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026',
     titulo: 'Claude ya no es dos apps: Anthropic fusiona Chat y Cowork, y suma Claude Docs y Claude Slides',
     extracto: 'Anthropic unificó la interfaz de Claude: chat, Cowork y Artifacts ahora conviven en una sola ventana que decide sola a dónde mandar cada tarea. También debutan Claude Docs y Claude Slides, documentos y presentaciones colaborativas hechas con IA.',

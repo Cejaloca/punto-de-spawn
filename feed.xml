@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 17 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Marvel's Wolverine ya está disponible: por qué las críticas lo dejan como el juego peor puntuado de Insomniac</title>
+      <link>https://puntodespawn.com/posts/marvels-wolverine-lanzamiento-reviews-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvels-wolverine-lanzamiento-reviews-septiembre-2026.html</guid>
+      <pubDate>Fri, 18 Sep 2026 03:00:00 GMT</pubDate>
+      <description>El exclusivo de PS5 llegó el 15 de septiembre con un Metascore de 77, muy por debajo de los Spider-Man. Combate visceral y una gran actuación de Liam McIntyre, pero críticas duras a la profundidad jugable y el guion.</description>
+      <media:content url="https://blog.playstation.com/tachyon/2028/09/21072d2c0c79f076f7e8021c619da5d0708d1ee7-scaled.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Counter-Strike 2: el último update tapó un exploit contra VACnet y sumó los cosméticos del Cologne 2026</title>
+      <link>https://puntodespawn.com/posts/cs2-update-cologne-major-vacnet-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/cs2-update-cologne-major-vacnet-septiembre-2026.html</guid>
+      <pubDate>Fri, 18 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Valve cerró un agujero que dejaba esquivar el anti-cheat VACnet, arregló bugs de mapas como Cache y metió los Champions Autograph Stickers y Highlight Souvenir Charms de la victoria de Falcons en Cologne 2026.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Sony mostró los nuevos PlayStation Pulse y Pulse Edge: drivers planares más grandes y cancelación de ruido activa</title>
+      <link>https://puntodespawn.com/posts/playstation-pulse-pulse-edge-auriculares-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/playstation-pulse-pulse-edge-auriculares-septiembre-2026.html</guid>
+      <pubDate>Fri, 18 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Sony renueva su línea de audio para PS5 con dos auriculares inalámbricos: Pulse suma drivers planos más grandes, y Pulse Edge agrega cancelación activa de ruido, boom mic desmontable y control de balance de audio y chat.</description>
+      <media:content url="https://blog.playstation.com/tachyon/2026/09/c3264d1288aa06463593f0265685177048507fa8.jpg" medium="image"/>
+    </item>
     <item>
       <title>Claude ya no es dos apps: Anthropic fusiona Chat y Cowork, y suma Claude Docs y Claude Slides</title>
       <link>https://puntodespawn.com/posts/anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Fri, 04 Sep 2026 03:00:00 GMT</pubDate>
       <description>Google presentó Gemini 3.8 Flash el 2 de septiembre, su tercera actualización de la línea Flash en seis semanas: mejor en coding y agentes que 3.7 Flash, mismo precio ($0,75/$3,75 por millón de tokens) y una variante restringida para ciberdefensa, Gemini 3.8 Flash Cyber.</description>
       <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png" medium="image"/>
-    </item>
-    <item>
-      <title>Monster Hunter Wilds: Ascendance es la nueva expansión: un Elder Dragon que domina las tormentas y una isla flotante para cazar</title>
-      <link>https://puntodespawn.com/posts/monster-hunter-wilds-ascendance-anuncio-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/monster-hunter-wilds-ascendance-anuncio-septiembre-2026.html</guid>
-      <pubDate>Fri, 04 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Capcom reveló Ascendance en el State of Play del 3 de septiembre: nueva zona Skybound Eyrie entre las nubes, el Elder Dragon Gundoraja, el Bird Wyvern Araketa y el Boost Bracer, un equipo nuevo que potencia las 14 armas. Llega en 2027 a PS5, Xbox Series y PC.</description>
-      <media:content url="https://blog.playstation.com/tachyon/2026/09/8a93478d5f8adf948ac0dcf35b3e57d2cb2d741c.png" medium="image"/>
-    </item>
-    <item>
-      <title>Claude Fable 5.1 y Mythos 5.1: hasta 45% más barato y encontró un bug que nadie pudo explicar en 5 años</title>
-      <link>https://puntodespawn.com/posts/claude-fable-51-mythos-51-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-fable-51-mythos-51-septiembre-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Anthropic lanzó Claude Fable 5.1 y Claude Mythos 5.1: mejor en coding e investigación científica, hasta 45% menos costo en tareas agénticas y 60% menos falsos positivos de ciberseguridad en Claude Code.</description>
-      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/932ca7d6f414ca22fd5a26dcc131410575b9b3e5-1200x630.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Marvel Rivals: llegó el evento Endgame Encore con cupones en cadena para skins del MCU</title>
-      <link>https://puntodespawn.com/posts/marvel-rivals-endgame-encore-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-endgame-encore-septiembre-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 03:00:00 GMT</pubDate>
-      <description>El parche 1.70 de Marvel Rivals trajo el evento Endgame Encore: 20% de descuento en cadena para bundles del MCU, nuevos bundles de Angela y Squirrel Girl, y arreglos para Doctor Strange y Angela. Disponible hasta el 11 de septiembre.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
