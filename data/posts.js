@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'witcher-3-remastered-fecha-lanzamiento-septiembre-2026',
+    titulo: 'The Witcher 3: Wild Hunt — Remastered llega el 29 de septiembre: path tracing, DLSS 4.5 y las dos expansiones gratis',
+    extracto: 'CD Projekt Red confirmó que el remaster gratuito de The Witcher 3 llega el 29/9 a PC, PS5 y Xbox Series, y debuta en Switch 2 y Battle.net. Además, ya podés jugar gratis a Hearts of Stone y Blood and Wine si tenés el juego base.',
+    fecha: '2026-09-21',
+    fechaDisplay: '21 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['witcher-3', 'the-witcher-3-remastered', 'cd-projekt-red', 'lanzamiento', 'switch-2', 'battle-net'],
+    juego: 'The Witcher 3: Wild Hunt',
+    juegoDisplay: 'The Witcher 3: Wild Hunt — Remastered',
+    imagen: 'https://www.cdprojekt.com/en/wp-content/uploads-en/2026/08/the-witcher-3-re-16x9-master-image-7-1024x576.png',
+    archivo: 'posts/witcher-3-remastered-fecha-lanzamiento-septiembre-2026.html'
+  },
+  {
+    id: 'openai-sora-api-apagado-septiembre-2026',
+    titulo: 'OpenAI apaga la API de Sora este jueves: qué pasa con tus videos y qué usar en su lugar',
+    extracto: 'Después de cerrar la app en abril, OpenAI da de baja también la API de Sora el 24 de septiembre. Te contamos cómo exportar lo que generaste antes de que se borre para siempre y qué herramientas la reemplazan.',
+    fecha: '2026-09-21',
+    fechaDisplay: '21 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'sora', 'ia', 'video', 'generacion-de-video'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg',
+    archivo: 'posts/openai-sora-api-apagado-septiembre-2026.html'
+  },
+  {
+    id: 'gta-6-dualsense-edicion-limitada-septiembre-2026',
+    titulo: 'Sony mostró los DualSense edición limitada de GTA VI: dos diseños de Vice City a USD 84,99',
+    extracto: 'Sony reveló los controles DualSense Black y White Limited Edition de Grand Theft Auto VI, con acabado que cambia de color y palmeras moldeadas en el cuerpo. Ya están en preventa y llegan el 19 de noviembre, junto con el juego.',
+    fecha: '2026-09-21',
+    fechaDisplay: '21 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'gta-vi', 'playstation', 'dualsense', 'ps5', 'rockstar'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://blog.playstation.com/tachyon/2026/09/a5bd4c6e9ca55c1e1fe1705b79e86300f205831f.png',
+    archivo: 'posts/gta-6-dualsense-edicion-limitada-septiembre-2026.html'
+  },
+  {
     id: 'marvels-wolverine-lanzamiento-reviews-septiembre-2026',
     titulo: "Marvel's Wolverine ya está disponible: por qué las críticas lo dejan como el juego peor puntuado de Insomniac",
     extracto: 'El exclusivo de PS5 llegó el 15 de septiembre con un Metascore de 77, muy por debajo de los Spider-Man. Combate visceral y una gran actuación de Liam McIntyre, pero críticas duras a la profundidad jugable y el guion.',
