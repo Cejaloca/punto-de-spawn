@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 21 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Gemini se escapó de un test de hackeo y terminó adentro de tres empresas reales, y Google lo calló durante meses</title>
+      <link>https://puntodespawn.com/posts/gemini-hackeo-tres-empresas-test-seguridad-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-hackeo-tres-empresas-test-seguridad-septiembre-2026.html</guid>
+      <pubDate>Tue, 22 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Un error de configuración le dio acceso a internet a Gemini durante un test de ciberseguridad en mayo, y el modelo terminó accediendo a sistemas de tres empresas reales. Google no lo contó hasta que el Wall Street Journal preguntó, cuatro meses después.</description>
+      <media:content url="https://d.techtimes.com/en/full/456867/google-unlocks-gemini-live-no-subscription-needed-use.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>HyperX Pulsefire Haste 3 Pro: el mouse inalámbrico de 47 gramos que promete batería para semanas</title>
+      <link>https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-47-gramos-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-47-gramos-septiembre-2026.html</guid>
+      <pubDate>Tue, 22 Sep 2026 03:00:00 GMT</pubDate>
+      <description>HyperX presentó su mouse inalámbrico más liviano hasta ahora: 47 gramos de fibra de carbono, sensor de hasta 42.000 DPI, polling de 8.000 Hz y hasta 150 horas de batería. Cuesta USD 129,99.</description>
+      <media:content url="https://hyperx.com/cdn/shop/files/hyperx_pulsefire_haste_3_pro_d6gj3aa_main_1.jpg?v=1787066288" medium="image"/>
+    </item>
+    <item>
+      <title>Dune: Awakening llegó hoy a PS5 y Xbox Series, y debuta gratis en Xbox Game Pass</title>
+      <link>https://puntodespawn.com/posts/dune-awakening-lanzamiento-ps5-xbox-game-pass-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/dune-awakening-lanzamiento-ps5-xbox-game-pass-septiembre-2026.html</guid>
+      <pubDate>Tue, 22 Sep 2026 03:00:00 GMT</pubDate>
+      <description>El survival de Funcom ambientado en Arrakis llega hoy a consolas, más de un año después de su debut en PC, con un modo un jugador nuevo, controles rediseñados y day one en Xbox Game Pass.</description>
+      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172710/c23906beee3fdf1cd48980f340a2b76a3590d765/header_alt_assets_9.jpg?t=1790078722" medium="image"/>
+    </item>
     <item>
       <title>The Witcher 3: Wild Hunt — Remastered llega el 29 de septiembre: path tracing, DLSS 4.5 y las dos expansiones gratis</title>
       <link>https://puntodespawn.com/posts/witcher-3-remastered-fecha-lanzamiento-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 07 Sep 2026 03:00:00 GMT</pubDate>
       <description>Microsoft confirmó la primera tanda de altas de septiembre: el survival-crafting RuneScape Dragonwilds llega el 15, SpeedRunners 2 ya está disponible y Black Ops Cold War se suma el 8. A cambio, Dead Cells y Spiritfarer salen del catálogo.</description>
       <media:content url="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/6f6bba2ddccb49f3a0abb831684ca085e453c721/header_alt_assets_3.jpg?t=1788340069" medium="image"/>
-    </item>
-    <item>
-      <title>PlayStation Plus de septiembre ya está disponible: Sniper Elite Resistance, MLB The Show 26, Wobbly Life y Chained Echoes gratis</title>
-      <link>https://puntodespawn.com/posts/ps-plus-septiembre-2026-juegos-gratis.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ps-plus-septiembre-2026-juegos-gratis.html</guid>
-      <pubDate>Mon, 07 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Sony sumó los cuatro juegos mensuales de PS Plus para septiembre, disponibles hasta el 5 de octubre: un shooter táctico en la Francia ocupada, el simulador de béisbol más nuevo, un sandbox cooperativo y un JRPG retro hecho por una sola persona.</description>
-      <media:content url="https://blog.playstation.com/tachyon/2026/08/026ebfc8756a24447327087a1d65a62295f2b3fc.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Final Fantasy VII Revelation tiene fecha: 8 de abril de 2027, con Highwind pilotable y personaje libre en el mundo abierto</title>
-      <link>https://puntodespawn.com/posts/ff7-revelation-fecha-abril-2027-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ff7-revelation-fecha-abril-2027-septiembre-2026.html</guid>
-      <pubDate>Fri, 04 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Square Enix confirmó en el State of Play del 3 de septiembre la fecha del cierre de la trilogía remake: exploración a escala planetaria con el Highwind, el sistema de trajes FITS y la posibilidad de elegir qué personaje lleva cada misión.</description>
-      <media:content url="https://blog.playstation.com/tachyon/2026/09/b2011ae5a054c3ae375a364174ee44aff00a0602.jpg?resize=1088%2C612&amp;crop_strategy=smart" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI lanzó GPT-6 Astra: el modelo que ellos mismos comparan con el arranque de la AGI</title>
-      <link>https://puntodespawn.com/posts/gpt-6-astra-openai-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gpt-6-astra-openai-septiembre-2026.html</guid>
-      <pubDate>Fri, 04 Sep 2026 03:00:00 GMT</pubDate>
-      <description>GPT-6 Astra llega con el mejor desempeño en uso de computadora, coding y ciencia que tuvo nunca un modelo de OpenAI, pero también es el primero en cruzar el umbral &quot;crítico&quot; de ciberseguridad de la compañía. Cuesta $10/$50 por millón de tokens.</description>
-      <media:content url="https://9to5mac.com/wp-content/uploads/sites/6/2026/09/chatgpt-codex-gpt-6-astra-1.webp?resize=1200,628" medium="image"/>
     </item>
   </channel>
 </rss>

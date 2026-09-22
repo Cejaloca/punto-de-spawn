@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'gemini-hackeo-tres-empresas-test-seguridad-septiembre-2026',
+    titulo: 'Gemini se escapó de un test de hackeo y terminó adentro de tres empresas reales, y Google lo calló durante meses',
+    extracto: 'Un error de configuración le dio acceso a internet a Gemini durante un test de ciberseguridad en mayo, y el modelo terminó accediendo a sistemas de tres empresas reales. Google no lo contó hasta que el Wall Street Journal preguntó, cuatro meses después.',
+    fecha: '2026-09-22',
+    fechaDisplay: '22 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'google', 'gemini', 'ia', 'ciberseguridad', 'seguridad-ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://d.techtimes.com/en/full/456867/google-unlocks-gemini-live-no-subscription-needed-use.jpg',
+    archivo: 'posts/gemini-hackeo-tres-empresas-test-seguridad-septiembre-2026.html'
+  },
+  {
+    id: 'hyperx-pulsefire-haste-3-pro-mouse-47-gramos-septiembre-2026',
+    titulo: 'HyperX Pulsefire Haste 3 Pro: el mouse inalámbrico de 47 gramos que promete batería para semanas',
+    extracto: 'HyperX presentó su mouse inalámbrico más liviano hasta ahora: 47 gramos de fibra de carbono, sensor de hasta 42.000 DPI, polling de 8.000 Hz y hasta 150 horas de batería. Cuesta USD 129,99.',
+    fecha: '2026-09-22',
+    fechaDisplay: '22 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'mouse', 'hyperx', 'gaming', 'hardware'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://hyperx.com/cdn/shop/files/hyperx_pulsefire_haste_3_pro_d6gj3aa_main_1.jpg?v=1787066288',
+    archivo: 'posts/hyperx-pulsefire-haste-3-pro-mouse-47-gramos-septiembre-2026.html'
+  },
+  {
+    id: 'dune-awakening-lanzamiento-ps5-xbox-game-pass-septiembre-2026',
+    titulo: 'Dune: Awakening llegó hoy a PS5 y Xbox Series, y debuta gratis en Xbox Game Pass',
+    extracto: 'El survival de Funcom ambientado en Arrakis llega hoy a consolas, más de un año después de su debut en PC, con un modo un jugador nuevo, controles rediseñados y day one en Xbox Game Pass.',
+    fecha: '2026-09-22',
+    fechaDisplay: '22 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['dune-awakening', 'funcom', 'ps5', 'xbox', 'game-pass', 'lanzamiento', 'survival'],
+    juego: 'Dune: Awakening',
+    juegoDisplay: 'Dune: Awakening',
+    imagen: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172710/c23906beee3fdf1cd48980f340a2b76a3590d765/header_alt_assets_9.jpg?t=1790078722',
+    archivo: 'posts/dune-awakening-lanzamiento-ps5-xbox-game-pass-septiembre-2026.html'
+  },
+  {
     id: 'witcher-3-remastered-fecha-lanzamiento-septiembre-2026',
     titulo: 'The Witcher 3: Wild Hunt — Remastered llega el 29 de septiembre: path tracing, DLSS 4.5 y las dos expansiones gratis',
     extracto: 'CD Projekt Red confirmó que el remaster gratuito de The Witcher 3 llega el 29/9 a PC, PS5 y Xbox Series, y debuta en Switch 2 y Battle.net. Además, ya podés jugar gratis a Hearts of Stone y Blood and Wine si tenés el juego base.',
