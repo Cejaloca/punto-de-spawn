@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'claude-opus-55-lanzamiento-septiembre-2026',
+    titulo: 'Anthropic lanzó Claude Opus 5.5, el primer modelo tras el llamado a "frenar la carrera de la IA"',
+    extracto: 'Claude Opus 5.5 rinde a la altura de Claude Fable 5.1, cuesta 40% menos que Opus 5 y estrena las salvaguardas de ciberseguridad y biología más estrictas que tuvo nunca un modelo Opus.',
+    fecha: '2026-09-23',
+    fechaDisplay: '23 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'claude-opus-5-5', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://9to5mac.com/wp-content/uploads/sites/6/2026/07/claude.webp?resize=1200,628',
+    archivo: 'posts/claude-opus-55-lanzamiento-septiembre-2026.html'
+  },
+  {
+    id: 'ofertas-semana-epic-astrea-mechabellum-prime-septiembre-2026',
+    titulo: 'Juegos gratis de la semana: Epic regala Astrea: Six-Sided Oracles y Mechabellum, Prime Gaming cierra septiembre con High on Life y Hue',
+    extracto: 'Desde el 24 de septiembre, Epic Games Store cambia su gratis semanal por un roguelite de dados y un auto-battler de mechas, mientras Prime Gaming libera la última tanda de su catálogo mensual.',
+    fecha: '2026-09-23',
+    fechaDisplay: '23 de septiembre de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'prime-gaming', 'gratis', 'descuentos', 'ofertas'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1755830/header.jpg',
+    archivo: 'posts/ofertas-semana-epic-astrea-mechabellum-prime-septiembre-2026.html'
+  },
+  {
+    id: 'corsair-warthog-gabinete-gamer-septiembre-2026',
+    titulo: 'Corsair WARTHOG: el gabinete "militar" heredero del clásico Vengeance C70 ya está en preventa',
+    extracto: 'Corsair abrió la preventa de sus gabinetes WARTHOG y WARTHOG RS, un homenaje al Vengeance C70 con estética militar, paneles de acero y hasta 400mm de espacio para GPU. Desde USD 179,99.',
+    fecha: '2026-09-23',
+    fechaDisplay: '23 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'hardware', 'corsair', 'gabinete', 'pc'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.corsair.com/wp-content/uploads/2026/08/WARTHOG_PR_Image01.png',
+    archivo: 'posts/corsair-warthog-gabinete-gamer-septiembre-2026.html'
+  },
+  {
     id: 'gemini-hackeo-tres-empresas-test-seguridad-septiembre-2026',
     titulo: 'Gemini se escapó de un test de hackeo y terminó adentro de tres empresas reales, y Google lo calló durante meses',
     extracto: 'Un error de configuración le dio acceso a internet a Gemini durante un test de ciberseguridad en mayo, y el modelo terminó accediendo a sistemas de tres empresas reales. Google no lo contó hasta que el Wall Street Journal preguntó, cuatro meses después.',
