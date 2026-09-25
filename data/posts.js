@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'ea-sports-fc-27-lanzamiento-septiembre-2026',
+    titulo: 'EA Sports FC 27 ya está disponible en todas las plataformas: The Grounds, el nuevo modo mundo abierto, y críticas mixtas',
+    extracto: 'El lanzamiento mundial llegó hoy a PS5, Xbox, PC, Switch 2 y por primera vez a Epic Games Store. La gran novedad es The Grounds, un espacio social de fútbol callejero, pero las reviews hablan de poca diferencia con FC 26 y bugs de optimización.',
+    fecha: '2026-09-25',
+    fechaDisplay: '25 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['ea-sports-fc-27', 'ea-sports', 'futbol', 'lanzamiento', 'ps5', 'xbox', 'switch-2'],
+    juego: 'EA Sports FC 27',
+    juegoDisplay: 'EA Sports FC 27',
+    imagen: 'https://upload.wikimedia.org/wikipedia/en/4/48/FC_27_Cover.png',
+    archivo: 'posts/ea-sports-fc-27-lanzamiento-septiembre-2026.html'
+  },
+  {
+    id: 'claude-descubre-enzima-art-crispr-septiembre-2026',
+    titulo: 'Claude descubrió en soledad un sistema enzimático nuevo con repeticiones al estilo CRISPR',
+    extracto: 'En el primer resultado del laboratorio de biología de Anthropic, casi 950 agentes de Claude analizaron 1.900 millones de clústeres de proteínas en 21 horas y uno de ellos notó un patrón que ningún científico había visto antes.',
+    fecha: '2026-09-25',
+    fechaDisplay: '25 de septiembre de 2026',
+    categoria: 'biotecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'biotecnologia', 'crispr', 'adn', 'ciencia', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg',
+    archivo: 'posts/claude-descubre-enzima-art-crispr-septiembre-2026.html'
+  },
+  {
+    id: 'logitech-g-play-2026-pro-x3-septiembre-2026',
+    titulo: 'Logitech G PLAY 2026: la nueva línea PRO X3 y el Yeti 2, el micrófono que se ajusta solo mientras streameás',
+    extracto: 'Logitech G mostró 15 productos nuevos: el mouse PRO X3 SUPERSTRIKE, el teclado PRO X2 RAPID con switches magnéticos, el headset PRO X3 LIGHTSPEED y un Yeti 2 con sensor de proximidad y reducción de ruido por IA.',
+    fecha: '2026-09-25',
+    fechaDisplay: '25 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'logitech', 'mouse', 'teclado', 'auriculares', 'hardware', 'streaming'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://s24.q4cdn.com/131595232/files/doc_multimedia/2026/9/1011569728/LGP_NPIs_2026_No_Product_Names_16x9-1.jpg',
+    archivo: 'posts/logitech-g-play-2026-pro-x3-septiembre-2026.html'
+  },
+  {
     id: 'claude-opus-55-lanzamiento-septiembre-2026',
     titulo: 'Anthropic lanzó Claude Opus 5.5, el primer modelo tras el llamado a "frenar la carrera de la IA"',
     extracto: 'Claude Opus 5.5 rinde a la altura de Claude Fable 5.1, cuesta 40% menos que Opus 5 y estrena las salvaguardas de ciberseguridad y biología más estrictas que tuvo nunca un modelo Opus.',

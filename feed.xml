@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 23 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 03:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>EA Sports FC 27 ya está disponible en todas las plataformas: The Grounds, el nuevo modo mundo abierto, y críticas mixtas</title>
+      <link>https://puntodespawn.com/posts/ea-sports-fc-27-lanzamiento-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ea-sports-fc-27-lanzamiento-septiembre-2026.html</guid>
+      <pubDate>Fri, 25 Sep 2026 03:00:00 GMT</pubDate>
+      <description>El lanzamiento mundial llegó hoy a PS5, Xbox, PC, Switch 2 y por primera vez a Epic Games Store. La gran novedad es The Grounds, un espacio social de fútbol callejero, pero las reviews hablan de poca diferencia con FC 26 y bugs de optimización.</description>
+      <media:content url="https://upload.wikimedia.org/wikipedia/en/4/48/FC_27_Cover.png" medium="image"/>
+    </item>
+    <item>
+      <title>Claude descubrió en soledad un sistema enzimático nuevo con repeticiones al estilo CRISPR</title>
+      <link>https://puntodespawn.com/posts/claude-descubre-enzima-art-crispr-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-descubre-enzima-art-crispr-septiembre-2026.html</guid>
+      <pubDate>Fri, 25 Sep 2026 03:00:00 GMT</pubDate>
+      <description>En el primer resultado del laboratorio de biología de Anthropic, casi 950 agentes de Claude analizaron 1.900 millones de clústeres de proteínas en 21 horas y uno de ellos notó un patrón que ningún científico había visto antes.</description>
+      <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Logitech G PLAY 2026: la nueva línea PRO X3 y el Yeti 2, el micrófono que se ajusta solo mientras streameás</title>
+      <link>https://puntodespawn.com/posts/logitech-g-play-2026-pro-x3-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/logitech-g-play-2026-pro-x3-septiembre-2026.html</guid>
+      <pubDate>Fri, 25 Sep 2026 03:00:00 GMT</pubDate>
+      <description>Logitech G mostró 15 productos nuevos: el mouse PRO X3 SUPERSTRIKE, el teclado PRO X2 RAPID con switches magnéticos, el headset PRO X3 LIGHTSPEED y un Yeti 2 con sensor de proximidad y reducción de ruido por IA.</description>
+      <media:content url="https://s24.q4cdn.com/131595232/files/doc_multimedia/2026/9/1011569728/LGP_NPIs_2026_No_Product_Names_16x9-1.jpg" medium="image"/>
+    </item>
     <item>
       <title>Anthropic lanzó Claude Opus 5.5, el primer modelo tras el llamado a &quot;frenar la carrera de la IA&quot;</title>
       <link>https://puntodespawn.com/posts/claude-opus-55-lanzamiento-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Fri, 11 Sep 2026 03:00:00 GMT</pubDate>
       <description>Epic Games Store cambió su gratis semanal con dos juegos de acción bien distintos, mientras Amazon ya destrabó DOOM + DOOM II y otros cuatro títulos de su catálogo mensual.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1280930/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI lanzó ChatGPT Images 2.5: generación 50% más rápida y un modo Sketch para dibujar tus ideas</title>
-      <link>https://puntodespawn.com/posts/chatgpt-images-25-openai-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/chatgpt-images-25-openai-septiembre-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 03:00:00 GMT</pubDate>
-      <description>El nuevo modelo de imágenes de OpenAI mejora la fidelidad y la edición precisa, llega gratis a todos los planes de ChatGPT, y ya lo integraron Adobe Firefly y Runway.</description>
-      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/6J668sj93QnQ8PWP7epUDv/3dbd2d2350053d96b03477d0fdb2e2c6/images2point5_16-9c.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
-    </item>
-    <item>
-      <title>Nvidia compra Hugging Face por USD 12.900 millones: la jugada más grande de su historia en IA abierta</title>
-      <link>https://puntodespawn.com/posts/nvidia-compra-hugging-face-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-compra-hugging-face-septiembre-2026.html</guid>
-      <pubDate>Tue, 08 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Es la adquisición más grande que hizo Nvidia, superando a Mellanox. Se queda con la plataforma que usan 18 millones de developers para modelos y datasets abiertos, mientras OpenAI y Anthropic buscan sus propios chips.</description>
-      <media:content url="https://blogs.nvidia.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.png" medium="image"/>
-    </item>
-    <item>
-      <title>El Mundial de Hearthstone vuelve a BlizzCon: arrancó la fase de grupos con USD 500.000 en juego</title>
-      <link>https://puntodespawn.com/posts/hearthstone-mundial-2026-blizzcon-septiembre.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/hearthstone-mundial-2026-blizzcon-septiembre.html</guid>
-      <pubDate>Tue, 08 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Dieciséis jugadores se juegan el título de Campeón Mundial 2026 de Hearthstone. La fase de grupos ya empezó (8 al 10/9) y las semifinales se juegan en vivo en BlizzCon el 12 y 13.</description>
-      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/l1/L131SXIA0VTI1788283917764.png" medium="image"/>
     </item>
   </channel>
 </rss>
