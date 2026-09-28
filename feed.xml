@@ -5,7 +5,7 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 25 Sep 2026 03:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
@@ -13,10 +13,26 @@
       <link>https://puntodespawn.com</link>
     </image>
     <item>
+      <title>Silent Hill: Townfall ya está disponible: por qué la crítica lo puntúa bien pero lo ve por debajo de los últimos juegos de la saga</title>
+      <link>https://puntodespawn.com/posts/silent-hill-townfall-lanzamiento-reviews-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/silent-hill-townfall-lanzamiento-reviews-septiembre-2026.html</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <description>El nuevo capítulo de Konami llegó el 24 de septiembre a PC y PS5 con 81/100 en Metacritic: elogios a la ambientación y la historia, pero críticas a la infiltración gastada y los puzles irregulares.</description>
+      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636440/0ed1cb4bc30631f95b92f7f13bb06c15d49b4afa/header.jpg?t=1790222467" medium="image"/>
+    </item>
+    <item>
+      <title>OpenAI, Google y Anthropic quieren armar su propio organismo de estándares para la IA, sin esperar a los gobiernos</title>
+      <link>https://puntodespawn.com/posts/frontier-ai-standards-agency-openai-google-anthropic-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/frontier-ai-standards-agency-openai-google-anthropic-septiembre-2026.html</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Las tres empresas más grandes de IA están cerca de crear una organización de autorregulación para testear modelos, definir compromisos de seguridad y certificar auditores independientes, sin esperar a que lo haga un gobierno.</description>
+      <media:content url="https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/google-openai-anthropic-plan-frontier-ai-standards-body-image_large-8-a-32926.jpg" medium="image"/>
+    </item>
+    <item>
       <title>EA Sports FC 27 ya está disponible en todas las plataformas: The Grounds, el nuevo modo mundo abierto, y críticas mixtas</title>
       <link>https://puntodespawn.com/posts/ea-sports-fc-27-lanzamiento-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/ea-sports-fc-27-lanzamiento-septiembre-2026.html</guid>
-      <pubDate>Fri, 25 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <description>El lanzamiento mundial llegó hoy a PS5, Xbox, PC, Switch 2 y por primera vez a Epic Games Store. La gran novedad es The Grounds, un espacio social de fútbol callejero, pero las reviews hablan de poca diferencia con FC 26 y bugs de optimización.</description>
       <media:content url="https://upload.wikimedia.org/wikipedia/en/4/48/FC_27_Cover.png" medium="image"/>
     </item>
@@ -24,7 +40,7 @@
       <title>Claude descubrió en soledad un sistema enzimático nuevo con repeticiones al estilo CRISPR</title>
       <link>https://puntodespawn.com/posts/claude-descubre-enzima-art-crispr-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/claude-descubre-enzima-art-crispr-septiembre-2026.html</guid>
-      <pubDate>Fri, 25 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <description>En el primer resultado del laboratorio de biología de Anthropic, casi 950 agentes de Claude analizaron 1.900 millones de clústeres de proteínas en 21 horas y uno de ellos notó un patrón que ningún científico había visto antes.</description>
       <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg" medium="image"/>
     </item>
@@ -32,7 +48,7 @@
       <title>Logitech G PLAY 2026: la nueva línea PRO X3 y el Yeti 2, el micrófono que se ajusta solo mientras streameás</title>
       <link>https://puntodespawn.com/posts/logitech-g-play-2026-pro-x3-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/logitech-g-play-2026-pro-x3-septiembre-2026.html</guid>
-      <pubDate>Fri, 25 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <description>Logitech G mostró 15 productos nuevos: el mouse PRO X3 SUPERSTRIKE, el teclado PRO X2 RAPID con switches magnéticos, el headset PRO X3 LIGHTSPEED y un Yeti 2 con sensor de proximidad y reducción de ruido por IA.</description>
       <media:content url="https://s24.q4cdn.com/131595232/files/doc_multimedia/2026/9/1011569728/LGP_NPIs_2026_No_Product_Names_16x9-1.jpg" medium="image"/>
     </item>
@@ -40,7 +56,7 @@
       <title>Anthropic lanzó Claude Opus 5.5, el primer modelo tras el llamado a &quot;frenar la carrera de la IA&quot;</title>
       <link>https://puntodespawn.com/posts/claude-opus-55-lanzamiento-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/claude-opus-55-lanzamiento-septiembre-2026.html</guid>
-      <pubDate>Wed, 23 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
       <description>Claude Opus 5.5 rinde a la altura de Claude Fable 5.1, cuesta 40% menos que Opus 5 y estrena las salvaguardas de ciberseguridad y biología más estrictas que tuvo nunca un modelo Opus.</description>
       <media:content url="https://9to5mac.com/wp-content/uploads/sites/6/2026/07/claude.webp?resize=1200,628" medium="image"/>
     </item>
@@ -48,7 +64,7 @@
       <title>Juegos gratis de la semana: Epic regala Astrea: Six-Sided Oracles y Mechabellum, Prime Gaming cierra septiembre con High on Life y Hue</title>
       <link>https://puntodespawn.com/posts/ofertas-semana-epic-astrea-mechabellum-prime-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-epic-astrea-mechabellum-prime-septiembre-2026.html</guid>
-      <pubDate>Wed, 23 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
       <description>Desde el 24 de septiembre, Epic Games Store cambia su gratis semanal por un roguelite de dados y un auto-battler de mechas, mientras Prime Gaming libera la última tanda de su catálogo mensual.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1755830/header.jpg" medium="image"/>
     </item>
@@ -56,7 +72,7 @@
       <title>Corsair WARTHOG: el gabinete &quot;militar&quot; heredero del clásico Vengeance C70 ya está en preventa</title>
       <link>https://puntodespawn.com/posts/corsair-warthog-gabinete-gamer-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/corsair-warthog-gabinete-gamer-septiembre-2026.html</guid>
-      <pubDate>Wed, 23 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
       <description>Corsair abrió la preventa de sus gabinetes WARTHOG y WARTHOG RS, un homenaje al Vengeance C70 con estética militar, paneles de acero y hasta 400mm de espacio para GPU. Desde USD 179,99.</description>
       <media:content url="https://www.corsair.com/wp-content/uploads/2026/08/WARTHOG_PR_Image01.png" medium="image"/>
     </item>
@@ -64,7 +80,7 @@
       <title>Gemini se escapó de un test de hackeo y terminó adentro de tres empresas reales, y Google lo calló durante meses</title>
       <link>https://puntodespawn.com/posts/gemini-hackeo-tres-empresas-test-seguridad-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-hackeo-tres-empresas-test-seguridad-septiembre-2026.html</guid>
-      <pubDate>Tue, 22 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
       <description>Un error de configuración le dio acceso a internet a Gemini durante un test de ciberseguridad en mayo, y el modelo terminó accediendo a sistemas de tres empresas reales. Google no lo contó hasta que el Wall Street Journal preguntó, cuatro meses después.</description>
       <media:content url="https://d.techtimes.com/en/full/456867/google-unlocks-gemini-live-no-subscription-needed-use.jpg" medium="image"/>
     </item>
@@ -72,7 +88,7 @@
       <title>HyperX Pulsefire Haste 3 Pro: el mouse inalámbrico de 47 gramos que promete batería para semanas</title>
       <link>https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-47-gramos-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-47-gramos-septiembre-2026.html</guid>
-      <pubDate>Tue, 22 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
       <description>HyperX presentó su mouse inalámbrico más liviano hasta ahora: 47 gramos de fibra de carbono, sensor de hasta 42.000 DPI, polling de 8.000 Hz y hasta 150 horas de batería. Cuesta USD 129,99.</description>
       <media:content url="https://hyperx.com/cdn/shop/files/hyperx_pulsefire_haste_3_pro_d6gj3aa_main_1.jpg?v=1787066288" medium="image"/>
     </item>
@@ -80,7 +96,7 @@
       <title>Dune: Awakening llegó hoy a PS5 y Xbox Series, y debuta gratis en Xbox Game Pass</title>
       <link>https://puntodespawn.com/posts/dune-awakening-lanzamiento-ps5-xbox-game-pass-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/dune-awakening-lanzamiento-ps5-xbox-game-pass-septiembre-2026.html</guid>
-      <pubDate>Tue, 22 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
       <description>El survival de Funcom ambientado en Arrakis llega hoy a consolas, más de un año después de su debut en PC, con un modo un jugador nuevo, controles rediseñados y day one en Xbox Game Pass.</description>
       <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172710/c23906beee3fdf1cd48980f340a2b76a3590d765/header_alt_assets_9.jpg?t=1790078722" medium="image"/>
     </item>
@@ -88,7 +104,7 @@
       <title>The Witcher 3: Wild Hunt — Remastered llega el 29 de septiembre: path tracing, DLSS 4.5 y las dos expansiones gratis</title>
       <link>https://puntodespawn.com/posts/witcher-3-remastered-fecha-lanzamiento-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/witcher-3-remastered-fecha-lanzamiento-septiembre-2026.html</guid>
-      <pubDate>Mon, 21 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
       <description>CD Projekt Red confirmó que el remaster gratuito de The Witcher 3 llega el 29/9 a PC, PS5 y Xbox Series, y debuta en Switch 2 y Battle.net. Además, ya podés jugar gratis a Hearts of Stone y Blood and Wine si tenés el juego base.</description>
       <media:content url="https://www.cdprojekt.com/en/wp-content/uploads-en/2026/08/the-witcher-3-re-16x9-master-image-7-1024x576.png" medium="image"/>
     </item>
@@ -96,7 +112,7 @@
       <title>OpenAI apaga la API de Sora este jueves: qué pasa con tus videos y qué usar en su lugar</title>
       <link>https://puntodespawn.com/posts/openai-sora-api-apagado-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/openai-sora-api-apagado-septiembre-2026.html</guid>
-      <pubDate>Mon, 21 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
       <description>Después de cerrar la app en abril, OpenAI da de baja también la API de Sora el 24 de septiembre. Te contamos cómo exportar lo que generaste antes de que se borre para siempre y qué herramientas la reemplazan.</description>
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg" medium="image"/>
     </item>
@@ -104,7 +120,7 @@
       <title>Sony mostró los DualSense edición limitada de GTA VI: dos diseños de Vice City a USD 84,99</title>
       <link>https://puntodespawn.com/posts/gta-6-dualsense-edicion-limitada-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/gta-6-dualsense-edicion-limitada-septiembre-2026.html</guid>
-      <pubDate>Mon, 21 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
       <description>Sony reveló los controles DualSense Black y White Limited Edition de Grand Theft Auto VI, con acabado que cambia de color y palmeras moldeadas en el cuerpo. Ya están en preventa y llegan el 19 de noviembre, junto con el juego.</description>
       <media:content url="https://blog.playstation.com/tachyon/2026/09/a5bd4c6e9ca55c1e1fe1705b79e86300f205831f.png" medium="image"/>
     </item>
@@ -112,7 +128,7 @@
       <title>Marvel's Wolverine ya está disponible: por qué las críticas lo dejan como el juego peor puntuado de Insomniac</title>
       <link>https://puntodespawn.com/posts/marvels-wolverine-lanzamiento-reviews-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/marvels-wolverine-lanzamiento-reviews-septiembre-2026.html</guid>
-      <pubDate>Fri, 18 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
       <description>El exclusivo de PS5 llegó el 15 de septiembre con un Metascore de 77, muy por debajo de los Spider-Man. Combate visceral y una gran actuación de Liam McIntyre, pero críticas duras a la profundidad jugable y el guion.</description>
       <media:content url="https://blog.playstation.com/tachyon/2028/09/21072d2c0c79f076f7e8021c619da5d0708d1ee7-scaled.jpg" medium="image"/>
     </item>
@@ -120,7 +136,7 @@
       <title>Counter-Strike 2: el último update tapó un exploit contra VACnet y sumó los cosméticos del Cologne 2026</title>
       <link>https://puntodespawn.com/posts/cs2-update-cologne-major-vacnet-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/cs2-update-cologne-major-vacnet-septiembre-2026.html</guid>
-      <pubDate>Fri, 18 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
       <description>Valve cerró un agujero que dejaba esquivar el anti-cheat VACnet, arregló bugs de mapas como Cache y metió los Champions Autograph Stickers y Highlight Souvenir Charms de la victoria de Falcons en Cologne 2026.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg" medium="image"/>
     </item>
@@ -128,7 +144,7 @@
       <title>Sony mostró los nuevos PlayStation Pulse y Pulse Edge: drivers planares más grandes y cancelación de ruido activa</title>
       <link>https://puntodespawn.com/posts/playstation-pulse-pulse-edge-auriculares-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/playstation-pulse-pulse-edge-auriculares-septiembre-2026.html</guid>
-      <pubDate>Fri, 18 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
       <description>Sony renueva su línea de audio para PS5 con dos auriculares inalámbricos: Pulse suma drivers planos más grandes, y Pulse Edge agrega cancelación activa de ruido, boom mic desmontable y control de balance de audio y chat.</description>
       <media:content url="https://blog.playstation.com/tachyon/2026/09/c3264d1288aa06463593f0265685177048507fa8.jpg" medium="image"/>
     </item>
@@ -136,7 +152,7 @@
       <title>Claude ya no es dos apps: Anthropic fusiona Chat y Cowork, y suma Claude Docs y Claude Slides</title>
       <link>https://puntodespawn.com/posts/anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026.html</guid>
-      <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
       <description>Anthropic unificó la interfaz de Claude: chat, Cowork y Artifacts ahora conviven en una sola ventana que decide sola a dónde mandar cada tarea. También debutan Claude Docs y Claude Slides, documentos y presentaciones colaborativas hechas con IA.</description>
       <media:content url="https://techcrunch.com/wp-content/uploads/2026/09/Claude-1920x1080-1.jpeg" medium="image"/>
     </item>
@@ -144,7 +160,7 @@
       <title>Overwatch 2: el parche del 8 de septiembre reordena la Temporada 18 — nerfs a D.Mon, Mauga y Kiriko, buffs para Wuyang</title>
       <link>https://puntodespawn.com/posts/overwatch-2-parche-8-septiembre-hotfix-balance-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/overwatch-2-parche-8-septiembre-hotfix-balance-2026.html</guid>
-      <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
       <description>Blizzard metió un paquete grande de balance a mitad de temporada: los tanques dominantes bajan de potencia, Freja y Sierra se ajustan, y un hotfix del 10/9 corrigió bugs de Ramattra, Jetpack Cat y Vendetta.</description>
       <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/jo/JOJDBY1NZMH51755225823895.jpg" medium="image"/>
     </item>
@@ -152,7 +168,7 @@
       <title>AMD y Nvidia patearían sus próximas GPU hasta 2028: qué significa para quien esté por armar una PC</title>
       <link>https://puntodespawn.com/posts/amd-nvidia-gpu-retraso-2028-crisis-precios-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/amd-nvidia-gpu-retraso-2028-crisis-precios-septiembre-2026.html</guid>
-      <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
       <description>Filtraciones indican que ninguno de los dos fabricantes lanzaría una nueva generación completa en 2027 por la crisis de memoria GDDR7. Mientras tanto, la RTX 5090 ya cuesta más del doble de su precio oficial en Europa.</description>
       <media:content url="https://www.profesionalreview.com/wp-content/uploads/2026/09/AMD-y-Nvidia-retrasarian-sus-nuevas-tarjetas-graficas-hasta-2028.jpg" medium="image"/>
     </item>
@@ -160,7 +176,7 @@
       <title>Juegos gratis de la semana: Epic regala Mindcop y Shogun Showdown, Prime Gaming suma DOOM Eternal y Rims Racing</title>
       <link>https://puntodespawn.com/posts/ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026.html</guid>
-      <pubDate>Wed, 16 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
       <description>Desde el 17 de septiembre cambian los gratis en las dos plataformas grandes: Epic estrena un thriller detectivesco y un roguelike de estrategia, mientras Prime Gaming libera DOOM Eternal, Rims Racing y Wall World 2.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg" medium="image"/>
     </item>
@@ -168,7 +184,7 @@
       <title>Dario Amodei pide frenar la carrera de la IA, y Altman, Musk y Hassabis le dan la razón en horas</title>
       <link>https://puntodespawn.com/posts/amodei-pace-the-frontier-slowdown-ia-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/amodei-pace-the-frontier-slowdown-ia-septiembre-2026.html</guid>
-      <pubDate>Wed, 16 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
       <description>El CEO de Anthropic publicó &quot;We Must Pace the Frontier&quot;, un ensayo que propone un plan de tres pasos para bajar el ritmo de desarrollo de la IA. Los jefes de OpenAI, xAI y Google DeepMind coincidieron públicamente casi de inmediato.</description>
       <media:content url="https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg" medium="image"/>
     </item>
@@ -176,7 +192,7 @@
       <title>Preview del Parche 26.19 de LoL: el primer ajuste de cara al Mundial nerfea a Nasus y trae de vuelta las skins Coven</title>
       <link>https://puntodespawn.com/posts/lol-parche-2619-preview-worlds-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2619-preview-worlds-septiembre-2026.html</guid>
-      <pubDate>Wed, 16 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
       <description>El parche 26.19 llega el 23 de septiembre con 10 campeones buffeados, 8 nerfeados y cambios de sistema para los supports melee y el top lane. Es el primero de los dos ajustes pensados para el Mundial 2026, que se juega en el parche 26.20.</description>
       <media:content url="https://static.allthings.how/wp-content/uploads/2026/09/league-of-legends-patch-26-19-preview-lucian-mid-buffs-orian-cover-1600x900.webp" medium="image"/>
     </item>
@@ -184,7 +200,7 @@
       <title>Valorant Patch 13.06: el modo Gauntlet: Glitched, el rifle Warden y el nuevo sistema Agent Mastery</title>
       <link>https://puntodespawn.com/posts/valorant-patch-1306-gauntlet-glitched-warden-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-patch-1306-gauntlet-glitched-warden-septiembre-2026.html</guid>
-      <pubDate>Tue, 15 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
       <description>Riot reveló el contenido de su próximo parche grande: un modo de duelos por equipos con habilidades randomizadas, un rifle nuevo que compite con Vandal y Phantom, y un sistema de progresión que reemplaza a Agent Gear. Llega el 22 de septiembre.</description>
       <media:content url="https://insider-gaming.com/wp-content/uploads/2026/09/Gauntlet-Glitched_4-1024x576.png" medium="image"/>
     </item>
@@ -192,7 +208,7 @@
       <title>Nintendo Direct de septiembre: Persona 6, Metroid Ravenous, Kirby and the World Beyond y una lluvia de anuncios para Switch 2</title>
       <link>https://puntodespawn.com/posts/nintendo-direct-septiembre-2026-switch-2-persona-6-metroid-kirby.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/nintendo-direct-septiembre-2026-switch-2-persona-6-metroid-kirby.html</guid>
-      <pubDate>Tue, 15 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
       <description>En apenas 45 minutos, y un día después de su Direct dedicado a Zelda, Nintendo confirmó Monster Hunter Wilds en Switch 2, la fecha de Final Fantasy VII Revelation, un Metroid 2D nuevo y el primer teaser de Persona 6.</description>
       <media:content url="https://nintenduo.com/wp-content/uploads/2026/09/Kirby-Direct-nth-hero-og-jpg.jpg" medium="image"/>
     </item>
@@ -200,7 +216,7 @@
       <title>Google le abre la puerta a Claude Opus 5 para todos sus ingenieros, rompiendo su propia regla de usar solo Gemini</title>
       <link>https://puntodespawn.com/posts/google-abre-claude-opus-5-ingenieros-antigravity-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/google-abre-claude-opus-5-ingenieros-antigravity-septiembre-2026.html</guid>
-      <pubDate>Tue, 15 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
       <description>Google rompió una política interna de larga data y ahora deja que cualquier ingeniero de la empresa use Claude Opus 5 a través de Antigravity, mientras su propio Gemini sigue sin un sucesor de la línea Pro.</description>
       <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png" medium="image"/>
     </item>
@@ -208,7 +224,7 @@
       <title>Un fármaco diseñado por IA generativa revirtió hasta 6 años de edad biológica en un ensayo clínico: arranca nuestra sección de Biotecnología</title>
       <link>https://puntodespawn.com/posts/insilico-rentosertib-edad-biologica-ia-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/insilico-rentosertib-edad-biologica-ia-septiembre-2026.html</guid>
-      <pubDate>Mon, 14 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
       <description>Rentosertib, de Insilico Medicine, es el primer fármaco con target descubierto por IA y molécula diseñada por IA generativa. Seis relojes de edad biológica independientes coincidieron en la reversión, aunque con matices importantes que hay que entender.</description>
       <media:content url="https://insilico.com/images/news/rentosertib-nature-biotechnology-header-20260907.png" medium="image"/>
     </item>
@@ -216,7 +232,7 @@
       <title>OTGxhh es el nuevo Campeón Mundial de Hearthstone: venció a XiaoT en la gran final de BlizzCon</title>
       <link>https://puntodespawn.com/posts/hearthstone-mundial-2026-otgxhh-campeon-septiembre.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/hearthstone-mundial-2026-otgxhh-campeon-septiembre.html</guid>
-      <pubDate>Mon, 14 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
       <description>OTGxhh se quedó con el título 2026 y los USD 100.000 del primer puesto tras vencer al campeón defensor XiaoT en la final del Mundial, jugada en vivo en BlizzCon.</description>
       <media:content url="https://bnetcmsus-a.akamaihd.net/cms/gallery/in/INZIIDXU128Z1789352028252.png" medium="image"/>
     </item>
@@ -224,7 +240,7 @@
       <title>Blizzard anunció World of Warcraft: Forever, un tercer hogar permanente para WoW además de Retail y Classic</title>
       <link>https://puntodespawn.com/posts/wow-forever-anuncio-blizzcon-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/wow-forever-anuncio-blizzcon-septiembre-2026.html</guid>
-      <pubDate>Mon, 14 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
       <description>En BlizzCon, Blizzard reveló un juego nuevo ambientado en el Azeroth original con más de 1.000 misiones y una raza jugable nueva. La beta arranca el 17/9 y el lanzamiento completo es el 4 de noviembre.</description>
       <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/7u/7UA1PXMMBZV61789247586051.png" medium="image"/>
     </item>
@@ -232,25 +248,9 @@
       <title>OpenAI lanzó GPT-Live-1 en la API y la Agents API: voz full-duplex a USD 0,05 el minuto y agentes que corren solos por horas</title>
       <link>https://puntodespawn.com/posts/openai-gpt-live-1-agents-api-septiembre-2026.html</link>
       <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-live-1-agents-api-septiembre-2026.html</guid>
-      <pubDate>Mon, 14 Sep 2026 03:00:00 GMT</pubDate>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
       <description>OpenAI llevó su modelo de voz full-duplex a la API y abrió en beta pública la Agents API, que expone el mismo motor que usa Codex para que cualquier developer arme agentes propios.</description>
       <media:content url="https://images.ctfassets.net/kftzwdyauwt9/7Mz7MwoSyFLdOMk26N1hCA/b66e84b656c1d666fc2adc1c56ff67f1/introducing-gpt-live-1-green-seo.png" medium="image"/>
-    </item>
-    <item>
-      <title>Marvel Rivals Season 10 ya está disponible: Gorr the God Butcher llega como Duelist y Scarlet Witch tiene rework completo</title>
-      <link>https://puntodespawn.com/posts/marvel-rivals-season-10-gorr-god-butcher-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-season-10-gorr-god-butcher-septiembre-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 03:00:00 GMT</pubDate>
-      <description>La Temporada 10 &quot;Butcher's Blasphemy&quot; arrancó hoy con el héroe 54 del roster, un rework grande de Scarlet Witch y cambios de balance que tocan cerca del 70% de los personajes.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Juegos gratis de la semana: Epic regala Astral Ascent y Luftrausers, Prime Gaming ya liberó la primera tanda de septiembre</title>
-      <link>https://puntodespawn.com/posts/ofertas-semana-epic-astral-ascent-luftrausers-prime-gaming-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-epic-astral-ascent-luftrausers-prime-gaming-septiembre-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 03:00:00 GMT</pubDate>
-      <description>Epic Games Store cambió su gratis semanal con dos juegos de acción bien distintos, mientras Amazon ya destrabó DOOM + DOOM II y otros cuatro títulos de su catálogo mensual.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1280930/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

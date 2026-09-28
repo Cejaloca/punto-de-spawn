@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'silent-hill-townfall-lanzamiento-reviews-septiembre-2026',
+    titulo: 'Silent Hill: Townfall ya está disponible: por qué la crítica lo puntúa bien pero lo ve por debajo de los últimos juegos de la saga',
+    extracto: 'El nuevo capítulo de Konami llegó el 24 de septiembre a PC y PS5 con 81/100 en Metacritic: elogios a la ambientación y la historia, pero críticas a la infiltración gastada y los puzles irregulares.',
+    fecha: '2026-09-28',
+    fechaDisplay: '28 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['silent-hill-townfall', 'konami', 'survival-horror', 'reviews', 'lanzamiento'],
+    juego: 'silent-hill-townfall',
+    juegoDisplay: 'Silent Hill: Townfall',
+    imagen: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636440/0ed1cb4bc30631f95b92f7f13bb06c15d49b4afa/header.jpg?t=1790222467',
+    archivo: 'posts/silent-hill-townfall-lanzamiento-reviews-septiembre-2026.html'
+  },
+  {
+    id: 'frontier-ai-standards-agency-openai-google-anthropic-septiembre-2026',
+    titulo: 'OpenAI, Google y Anthropic quieren armar su propio organismo de estándares para la IA, sin esperar a los gobiernos',
+    extracto: 'Las tres empresas más grandes de IA están cerca de crear una organización de autorregulación para testear modelos, definir compromisos de seguridad y certificar auditores independientes, sin esperar a que lo haga un gobierno.',
+    fecha: '2026-09-28',
+    fechaDisplay: '28 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'google', 'anthropic', 'seguridad-ia', 'regulacion'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/google-openai-anthropic-plan-frontier-ai-standards-body-image_large-8-a-32926.jpg',
+    archivo: 'posts/frontier-ai-standards-agency-openai-google-anthropic-septiembre-2026.html'
+  },
+  {
     id: 'ea-sports-fc-27-lanzamiento-septiembre-2026',
     titulo: 'EA Sports FC 27 ya está disponible en todas las plataformas: The Grounds, el nuevo modo mundo abierto, y críticas mixtas',
     extracto: 'El lanzamiento mundial llegó hoy a PS5, Xbox, PC, Switch 2 y por primera vez a Epic Games Store. La gran novedad es The Grounds, un espacio social de fútbol callejero, pero las reviews hablan de poca diferencia con FC 26 y bugs de optimización.',
