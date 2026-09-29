@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'witcher-3-remastered-reviews-septiembre-2026',
+    titulo: 'The Witcher 3: Wild Hunt — Remastered ya está disponible y es el juego mejor puntuado de 2026',
+    extracto: 'CD Projekt Red lanzó hoy el remaster gratuito de The Witcher 3 en PC, PS5, Xbox Series y Switch 2. Con 94 en Metacritic, superó al original de 2015 y es el título mejor puntuado del año.',
+    fecha: '2026-09-29',
+    fechaDisplay: '29 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['witcher-3', 'the-witcher-3-remastered', 'cd-projekt-red', 'reviews', 'lanzamiento'],
+    juego: 'The Witcher 3: Wild Hunt',
+    juegoDisplay: 'The Witcher 3: Wild Hunt — Remastered',
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg',
+    archivo: 'posts/witcher-3-remastered-reviews-septiembre-2026.html'
+  },
+  {
+    id: 'claude-marketplace-conectores-plugins-septiembre-2026',
+    titulo: 'Anthropic lanzó el Claude Marketplace: más de 2.000 conectores y plugins en un solo lugar',
+    extracto: 'La nueva tienda de Claude reúne más de 2.000 conectores y plugins de empresas como Microsoft, Google, Salesforce y Notion, además de agentes propios de partners como Cursor y Snowflake.',
+    fecha: '2026-09-29',
+    fechaDisplay: '29 de septiembre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'marketplace', 'plugins'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690515665479bb5c903bedd8_og_evaluate-prompts.jpg',
+    archivo: 'posts/claude-marketplace-conectores-plugins-septiembre-2026.html'
+  },
+  {
+    id: 'minecraft-dungeons-2-lanzamiento-reviews-septiembre-2026',
+    titulo: 'Minecraft Dungeons II ya está disponible: día uno en Game Pass y reviews de "más de lo mismo, pero mejor"',
+    extracto: 'La secuela del dungeon crawler de Mojang llegó hoy a Xbox, PlayStation 5, Switch 2 y PC con 76 en Metacritic. Mejor combate y más contenido post-game, aunque la crítica pide más riesgo.',
+    fecha: '2026-09-29',
+    fechaDisplay: '29 de septiembre de 2026',
+    categoria: 'gaming',
+    tags: ['minecraft-dungeons-2', 'minecraft', 'game-pass', 'reviews', 'lanzamiento'],
+    juego: 'Minecraft Dungeons II',
+    juegoDisplay: 'Minecraft Dungeons II',
+    imagen: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/header.jpg?t=1789572111',
+    archivo: 'posts/minecraft-dungeons-2-lanzamiento-reviews-septiembre-2026.html'
+  },
+  {
     id: 'silent-hill-townfall-lanzamiento-reviews-septiembre-2026',
     titulo: 'Silent Hill: Townfall ya está disponible: por qué la crítica lo puntúa bien pero lo ve por debajo de los últimos juegos de la saga',
     extracto: 'El nuevo capítulo de Konami llegó el 24 de septiembre a PC y PS5 con 81/100 en Metacritic: elogios a la ambientación y la historia, pero críticas a la infiltración gastada y los puzles irregulares.',

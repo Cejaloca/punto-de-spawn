@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>The Witcher 3: Wild Hunt — Remastered ya está disponible y es el juego mejor puntuado de 2026</title>
+      <link>https://puntodespawn.com/posts/witcher-3-remastered-reviews-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/witcher-3-remastered-reviews-septiembre-2026.html</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <description>CD Projekt Red lanzó hoy el remaster gratuito de The Witcher 3 en PC, PS5, Xbox Series y Switch 2. Con 94 en Metacritic, superó al original de 2015 y es el título mejor puntuado del año.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Anthropic lanzó el Claude Marketplace: más de 2.000 conectores y plugins en un solo lugar</title>
+      <link>https://puntodespawn.com/posts/claude-marketplace-conectores-plugins-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-marketplace-conectores-plugins-septiembre-2026.html</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <description>La nueva tienda de Claude reúne más de 2.000 conectores y plugins de empresas como Microsoft, Google, Salesforce y Notion, además de agentes propios de partners como Cursor y Snowflake.</description>
+      <media:content url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690515665479bb5c903bedd8_og_evaluate-prompts.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Minecraft Dungeons II ya está disponible: día uno en Game Pass y reviews de &quot;más de lo mismo, pero mejor&quot;</title>
+      <link>https://puntodespawn.com/posts/minecraft-dungeons-2-lanzamiento-reviews-septiembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/minecraft-dungeons-2-lanzamiento-reviews-septiembre-2026.html</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <description>La secuela del dungeon crawler de Mojang llegó hoy a Xbox, PlayStation 5, Switch 2 y PC con 76 en Metacritic. Mejor combate y más contenido post-game, aunque la crítica pide más riesgo.</description>
+      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/header.jpg?t=1789572111" medium="image"/>
+    </item>
     <item>
       <title>Silent Hill: Townfall ya está disponible: por qué la crítica lo puntúa bien pero lo ve por debajo de los últimos juegos de la saga</title>
       <link>https://puntodespawn.com/posts/silent-hill-townfall-lanzamiento-reviews-septiembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
       <description>Rentosertib, de Insilico Medicine, es el primer fármaco con target descubierto por IA y molécula diseñada por IA generativa. Seis relojes de edad biológica independientes coincidieron en la reversión, aunque con matices importantes que hay que entender.</description>
       <media:content url="https://insilico.com/images/news/rentosertib-nature-biotechnology-header-20260907.png" medium="image"/>
-    </item>
-    <item>
-      <title>OTGxhh es el nuevo Campeón Mundial de Hearthstone: venció a XiaoT en la gran final de BlizzCon</title>
-      <link>https://puntodespawn.com/posts/hearthstone-mundial-2026-otgxhh-campeon-septiembre.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/hearthstone-mundial-2026-otgxhh-campeon-septiembre.html</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <description>OTGxhh se quedó con el título 2026 y los USD 100.000 del primer puesto tras vencer al campeón defensor XiaoT en la final del Mundial, jugada en vivo en BlizzCon.</description>
-      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/gallery/in/INZIIDXU128Z1789352028252.png" medium="image"/>
-    </item>
-    <item>
-      <title>Blizzard anunció World of Warcraft: Forever, un tercer hogar permanente para WoW además de Retail y Classic</title>
-      <link>https://puntodespawn.com/posts/wow-forever-anuncio-blizzcon-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/wow-forever-anuncio-blizzcon-septiembre-2026.html</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <description>En BlizzCon, Blizzard reveló un juego nuevo ambientado en el Azeroth original con más de 1.000 misiones y una raza jugable nueva. La beta arranca el 17/9 y el lanzamiento completo es el 4 de noviembre.</description>
-      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/7u/7UA1PXMMBZV61789247586051.png" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI lanzó GPT-Live-1 en la API y la Agents API: voz full-duplex a USD 0,05 el minuto y agentes que corren solos por horas</title>
-      <link>https://puntodespawn.com/posts/openai-gpt-live-1-agents-api-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-live-1-agents-api-septiembre-2026.html</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI llevó su modelo de voz full-duplex a la API y abrió en beta pública la Agents API, que expone el mismo motor que usa Codex para que cualquier developer arme agentes propios.</description>
-      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/7Mz7MwoSyFLdOMk26N1hCA/b66e84b656c1d666fc2adc1c56ff67f1/introducing-gpt-live-1-green-seo.png" medium="image"/>
     </item>
   </channel>
 </rss>
