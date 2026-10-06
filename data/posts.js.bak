@@ -1,44 +1,5 @@
 const POSTS = [
   {
-    id: 'lol-parche-2620-preview-worlds-octubre-2026',
-    titulo: 'Parche 26.20 de LoL: el último antes del Mundial nerfea a Ashe y Yunara, y rediseña el Rocketbelt',
-    extracto: 'El parche 26.20 llega el 7 de octubre y es el que se juega en el Mundial 2026: Riot nerfea a Ashe, Yunara, Cassiopeia, K\'Sante y Ambessa, sube a once campeones y recorta el Rocketbelt.',
-    fecha: '2026-10-06',
-    fechaDisplay: '6 de octubre de 2026',
-    categoria: 'patch-notes',
-    tags: ['league-of-legends', 'patch-notes', 'riot-games', 'worlds'],
-    juego: 'league-of-legends',
-    juegoDisplay: 'League of Legends',
-    imagen: 'https://cdn.sanity.io/images/9rqbl8zs/production/4753896ce9f199434bc5deec42dbc3881eb7049b-1324x706.webp',
-    archivo: 'posts/lol-parche-2620-preview-worlds-octubre-2026.html'
-  },
-  {
-    id: 'diablo-5-confirmado-2029-sin-expansiones-diablo-4-octubre-2026',
-    titulo: 'Blizzard confirmó Diablo V para 2029: Diablo IV no va a tener más expansiones',
-    extracto: 'En BlizzCon 2026, Blizzard reveló que Diablo V llega en la primavera de 2029 con Diablo mismo como antagonista. Diablo IV sigue vivo, pero sin expansiones nuevas: todo lo que viene es contenido de temporada.',
-    fecha: '2026-10-06',
-    fechaDisplay: '6 de octubre de 2026',
-    categoria: 'gaming',
-    tags: ['diablo', 'diablo-4', 'diablo-5', 'blizzard'],
-    juego: 'diablo-4',
-    juegoDisplay: 'Diablo IV',
-    imagen: 'https://static.icy-veins.com/wp/wp-content/uploads/2026/09/diablo-5.webp',
-    archivo: 'posts/diablo-5-confirmado-2029-sin-expansiones-diablo-4-octubre-2026.html'
-  },
-  {
-    id: 'prime-gaming-octubre-2026-fallout-xcom-vampire',
-    titulo: 'Prime Gaming octubre: las próximas entregas traen Fallout New Vegas, Fallout 3 y XCOM 2 gratis',
-    extracto: 'Después de arrancar octubre con DOOM y Five Nights at Freddy\'s, Prime Gaming confirmó el resto del mes: XCOM 2, Fallout New Vegas Ultimate, Fallout 3 GOTY, Vampire: The Masquerade y más, repartidos en cuatro tandas.',
-    fecha: '2026-10-06',
-    fechaDisplay: '6 de octubre de 2026',
-    categoria: 'ofertas',
-    tags: ['prime-gaming', 'gratis', 'ofertas', 'descuentos'],
-    juego: null,
-    juegoDisplay: null,
-    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/22380/header.jpg',
-    archivo: 'posts/prime-gaming-octubre-2026-fallout-xcom-vampire.html'
-  },
-  {
     id: 'ofertas-semana-steam-autumn-epic-system-shock-2-octubre-2026',
     titulo: 'Ofertas de la semana: Steam arrancó sus Rebajas de Otoño y Epic regala System Shock 2 y Buried Stars',
     extracto: 'La Steam Autumn Sale llega con descuentos de hasta 90% hasta el 8 de octubre, mientras Epic Games Store regala el remaster de System Shock 2 y el thriller narrativo Buried Stars hasta esa misma fecha.',

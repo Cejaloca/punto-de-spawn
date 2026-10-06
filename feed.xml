@@ -5,13 +5,61 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Parche 26.20 de LoL: el último antes del Mundial nerfea a Ashe y Yunara, y rediseña el Rocketbelt</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2620-preview-worlds-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2620-preview-worlds-octubre-2026.html</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El parche 26.20 llega el 7 de octubre y es el que se juega en el Mundial 2026: Riot nerfea a Ashe, Yunara, Cassiopeia, K'Sante y Ambessa, sube a once campeones y recorta el Rocketbelt.</description>
+      <media:content url="https://cdn.sanity.io/images/9rqbl8zs/production/4753896ce9f199434bc5deec42dbc3881eb7049b-1324x706.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Blizzard confirmó Diablo V para 2029: Diablo IV no va a tener más expansiones</title>
+      <link>https://puntodespawn.com/posts/diablo-5-confirmado-2029-sin-expansiones-diablo-4-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/diablo-5-confirmado-2029-sin-expansiones-diablo-4-octubre-2026.html</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description>En BlizzCon 2026, Blizzard reveló que Diablo V llega en la primavera de 2029 con Diablo mismo como antagonista. Diablo IV sigue vivo, pero sin expansiones nuevas: todo lo que viene es contenido de temporada.</description>
+      <media:content url="https://static.icy-veins.com/wp/wp-content/uploads/2026/09/diablo-5.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Prime Gaming octubre: las próximas entregas traen Fallout New Vegas, Fallout 3 y XCOM 2 gratis</title>
+      <link>https://puntodespawn.com/posts/prime-gaming-octubre-2026-fallout-xcom-vampire.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/prime-gaming-octubre-2026-fallout-xcom-vampire.html</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Después de arrancar octubre con DOOM y Five Nights at Freddy's, Prime Gaming confirmó el resto del mes: XCOM 2, Fallout New Vegas Ultimate, Fallout 3 GOTY, Vampire: The Masquerade y más, repartidos en cuatro tandas.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/22380/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Ofertas de la semana: Steam arrancó sus Rebajas de Otoño y Epic regala System Shock 2 y Buried Stars</title>
+      <link>https://puntodespawn.com/posts/ofertas-semana-steam-autumn-epic-system-shock-2-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-steam-autumn-epic-system-shock-2-octubre-2026.html</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La Steam Autumn Sale llega con descuentos de hasta 90% hasta el 8 de octubre, mientras Epic Games Store regala el remaster de System Shock 2 y el thriller narrativo Buried Stars hasta esa misma fecha.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/866570/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>OpenAI DevDay 2026: GPT-6.1 Sol, los agentes &quot;Dots&quot; que trabajan solos, y un plan Pro de USD 500 por mes</title>
+      <link>https://puntodespawn.com/posts/openai-devday-2026-gpt-61-sol-dots-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-devday-2026-gpt-61-sol-dots-octubre-2026.html</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI presentó más de 20 novedades en su DevDay 2026: un modelo más barato que su buque insignia cancelado, agentes persistentes que siguen trabajando con la app cerrada, y tres niveles de Pro, el más caro a USD 500 mensuales.</description>
+      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/6E6hS38rOnhhKPPmfUflDh/bbcf20b5fc6f99478187ec5dcbd491d1/DevDay_Blog_ArtCard_16x9.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
+    </item>
+    <item>
+      <title>NVIDIA RTX Spark: el chip que promete correr IA local y jugar a 1440p a más de 100 FPS llega en octubre</title>
+      <link>https://puntodespawn.com/posts/nvidia-rtx-spark-lanzamiento-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-rtx-spark-lanzamiento-octubre-2026.html</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <description>RTX Spark es el nuevo SoC de NVIDIA y MediaTek para notebooks y mini PCs con Windows: hasta 128 GB de memoria unificada, GPU Blackwell y la promesa de correr IA local y títulos AAA en la misma máquina.</description>
+      <media:content url="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/computex-2026-nvidia-geforce-rtx-announcements/computex-2026-nvidia-geforce-rtx-announcements-ogimage.jpg" medium="image"/>
+    </item>
     <item>
       <title>The Witcher 3: Wild Hunt — Remastered ya está disponible y es el juego mejor puntuado de 2026</title>
       <link>https://puntodespawn.com/posts/witcher-3-remastered-reviews-septiembre-2026.html</link>
@@ -203,54 +251,6 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
       <description>Desde el 17 de septiembre cambian los gratis en las dos plataformas grandes: Epic estrena un thriller detectivesco y un roguelike de estrategia, mientras Prime Gaming libera DOOM Eternal, Rims Racing y Wall World 2.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Dario Amodei pide frenar la carrera de la IA, y Altman, Musk y Hassabis le dan la razón en horas</title>
-      <link>https://puntodespawn.com/posts/amodei-pace-the-frontier-slowdown-ia-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/amodei-pace-the-frontier-slowdown-ia-septiembre-2026.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <description>El CEO de Anthropic publicó &quot;We Must Pace the Frontier&quot;, un ensayo que propone un plan de tres pasos para bajar el ritmo de desarrollo de la IA. Los jefes de OpenAI, xAI y Google DeepMind coincidieron públicamente casi de inmediato.</description>
-      <media:content url="https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Preview del Parche 26.19 de LoL: el primer ajuste de cara al Mundial nerfea a Nasus y trae de vuelta las skins Coven</title>
-      <link>https://puntodespawn.com/posts/lol-parche-2619-preview-worlds-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2619-preview-worlds-septiembre-2026.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <description>El parche 26.19 llega el 23 de septiembre con 10 campeones buffeados, 8 nerfeados y cambios de sistema para los supports melee y el top lane. Es el primero de los dos ajustes pensados para el Mundial 2026, que se juega en el parche 26.20.</description>
-      <media:content url="https://static.allthings.how/wp-content/uploads/2026/09/league-of-legends-patch-26-19-preview-lucian-mid-buffs-orian-cover-1600x900.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Valorant Patch 13.06: el modo Gauntlet: Glitched, el rifle Warden y el nuevo sistema Agent Mastery</title>
-      <link>https://puntodespawn.com/posts/valorant-patch-1306-gauntlet-glitched-warden-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-patch-1306-gauntlet-glitched-warden-septiembre-2026.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Riot reveló el contenido de su próximo parche grande: un modo de duelos por equipos con habilidades randomizadas, un rifle nuevo que compite con Vandal y Phantom, y un sistema de progresión que reemplaza a Agent Gear. Llega el 22 de septiembre.</description>
-      <media:content url="https://insider-gaming.com/wp-content/uploads/2026/09/Gauntlet-Glitched_4-1024x576.png" medium="image"/>
-    </item>
-    <item>
-      <title>Nintendo Direct de septiembre: Persona 6, Metroid Ravenous, Kirby and the World Beyond y una lluvia de anuncios para Switch 2</title>
-      <link>https://puntodespawn.com/posts/nintendo-direct-septiembre-2026-switch-2-persona-6-metroid-kirby.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/nintendo-direct-septiembre-2026-switch-2-persona-6-metroid-kirby.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>En apenas 45 minutos, y un día después de su Direct dedicado a Zelda, Nintendo confirmó Monster Hunter Wilds en Switch 2, la fecha de Final Fantasy VII Revelation, un Metroid 2D nuevo y el primer teaser de Persona 6.</description>
-      <media:content url="https://nintenduo.com/wp-content/uploads/2026/09/Kirby-Direct-nth-hero-og-jpg.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Google le abre la puerta a Claude Opus 5 para todos sus ingenieros, rompiendo su propia regla de usar solo Gemini</title>
-      <link>https://puntodespawn.com/posts/google-abre-claude-opus-5-ingenieros-antigravity-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/google-abre-claude-opus-5-ingenieros-antigravity-septiembre-2026.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Google rompió una política interna de larga data y ahora deja que cualquier ingeniero de la empresa use Claude Opus 5 a través de Antigravity, mientras su propio Gemini sigue sin un sucesor de la línea Pro.</description>
-      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png" medium="image"/>
-    </item>
-    <item>
-      <title>Un fármaco diseñado por IA generativa revirtió hasta 6 años de edad biológica en un ensayo clínico: arranca nuestra sección de Biotecnología</title>
-      <link>https://puntodespawn.com/posts/insilico-rentosertib-edad-biologica-ia-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/insilico-rentosertib-edad-biologica-ia-septiembre-2026.html</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Rentosertib, de Insilico Medicine, es el primer fármaco con target descubierto por IA y molécula diseñada por IA generativa. Seis relojes de edad biológica independientes coincidieron en la reversión, aunque con matices importantes que hay que entender.</description>
-      <media:content url="https://insilico.com/images/news/rentosertib-nature-biotechnology-header-20260907.png" medium="image"/>
     </item>
   </channel>
 </rss>
