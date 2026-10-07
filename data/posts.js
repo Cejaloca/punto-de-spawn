@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'wow-parche-1215-promesa-del-manana-labyrinth-octubre-2026',
+    titulo: 'WoW: el parche 12.1.5 "La Promesa del Mañana" llega el 13 de octubre con raid nuevo y el primer Laberinto del juego',
+    extracto: "El parche 12.1.5 de Midnight trae una nueva campaña de historia, la incursión de un solo jefe contra Kith'ix, invasiones aqir y el primer Laberinto de WoW: una versión agrandada de los Delves.",
+    fecha: '2026-10-07',
+    fechaDisplay: '7 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['world-of-warcraft', 'patch-notes', 'blizzard', 'midnight'],
+    juego: 'world-of-warcraft',
+    juegoDisplay: 'World of Warcraft',
+    imagen: 'https://www.warcrafttavern.com/wp-content/uploads/2026/09/wow-midnight-labyrinth-delve.jpg',
+    archivo: 'posts/wow-parche-1215-promesa-del-manana-labyrinth-octubre-2026.html'
+  },
+  {
+    id: 'google-gemini-4-argon-lanzamiento-octubre-2026',
+    titulo: 'Google lanzó Gemini 4 Argon, su IA más potente hasta ahora — pero por ahora solo la pueden usar expertos en ciberseguridad',
+    extracto: 'El nuevo modelo insignia de Google bate récords en benchmarks de programación y seguridad, pero arranca en acceso limitado a través del Fairwind Program antes de llegar a la API paga y a Google AI Ultra.',
+    fecha: '2026-10-07',
+    fechaDisplay: '7 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'google', 'gemini', 'gemini-4-argon', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png',
+    archivo: 'posts/google-gemini-4-argon-lanzamiento-octubre-2026.html'
+  },
+  {
+    id: 'anthropic-laboratorio-biologia-claude-science-octubre-2026',
+    titulo: 'Anthropic armó un laboratorio real para que Claude dirija experimentos de biología con robots',
+    extracto: 'La empresa detrás de Claude confirmó un laboratorio húmedo en San Francisco donde prueba si su IA puede instruir sistemas robóticos para investigar enfermedades raras que la industria farmacéutica no encuentra rentables.',
+    fecha: '2026-10-07',
+    fechaDisplay: '7 de octubre de 2026',
+    categoria: 'biotecnologia',
+    tags: ['inteligencia-artificial', 'biotecnologia', 'anthropic', 'claude-science', 'laboratorio'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://newsimg.koreatimes.co.kr/2026/09/18/6bb8f4df-6439-4668-bf65-9e4cbb5fe440.jpg',
+    archivo: 'posts/anthropic-laboratorio-biologia-claude-science-octubre-2026.html'
+  },
+  {
     id: 'lol-parche-2620-preview-worlds-octubre-2026',
     titulo: 'Parche 26.20 de LoL: el último antes del Mundial nerfea a Ashe y Yunara, y rediseña el Rocketbelt',
     extracto: 'El parche 26.20 llega el 7 de octubre y es el que se juega en el Mundial 2026: Riot nerfea a Ashe, Yunara, Cassiopeia, K\'Sante y Ambessa, sube a once campeones y recorta el Rocketbelt.',

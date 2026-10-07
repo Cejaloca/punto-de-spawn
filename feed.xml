@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>WoW: el parche 12.1.5 &quot;La Promesa del Mañana&quot; llega el 13 de octubre con raid nuevo y el primer Laberinto del juego</title>
+      <link>https://puntodespawn.com/posts/wow-parche-1215-promesa-del-manana-labyrinth-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/wow-parche-1215-promesa-del-manana-labyrinth-octubre-2026.html</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El parche 12.1.5 de Midnight trae una nueva campaña de historia, la incursión de un solo jefe contra Kith'ix, invasiones aqir y el primer Laberinto de WoW: una versión agrandada de los Delves.</description>
+      <media:content url="https://www.warcrafttavern.com/wp-content/uploads/2026/09/wow-midnight-labyrinth-delve.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Google lanzó Gemini 4 Argon, su IA más potente hasta ahora — pero por ahora solo la pueden usar expertos en ciberseguridad</title>
+      <link>https://puntodespawn.com/posts/google-gemini-4-argon-lanzamiento-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/google-gemini-4-argon-lanzamiento-octubre-2026.html</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El nuevo modelo insignia de Google bate récords en benchmarks de programación y seguridad, pero arranca en acceso limitado a través del Fairwind Program antes de llegar a la API paga y a Google AI Ultra.</description>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png" medium="image"/>
+    </item>
+    <item>
+      <title>Anthropic armó un laboratorio real para que Claude dirija experimentos de biología con robots</title>
+      <link>https://puntodespawn.com/posts/anthropic-laboratorio-biologia-claude-science-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-laboratorio-biologia-claude-science-octubre-2026.html</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La empresa detrás de Claude confirmó un laboratorio húmedo en San Francisco donde prueba si su IA puede instruir sistemas robóticos para investigar enfermedades raras que la industria farmacéutica no encuentra rentables.</description>
+      <media:content url="https://newsimg.koreatimes.co.kr/2026/09/18/6bb8f4df-6439-4668-bf65-9e4cbb5fe440.jpg" medium="image"/>
+    </item>
     <item>
       <title>Parche 26.20 de LoL: el último antes del Mundial nerfea a Ashe y Yunara, y rediseña el Rocketbelt</title>
       <link>https://puntodespawn.com/posts/lol-parche-2620-preview-worlds-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
       <description>Anthropic unificó la interfaz de Claude: chat, Cowork y Artifacts ahora conviven en una sola ventana que decide sola a dónde mandar cada tarea. También debutan Claude Docs y Claude Slides, documentos y presentaciones colaborativas hechas con IA.</description>
       <media:content url="https://techcrunch.com/wp-content/uploads/2026/09/Claude-1920x1080-1.jpeg" medium="image"/>
-    </item>
-    <item>
-      <title>Overwatch 2: el parche del 8 de septiembre reordena la Temporada 18 — nerfs a D.Mon, Mauga y Kiriko, buffs para Wuyang</title>
-      <link>https://puntodespawn.com/posts/overwatch-2-parche-8-septiembre-hotfix-balance-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/overwatch-2-parche-8-septiembre-hotfix-balance-2026.html</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Blizzard metió un paquete grande de balance a mitad de temporada: los tanques dominantes bajan de potencia, Freja y Sierra se ajustan, y un hotfix del 10/9 corrigió bugs de Ramattra, Jetpack Cat y Vendetta.</description>
-      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/jo/JOJDBY1NZMH51755225823895.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>AMD y Nvidia patearían sus próximas GPU hasta 2028: qué significa para quien esté por armar una PC</title>
-      <link>https://puntodespawn.com/posts/amd-nvidia-gpu-retraso-2028-crisis-precios-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-nvidia-gpu-retraso-2028-crisis-precios-septiembre-2026.html</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Filtraciones indican que ninguno de los dos fabricantes lanzaría una nueva generación completa en 2027 por la crisis de memoria GDDR7. Mientras tanto, la RTX 5090 ya cuesta más del doble de su precio oficial en Europa.</description>
-      <media:content url="https://www.profesionalreview.com/wp-content/uploads/2026/09/AMD-y-Nvidia-retrasarian-sus-nuevas-tarjetas-graficas-hasta-2028.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Juegos gratis de la semana: Epic regala Mindcop y Shogun Showdown, Prime Gaming suma DOOM Eternal y Rims Racing</title>
-      <link>https://puntodespawn.com/posts/ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-epic-mindcop-shogun-showdown-prime-doom-eternal-septiembre-2026.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Desde el 17 de septiembre cambian los gratis en las dos plataformas grandes: Epic estrena un thriller detectivesco y un roguelike de estrategia, mientras Prime Gaming libera DOOM Eternal, Rims Racing y Wall World 2.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
