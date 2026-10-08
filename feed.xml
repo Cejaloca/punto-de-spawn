@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Juegos gratis de la semana: Epic Games regala Out of Sight y TerraScape</title>
+      <link>https://puntodespawn.com/posts/ofertas-epic-out-of-sight-terrascape-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-epic-out-of-sight-terrascape-octubre-2026.html</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Epic Games Store renovó su regalo semanal: ahora podés sumar gratis el horror en segunda persona Out of Sight y el city builder relajado TerraScape, disponibles hasta el 15 de octubre.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2526310/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Marvel Rivals Season 10.5 no trae héroe nuevo, pero estrena el modo Path to Doomsday inspirado en Infinity War</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-season-105-path-to-doomsday-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-season-105-path-to-doomsday-octubre-2026.html</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La actualización 20261009 de Marvel Rivals llega el 9 de octubre sin héroe nuevo por primera vez en la vida del juego, pero suma el modo de escuadras Path to Doomsday, el mapa Alchemax Headquarters y el evento de temporada Infinity Finale.</description>
+      <media:content url="https://insider-gaming.com/wp-content/uploads/2026/10/Marvel-Rivals-Gorr.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Isomorphic Labs, la IA de Google para diseñar medicamentos, busca una ronda que la valuaría en USD 40.000 millones</title>
+      <link>https://puntodespawn.com/posts/isomorphic-labs-ronda-40000-millones-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/isomorphic-labs-ronda-40000-millones-octubre-2026.html</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La biotecnológica de Alphabet liderada por Demis Hassabis negocia una ronda que podría llevarla a una valuación de entre USD 40.000 y 50.000 millones, apenas cinco meses después de cerrar USD 2.100 millones — y todavía sin dosificar un solo medicamento en un paciente.</description>
+      <media:content url="https://cdn.prod.website-files.com/6846c7b5a78f3e9225c64f10/6a02fe4a453fe60fef71201f_Web1.jpg" medium="image"/>
+    </item>
     <item>
       <title>WoW: el parche 12.1.5 &quot;La Promesa del Mañana&quot; llega el 13 de octubre con raid nuevo y el primer Laberinto del juego</title>
       <link>https://puntodespawn.com/posts/wow-parche-1215-promesa-del-manana-labyrinth-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
       <description>El exclusivo de PS5 llegó el 15 de septiembre con un Metascore de 77, muy por debajo de los Spider-Man. Combate visceral y una gran actuación de Liam McIntyre, pero críticas duras a la profundidad jugable y el guion.</description>
       <media:content url="https://blog.playstation.com/tachyon/2028/09/21072d2c0c79f076f7e8021c619da5d0708d1ee7-scaled.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Counter-Strike 2: el último update tapó un exploit contra VACnet y sumó los cosméticos del Cologne 2026</title>
-      <link>https://puntodespawn.com/posts/cs2-update-cologne-major-vacnet-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/cs2-update-cologne-major-vacnet-septiembre-2026.html</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Valve cerró un agujero que dejaba esquivar el anti-cheat VACnet, arregló bugs de mapas como Cache y metió los Champions Autograph Stickers y Highlight Souvenir Charms de la victoria de Falcons en Cologne 2026.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Sony mostró los nuevos PlayStation Pulse y Pulse Edge: drivers planares más grandes y cancelación de ruido activa</title>
-      <link>https://puntodespawn.com/posts/playstation-pulse-pulse-edge-auriculares-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/playstation-pulse-pulse-edge-auriculares-septiembre-2026.html</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Sony renueva su línea de audio para PS5 con dos auriculares inalámbricos: Pulse suma drivers planos más grandes, y Pulse Edge agrega cancelación activa de ruido, boom mic desmontable y control de balance de audio y chat.</description>
-      <media:content url="https://blog.playstation.com/tachyon/2026/09/c3264d1288aa06463593f0265685177048507fa8.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Claude ya no es dos apps: Anthropic fusiona Chat y Cowork, y suma Claude Docs y Claude Slides</title>
-      <link>https://puntodespawn.com/posts/anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-claude-cowork-chat-merge-docs-slides-septiembre-2026.html</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Anthropic unificó la interfaz de Claude: chat, Cowork y Artifacts ahora conviven en una sola ventana que decide sola a dónde mandar cada tarea. También debutan Claude Docs y Claude Slides, documentos y presentaciones colaborativas hechas con IA.</description>
-      <media:content url="https://techcrunch.com/wp-content/uploads/2026/09/Claude-1920x1080-1.jpeg" medium="image"/>
     </item>
   </channel>
 </rss>

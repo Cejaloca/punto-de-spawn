@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'ofertas-epic-out-of-sight-terrascape-octubre-2026',
+    titulo: 'Juegos gratis de la semana: Epic Games regala Out of Sight y TerraScape',
+    extracto: 'Epic Games Store renovó su regalo semanal: ahora podés sumar gratis el horror en segunda persona Out of Sight y el city builder relajado TerraScape, disponibles hasta el 15 de octubre.',
+    fecha: '2026-10-08',
+    fechaDisplay: '8 de octubre de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'descuentos'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/2526310/header.jpg',
+    archivo: 'posts/ofertas-epic-out-of-sight-terrascape-octubre-2026.html'
+  },
+  {
+    id: 'marvel-rivals-season-105-path-to-doomsday-octubre-2026',
+    titulo: 'Marvel Rivals Season 10.5 no trae héroe nuevo, pero estrena el modo Path to Doomsday inspirado en Infinity War',
+    extracto: 'La actualización 20261009 de Marvel Rivals llega el 9 de octubre sin héroe nuevo por primera vez en la vida del juego, pero suma el modo de escuadras Path to Doomsday, el mapa Alchemax Headquarters y el evento de temporada Infinity Finale.',
+    fecha: '2026-10-08',
+    fechaDisplay: '8 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['marvel-rivals', 'patch-notes', 'netease', 'path-to-doomsday', 'temporada-10'],
+    juego: 'marvel-rivals',
+    juegoDisplay: 'Marvel Rivals',
+    imagen: 'https://insider-gaming.com/wp-content/uploads/2026/10/Marvel-Rivals-Gorr.jpg',
+    archivo: 'posts/marvel-rivals-season-105-path-to-doomsday-octubre-2026.html'
+  },
+  {
+    id: 'isomorphic-labs-ronda-40000-millones-octubre-2026',
+    titulo: 'Isomorphic Labs, la IA de Google para diseñar medicamentos, busca una ronda que la valuaría en USD 40.000 millones',
+    extracto: 'La biotecnológica de Alphabet liderada por Demis Hassabis negocia una ronda que podría llevarla a una valuación de entre USD 40.000 y 50.000 millones, apenas cinco meses después de cerrar USD 2.100 millones — y todavía sin dosificar un solo medicamento en un paciente.',
+    fecha: '2026-10-08',
+    fechaDisplay: '8 de octubre de 2026',
+    categoria: 'biotecnologia',
+    tags: ['inteligencia-artificial', 'biotecnologia', 'isomorphic-labs', 'google-deepmind', 'alphafold'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.prod.website-files.com/6846c7b5a78f3e9225c64f10/6a02fe4a453fe60fef71201f_Web1.jpg',
+    archivo: 'posts/isomorphic-labs-ronda-40000-millones-octubre-2026.html'
+  },
+  {
     id: 'wow-parche-1215-promesa-del-manana-labyrinth-octubre-2026',
     titulo: 'WoW: el parche 12.1.5 "La Promesa del Mañana" llega el 13 de octubre con raid nuevo y el primer Laberinto del juego',
     extracto: "El parche 12.1.5 de Midnight trae una nueva campaña de historia, la incursión de un solo jefe contra Kith'ix, invasiones aqir y el primer Laberinto de WoW: una versión agrandada de los Delves.",
