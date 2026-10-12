@@ -1,5 +1,57 @@
 const POSTS = [
   {
+    id: 'openai-gpt-6-intelligent-ui-chatgpt-octubre-2026',
+    titulo: 'GPT-6 ya está en todo ChatGPT: Intelligent UI convierte las respuestas en gráficos y mini apps interactivas',
+    extracto: 'OpenAI activó GPT-6 con Intelligent UI para todos los niveles de ChatGPT, incluido el gratuito: ahora el chat puede generar gráficos, comparaciones y herramientas que se usan en el momento, no solo texto.',
+    fecha: '2026-10-12',
+    fechaDisplay: '12 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'chatgpt', 'gpt-6', 'intelligent-ui', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&h=900&fit=fill',
+    archivo: 'posts/openai-gpt-6-intelligent-ui-chatgpt-octubre-2026.html'
+  },
+  {
+    id: 'ofertas-semana-steam-gamepass-battlefield-6-octubre-2026',
+    titulo: 'Ofertas de la semana: Steam rebaja hasta 90% clásicos como Skyrim y Cyberpunk, y Xbox Game Pass suma Battlefield 6',
+    extracto: 'Steam tiene descuentos de hasta 90% en juegos como The Outlast Trials, Skyrim y Red Dead Redemption 2, mientras Xbox Game Pass suma Gears of War: E-Day y, desde el 13 de octubre, Battlefield 6 y Valor Mortis.',
+    fecha: '2026-10-12',
+    fechaDisplay: '12 de octubre de 2026',
+    categoria: 'ofertas',
+    tags: ['steam', 'xbox-game-pass', 'battlefield-6', 'gears-of-war', 'ofertas', 'descuentos'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/2807960/header.jpg',
+    archivo: 'posts/ofertas-semana-steam-gamepass-battlefield-6-octubre-2026.html'
+  },
+  {
+    id: 'anthropic-claude-haiku-55-lanzamiento-octubre-2026',
+    titulo: 'Anthropic lanzó Claude Haiku 5.5: el modelo más barato de su historia, hasta 90% más económico en prompts cortos',
+    extracto: 'El nuevo modelo chico de Anthropic cuesta en promedio 75% menos que Haiku 4.5, estrena el primer control de esfuerzo ajustable de la familia Haiku y ya está disponible en AWS, Google Cloud y Azure.',
+    fecha: '2026-10-09',
+    fechaDisplay: '9 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'claude-haiku-5-5', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg',
+    archivo: 'posts/anthropic-claude-haiku-55-lanzamiento-octubre-2026.html'
+  },
+  {
+    id: 'biohub-google-meta-ia-biologia-1800-millones-octubre-2026',
+    titulo: 'Google, Meta y el gobierno de EE.UU. se suman a Biohub en una apuesta de USD 1.800 millones para crear una "célula virtual" con IA',
+    extracto: 'La Virtual Biology Initiative, liderada por el Biohub de Mark Zuckerberg, suma a Google DeepMind, Isomorphic Labs, Meta y agencias del gobierno de EE.UU. en un esfuerzo para generar datos biológicos abiertos y entrenar modelos de IA que predigan cómo responde cualquier célula a un tratamiento.',
+    fecha: '2026-10-09',
+    fechaDisplay: '9 de octubre de 2026',
+    categoria: 'biotecnologia',
+    tags: ['inteligencia-artificial', 'biotecnologia', 'biohub', 'google-deepmind', 'meta', 'celula-virtual'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://biohub.org/wp-content/uploads/sites/32/2026/10/VBI-wordmark-Jade-on-dark_Social-Share_1200x630@1x.png',
+    archivo: 'posts/biohub-google-meta-ia-biologia-1800-millones-octubre-2026.html'
+  },
+  {
     id: 'ofertas-epic-out-of-sight-terrascape-octubre-2026',
     titulo: 'Juegos gratis de la semana: Epic Games regala Out of Sight y TerraScape',
     extracto: 'Epic Games Store renovó su regalo semanal: ahora podés sumar gratis el horror en segunda persona Out of Sight y el city builder relajado TerraScape, disponibles hasta el 15 de octubre.',

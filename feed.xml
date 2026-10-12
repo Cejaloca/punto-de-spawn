@@ -5,13 +5,45 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>GPT-6 ya está en todo ChatGPT: Intelligent UI convierte las respuestas en gráficos y mini apps interactivas</title>
+      <link>https://puntodespawn.com/posts/openai-gpt-6-intelligent-ui-chatgpt-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-6-intelligent-ui-chatgpt-octubre-2026.html</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI activó GPT-6 con Intelligent UI para todos los niveles de ChatGPT, incluido el gratuito: ahora el chat puede generar gráficos, comparaciones y herramientas que se usan en el momento, no solo texto.</description>
+      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
+    </item>
+    <item>
+      <title>Ofertas de la semana: Steam rebaja hasta 90% clásicos como Skyrim y Cyberpunk, y Xbox Game Pass suma Battlefield 6</title>
+      <link>https://puntodespawn.com/posts/ofertas-semana-steam-gamepass-battlefield-6-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-steam-gamepass-battlefield-6-octubre-2026.html</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Steam tiene descuentos de hasta 90% en juegos como The Outlast Trials, Skyrim y Red Dead Redemption 2, mientras Xbox Game Pass suma Gears of War: E-Day y, desde el 13 de octubre, Battlefield 6 y Valor Mortis.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2807960/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Anthropic lanzó Claude Haiku 5.5: el modelo más barato de su historia, hasta 90% más económico en prompts cortos</title>
+      <link>https://puntodespawn.com/posts/anthropic-claude-haiku-55-lanzamiento-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-claude-haiku-55-lanzamiento-octubre-2026.html</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El nuevo modelo chico de Anthropic cuesta en promedio 75% menos que Haiku 4.5, estrena el primer control de esfuerzo ajustable de la familia Haiku y ya está disponible en AWS, Google Cloud y Azure.</description>
+      <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Google, Meta y el gobierno de EE.UU. se suman a Biohub en una apuesta de USD 1.800 millones para crear una &quot;célula virtual&quot; con IA</title>
+      <link>https://puntodespawn.com/posts/biohub-google-meta-ia-biologia-1800-millones-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/biohub-google-meta-ia-biologia-1800-millones-octubre-2026.html</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La Virtual Biology Initiative, liderada por el Biohub de Mark Zuckerberg, suma a Google DeepMind, Isomorphic Labs, Meta y agencias del gobierno de EE.UU. en un esfuerzo para generar datos biológicos abiertos y entrenar modelos de IA que predigan cómo responde cualquier célula a un tratamiento.</description>
+      <media:content url="https://biohub.org/wp-content/uploads/sites/32/2026/10/VBI-wordmark-Jade-on-dark_Social-Share_1200x630@1x.png" medium="image"/>
+    </item>
     <item>
       <title>Juegos gratis de la semana: Epic Games regala Out of Sight y TerraScape</title>
       <link>https://puntodespawn.com/posts/ofertas-epic-out-of-sight-terrascape-octubre-2026.html</link>
@@ -219,38 +251,6 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
       <description>El survival de Funcom ambientado en Arrakis llega hoy a consolas, más de un año después de su debut en PC, con un modo un jugador nuevo, controles rediseñados y day one en Xbox Game Pass.</description>
       <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172710/c23906beee3fdf1cd48980f340a2b76a3590d765/header_alt_assets_9.jpg?t=1790078722" medium="image"/>
-    </item>
-    <item>
-      <title>The Witcher 3: Wild Hunt — Remastered llega el 29 de septiembre: path tracing, DLSS 4.5 y las dos expansiones gratis</title>
-      <link>https://puntodespawn.com/posts/witcher-3-remastered-fecha-lanzamiento-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/witcher-3-remastered-fecha-lanzamiento-septiembre-2026.html</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <description>CD Projekt Red confirmó que el remaster gratuito de The Witcher 3 llega el 29/9 a PC, PS5 y Xbox Series, y debuta en Switch 2 y Battle.net. Además, ya podés jugar gratis a Hearts of Stone y Blood and Wine si tenés el juego base.</description>
-      <media:content url="https://www.cdprojekt.com/en/wp-content/uploads-en/2026/08/the-witcher-3-re-16x9-master-image-7-1024x576.png" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI apaga la API de Sora este jueves: qué pasa con tus videos y qué usar en su lugar</title>
-      <link>https://puntodespawn.com/posts/openai-sora-api-apagado-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-sora-api-apagado-septiembre-2026.html</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Después de cerrar la app en abril, OpenAI da de baja también la API de Sora el 24 de septiembre. Te contamos cómo exportar lo que generaste antes de que se borre para siempre y qué herramientas la reemplazan.</description>
-      <media:content url="https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg" medium="image"/>
-    </item>
-    <item>
-      <title>Sony mostró los DualSense edición limitada de GTA VI: dos diseños de Vice City a USD 84,99</title>
-      <link>https://puntodespawn.com/posts/gta-6-dualsense-edicion-limitada-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gta-6-dualsense-edicion-limitada-septiembre-2026.html</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Sony reveló los controles DualSense Black y White Limited Edition de Grand Theft Auto VI, con acabado que cambia de color y palmeras moldeadas en el cuerpo. Ya están en preventa y llegan el 19 de noviembre, junto con el juego.</description>
-      <media:content url="https://blog.playstation.com/tachyon/2026/09/a5bd4c6e9ca55c1e1fe1705b79e86300f205831f.png" medium="image"/>
-    </item>
-    <item>
-      <title>Marvel's Wolverine ya está disponible: por qué las críticas lo dejan como el juego peor puntuado de Insomniac</title>
-      <link>https://puntodespawn.com/posts/marvels-wolverine-lanzamiento-reviews-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/marvels-wolverine-lanzamiento-reviews-septiembre-2026.html</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <description>El exclusivo de PS5 llegó el 15 de septiembre con un Metascore de 77, muy por debajo de los Spider-Man. Combate visceral y una gran actuación de Liam McIntyre, pero críticas duras a la profundidad jugable y el guion.</description>
-      <media:content url="https://blog.playstation.com/tachyon/2028/09/21072d2c0c79f076f7e8021c619da5d0708d1ee7-scaled.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
