@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'valorant-patch-1308-act-6-mapas-map-rating-octubre-2026',
+    titulo: 'Valorant Patch 13.08: arrancó el Acto 6 con Bind y Corrode de vuelta, y el nuevo Map Rating',
+    extracto: 'El parche 13.08 trae el inicio del Acto 6: Bind y Corrode vuelven al competitivo en lugar de Ascent y Split, debuta el sistema Map Rating y Riot publicó los números de la purga de cuentas del Acto 5.',
+    fecha: '2026-10-13',
+    fechaDisplay: '13 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['valorant', 'patch-notes', 'riot-games', 'acto-6', 'map-rating', 'corrode'],
+    juego: 'valorant',
+    juegoDisplay: 'Valorant',
+    imagen: 'https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/268cd89fa38e291d3cd389ac950cc03e1c2c4e2f-1920x1080.jpg?w=1200&h=630&fm=webp&fit=crop&crop=center',
+    archivo: 'posts/valorant-patch-1308-act-6-mapas-map-rating-octubre-2026.html'
+  },
+  {
+    id: 'planet-zoo-2-lanzamiento-octubre-2026',
+    titulo: 'Planet Zoo 2 ya está disponible: ahora con acuarios, aviarios y reservas de fauna silvestre',
+    extracto: 'Frontier Developments lanzó hoy Planet Zoo 2 para PC, PlayStation 5 y Xbox Series X|S. La secuela suma animales acuáticos y voladores, reservas de fauna silvestre y más foco en la conservación.',
+    fecha: '2026-10-13',
+    fechaDisplay: '13 de octubre de 2026',
+    categoria: 'gaming',
+    tags: ['planet-zoo-2', 'frontier-developments', 'simulacion', 'lanzamiento', 'pc', 'ps5'],
+    juego: 'planet-zoo-2',
+    juegoDisplay: 'Planet Zoo 2',
+    imagen: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/a5131aa4b84d04a55e3b9c561d7c886cc22bbe1c/header.jpg?t=1791804561',
+    archivo: 'posts/planet-zoo-2-lanzamiento-octubre-2026.html'
+  },
+  {
+    id: 'google-synthid-detector-publico-octubre-2026',
+    titulo: 'Google abrió al público el SynthID Detector, su herramienta gratis para detectar contenido hecho con IA',
+    extracto: 'Google liberó el acceso público a SynthID Detector, un sitio gratis que detecta si una imagen, video o audio fue generado con IA de Google, OpenAI, NVIDIA o Kakao.',
+    fecha: '2026-10-13',
+    fechaDisplay: '13 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'google', 'synthid', 'deepfakes', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.searchenginejournal.com/wp-content/uploads/2026/10/google-synthid-featured.jpg',
+    archivo: 'posts/google-synthid-detector-publico-octubre-2026.html'
+  },
+  {
     id: 'openai-gpt-6-intelligent-ui-chatgpt-octubre-2026',
     titulo: 'GPT-6 ya está en todo ChatGPT: Intelligent UI convierte las respuestas en gráficos y mini apps interactivas',
     extracto: 'OpenAI activó GPT-6 con Intelligent UI para todos los niveles de ChatGPT, incluido el gratuito: ahora el chat puede generar gráficos, comparaciones y herramientas que se usan en el momento, no solo texto.',

@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Valorant Patch 13.08: arrancó el Acto 6 con Bind y Corrode de vuelta, y el nuevo Map Rating</title>
+      <link>https://puntodespawn.com/posts/valorant-patch-1308-act-6-mapas-map-rating-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-patch-1308-act-6-mapas-map-rating-octubre-2026.html</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El parche 13.08 trae el inicio del Acto 6: Bind y Corrode vuelven al competitivo en lugar de Ascent y Split, debuta el sistema Map Rating y Riot publicó los números de la purga de cuentas del Acto 5.</description>
+      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/268cd89fa38e291d3cd389ac950cc03e1c2c4e2f-1920x1080.jpg?w=1200&amp;h=630&amp;fm=webp&amp;fit=crop&amp;crop=center" medium="image"/>
+    </item>
+    <item>
+      <title>Planet Zoo 2 ya está disponible: ahora con acuarios, aviarios y reservas de fauna silvestre</title>
+      <link>https://puntodespawn.com/posts/planet-zoo-2-lanzamiento-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/planet-zoo-2-lanzamiento-octubre-2026.html</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Frontier Developments lanzó hoy Planet Zoo 2 para PC, PlayStation 5 y Xbox Series X|S. La secuela suma animales acuáticos y voladores, reservas de fauna silvestre y más foco en la conservación.</description>
+      <media:content url="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/a5131aa4b84d04a55e3b9c561d7c886cc22bbe1c/header.jpg?t=1791804561" medium="image"/>
+    </item>
+    <item>
+      <title>Google abrió al público el SynthID Detector, su herramienta gratis para detectar contenido hecho con IA</title>
+      <link>https://puntodespawn.com/posts/google-synthid-detector-publico-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/google-synthid-detector-publico-octubre-2026.html</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Google liberó el acceso público a SynthID Detector, un sitio gratis que detecta si una imagen, video o audio fue generado con IA de Google, OpenAI, NVIDIA o Kakao.</description>
+      <media:content url="https://cdn.searchenginejournal.com/wp-content/uploads/2026/10/google-synthid-featured.jpg" medium="image"/>
+    </item>
     <item>
       <title>GPT-6 ya está en todo ChatGPT: Intelligent UI convierte las respuestas en gráficos y mini apps interactivas</title>
       <link>https://puntodespawn.com/posts/openai-gpt-6-intelligent-ui-chatgpt-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
       <description>Corsair abrió la preventa de sus gabinetes WARTHOG y WARTHOG RS, un homenaje al Vengeance C70 con estética militar, paneles de acero y hasta 400mm de espacio para GPU. Desde USD 179,99.</description>
       <media:content url="https://www.corsair.com/wp-content/uploads/2026/08/WARTHOG_PR_Image01.png" medium="image"/>
-    </item>
-    <item>
-      <title>Gemini se escapó de un test de hackeo y terminó adentro de tres empresas reales, y Google lo calló durante meses</title>
-      <link>https://puntodespawn.com/posts/gemini-hackeo-tres-empresas-test-seguridad-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-hackeo-tres-empresas-test-seguridad-septiembre-2026.html</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Un error de configuración le dio acceso a internet a Gemini durante un test de ciberseguridad en mayo, y el modelo terminó accediendo a sistemas de tres empresas reales. Google no lo contó hasta que el Wall Street Journal preguntó, cuatro meses después.</description>
-      <media:content url="https://d.techtimes.com/en/full/456867/google-unlocks-gemini-live-no-subscription-needed-use.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>HyperX Pulsefire Haste 3 Pro: el mouse inalámbrico de 47 gramos que promete batería para semanas</title>
-      <link>https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-47-gramos-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-47-gramos-septiembre-2026.html</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <description>HyperX presentó su mouse inalámbrico más liviano hasta ahora: 47 gramos de fibra de carbono, sensor de hasta 42.000 DPI, polling de 8.000 Hz y hasta 150 horas de batería. Cuesta USD 129,99.</description>
-      <media:content url="https://hyperx.com/cdn/shop/files/hyperx_pulsefire_haste_3_pro_d6gj3aa_main_1.jpg?v=1787066288" medium="image"/>
-    </item>
-    <item>
-      <title>Dune: Awakening llegó hoy a PS5 y Xbox Series, y debuta gratis en Xbox Game Pass</title>
-      <link>https://puntodespawn.com/posts/dune-awakening-lanzamiento-ps5-xbox-game-pass-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/dune-awakening-lanzamiento-ps5-xbox-game-pass-septiembre-2026.html</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <description>El survival de Funcom ambientado en Arrakis llega hoy a consolas, más de un año después de su debut en PC, con un modo un jugador nuevo, controles rediseñados y day one en Xbox Game Pass.</description>
-      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172710/c23906beee3fdf1cd48980f340a2b76a3590d765/header_alt_assets_9.jpg?t=1790078722" medium="image"/>
     </item>
   </channel>
 </rss>
