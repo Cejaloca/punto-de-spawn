@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Overwatch 2: la Temporada 5 &quot;A Grim Doctrine&quot; llegó con héroe nuevo, mapa nuevo y Sombra convertida en soporte</title>
+      <link>https://puntodespawn.com/posts/overwatch-2-temporada-5-grim-doctrine-sombra-roadhog-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/overwatch-2-temporada-5-grim-doctrine-sombra-roadhog-octubre-2026.html</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La Temporada 5 de Overwatch 2 cierra el arco de Reign of Talon con Doctrine, un soporte vampírico nuevo, el mapa Grímsvötn y un rework que pasa a Sombra de daño a soporte.</description>
+      <media:content url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/m9/M97AU0J4VPW51790795209606.png" medium="image"/>
+    </item>
+    <item>
+      <title>Por qué las placas de video no paran de subir de precio: la crisis de memoria que golpea a Nvidia y AMD</title>
+      <link>https://puntodespawn.com/posts/crisis-precios-gpu-dram-nvidia-amd-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/crisis-precios-gpu-dram-nvidia-amd-octubre-2026.html</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Nvidia y AMD subieron precios varias veces en 2026 por la escasez de memoria GDDR6 y DRAM. La RTX 5090 ya se revende a más del doble de su precio de lanzamiento y no hay alivio a la vista antes de 2027.</description>
+      <media:content url="https://www.pcguide.com/wp-content/uploads/2025/02/ASUS-Radeon-RTX-9070-series-GPU-in-hand-with-MSI-RTX-5070-Ti-splitscreen.jpg" medium="image"/>
+    </item>
     <item>
       <title>Valorant Patch 13.08: arrancó el Acto 6 con Bind y Corrode de vuelta, y el nuevo Map Rating</title>
       <link>https://puntodespawn.com/posts/valorant-patch-1308-act-6-mapas-map-rating-octubre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
       <description>Claude Opus 5.5 rinde a la altura de Claude Fable 5.1, cuesta 40% menos que Opus 5 y estrena las salvaguardas de ciberseguridad y biología más estrictas que tuvo nunca un modelo Opus.</description>
       <media:content url="https://9to5mac.com/wp-content/uploads/sites/6/2026/07/claude.webp?resize=1200,628" medium="image"/>
-    </item>
-    <item>
-      <title>Juegos gratis de la semana: Epic regala Astrea: Six-Sided Oracles y Mechabellum, Prime Gaming cierra septiembre con High on Life y Hue</title>
-      <link>https://puntodespawn.com/posts/ofertas-semana-epic-astrea-mechabellum-prime-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-epic-astrea-mechabellum-prime-septiembre-2026.html</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Desde el 24 de septiembre, Epic Games Store cambia su gratis semanal por un roguelite de dados y un auto-battler de mechas, mientras Prime Gaming libera la última tanda de su catálogo mensual.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1755830/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Corsair WARTHOG: el gabinete &quot;militar&quot; heredero del clásico Vengeance C70 ya está en preventa</title>
-      <link>https://puntodespawn.com/posts/corsair-warthog-gabinete-gamer-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/corsair-warthog-gabinete-gamer-septiembre-2026.html</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Corsair abrió la preventa de sus gabinetes WARTHOG y WARTHOG RS, un homenaje al Vengeance C70 con estética militar, paneles de acero y hasta 400mm de espacio para GPU. Desde USD 179,99.</description>
-      <media:content url="https://www.corsair.com/wp-content/uploads/2026/08/WARTHOG_PR_Image01.png" medium="image"/>
     </item>
   </channel>
 </rss>

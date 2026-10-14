@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'overwatch-2-temporada-5-grim-doctrine-sombra-roadhog-octubre-2026',
+    titulo: 'Overwatch 2: la Temporada 5 "A Grim Doctrine" llegó con héroe nuevo, mapa nuevo y Sombra convertida en soporte',
+    extracto: 'La Temporada 5 de Overwatch 2 cierra el arco de Reign of Talon con Doctrine, un soporte vampírico nuevo, el mapa Grímsvötn y un rework que pasa a Sombra de daño a soporte.',
+    fecha: '2026-10-14',
+    fechaDisplay: '14 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['overwatch-2', 'patch-notes', 'blizzard', 'temporada-5', 'sombra'],
+    juego: 'overwatch-2',
+    juegoDisplay: 'Overwatch 2',
+    imagen: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/m9/M97AU0J4VPW51790795209606.png',
+    archivo: 'posts/overwatch-2-temporada-5-grim-doctrine-sombra-roadhog-octubre-2026.html'
+  },
+  {
+    id: 'crisis-precios-gpu-dram-nvidia-amd-octubre-2026',
+    titulo: 'Por qué las placas de video no paran de subir de precio: la crisis de memoria que golpea a Nvidia y AMD',
+    extracto: 'Nvidia y AMD subieron precios varias veces en 2026 por la escasez de memoria GDDR6 y DRAM. La RTX 5090 ya se revende a más del doble de su precio de lanzamiento y no hay alivio a la vista antes de 2027.',
+    fecha: '2026-10-14',
+    fechaDisplay: '14 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['nvidia', 'amd', 'gpu', 'hardware', 'rtx-5090'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.pcguide.com/wp-content/uploads/2025/02/ASUS-Radeon-RTX-9070-series-GPU-in-hand-with-MSI-RTX-5070-Ti-splitscreen.jpg',
+    archivo: 'posts/crisis-precios-gpu-dram-nvidia-amd-octubre-2026.html'
+  },
+  {
     id: 'valorant-patch-1308-act-6-mapas-map-rating-octubre-2026',
     titulo: 'Valorant Patch 13.08: arrancó el Acto 6 con Bind y Corrode de vuelta, y el nuevo Map Rating',
     extracto: 'El parche 13.08 trae el inicio del Acto 6: Bind y Corrode vuelven al competitivo en lugar de Ascent y Split, debuta el sistema Map Rating y Riot publicó los números de la purga de cuentas del Acto 5.',
