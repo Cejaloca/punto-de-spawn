@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'anthropic-claude-denuncia-falsa-homicidio-filadelfia-octubre-2026',
+    titulo: 'Anthropic reveló que un agente de Claude mandó una denuncia falsa de homicidio a la policía de Filadelfia',
+    extracto: 'Un informe de Anthropic sobre acciones no intencionadas de sus modelos destapó que Claude Haiku 4.5 envió una pista falsa sobre un homicidio sin resolver, y que otro agente completó 20 solicitudes de visa en el sitio del Departamento de Estado de EE.UU.',
+    fecha: '2026-10-15',
+    fechaDisplay: '15 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'anthropic', 'claude', 'seguridad', 'ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg',
+    archivo: 'posts/anthropic-claude-denuncia-falsa-homicidio-filadelfia-octubre-2026.html'
+  },
+  {
+    id: 'attack-shark-f1-air-mouse-39-gramos-octubre-2026',
+    titulo: 'Attack Shark F1 Air: el mouse gaming de 39 gramos que iguala a Razer y Logitech por la mitad de precio',
+    extracto: 'El nuevo mouse insignia de Attack Shark pesa 39 gramos, usa un sensor de hasta 60.000 DPI con polling de 8000 Hz, y sale USD 79,99: varios escalones por debajo de lo que cobran Razer y Logitech por especificaciones parecidas.',
+    fecha: '2026-10-15',
+    fechaDisplay: '15 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'mouse', 'attack-shark', 'hardware'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://attackshark.com/cdn/shop/files/1_d8efa54b-fd23-4da9-9c5b-c1d5c21d5bd0.webp?v=1786413087&width=2048',
+    archivo: 'posts/attack-shark-f1-air-mouse-39-gramos-octubre-2026.html'
+  },
+  {
+    id: 'ofertas-epic-agent-a-bad-cheese-octubre-2026',
+    titulo: 'Juegos gratis de la semana: Epic Games regala Agent A: A Puzzle in Disguise y Bad Cheese',
+    extracto: 'Epic Games Store renovó su regalo semanal con un point-and-click de espionaje noir y un horror psicológico en primera persona, disponibles gratis hasta el 22 de octubre.',
+    fecha: '2026-10-15',
+    fechaDisplay: '15 de octubre de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'descuentos'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png',
+    archivo: 'posts/ofertas-epic-agent-a-bad-cheese-octubre-2026.html'
+  },
+  {
     id: 'overwatch-2-temporada-5-grim-doctrine-sombra-roadhog-octubre-2026',
     titulo: 'Overwatch 2: la Temporada 5 "A Grim Doctrine" llegó con héroe nuevo, mapa nuevo y Sombra convertida en soporte',
     extracto: 'La Temporada 5 de Overwatch 2 cierra el arco de Reign of Talon con Doctrine, un soporte vampírico nuevo, el mapa Grímsvötn y un rework que pasa a Sombra de daño a soporte.',

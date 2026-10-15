@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Anthropic reveló que un agente de Claude mandó una denuncia falsa de homicidio a la policía de Filadelfia</title>
+      <link>https://puntodespawn.com/posts/anthropic-claude-denuncia-falsa-homicidio-filadelfia-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-claude-denuncia-falsa-homicidio-filadelfia-octubre-2026.html</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Un informe de Anthropic sobre acciones no intencionadas de sus modelos destapó que Claude Haiku 4.5 envió una pista falsa sobre un homicidio sin resolver, y que otro agente completó 20 solicitudes de visa en el sitio del Departamento de Estado de EE.UU.</description>
+      <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Attack Shark F1 Air: el mouse gaming de 39 gramos que iguala a Razer y Logitech por la mitad de precio</title>
+      <link>https://puntodespawn.com/posts/attack-shark-f1-air-mouse-39-gramos-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/attack-shark-f1-air-mouse-39-gramos-octubre-2026.html</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El nuevo mouse insignia de Attack Shark pesa 39 gramos, usa un sensor de hasta 60.000 DPI con polling de 8000 Hz, y sale USD 79,99: varios escalones por debajo de lo que cobran Razer y Logitech por especificaciones parecidas.</description>
+      <media:content url="https://attackshark.com/cdn/shop/files/1_d8efa54b-fd23-4da9-9c5b-c1d5c21d5bd0.webp?v=1786413087&amp;width=2048" medium="image"/>
+    </item>
+    <item>
+      <title>Juegos gratis de la semana: Epic Games regala Agent A: A Puzzle in Disguise y Bad Cheese</title>
+      <link>https://puntodespawn.com/posts/ofertas-epic-agent-a-bad-cheese-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-epic-agent-a-bad-cheese-octubre-2026.html</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Epic Games Store renovó su regalo semanal con un point-and-click de espionaje noir y un horror psicológico en primera persona, disponibles gratis hasta el 22 de octubre.</description>
+      <media:content url="https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png" medium="image"/>
+    </item>
     <item>
       <title>Overwatch 2: la Temporada 5 &quot;A Grim Doctrine&quot; llegó con héroe nuevo, mapa nuevo y Sombra convertida en soporte</title>
       <link>https://puntodespawn.com/posts/overwatch-2-temporada-5-grim-doctrine-sombra-roadhog-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <description>El lanzamiento mundial llegó hoy a PS5, Xbox, PC, Switch 2 y por primera vez a Epic Games Store. La gran novedad es The Grounds, un espacio social de fútbol callejero, pero las reviews hablan de poca diferencia con FC 26 y bugs de optimización.</description>
       <media:content url="https://upload.wikimedia.org/wikipedia/en/4/48/FC_27_Cover.png" medium="image"/>
-    </item>
-    <item>
-      <title>Claude descubrió en soledad un sistema enzimático nuevo con repeticiones al estilo CRISPR</title>
-      <link>https://puntodespawn.com/posts/claude-descubre-enzima-art-crispr-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-descubre-enzima-art-crispr-septiembre-2026.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>En el primer resultado del laboratorio de biología de Anthropic, casi 950 agentes de Claude analizaron 1.900 millones de clústeres de proteínas en 21 horas y uno de ellos notó un patrón que ningún científico había visto antes.</description>
-      <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Logitech G PLAY 2026: la nueva línea PRO X3 y el Yeti 2, el micrófono que se ajusta solo mientras streameás</title>
-      <link>https://puntodespawn.com/posts/logitech-g-play-2026-pro-x3-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/logitech-g-play-2026-pro-x3-septiembre-2026.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Logitech G mostró 15 productos nuevos: el mouse PRO X3 SUPERSTRIKE, el teclado PRO X2 RAPID con switches magnéticos, el headset PRO X3 LIGHTSPEED y un Yeti 2 con sensor de proximidad y reducción de ruido por IA.</description>
-      <media:content url="https://s24.q4cdn.com/131595232/files/doc_multimedia/2026/9/1011569728/LGP_NPIs_2026_No_Product_Names_16x9-1.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Anthropic lanzó Claude Opus 5.5, el primer modelo tras el llamado a &quot;frenar la carrera de la IA&quot;</title>
-      <link>https://puntodespawn.com/posts/claude-opus-55-lanzamiento-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-opus-55-lanzamiento-septiembre-2026.html</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Claude Opus 5.5 rinde a la altura de Claude Fable 5.1, cuesta 40% menos que Opus 5 y estrena las salvaguardas de ciberseguridad y biología más estrictas que tuvo nunca un modelo Opus.</description>
-      <media:content url="https://9to5mac.com/wp-content/uploads/sites/6/2026/07/claude.webp?resize=1200,628" medium="image"/>
     </item>
   </channel>
 </rss>
