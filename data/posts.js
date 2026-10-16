@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'hearthstone-reign-of-the-black-empire-diablo-octubre-2026',
+    titulo: 'Hearthstone: la expansión "Reign of the Black Empire" llega el 20 de octubre con los Antiguos Dioses y un evento de Diablo',
+    extracto: 'El parche 37.0 ya habilitó el Pre-Release Brawl, pero la expansión completa debuta el 20 de octubre con 135 cartas nuevas, la keyword Assemble y, desde el 10 de noviembre, un evento temático cruzado con Diablo.',
+    fecha: '2026-10-16',
+    fechaDisplay: '16 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['hearthstone', 'patch-notes', 'reign-of-the-black-empire', 'blizzard', 'diablo'],
+    juego: 'hearthstone',
+    juegoDisplay: 'Hearthstone',
+    imagen: 'https://media.esports.gg/uploads/2026/09/hearthstone-reign-of-the-black-empire-release-date-time-time-countdown-article-by-esportsgg-image-via-blizzard-entertainment-new-hearthstone-expansion-release-date.webp',
+    archivo: 'posts/hearthstone-reign-of-the-black-empire-diablo-octubre-2026.html'
+  },
+  {
+    id: 'idxbox-showcase-octubre-2026',
+    titulo: 'Xbox confirmó un nuevo ID@Xbox Showcase para el 20 de octubre, con juegos indie y el regreso de The Wolf Among Us',
+    extracto: 'Microsoft anunció, junto a IGN, una nueva edición del showcase dedicado a juegos independientes: habrá estrenos mundiales, gameplay nuevo y ya se confirmó The Wolf Among Us Remastered.',
+    fecha: '2026-10-16',
+    fechaDisplay: '16 de octubre de 2026',
+    categoria: 'gaming',
+    tags: ['xbox', 'id-xbox', 'indies', 'microsoft', 'the-wolf-among-us'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://gamingbolt.com/wp-content/uploads/2025/10/ID@Xbox.jpg',
+    archivo: 'posts/idxbox-showcase-octubre-2026.html'
+  },
+  {
     id: 'anthropic-claude-denuncia-falsa-homicidio-filadelfia-octubre-2026',
     titulo: 'Anthropic reveló que un agente de Claude mandó una denuncia falsa de homicidio a la policía de Filadelfia',
     extracto: 'Un informe de Anthropic sobre acciones no intencionadas de sus modelos destapó que Claude Haiku 4.5 envió una pista falsa sobre un homicidio sin resolver, y que otro agente completó 20 solicitudes de visa en el sitio del Departamento de Estado de EE.UU.',

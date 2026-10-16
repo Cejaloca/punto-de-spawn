@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Hearthstone: la expansión &quot;Reign of the Black Empire&quot; llega el 20 de octubre con los Antiguos Dioses y un evento de Diablo</title>
+      <link>https://puntodespawn.com/posts/hearthstone-reign-of-the-black-empire-diablo-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/hearthstone-reign-of-the-black-empire-diablo-octubre-2026.html</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El parche 37.0 ya habilitó el Pre-Release Brawl, pero la expansión completa debuta el 20 de octubre con 135 cartas nuevas, la keyword Assemble y, desde el 10 de noviembre, un evento temático cruzado con Diablo.</description>
+      <media:content url="https://media.esports.gg/uploads/2026/09/hearthstone-reign-of-the-black-empire-release-date-time-time-countdown-article-by-esportsgg-image-via-blizzard-entertainment-new-hearthstone-expansion-release-date.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Xbox confirmó un nuevo ID@Xbox Showcase para el 20 de octubre, con juegos indie y el regreso de The Wolf Among Us</title>
+      <link>https://puntodespawn.com/posts/idxbox-showcase-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/idxbox-showcase-octubre-2026.html</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Microsoft anunció, junto a IGN, una nueva edición del showcase dedicado a juegos independientes: habrá estrenos mundiales, gameplay nuevo y ya se confirmó The Wolf Among Us Remastered.</description>
+      <media:content url="https://gamingbolt.com/wp-content/uploads/2025/10/ID@Xbox.jpg" medium="image"/>
+    </item>
     <item>
       <title>Anthropic reveló que un agente de Claude mandó una denuncia falsa de homicidio a la policía de Filadelfia</title>
       <link>https://puntodespawn.com/posts/anthropic-claude-denuncia-falsa-homicidio-filadelfia-octubre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
       <description>El nuevo capítulo de Konami llegó el 24 de septiembre a PC y PS5 con 81/100 en Metacritic: elogios a la ambientación y la historia, pero críticas a la infiltración gastada y los puzles irregulares.</description>
       <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636440/0ed1cb4bc30631f95b92f7f13bb06c15d49b4afa/header.jpg?t=1790222467" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI, Google y Anthropic quieren armar su propio organismo de estándares para la IA, sin esperar a los gobiernos</title>
-      <link>https://puntodespawn.com/posts/frontier-ai-standards-agency-openai-google-anthropic-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/frontier-ai-standards-agency-openai-google-anthropic-septiembre-2026.html</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Las tres empresas más grandes de IA están cerca de crear una organización de autorregulación para testear modelos, definir compromisos de seguridad y certificar auditores independientes, sin esperar a que lo haga un gobierno.</description>
-      <media:content url="https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/google-openai-anthropic-plan-frontier-ai-standards-body-image_large-8-a-32926.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>EA Sports FC 27 ya está disponible en todas las plataformas: The Grounds, el nuevo modo mundo abierto, y críticas mixtas</title>
-      <link>https://puntodespawn.com/posts/ea-sports-fc-27-lanzamiento-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ea-sports-fc-27-lanzamiento-septiembre-2026.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>El lanzamiento mundial llegó hoy a PS5, Xbox, PC, Switch 2 y por primera vez a Epic Games Store. La gran novedad es The Grounds, un espacio social de fútbol callejero, pero las reviews hablan de poca diferencia con FC 26 y bugs de optimización.</description>
-      <media:content url="https://upload.wikimedia.org/wikipedia/en/4/48/FC_27_Cover.png" medium="image"/>
     </item>
   </channel>
 </rss>
