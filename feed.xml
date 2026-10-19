@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Rockstar lanzó el tráiler de lanzamiento de GTA 6 y confirmó el estreno para el 19 de noviembre</title>
+      <link>https://puntodespawn.com/posts/gta-6-trailer-lanzamiento-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gta-6-trailer-lanzamiento-noviembre-2026.html</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El estudio sorprendió sin aviso previo con un video de minuto y medio que profundiza en el pasado militar de Jason, su relación con Lucia y el regreso a Vice City dentro de Leonida.</description>
+      <media:content url="https://www.svg.com/img/gallery/gta-6-launch-trailer/l-intro-1792071213.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Marvel Rivals estrena el evento de Halloween \u201cAll Hallows\u2019 Glow\u201d con skins de Scarlet Witch, Invisible Woman y Hela</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-halloween-all-hallows-glow-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-halloween-all-hallows-glow-octubre-2026.html</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El parche del 15 de octubre trajo el evento temático hasta el 13 de noviembre, con un traje gratis de Rocket Raccoon, skins premium nuevas y descuentos especiales en la tienda.</description>
+      <media:content url="https://static.beebom.com/wp-content/uploads/2026/10/Invisible-Woman-Halloween-skin-in-Marvel-Rivals.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>ChatGPT ya tiene anuncios visuales: cómo te elige los avisos y qué datos tuyos usa</title>
+      <link>https://puntodespawn.com/posts/chatgpt-anuncios-visuales-privacidad-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/chatgpt-anuncios-visuales-privacidad-octubre-2026.html</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI empezó a mostrar banners publicitarios junto a las imágenes que generás en ChatGPT, con un sistema de segmentación que usa tus chats, tu ubicación y tu historial con otros anuncios.</description>
+      <media:content url="https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200" medium="image"/>
+    </item>
     <item>
       <title>Hearthstone: la expansión &quot;Reign of the Black Empire&quot; llega el 20 de octubre con los Antiguos Dioses y un evento de Diablo</title>
       <link>https://puntodespawn.com/posts/hearthstone-reign-of-the-black-empire-diablo-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
       <description>CD Projekt Red lanzó hoy el remaster gratuito de The Witcher 3 en PC, PS5, Xbox Series y Switch 2. Con 94 en Metacritic, superó al original de 2015 y es el título mejor puntuado del año.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Anthropic lanzó el Claude Marketplace: más de 2.000 conectores y plugins en un solo lugar</title>
-      <link>https://puntodespawn.com/posts/claude-marketplace-conectores-plugins-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-marketplace-conectores-plugins-septiembre-2026.html</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <description>La nueva tienda de Claude reúne más de 2.000 conectores y plugins de empresas como Microsoft, Google, Salesforce y Notion, además de agentes propios de partners como Cursor y Snowflake.</description>
-      <media:content url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690515665479bb5c903bedd8_og_evaluate-prompts.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Minecraft Dungeons II ya está disponible: día uno en Game Pass y reviews de &quot;más de lo mismo, pero mejor&quot;</title>
-      <link>https://puntodespawn.com/posts/minecraft-dungeons-2-lanzamiento-reviews-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/minecraft-dungeons-2-lanzamiento-reviews-septiembre-2026.html</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <description>La secuela del dungeon crawler de Mojang llegó hoy a Xbox, PlayStation 5, Switch 2 y PC con 76 en Metacritic. Mejor combate y más contenido post-game, aunque la crítica pide más riesgo.</description>
-      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/header.jpg?t=1789572111" medium="image"/>
-    </item>
-    <item>
-      <title>Silent Hill: Townfall ya está disponible: por qué la crítica lo puntúa bien pero lo ve por debajo de los últimos juegos de la saga</title>
-      <link>https://puntodespawn.com/posts/silent-hill-townfall-lanzamiento-reviews-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/silent-hill-townfall-lanzamiento-reviews-septiembre-2026.html</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-      <description>El nuevo capítulo de Konami llegó el 24 de septiembre a PC y PS5 con 81/100 en Metacritic: elogios a la ambientación y la historia, pero críticas a la infiltración gastada y los puzles irregulares.</description>
-      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636440/0ed1cb4bc30631f95b92f7f13bb06c15d49b4afa/header.jpg?t=1790222467" medium="image"/>
     </item>
   </channel>
 </rss>

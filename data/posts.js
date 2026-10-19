@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'gta-6-trailer-lanzamiento-noviembre-2026',
+    titulo: 'Rockstar lanzó el tráiler de lanzamiento de GTA 6 y confirmó el estreno para el 19 de noviembre',
+    extracto: 'El estudio sorprendió sin aviso previo con un video de minuto y medio que profundiza en el pasado militar de Jason, su relación con Lucia y el regreso a Vice City dentro de Leonida.',
+    fecha: '2026-10-19',
+    fechaDisplay: '19 de octubre de 2026',
+    categoria: 'gaming',
+    tags: ['gta-6', 'rockstar-games', 'take-two', 'lanzamientos', 'ps5', 'xbox-series'],
+    juego: 'gta-6',
+    juegoDisplay: 'GTA 6',
+    imagen: 'https://www.svg.com/img/gallery/gta-6-launch-trailer/l-intro-1792071213.jpg',
+    archivo: 'posts/gta-6-trailer-lanzamiento-noviembre-2026.html'
+  },
+  {
+    id: 'marvel-rivals-halloween-all-hallows-glow-octubre-2026',
+    titulo: "Marvel Rivals estrena el evento de Halloween \u201cAll Hallows\u2019 Glow\u201d con skins de Scarlet Witch, Invisible Woman y Hela",
+    extracto: 'El parche del 15 de octubre trajo el evento temático hasta el 13 de noviembre, con un traje gratis de Rocket Raccoon, skins premium nuevas y descuentos especiales en la tienda.',
+    fecha: '2026-10-19',
+    fechaDisplay: '19 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['marvel-rivals', 'patch-notes', 'halloween', 'netease-games', 'skins'],
+    juego: 'marvel-rivals',
+    juegoDisplay: 'Marvel Rivals',
+    imagen: 'https://static.beebom.com/wp-content/uploads/2026/10/Invisible-Woman-Halloween-skin-in-Marvel-Rivals.jpg',
+    archivo: 'posts/marvel-rivals-halloween-all-hallows-glow-octubre-2026.html'
+  },
+  {
+    id: 'chatgpt-anuncios-visuales-privacidad-octubre-2026',
+    titulo: 'ChatGPT ya tiene anuncios visuales: cómo te elige los avisos y qué datos tuyos usa',
+    extracto: 'OpenAI empezó a mostrar banners publicitarios junto a las imágenes que generás en ChatGPT, con un sistema de segmentación que usa tus chats, tu ubicación y tu historial con otros anuncios.',
+    fecha: '2026-10-19',
+    fechaDisplay: '19 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'chatgpt', 'openai', 'privacidad', 'publicidad'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200',
+    archivo: 'posts/chatgpt-anuncios-visuales-privacidad-octubre-2026.html'
+  },
+  {
     id: 'hearthstone-reign-of-the-black-empire-diablo-octubre-2026',
     titulo: 'Hearthstone: la expansión "Reign of the Black Empire" llega el 20 de octubre con los Antiguos Dioses y un evento de Diablo',
     extracto: 'El parche 37.0 ya habilitó el Pre-Release Brawl, pero la expansión completa debuta el 20 de octubre con 135 cartas nuevas, la keyword Assemble y, desde el 10 de noviembre, un evento temático cruzado con Diablo.',
