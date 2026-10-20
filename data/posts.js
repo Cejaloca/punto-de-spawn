@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'loud-campeon-valorant-champions-shanghai-2026',
+    titulo: 'LOUD volvió a ser campeón del mundo: se quedó con el VALORANT Champions Shanghai 2026',
+    extracto: 'El equipo brasileño venció 3-1 a Team Vitality en la gran final de Shanghai y volvió a lo más alto de Valorant cuatro años después de su primer título mundial.',
+    fecha: '2026-10-20',
+    fechaDisplay: '20 de octubre de 2026',
+    categoria: 'gaming',
+    tags: ['valorant', 'esports', 'loud', 'valorant-champions', 'riot-games'],
+    juego: 'valorant',
+    juegoDisplay: 'Valorant',
+    imagen: 'https://cdn.thespike.gg/.Bruno%2520Povoleri%2Fvalorant-loud-organiza%C3%A7%C3%A3o-duas-finais-champions_1792144577469.jpg',
+    archivo: 'posts/loud-campeon-valorant-champions-shanghai-2026.html'
+  },
+  {
+    id: 'razer-barracuda-v2-pro-auriculares-octubre-2026',
+    titulo: 'Razer presentó el Barracuda V2 Pro: auriculares inalámbricos con 70 horas de batería y ANC híbrida por USD 199,99',
+    extracto: 'El nuevo tope de gama de la línea Barracuda suma cancelación de ruido híbrida, conexión simultánea por HyperSpeed y Bluetooth, y sonido espacial THX para PC.',
+    fecha: '2026-10-20',
+    fechaDisplay: '20 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'auriculares', 'razer', 'hardware'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://assets2.razerzone.com/images/pnx.assets/773b9ef9d4f1eab6b042673af6ba8893/razer-barracuda-v2-og-1200x630.webp',
+    archivo: 'posts/razer-barracuda-v2-pro-auriculares-octubre-2026.html'
+  },
+  {
     id: 'gta-6-trailer-lanzamiento-noviembre-2026',
     titulo: 'Rockstar lanzó el tráiler de lanzamiento de GTA 6 y confirmó el estreno para el 19 de noviembre',
     extracto: 'El estudio sorprendió sin aviso previo con un video de minuto y medio que profundiza en el pasado militar de Jason, su relación con Lucia y el regreso a Vice City dentro de Leonida.',

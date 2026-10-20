@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>LOUD volvió a ser campeón del mundo: se quedó con el VALORANT Champions Shanghai 2026</title>
+      <link>https://puntodespawn.com/posts/loud-campeon-valorant-champions-shanghai-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/loud-campeon-valorant-champions-shanghai-2026.html</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El equipo brasileño venció 3-1 a Team Vitality en la gran final de Shanghai y volvió a lo más alto de Valorant cuatro años después de su primer título mundial.</description>
+      <media:content url="https://cdn.thespike.gg/.Bruno%2520Povoleri%2Fvalorant-loud-organiza%C3%A7%C3%A3o-duas-finais-champions_1792144577469.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Razer presentó el Barracuda V2 Pro: auriculares inalámbricos con 70 horas de batería y ANC híbrida por USD 199,99</title>
+      <link>https://puntodespawn.com/posts/razer-barracuda-v2-pro-auriculares-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/razer-barracuda-v2-pro-auriculares-octubre-2026.html</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El nuevo tope de gama de la línea Barracuda suma cancelación de ruido híbrida, conexión simultánea por HyperSpeed y Bluetooth, y sonido espacial THX para PC.</description>
+      <media:content url="https://assets2.razerzone.com/images/pnx.assets/773b9ef9d4f1eab6b042673af6ba8893/razer-barracuda-v2-og-1200x630.webp" medium="image"/>
+    </item>
     <item>
       <title>Rockstar lanzó el tráiler de lanzamiento de GTA 6 y confirmó el estreno para el 19 de noviembre</title>
       <link>https://puntodespawn.com/posts/gta-6-trailer-lanzamiento-noviembre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
       <description>OpenAI presentó más de 20 novedades en su DevDay 2026: un modelo más barato que su buque insignia cancelado, agentes persistentes que siguen trabajando con la app cerrada, y tres niveles de Pro, el más caro a USD 500 mensuales.</description>
       <media:content url="https://images.ctfassets.net/kftzwdyauwt9/6E6hS38rOnhhKPPmfUflDh/bbcf20b5fc6f99478187ec5dcbd491d1/DevDay_Blog_ArtCard_16x9.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
-    </item>
-    <item>
-      <title>NVIDIA RTX Spark: el chip que promete correr IA local y jugar a 1440p a más de 100 FPS llega en octubre</title>
-      <link>https://puntodespawn.com/posts/nvidia-rtx-spark-lanzamiento-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-rtx-spark-lanzamiento-octubre-2026.html</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
-      <description>RTX Spark es el nuevo SoC de NVIDIA y MediaTek para notebooks y mini PCs con Windows: hasta 128 GB de memoria unificada, GPU Blackwell y la promesa de correr IA local y títulos AAA en la misma máquina.</description>
-      <media:content url="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/news/computex-2026-nvidia-geforce-rtx-announcements/computex-2026-nvidia-geforce-rtx-announcements-ogimage.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>The Witcher 3: Wild Hunt — Remastered ya está disponible y es el juego mejor puntuado de 2026</title>
-      <link>https://puntodespawn.com/posts/witcher-3-remastered-reviews-septiembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/witcher-3-remastered-reviews-septiembre-2026.html</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <description>CD Projekt Red lanzó hoy el remaster gratuito de The Witcher 3 en PC, PS5, Xbox Series y Switch 2. Con 94 en Metacritic, superó al original de 2015 y es el título mejor puntuado del año.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
