@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>League of Legends: el parche 26.21 llega con nerfs a Yone y Lee Sin, y ajustes a Locke y Taric</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2621-locke-taric-worlds-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2621-locke-taric-worlds-octubre-2026.html</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El primer parche post-Worlds ya está en vivo: buffs para Azir, Darius y Orianna, nerfs para Yone, Lee Sin y Qiyana, y cambios en Bastionbreaker y Dawncore.</description>
+      <media:content url="https://wp-prod.bigbrain.gg/wp-content/uploads/2026/10/9b02404e478143a3313dbd374e938ced7d4f3826-1920x1080-1.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Juegos gratis de la semana: Epic Games regala Home y Sker Ritual</title>
+      <link>https://puntodespawn.com/posts/ofertas-epic-home-sker-ritual-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-epic-home-sker-ritual-octubre-2026.html</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Epic Games Store renueva su regalo semanal con un clásico del horror pixel-art de 2012 y un shooter cooperativo de hordas contra zombis, gratis desde el 22 de octubre.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1492070/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Alienware presentó dos monitores OLED: un 4K de 165 Hz a USD 699 y un esports de 560 Hz</title>
+      <link>https://puntodespawn.com/posts/alienware-aw3226q-aw2527hx-monitores-oled-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/alienware-aw3226q-aw2527hx-monitores-oled-octubre-2026.html</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El AW3226Q es un 4K de 31.5 pulgadas con panel Tandem WOLED y llega en USD 699,99, mientras que el AW2527HX es un QD-OLED de 24.5 pulgadas con 560 Hz pensado para esports.</description>
+      <media:content url="https://pcmonitors.info/wp-content/uploads/2026/08/Dell-Alienware-AW3226Q-front.jpg" medium="image"/>
+    </item>
     <item>
       <title>LOUD volvió a ser campeón del mundo: se quedó con el VALORANT Champions Shanghai 2026</title>
       <link>https://puntodespawn.com/posts/loud-campeon-valorant-champions-shanghai-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
       <description>En BlizzCon 2026, Blizzard reveló que Diablo V llega en la primavera de 2029 con Diablo mismo como antagonista. Diablo IV sigue vivo, pero sin expansiones nuevas: todo lo que viene es contenido de temporada.</description>
       <media:content url="https://static.icy-veins.com/wp/wp-content/uploads/2026/09/diablo-5.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Prime Gaming octubre: las próximas entregas traen Fallout New Vegas, Fallout 3 y XCOM 2 gratis</title>
-      <link>https://puntodespawn.com/posts/prime-gaming-octubre-2026-fallout-xcom-vampire.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/prime-gaming-octubre-2026-fallout-xcom-vampire.html</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Después de arrancar octubre con DOOM y Five Nights at Freddy's, Prime Gaming confirmó el resto del mes: XCOM 2, Fallout New Vegas Ultimate, Fallout 3 GOTY, Vampire: The Masquerade y más, repartidos en cuatro tandas.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/22380/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Ofertas de la semana: Steam arrancó sus Rebajas de Otoño y Epic regala System Shock 2 y Buried Stars</title>
-      <link>https://puntodespawn.com/posts/ofertas-semana-steam-autumn-epic-system-shock-2-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-steam-autumn-epic-system-shock-2-octubre-2026.html</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
-      <description>La Steam Autumn Sale llega con descuentos de hasta 90% hasta el 8 de octubre, mientras Epic Games Store regala el remaster de System Shock 2 y el thriller narrativo Buried Stars hasta esa misma fecha.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/866570/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI DevDay 2026: GPT-6.1 Sol, los agentes &quot;Dots&quot; que trabajan solos, y un plan Pro de USD 500 por mes</title>
-      <link>https://puntodespawn.com/posts/openai-devday-2026-gpt-61-sol-dots-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-devday-2026-gpt-61-sol-dots-octubre-2026.html</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI presentó más de 20 novedades en su DevDay 2026: un modelo más barato que su buque insignia cancelado, agentes persistentes que siguen trabajando con la app cerrada, y tres niveles de Pro, el más caro a USD 500 mensuales.</description>
-      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/6E6hS38rOnhhKPPmfUflDh/bbcf20b5fc6f99478187ec5dcbd491d1/DevDay_Blog_ArtCard_16x9.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
     </item>
   </channel>
 </rss>

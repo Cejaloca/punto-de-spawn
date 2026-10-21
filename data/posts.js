@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'lol-parche-2621-locke-taric-worlds-octubre-2026',
+    titulo: 'League of Legends: el parche 26.21 llega con nerfs a Yone y Lee Sin, y ajustes a Locke y Taric',
+    extracto: 'El primer parche post-Worlds ya está en vivo: buffs para Azir, Darius y Orianna, nerfs para Yone, Lee Sin y Qiyana, y cambios en Bastionbreaker y Dawncore.',
+    fecha: '2026-10-21',
+    fechaDisplay: '21 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['league-of-legends', 'patch-notes', 'riot-games', 'worlds'],
+    juego: 'league-of-legends',
+    juegoDisplay: 'League of Legends',
+    imagen: 'https://wp-prod.bigbrain.gg/wp-content/uploads/2026/10/9b02404e478143a3313dbd374e938ced7d4f3826-1920x1080-1.webp',
+    archivo: 'posts/lol-parche-2621-locke-taric-worlds-octubre-2026.html'
+  },
+  {
+    id: 'ofertas-epic-home-sker-ritual-octubre-2026',
+    titulo: 'Juegos gratis de la semana: Epic Games regala Home y Sker Ritual',
+    extracto: 'Epic Games Store renueva su regalo semanal con un clásico del horror pixel-art de 2012 y un shooter cooperativo de hordas contra zombis, gratis desde el 22 de octubre.',
+    fecha: '2026-10-21',
+    fechaDisplay: '21 de octubre de 2026',
+    categoria: 'ofertas',
+    tags: ['epic-games', 'gratis', 'ofertas', 'descuentos'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1492070/header.jpg',
+    archivo: 'posts/ofertas-epic-home-sker-ritual-octubre-2026.html'
+  },
+  {
+    id: 'alienware-aw3226q-aw2527hx-monitores-oled-octubre-2026',
+    titulo: 'Alienware presentó dos monitores OLED: un 4K de 165 Hz a USD 699 y un esports de 560 Hz',
+    extracto: 'El AW3226Q es un 4K de 31.5 pulgadas con panel Tandem WOLED y llega en USD 699,99, mientras que el AW2527HX es un QD-OLED de 24.5 pulgadas con 560 Hz pensado para esports.',
+    fecha: '2026-10-21',
+    fechaDisplay: '21 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'monitores', 'alienware', 'dell', 'oled', 'hardware'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://pcmonitors.info/wp-content/uploads/2026/08/Dell-Alienware-AW3226Q-front.jpg',
+    archivo: 'posts/alienware-aw3226q-aw2527hx-monitores-oled-octubre-2026.html'
+  },
+  {
     id: 'loud-campeon-valorant-champions-shanghai-2026',
     titulo: 'LOUD volvió a ser campeón del mundo: se quedó con el VALORANT Champions Shanghai 2026',
     extracto: 'El equipo brasileño venció 3-1 a Team Vitality en la gran final de Shanghai y volvió a lo más alto de Valorant cuatro años después de su primer título mundial.',
