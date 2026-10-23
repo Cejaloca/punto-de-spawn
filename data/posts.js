@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'claude-duet-anthropic-agente-proactivo-octubre-2026',
+    titulo: 'Anthropic lanzó Claude Duet, un agente de IA que trabaja mientras no estás',
+    extracto: 'El nuevo modo de Claude revisa tus apps conectadas cada pocas horas, te manda un resumen a la mañana y avanza tareas de días completos sin que le escribas nada — por ahora en lista de espera, solo para Pro y Max en EE.UU.',
+    fecha: '2026-10-23',
+    fechaDisplay: '23 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'claude', 'anthropic', 'agentes-ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.iphoneincanada.ca/wp-content/uploads/2026/10/claude-duet-proactive-ai-agent-app.jpg',
+    archivo: 'posts/claude-duet-anthropic-agente-proactivo-octubre-2026.html'
+  },
+  {
+    id: 'openai-orchestra-bio-rosalind-medicamentos-octubre-2026',
+    titulo: 'OpenAI compró Orchestra Bio para meter agentes de IA en el desarrollo de medicamentos',
+    extracto: 'La empresa de ChatGPT suma el equipo y la tecnología de esta startup a su unidad Rosalind, apuntando a acortar los 10 a 15 años que hoy tarda un medicamento nuevo en llegar a la aprobación.',
+    fecha: '2026-10-23',
+    fechaDisplay: '23 de octubre de 2026',
+    categoria: 'biotecnologia',
+    tags: ['inteligencia-artificial', 'biotecnologia', 'openai', 'rosalind', 'medicamentos'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://images.siliconangle.com/blogs.dir/1/files/2026/10/openaiorchestrabio.png',
+    archivo: 'posts/openai-orchestra-bio-rosalind-medicamentos-octubre-2026.html'
+  },
+  {
+    id: 'hyperx-pulsefire-haste-3-pro-mouse-octubre-2026',
+    titulo: 'HyperX Pulsefire Haste 3 Pro: el mouse de fibra de carbono de 47 gramos que le pelea a Razer por USD 150 menos',
+    extracto: 'Con sensor de hasta 42.000 DPI, polling inalámbrico de 8.000 Hz y una carcasa de fibra de carbono, el nuevo mouse de HyperX cuesta USD 129,99 — bastante menos que el Razer Viper Mini Signature Edition.',
+    fecha: '2026-10-23',
+    fechaDisplay: '23 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['perifericos', 'mouse', 'hyperx', 'hardware'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://tech-insider.org/wp-content/uploads/2026/09/hyperx-pulsefire-haste-3-pro-cloud-alpha-air-2026-1.webp',
+    archivo: 'posts/hyperx-pulsefire-haste-3-pro-mouse-octubre-2026.html'
+  },
+  {
     id: 'lol-parche-2621-locke-taric-worlds-octubre-2026',
     titulo: 'League of Legends: el parche 26.21 llega con nerfs a Yone y Lee Sin, y ajustes a Locke y Taric',
     extracto: 'El primer parche post-Worlds ya está en vivo: buffs para Azir, Darius y Orianna, nerfs para Yone, Lee Sin y Qiyana, y cambios en Bastionbreaker y Dawncore.',

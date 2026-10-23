@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Anthropic lanzó Claude Duet, un agente de IA que trabaja mientras no estás</title>
+      <link>https://puntodespawn.com/posts/claude-duet-anthropic-agente-proactivo-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-duet-anthropic-agente-proactivo-octubre-2026.html</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El nuevo modo de Claude revisa tus apps conectadas cada pocas horas, te manda un resumen a la mañana y avanza tareas de días completos sin que le escribas nada — por ahora en lista de espera, solo para Pro y Max en EE.UU.</description>
+      <media:content url="https://cdn.iphoneincanada.ca/wp-content/uploads/2026/10/claude-duet-proactive-ai-agent-app.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>OpenAI compró Orchestra Bio para meter agentes de IA en el desarrollo de medicamentos</title>
+      <link>https://puntodespawn.com/posts/openai-orchestra-bio-rosalind-medicamentos-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-orchestra-bio-rosalind-medicamentos-octubre-2026.html</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La empresa de ChatGPT suma el equipo y la tecnología de esta startup a su unidad Rosalind, apuntando a acortar los 10 a 15 años que hoy tarda un medicamento nuevo en llegar a la aprobación.</description>
+      <media:content url="https://images.siliconangle.com/blogs.dir/1/files/2026/10/openaiorchestrabio.png" medium="image"/>
+    </item>
+    <item>
+      <title>HyperX Pulsefire Haste 3 Pro: el mouse de fibra de carbono de 47 gramos que le pelea a Razer por USD 150 menos</title>
+      <link>https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-octubre-2026.html</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Con sensor de hasta 42.000 DPI, polling inalámbrico de 8.000 Hz y una carcasa de fibra de carbono, el nuevo mouse de HyperX cuesta USD 129,99 — bastante menos que el Razer Viper Mini Signature Edition.</description>
+      <media:content url="https://tech-insider.org/wp-content/uploads/2026/09/hyperx-pulsefire-haste-3-pro-cloud-alpha-air-2026-1.webp" medium="image"/>
+    </item>
     <item>
       <title>League of Legends: el parche 26.21 llega con nerfs a Yone y Lee Sin, y ajustes a Locke y Taric</title>
       <link>https://puntodespawn.com/posts/lol-parche-2621-locke-taric-worlds-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
       <description>El nuevo modelo insignia de Google bate récords en benchmarks de programación y seguridad, pero arranca en acceso limitado a través del Fairwind Program antes de llegar a la API paga y a Google AI Ultra.</description>
       <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png" medium="image"/>
-    </item>
-    <item>
-      <title>Anthropic armó un laboratorio real para que Claude dirija experimentos de biología con robots</title>
-      <link>https://puntodespawn.com/posts/anthropic-laboratorio-biologia-claude-science-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-laboratorio-biologia-claude-science-octubre-2026.html</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-      <description>La empresa detrás de Claude confirmó un laboratorio húmedo en San Francisco donde prueba si su IA puede instruir sistemas robóticos para investigar enfermedades raras que la industria farmacéutica no encuentra rentables.</description>
-      <media:content url="https://newsimg.koreatimes.co.kr/2026/09/18/6bb8f4df-6439-4668-bf65-9e4cbb5fe440.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Parche 26.20 de LoL: el último antes del Mundial nerfea a Ashe y Yunara, y rediseña el Rocketbelt</title>
-      <link>https://puntodespawn.com/posts/lol-parche-2620-preview-worlds-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2620-preview-worlds-octubre-2026.html</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El parche 26.20 llega el 7 de octubre y es el que se juega en el Mundial 2026: Riot nerfea a Ashe, Yunara, Cassiopeia, K'Sante y Ambessa, sube a once campeones y recorta el Rocketbelt.</description>
-      <media:content url="https://cdn.sanity.io/images/9rqbl8zs/production/4753896ce9f199434bc5deec42dbc3881eb7049b-1324x706.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Blizzard confirmó Diablo V para 2029: Diablo IV no va a tener más expansiones</title>
-      <link>https://puntodespawn.com/posts/diablo-5-confirmado-2029-sin-expansiones-diablo-4-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/diablo-5-confirmado-2029-sin-expansiones-diablo-4-octubre-2026.html</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-      <description>En BlizzCon 2026, Blizzard reveló que Diablo V llega en la primavera de 2029 con Diablo mismo como antagonista. Diablo IV sigue vivo, pero sin expansiones nuevas: todo lo que viene es contenido de temporada.</description>
-      <media:content url="https://static.icy-veins.com/wp/wp-content/uploads/2026/09/diablo-5.webp" medium="image"/>
     </item>
   </channel>
 </rss>
