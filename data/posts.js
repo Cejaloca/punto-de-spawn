@@ -1,5 +1,18 @@
 const POSTS = [
   {
+    id: 'claude-proteinas-toxinas-escorpion-antiveneno-octubre-2026',
+    titulo: 'Claude diseñó en 64 horas proteínas que bloquean toxinas de escorpión, y 17 funcionaron en el laboratorio',
+    extracto: 'Anthropic mostró cómo un agente de IA eligió blancos, generó más de 300.000 diseños y hasta encargó la síntesis por mail. Es investigación temprana, todavía lejos de un antiveneno, pero los datos ya son públicos.',
+    fecha: '2026-10-24',
+    fechaDisplay: '24 de octubre de 2026',
+    categoria: 'biotecnologia',
+    tags: ['inteligencia-artificial', 'biotecnologia', 'anthropic', 'claude', 'proteinas', 'antiveneno'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www-cdn.anthropic.com/images/4zrzovbb/website/187c8077329b22f6bd02c5648ea58749af892e8c-1200x630.jpg',
+    archivo: 'posts/claude-proteinas-toxinas-escorpion-antiveneno-octubre-2026.html'
+  },
+  {
     id: 'call-of-duty-modern-warfare-4-lanzamiento-reviews-octubre-2026',
     titulo: 'Call of Duty: Modern Warfare 4 ya salió y es el CoD mejor puntuado en años: 86 en Metacritic',
     extracto: 'El cierre de la trilogía de Infinity Ward llegó con campaña en Corea, el regreso de DMZ y la mejor recepción de la saga desde 2011. Cuesta USD 69,99 y no está en Game Pass de salida.',
