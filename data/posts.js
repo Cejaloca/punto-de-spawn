@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'call-of-duty-modern-warfare-4-lanzamiento-reviews-octubre-2026',
+    titulo: 'Call of Duty: Modern Warfare 4 ya salió y es el CoD mejor puntuado en años: 86 en Metacritic',
+    extracto: 'El cierre de la trilogía de Infinity Ward llegó con campaña en Corea, el regreso de DMZ y la mejor recepción de la saga desde 2011. Cuesta USD 69,99 y no está en Game Pass de salida.',
+    fecha: '2026-10-24',
+    fechaDisplay: '24 de octubre de 2026',
+    categoria: 'gaming',
+    tags: ['call-of-duty', 'modern-warfare-4', 'activision', 'infinity-ward', 'lanzamientos', 'reviews'],
+    juego: 'call-of-duty',
+    juegoDisplay: 'Call of Duty: Modern Warfare 4',
+    imagen: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg?t=1792806931',
+    archivo: 'posts/call-of-duty-modern-warfare-4-lanzamiento-reviews-octubre-2026.html'
+  },
+  {
+    id: 'final-fantasy-resonance-lanzamiento-reviews-octubre-2026',
+    titulo: 'Final Fantasy Resonance ya está disponible: el FF por turnos en HD-2D que enamoró a la crítica',
+    extracto: 'Square Enix lanzó en PC, PlayStation, Xbox y Switch un RPG clásico con estética HD-2D inspirado en Brave Exvius. Famitsu le dio 36/40, cuesta USD 49,99 en Steam y tiene demo gratis.',
+    fecha: '2026-10-24',
+    fechaDisplay: '24 de octubre de 2026',
+    categoria: 'gaming',
+    tags: ['final-fantasy', 'square-enix', 'rpg', 'hd-2d', 'lanzamientos', 'reviews'],
+    juego: 'final-fantasy-resonance',
+    juegoDisplay: 'Final Fantasy Resonance',
+    imagen: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg?t=1792758611',
+    archivo: 'posts/final-fantasy-resonance-lanzamiento-reviews-octubre-2026.html'
+  },
+  {
+    id: 'chatgpt-chats-bloqueados-pin-octubre-2026',
+    titulo: 'ChatGPT ya te deja bloquear chats con PIN o huella: cómo funciona y qué tenés que saber',
+    extracto: 'Los nuevos Locked Chats esconden conversaciones del historial y el buscador detrás de un PIN o Face ID, incluso en el plan gratis. Pero si te olvidás el PIN, se borran para siempre.',
+    fecha: '2026-10-24',
+    fechaDisplay: '24 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'chatgpt', 'openai', 'privacidad'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800',
+    archivo: 'posts/chatgpt-chats-bloqueados-pin-octubre-2026.html'
+  },
+  {
     id: 'claude-duet-anthropic-agente-proactivo-octubre-2026',
     titulo: 'Anthropic lanzó Claude Duet, un agente de IA que trabaja mientras no estás',
     extracto: 'El nuevo modo de Claude revisa tus apps conectadas cada pocas horas, te manda un resumen a la mañana y avanza tareas de días completos sin que le escribas nada — por ahora en lista de espera, solo para Pro y Max en EE.UU.',
