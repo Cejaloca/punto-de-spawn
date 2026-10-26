@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>WoW Midnight: el martes llegan ajustes de clases con un nerf fuerte al Pícaro Sutileza y buffs a Druidas, Magos y Brujos</title>
+      <link>https://puntodespawn.com/posts/wow-midnight-ajustes-de-clases-27-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/wow-midnight-ajustes-de-clases-27-octubre-2026.html</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Blizzard avisó que los cambios entran con el mantenimiento semanal del 27 de octubre: Sutileza pierde 8% de daño, mientras Feral, Restauración, Fuego y Destrucción reciben mejoras.</description>
+      <media:content url="https://static.icy-veins.com/wp/wp-content/uploads/2026/10/IXM5NMR2FGZ317851708595921.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Diablo IV abre el PTR 3.3.0 de la Temporada 16: War Plans Tactics, ítems Horadric y rework de Druida</title>
+      <link>https://puntodespawn.com/posts/diablo-4-ptr-330-temporada-16-war-plans-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/diablo-4-ptr-330-temporada-16-war-plans-octubre-2026.html</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Desde hoy y hasta el 3 de noviembre se puede probar en PC el adelanto de la nueva temporada, con un sistema de meta-progresión, bendiciones de Tyrael y un jefe nuevo.</description>
+      <media:content url="https://dfbmfbnnydoln.cloudfront.net/production/images/thumbnails/social-sharing-diablo-4.32a76540da8e17a15d840138d604ae9a848a9c51.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Meta presentó Muse Wonder: un modelo de IA de pago que le pelea a Claude y GPT, pero con una trampa para tus datos</title>
+      <link>https://puntodespawn.com/posts/meta-muse-wonder-modelos-ia-precios-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/meta-muse-wonder-modelos-ia-precios-octubre-2026.html</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La familia Wonder tiene 1 millón de tokens de contexto, cuesta USD 4 por millón de entrada en la API y Meta ya no publica pesos abiertos. Ojo con el modo Contributor de Muse Code.</description>
+      <media:content url="https://images.axios.com/e-o3WNAxrukryPKDFVpApHs4YXU=/0x0:1280x720/1366x768/2026/10/12/1791827458342.jpg" medium="image"/>
+    </item>
     <item>
       <title>Claude diseñó en 64 horas proteínas que bloquean toxinas de escorpión, y 17 funcionaron en el laboratorio</title>
       <link>https://puntodespawn.com/posts/claude-proteinas-toxinas-escorpion-antiveneno-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
       <description>Steam tiene descuentos de hasta 90% en juegos como The Outlast Trials, Skyrim y Red Dead Redemption 2, mientras Xbox Game Pass suma Gears of War: E-Day y, desde el 13 de octubre, Battlefield 6 y Valor Mortis.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2807960/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Anthropic lanzó Claude Haiku 5.5: el modelo más barato de su historia, hasta 90% más económico en prompts cortos</title>
-      <link>https://puntodespawn.com/posts/anthropic-claude-haiku-55-lanzamiento-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-claude-haiku-55-lanzamiento-octubre-2026.html</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El nuevo modelo chico de Anthropic cuesta en promedio 75% menos que Haiku 4.5, estrena el primer control de esfuerzo ajustable de la familia Haiku y ya está disponible en AWS, Google Cloud y Azure.</description>
-      <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Google, Meta y el gobierno de EE.UU. se suman a Biohub en una apuesta de USD 1.800 millones para crear una &quot;célula virtual&quot; con IA</title>
-      <link>https://puntodespawn.com/posts/biohub-google-meta-ia-biologia-1800-millones-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/biohub-google-meta-ia-biologia-1800-millones-octubre-2026.html</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <description>La Virtual Biology Initiative, liderada por el Biohub de Mark Zuckerberg, suma a Google DeepMind, Isomorphic Labs, Meta y agencias del gobierno de EE.UU. en un esfuerzo para generar datos biológicos abiertos y entrenar modelos de IA que predigan cómo responde cualquier célula a un tratamiento.</description>
-      <media:content url="https://biohub.org/wp-content/uploads/sites/32/2026/10/VBI-wordmark-Jade-on-dark_Social-Share_1200x630@1x.png" medium="image"/>
-    </item>
-    <item>
-      <title>Juegos gratis de la semana: Epic Games regala Out of Sight y TerraScape</title>
-      <link>https://puntodespawn.com/posts/ofertas-epic-out-of-sight-terrascape-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-epic-out-of-sight-terrascape-octubre-2026.html</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Epic Games Store renovó su regalo semanal: ahora podés sumar gratis el horror en segunda persona Out of Sight y el city builder relajado TerraScape, disponibles hasta el 15 de octubre.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2526310/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

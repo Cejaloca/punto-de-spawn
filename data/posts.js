@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'wow-midnight-ajustes-de-clases-27-octubre-2026',
+    titulo: 'WoW Midnight: el martes llegan ajustes de clases con un nerf fuerte al Pícaro Sutileza y buffs a Druidas, Magos y Brujos',
+    extracto: 'Blizzard avisó que los cambios entran con el mantenimiento semanal del 27 de octubre: Sutileza pierde 8% de daño, mientras Feral, Restauración, Fuego y Destrucción reciben mejoras.',
+    fecha: '2026-10-26',
+    fechaDisplay: '26 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['world-of-warcraft', 'patch-notes', 'blizzard', 'midnight', 'balance'],
+    juego: 'world-of-warcraft',
+    juegoDisplay: 'World of Warcraft',
+    imagen: 'https://static.icy-veins.com/wp/wp-content/uploads/2026/10/IXM5NMR2FGZ317851708595921.jpg',
+    archivo: 'posts/wow-midnight-ajustes-de-clases-27-octubre-2026.html'
+  },
+  {
+    id: 'diablo-4-ptr-330-temporada-16-war-plans-octubre-2026',
+    titulo: 'Diablo IV abre el PTR 3.3.0 de la Temporada 16: War Plans Tactics, ítems Horadric y rework de Druida',
+    extracto: 'Desde hoy y hasta el 3 de noviembre se puede probar en PC el adelanto de la nueva temporada, con un sistema de meta-progresión, bendiciones de Tyrael y un jefe nuevo.',
+    fecha: '2026-10-26',
+    fechaDisplay: '26 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['diablo-4', 'patch-notes', 'blizzard', 'ptr', 'temporada-16'],
+    juego: 'diablo-4',
+    juegoDisplay: 'Diablo IV',
+    imagen: 'https://dfbmfbnnydoln.cloudfront.net/production/images/thumbnails/social-sharing-diablo-4.32a76540da8e17a15d840138d604ae9a848a9c51.jpg',
+    archivo: 'posts/diablo-4-ptr-330-temporada-16-war-plans-octubre-2026.html'
+  },
+  {
+    id: 'meta-muse-wonder-modelos-ia-precios-octubre-2026',
+    titulo: 'Meta presentó Muse Wonder: un modelo de IA de pago que le pelea a Claude y GPT, pero con una trampa para tus datos',
+    extracto: 'La familia Wonder tiene 1 millón de tokens de contexto, cuesta USD 4 por millón de entrada en la API y Meta ya no publica pesos abiertos. Ojo con el modo Contributor de Muse Code.',
+    fecha: '2026-10-26',
+    fechaDisplay: '26 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'meta', 'muse-wonder', 'modelos-ia', 'privacidad'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://images.axios.com/e-o3WNAxrukryPKDFVpApHs4YXU=/0x0:1280x720/1366x768/2026/10/12/1791827458342.jpg',
+    archivo: 'posts/meta-muse-wonder-modelos-ia-precios-octubre-2026.html'
+  },
+  {
     id: 'claude-proteinas-toxinas-escorpion-antiveneno-octubre-2026',
     titulo: 'Claude diseñó en 64 horas proteínas que bloquean toxinas de escorpión, y 17 funcionaron en el laboratorio',
     extracto: 'Anthropic mostró cómo un agente de IA eligió blancos, generó más de 300.000 diseños y hasta encargó la síntesis por mail. Es investigación temprana, todavía lejos de un antiveneno, pero los datos ya son públicos.',
