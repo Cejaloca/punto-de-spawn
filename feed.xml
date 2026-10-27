@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>OpenAI lanzó GPT-6.1 Terra: USD 1 por millón de tokens, computer use y la mitad de precio que su antecesor</title>
+      <link>https://puntodespawn.com/posts/openai-gpt-6-1-terra-precios-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-6-1-terra-precios-octubre-2026.html</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El nuevo modelo de nivel medio de OpenAI llega a ChatGPT Plus, Pro, Enterprise y Edu, y a Codex. Promete agentes más rápidos y baratos, pero por ahora no se sabe si habrá versión gratuita.</description>
+      <media:content url="https://www.ghacks.net/wp-content/uploads/2026/10/gHacks-articles-2026-10-27T113648.442.png" medium="image"/>
+    </item>
+    <item>
+      <title>Marvel Rivals: llega el modo Avengers: Endgame para 50 jugadores con Thanos como jefe y skin gratis del Soldado del Invierno</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-avengers-endgame-thanos-temporada-10-5-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-avengers-endgame-thanos-temporada-10-5-octubre-2026.html</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El parche del 22 de octubre sumó &quot;Path to Doomsday&quot;, un evento PvE por sesiones de 2 horas que dura hasta el 26 de noviembre. Participar da una skin de Capitán América.</description>
+      <media:content url="https://timesaver.gg/cdn/blog/marvel-rivals/marvel-rivals-avengers-endgame-mode-thanos-schedule-rewards/featured.jpg" medium="image"/>
+    </item>
     <item>
       <title>WoW Midnight: el martes llegan ajustes de clases con un nerf fuerte al Pícaro Sutileza y buffs a Druidas, Magos y Brujos</title>
       <link>https://puntodespawn.com/posts/wow-midnight-ajustes-de-clases-27-octubre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
       <description>Google liberó el acceso público a SynthID Detector, un sitio gratis que detecta si una imagen, video o audio fue generado con IA de Google, OpenAI, NVIDIA o Kakao.</description>
       <media:content url="https://cdn.searchenginejournal.com/wp-content/uploads/2026/10/google-synthid-featured.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>GPT-6 ya está en todo ChatGPT: Intelligent UI convierte las respuestas en gráficos y mini apps interactivas</title>
-      <link>https://puntodespawn.com/posts/openai-gpt-6-intelligent-ui-chatgpt-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-6-intelligent-ui-chatgpt-octubre-2026.html</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI activó GPT-6 con Intelligent UI para todos los niveles de ChatGPT, incluido el gratuito: ahora el chat puede generar gráficos, comparaciones y herramientas que se usan en el momento, no solo texto.</description>
-      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&amp;h=900&amp;fit=fill" medium="image"/>
-    </item>
-    <item>
-      <title>Ofertas de la semana: Steam rebaja hasta 90% clásicos como Skyrim y Cyberpunk, y Xbox Game Pass suma Battlefield 6</title>
-      <link>https://puntodespawn.com/posts/ofertas-semana-steam-gamepass-battlefield-6-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-semana-steam-gamepass-battlefield-6-octubre-2026.html</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Steam tiene descuentos de hasta 90% en juegos como The Outlast Trials, Skyrim y Red Dead Redemption 2, mientras Xbox Game Pass suma Gears of War: E-Day y, desde el 13 de octubre, Battlefield 6 y Valor Mortis.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2807960/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

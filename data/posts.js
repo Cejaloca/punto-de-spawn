@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'openai-gpt-6-1-terra-precios-octubre-2026',
+    titulo: 'OpenAI lanzó GPT-6.1 Terra: USD 1 por millón de tokens, computer use y la mitad de precio que su antecesor',
+    extracto: 'El nuevo modelo de nivel medio de OpenAI llega a ChatGPT Plus, Pro, Enterprise y Edu, y a Codex. Promete agentes más rápidos y baratos, pero por ahora no se sabe si habrá versión gratuita.',
+    fecha: '2026-10-27',
+    fechaDisplay: '27 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ['inteligencia-artificial', 'openai', 'gpt-6-1-terra', 'chatgpt', 'modelos-ia'],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://www.ghacks.net/wp-content/uploads/2026/10/gHacks-articles-2026-10-27T113648.442.png',
+    archivo: 'posts/openai-gpt-6-1-terra-precios-octubre-2026.html'
+  },
+  {
+    id: 'marvel-rivals-avengers-endgame-thanos-temporada-10-5-octubre-2026',
+    titulo: 'Marvel Rivals: llega el modo Avengers: Endgame para 50 jugadores con Thanos como jefe y skin gratis del Soldado del Invierno',
+    extracto: 'El parche del 22 de octubre sumó "Path to Doomsday", un evento PvE por sesiones de 2 horas que dura hasta el 26 de noviembre. Participar da una skin de Capitán América.',
+    fecha: '2026-10-27',
+    fechaDisplay: '27 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ['marvel-rivals', 'patch-notes', 'netease', 'temporada-10-5', 'thanos'],
+    juego: 'marvel-rivals',
+    juegoDisplay: 'Marvel Rivals',
+    imagen: 'https://timesaver.gg/cdn/blog/marvel-rivals/marvel-rivals-avengers-endgame-mode-thanos-schedule-rewards/featured.jpg',
+    archivo: 'posts/marvel-rivals-avengers-endgame-thanos-temporada-10-5-octubre-2026.html'
+  },
+  {
     id: 'wow-midnight-ajustes-de-clases-27-octubre-2026',
     titulo: 'WoW Midnight: el martes llegan ajustes de clases con un nerf fuerte al Pícaro Sutileza y buffs a Druidas, Magos y Brujos',
     extracto: 'Blizzard avisó que los cambios entran con el mantenimiento semanal del 27 de octubre: Sutileza pierde 8% de daño, mientras Feral, Restauración, Fuego y Destrucción reciben mejoras.',
