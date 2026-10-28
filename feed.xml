@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Valorant Patch 13.09: llegó Hush, la nueva duelista que mueve cosas con la mente, y nerf a Clove</title>
+      <link>https://puntodespawn.com/posts/valorant-patch-1309-hush-nueva-duelista-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-patch-1309-hush-nueva-duelista-octubre-2026.html</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>El parche del 27 de octubre suma a Hush con telequinesis y cuatro habilidades de control, redefine los buffs (Haste y Snapshot), nerfea la velocidad de Clove y mejora el recoil de la Warden.</description>
+      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b8299cbf36d68d63a8d359d513ae1619a98b38c9-1920x1080.png?w=1200&amp;h=630&amp;fm=webp&amp;fit=crop&amp;crop=center" medium="image"/>
+    </item>
+    <item>
+      <title>Corsair lanzó la Sabre v3 Pro PureVector: 37 gramos, polling de 8.000 Hz y un sistema que calibra la sensibilidad por dirección</title>
+      <link>https://puntodespawn.com/posts/corsair-sabre-v3-pro-purevector-aimlabs-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/corsair-sabre-v3-pro-purevector-aimlabs-octubre-2026.html</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La nueva línea de mouse de Corsair, desarrollada con Aimlabs, arranca en USD 179,99 y promete reducir hasta 33% el tiempo de corrección al apuntar, aunque ese dato sale de pruebas internas.</description>
+      <media:content url="https://www.pctestbench.com/wp-content/uploads/2026/10/SABRE_V3_BLACK_03_TOP_LEFT-scaled-1.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Google presentó Genie 4: un modelo que genera mundos interactivos con audio en tiempo real y los deja editar mientras jugás</title>
+      <link>https://puntodespawn.com/posts/google-genie-4-world-model-audio-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/google-genie-4-world-model-audio-octubre-2026.html</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>DeepMind duplicó a dos minutos la duración de las simulaciones, sumó música, ruido ambiente y diálogo, y permite cambiar clima, cámara u objetos con texto. Por ahora es una vista previa para testers.</description>
+      <media:content url="https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png" medium="image"/>
+    </item>
     <item>
       <title>OpenAI lanzó GPT-6.1 Terra: USD 1 por millón de tokens, computer use y la mitad de precio que su antecesor</title>
       <link>https://puntodespawn.com/posts/openai-gpt-6-1-terra-precios-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
       <description>Nvidia y AMD subieron precios varias veces en 2026 por la escasez de memoria GDDR6 y DRAM. La RTX 5090 ya se revende a más del doble de su precio de lanzamiento y no hay alivio a la vista antes de 2027.</description>
       <media:content url="https://www.pcguide.com/wp-content/uploads/2025/02/ASUS-Radeon-RTX-9070-series-GPU-in-hand-with-MSI-RTX-5070-Ti-splitscreen.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Valorant Patch 13.08: arrancó el Acto 6 con Bind y Corrode de vuelta, y el nuevo Map Rating</title>
-      <link>https://puntodespawn.com/posts/valorant-patch-1308-act-6-mapas-map-rating-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-patch-1308-act-6-mapas-map-rating-octubre-2026.html</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El parche 13.08 trae el inicio del Acto 6: Bind y Corrode vuelven al competitivo en lugar de Ascent y Split, debuta el sistema Map Rating y Riot publicó los números de la purga de cuentas del Acto 5.</description>
-      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/268cd89fa38e291d3cd389ac950cc03e1c2c4e2f-1920x1080.jpg?w=1200&amp;h=630&amp;fm=webp&amp;fit=crop&amp;crop=center" medium="image"/>
-    </item>
-    <item>
-      <title>Planet Zoo 2 ya está disponible: ahora con acuarios, aviarios y reservas de fauna silvestre</title>
-      <link>https://puntodespawn.com/posts/planet-zoo-2-lanzamiento-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/planet-zoo-2-lanzamiento-octubre-2026.html</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Frontier Developments lanzó hoy Planet Zoo 2 para PC, PlayStation 5 y Xbox Series X|S. La secuela suma animales acuáticos y voladores, reservas de fauna silvestre y más foco en la conservación.</description>
-      <media:content url="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/a5131aa4b84d04a55e3b9c561d7c886cc22bbe1c/header.jpg?t=1791804561" medium="image"/>
-    </item>
-    <item>
-      <title>Google abrió al público el SynthID Detector, su herramienta gratis para detectar contenido hecho con IA</title>
-      <link>https://puntodespawn.com/posts/google-synthid-detector-publico-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/google-synthid-detector-publico-octubre-2026.html</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Google liberó el acceso público a SynthID Detector, un sitio gratis que detecta si una imagen, video o audio fue generado con IA de Google, OpenAI, NVIDIA o Kakao.</description>
-      <media:content url="https://cdn.searchenginejournal.com/wp-content/uploads/2026/10/google-synthid-featured.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

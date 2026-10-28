@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'valorant-patch-1309-hush-nueva-duelista-octubre-2026',
+    titulo: "Valorant Patch 13.09: llegó Hush, la nueva duelista que mueve cosas con la mente, y nerf a Clove",
+    extracto: "El parche del 27 de octubre suma a Hush con telequinesis y cuatro habilidades de control, redefine los buffs (Haste y Snapshot), nerfea la velocidad de Clove y mejora el recoil de la Warden.",
+    fecha: '2026-10-28',
+    fechaDisplay: '28 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ["valorant", "patch-notes", "riot-games", "hush", "clove", "warden"],
+    juego: "valorant",
+    juegoDisplay: "Valorant",
+    imagen: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b8299cbf36d68d63a8d359d513ae1619a98b38c9-1920x1080.png?w=1200&h=630&fm=webp&fit=crop&crop=center",
+    archivo: 'posts/valorant-patch-1309-hush-nueva-duelista-octubre-2026.html'
+  },
+  {
+    id: 'corsair-sabre-v3-pro-purevector-aimlabs-octubre-2026',
+    titulo: "Corsair lanzó la Sabre v3 Pro PureVector: 37 gramos, polling de 8.000 Hz y un sistema que calibra la sensibilidad por dirección",
+    extracto: "La nueva línea de mouse de Corsair, desarrollada con Aimlabs, arranca en USD 179,99 y promete reducir hasta 33% el tiempo de corrección al apuntar, aunque ese dato sale de pruebas internas.",
+    fecha: '2026-10-28',
+    fechaDisplay: '28 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ["perifericos", "mouse", "corsair", "aimlabs", "hardware"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://www.pctestbench.com/wp-content/uploads/2026/10/SABRE_V3_BLACK_03_TOP_LEFT-scaled-1.jpg",
+    archivo: 'posts/corsair-sabre-v3-pro-purevector-aimlabs-octubre-2026.html'
+  },
+  {
+    id: 'google-genie-4-world-model-audio-octubre-2026',
+    titulo: "Google presentó Genie 4: un modelo que genera mundos interactivos con audio en tiempo real y los deja editar mientras jugás",
+    extracto: "DeepMind duplicó a dos minutos la duración de las simulaciones, sumó música, ruido ambiente y diálogo, y permite cambiar clima, cámara u objetos con texto. Por ahora es una vista previa para testers.",
+    fecha: '2026-10-28',
+    fechaDisplay: '28 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "google", "deepmind", "genie-4", "gaming"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png",
+    archivo: 'posts/google-genie-4-world-model-audio-octubre-2026.html'
+  },
+  {
     id: 'openai-gpt-6-1-terra-precios-octubre-2026',
     titulo: 'OpenAI lanzó GPT-6.1 Terra: USD 1 por millón de tokens, computer use y la mitad de precio que su antecesor',
     extracto: 'El nuevo modelo de nivel medio de OpenAI llega a ChatGPT Plus, Pro, Enterprise y Edu, y a Codex. Promete agentes más rápidos y baratos, pero por ahora no se sabe si habrá versión gratuita.',
