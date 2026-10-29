@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'epic-gratis-sorry-were-closed-octubre-2026',
+    titulo: "Epic Games Store regala Sorry We're Closed: survival horror con cámaras fijas al estilo Resident Evil",
+    extracto: "Desde este jueves 29 de octubre y hasta el 5 de noviembre podés reclamar gratis este survival horror de 2024, bien valorado por la crítica. Se queda en tu biblioteca para siempre.",
+    fecha: '2026-10-29',
+    fechaDisplay: '29 de octubre de 2026',
+    categoria: 'ofertas',
+    tags: ["epic-games", "gratis", "ofertas", "sorry-were-closed", "survival-horror"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1796580/header.jpg?t=1786047768",
+    archivo: 'posts/epic-gratis-sorry-were-closed-octubre-2026.html'
+  },
+  {
+    id: 'anthropic-s1-ipo-nasdaq-ant-octubre-2026',
+    titulo: "Anthropic, la empresa detrás de Claude, presentó su S-1 y va por la bolsa: ticker ANT en Nasdaq",
+    extracto: "El prospecto público muestra USD 16.286 millones de ingresos en el primer semestre de 2026 y una pérdida neta enorme explicada por cargos contables. Todavía no hay precio ni fecha de salida.",
+    fecha: '2026-10-29',
+    fechaDisplay: '29 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "anthropic", "claude", "ipo", "bolsa"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://futurumgroup.com/wp-content/uploads/2026/06/Anthropic-Files-For-IPO-Looking-to-Beat-OpenAI-to-the-Punch.png",
+    archivo: 'posts/anthropic-s1-ipo-nasdaq-ant-octubre-2026.html'
+  },
+  {
+    id: 'flagship-etcelera-ia-medicamentos-octubre-2026',
+    titulo: "Flagship fusiona tres startups y lanza Etcelera, una biotecnológica que usa IA para predecir qué remedios van a funcionar en personas",
+    extracto: "Etiome, Cellarity y Empress se unen bajo una sola empresa liderada por un ex CEO de Adaptimmune. Apuntan a enfermedades de la sangre, inmunes y metabólicas, pero todavía no hay ensayos anunciados.",
+    fecha: '2026-10-29',
+    fechaDisplay: '29 de octubre de 2026',
+    categoria: 'biotecnologia',
+    tags: ["inteligencia-artificial", "biotecnologia", "flagship-pioneering", "etcelera", "medicamentos"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://imgproxy.divecdn.com/EUJYUQWDrqR0HDkJXBqOFn8UmG5rvNvDk78_btHj7tI/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9FbXByZXNzX0xhYjIuanBn.webp",
+    archivo: 'posts/flagship-etcelera-ia-medicamentos-octubre-2026.html'
+  },
+  {
     id: 'valorant-patch-1309-hush-nueva-duelista-octubre-2026',
     titulo: "Valorant Patch 13.09: llegó Hush, la nueva duelista que mueve cosas con la mente, y nerf a Clove",
     extracto: "El parche del 27 de octubre suma a Hush con telequinesis y cuatro habilidades de control, redefine los buffs (Haste y Snapshot), nerfea la velocidad de Clove y mejora el recoil de la Warden.",
