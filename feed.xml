@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Steam Scream Fest V: juegos de terror con hasta 90% de descuento hasta el 2 de noviembre</title>
+      <link>https://puntodespawn.com/posts/steam-scream-fest-v-ofertas-terror-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-scream-fest-v-ofertas-terror-octubre-2026.html</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Dead Island 2 y Metro 2033 Redux con 90% off, Subnautica con 75% y más ofertas de terror en Steam hasta el 2 de noviembre. Steam cobra en USD en Argentina.</description>
+      <media:content url="https://www.gamingonlinux.com/uploads/articles/tagline_images/1426083461id30061gol_og.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Marvel Rivals 1.79: llega Night of Illusions, el evento de Halloween que dura hasta fin de año</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-night-of-illusions-actualizacion-1-79-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-night-of-illusions-actualizacion-1-79-octubre-2026.html</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>La actualización del 29 de octubre suma un evento con puzzles y recompensas gratis, el bundle de Winter Soldier y varias correcciones de bugs, sin cambios de balance.</description>
+      <media:content url="https://mp1st.com/wp-content/uploads/2026/10/Path-to-Doomsday-Avengers_-Endgame-_-New-PvE-Mode-Trailer-_-Marvel-Rivals-0-41-screenshot-600x338.png" medium="image"/>
+    </item>
+    <item>
+      <title>Google lanza Gemini 4 Carbon, un modelo para ciberseguridad que por ahora solo usan defensores selectos</title>
+      <link>https://puntodespawn.com/posts/google-gemini-4-carbon-ciberseguridad-octubre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/google-gemini-4-carbon-ciberseguridad-octubre-2026.html</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Llega dos semanas después de Gemini 4 Argon, con precio de USD 2 y USD 10 por millón de tokens, pero el acceso es limitado a través del programa Fairwind.</description>
+      <media:content url="https://www.constellationr.com/sites/default/files/styles/1080wide/public/media/image/2026/10/screenshot_2026-10-28_140325.png.webp?itok=3yFbMIZ0" medium="image"/>
+    </item>
     <item>
       <title>Epic Games Store regala Sorry We're Closed: survival horror con cámaras fijas al estilo Resident Evil</title>
       <link>https://puntodespawn.com/posts/epic-gratis-sorry-were-closed-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
       <description>El parche 37.0 ya habilitó el Pre-Release Brawl, pero la expansión completa debuta el 20 de octubre con 135 cartas nuevas, la keyword Assemble y, desde el 10 de noviembre, un evento temático cruzado con Diablo.</description>
       <media:content url="https://media.esports.gg/uploads/2026/09/hearthstone-reign-of-the-black-empire-release-date-time-time-countdown-article-by-esportsgg-image-via-blizzard-entertainment-new-hearthstone-expansion-release-date.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Xbox confirmó un nuevo ID@Xbox Showcase para el 20 de octubre, con juegos indie y el regreso de The Wolf Among Us</title>
-      <link>https://puntodespawn.com/posts/idxbox-showcase-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/idxbox-showcase-octubre-2026.html</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Microsoft anunció, junto a IGN, una nueva edición del showcase dedicado a juegos independientes: habrá estrenos mundiales, gameplay nuevo y ya se confirmó The Wolf Among Us Remastered.</description>
-      <media:content url="https://gamingbolt.com/wp-content/uploads/2025/10/ID@Xbox.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Anthropic reveló que un agente de Claude mandó una denuncia falsa de homicidio a la policía de Filadelfia</title>
-      <link>https://puntodespawn.com/posts/anthropic-claude-denuncia-falsa-homicidio-filadelfia-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-claude-denuncia-falsa-homicidio-filadelfia-octubre-2026.html</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Un informe de Anthropic sobre acciones no intencionadas de sus modelos destapó que Claude Haiku 4.5 envió una pista falsa sobre un homicidio sin resolver, y que otro agente completó 20 solicitudes de visa en el sitio del Departamento de Estado de EE.UU.</description>
-      <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Attack Shark F1 Air: el mouse gaming de 39 gramos que iguala a Razer y Logitech por la mitad de precio</title>
-      <link>https://puntodespawn.com/posts/attack-shark-f1-air-mouse-39-gramos-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/attack-shark-f1-air-mouse-39-gramos-octubre-2026.html</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El nuevo mouse insignia de Attack Shark pesa 39 gramos, usa un sensor de hasta 60.000 DPI con polling de 8000 Hz, y sale USD 79,99: varios escalones por debajo de lo que cobran Razer y Logitech por especificaciones parecidas.</description>
-      <media:content url="https://attackshark.com/cdn/shop/files/1_d8efa54b-fd23-4da9-9c5b-c1d5c21d5bd0.webp?v=1786413087&amp;width=2048" medium="image"/>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'steam-scream-fest-v-ofertas-terror-octubre-2026',
+    titulo: "Steam Scream Fest V: juegos de terror con hasta 90% de descuento hasta el 2 de noviembre",
+    extracto: "Dead Island 2 y Metro 2033 Redux con 90% off, Subnautica con 75% y más ofertas de terror en Steam hasta el 2 de noviembre. Steam cobra en USD en Argentina.",
+    fecha: '2026-10-30',
+    fechaDisplay: '30 de octubre de 2026',
+    categoria: 'ofertas',
+    tags: ["steam", "scream-fest", "descuentos", "ofertas", "terror"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://www.gamingonlinux.com/uploads/articles/tagline_images/1426083461id30061gol_og.jpg",
+    archivo: 'posts/steam-scream-fest-v-ofertas-terror-octubre-2026.html'
+  },
+  {
+    id: 'marvel-rivals-night-of-illusions-actualizacion-1-79-octubre-2026',
+    titulo: "Marvel Rivals 1.79: llega Night of Illusions, el evento de Halloween que dura hasta fin de año",
+    extracto: "La actualización del 29 de octubre suma un evento con puzzles y recompensas gratis, el bundle de Winter Soldier y varias correcciones de bugs, sin cambios de balance.",
+    fecha: '2026-10-30',
+    fechaDisplay: '30 de octubre de 2026',
+    categoria: 'patch-notes',
+    tags: ["marvel-rivals", "patch-notes", "night-of-illusions", "halloween", "evento"],
+    juego: 'marvel-rivals',
+    juegoDisplay: 'Marvel Rivals',
+    imagen: "https://mp1st.com/wp-content/uploads/2026/10/Path-to-Doomsday-Avengers_-Endgame-_-New-PvE-Mode-Trailer-_-Marvel-Rivals-0-41-screenshot-600x338.png",
+    archivo: 'posts/marvel-rivals-night-of-illusions-actualizacion-1-79-octubre-2026.html'
+  },
+  {
+    id: 'google-gemini-4-carbon-ciberseguridad-octubre-2026',
+    titulo: "Google lanza Gemini 4 Carbon, un modelo para ciberseguridad que por ahora solo usan defensores selectos",
+    extracto: "Llega dos semanas después de Gemini 4 Argon, con precio de USD 2 y USD 10 por millón de tokens, pero el acceso es limitado a través del programa Fairwind.",
+    fecha: '2026-10-30',
+    fechaDisplay: '30 de octubre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "google", "gemini", "gemini-4-carbon", "ciberseguridad"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://www.constellationr.com/sites/default/files/styles/1080wide/public/media/image/2026/10/screenshot_2026-10-28_140325.png.webp?itok=3yFbMIZ0",
+    archivo: 'posts/google-gemini-4-carbon-ciberseguridad-octubre-2026.html'
+  },
+  {
     id: 'epic-gratis-sorry-were-closed-octubre-2026',
     titulo: "Epic Games Store regala Sorry We're Closed: survival horror con cámaras fijas al estilo Resident Evil",
     extracto: "Desde este jueves 29 de octubre y hasta el 5 de noviembre podés reclamar gratis este survival horror de 2024, bien valorado por la crítica. Se queda en tu biblioteca para siempre.",
