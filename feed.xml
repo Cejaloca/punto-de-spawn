@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>LoL parche 26.22: Mel cambia su kit, Viktor y Shen reciben buffs y Locke, Thresh y Yasuo van a nerfs</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2622-mel-midscope-locke-nerf-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2622-mel-midscope-locke-nerf-noviembre-2026.html</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>El parche 26.22 llega el 4 de noviembre con un mini-update de Mel que le saca el reflect y le suma una W defensiva, más ajustes a una decena de campeones.</description>
+      <media:content url="https://prod.assets.earlygamecdn.com/images/LoL-Patch-26.22.jpg?transform=banner2x_webp" medium="image"/>
+    </item>
+    <item>
+      <title>Nvidia sacó la RTX 5080 de su tienda online y en EE.UU. ya cuesta casi el doble que al lanzamiento</title>
+      <link>https://puntodespawn.com/posts/nvidia-retira-rtx-5080-tienda-precios-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-retira-rtx-5080-tienda-precios-noviembre-2026.html</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Tras la RTX 5090, la 5080 también desapareció de la tienda de Nvidia sin aviso oficial. En comercios de EE.UU. arranca en USD 1.979,99 contra los USD 999 de lanzamiento.</description>
+      <media:content url="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/geforce-rtx-508021.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Juegos gratis de noviembre: DOOM, FNAF Into the Pit y Vampire Swansong en Prime Gaming, y Radiant Exodus gratis en Steam</title>
+      <link>https://puntodespawn.com/posts/prime-gaming-noviembre-2026-doom-fnaf-swansong-radiant-exodus-gratis.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/prime-gaming-noviembre-2026-doom-fnaf-swansong-radiant-exodus-gratis.html</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Prime Gaming (ahora Luna con Prime) suma DOOM de 2016, Conarium, Ad Infinitum y más en noviembre. Además, el survival horror Radiant Exodus está gratis en Steam hasta el 17.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/379720/header.jpg" medium="image"/>
+    </item>
     <item>
       <title>Steam Scream Fest V: juegos de terror con hasta 90% de descuento hasta el 2 de noviembre</title>
       <link>https://puntodespawn.com/posts/steam-scream-fest-v-ofertas-terror-octubre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
       <description>El estudio sorprendió sin aviso previo con un video de minuto y medio que profundiza en el pasado militar de Jason, su relación con Lucia y el regreso a Vice City dentro de Leonida.</description>
       <media:content url="https://www.svg.com/img/gallery/gta-6-launch-trailer/l-intro-1792071213.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Marvel Rivals estrena el evento de Halloween \u201cAll Hallows\u2019 Glow\u201d con skins de Scarlet Witch, Invisible Woman y Hela</title>
-      <link>https://puntodespawn.com/posts/marvel-rivals-halloween-all-hallows-glow-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-halloween-all-hallows-glow-octubre-2026.html</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El parche del 15 de octubre trajo el evento temático hasta el 13 de noviembre, con un traje gratis de Rocket Raccoon, skins premium nuevas y descuentos especiales en la tienda.</description>
-      <media:content url="https://static.beebom.com/wp-content/uploads/2026/10/Invisible-Woman-Halloween-skin-in-Marvel-Rivals.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ChatGPT ya tiene anuncios visuales: cómo te elige los avisos y qué datos tuyos usa</title>
-      <link>https://puntodespawn.com/posts/chatgpt-anuncios-visuales-privacidad-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/chatgpt-anuncios-visuales-privacidad-octubre-2026.html</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI empezó a mostrar banners publicitarios junto a las imágenes que generás en ChatGPT, con un sistema de segmentación que usa tus chats, tu ubicación y tu historial con otros anuncios.</description>
-      <media:content url="https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200" medium="image"/>
-    </item>
-    <item>
-      <title>Hearthstone: la expansión &quot;Reign of the Black Empire&quot; llega el 20 de octubre con los Antiguos Dioses y un evento de Diablo</title>
-      <link>https://puntodespawn.com/posts/hearthstone-reign-of-the-black-empire-diablo-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/hearthstone-reign-of-the-black-empire-diablo-octubre-2026.html</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El parche 37.0 ya habilitó el Pre-Release Brawl, pero la expansión completa debuta el 20 de octubre con 135 cartas nuevas, la keyword Assemble y, desde el 10 de noviembre, un evento temático cruzado con Diablo.</description>
-      <media:content url="https://media.esports.gg/uploads/2026/09/hearthstone-reign-of-the-black-empire-release-date-time-time-countdown-article-by-esportsgg-image-via-blizzard-entertainment-new-hearthstone-expansion-release-date.webp" medium="image"/>
     </item>
   </channel>
 </rss>

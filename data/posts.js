@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'lol-parche-2622-mel-midscope-locke-nerf-noviembre-2026',
+    titulo: "LoL parche 26.22: Mel cambia su kit, Viktor y Shen reciben buffs y Locke, Thresh y Yasuo van a nerfs",
+    extracto: "El parche 26.22 llega el 4 de noviembre con un mini-update de Mel que le saca el reflect y le suma una W defensiva, más ajustes a una decena de campeones.",
+    fecha: '2026-11-02',
+    fechaDisplay: '2 de noviembre de 2026',
+    categoria: 'patch-notes',
+    tags: ["league-of-legends", "patch-notes", "riot-games", "mel", "viktor", "locke"],
+    juego: "league-of-legends",
+    juegoDisplay: "League of Legends",
+    imagen: "https://prod.assets.earlygamecdn.com/images/LoL-Patch-26.22.jpg?transform=banner2x_webp",
+    archivo: 'posts/lol-parche-2622-mel-midscope-locke-nerf-noviembre-2026.html'
+  },
+  {
+    id: 'nvidia-retira-rtx-5080-tienda-precios-noviembre-2026',
+    titulo: "Nvidia sacó la RTX 5080 de su tienda online y en EE.UU. ya cuesta casi el doble que al lanzamiento",
+    extracto: "Tras la RTX 5090, la 5080 también desapareció de la tienda de Nvidia sin aviso oficial. En comercios de EE.UU. arranca en USD 1.979,99 contra los USD 999 de lanzamiento.",
+    fecha: '2026-11-02',
+    fechaDisplay: '2 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["nvidia", "rtx-5080", "gpu", "hardware", "precios", "pc"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/geforce-rtx-508021.jpg",
+    archivo: 'posts/nvidia-retira-rtx-5080-tienda-precios-noviembre-2026.html'
+  },
+  {
+    id: 'prime-gaming-noviembre-2026-doom-fnaf-swansong-radiant-exodus-gratis',
+    titulo: "Juegos gratis de noviembre: DOOM, FNAF Into the Pit y Vampire Swansong en Prime Gaming, y Radiant Exodus gratis en Steam",
+    extracto: "Prime Gaming (ahora Luna con Prime) suma DOOM de 2016, Conarium, Ad Infinitum y más en noviembre. Además, el survival horror Radiant Exodus está gratis en Steam hasta el 17.",
+    fecha: '2026-11-02',
+    fechaDisplay: '2 de noviembre de 2026',
+    categoria: 'ofertas',
+    tags: ["prime-gaming", "steam", "epic-games", "gratis", "descuentos", "ofertas"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://cdn.akamai.steamstatic.com/steam/apps/379720/header.jpg",
+    archivo: 'posts/prime-gaming-noviembre-2026-doom-fnaf-swansong-radiant-exodus-gratis.html'
+  },
+  {
     id: 'steam-scream-fest-v-ofertas-terror-octubre-2026',
     titulo: "Steam Scream Fest V: juegos de terror con hasta 90% de descuento hasta el 2 de noviembre",
     extracto: "Dead Island 2 y Metro 2033 Redux con 90% off, Subnautica con 75% y más ofertas de terror en Steam hasta el 2 de noviembre. Steam cobra en USD en Argentina.",
