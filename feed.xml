@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Juegos gratis de la semana: Flotsam en Epic, Dead Island 2 en PS Plus y los estrenos de Game Pass</title>
+      <link>https://puntodespawn.com/posts/epic-flotsam-ps-plus-game-pass-juegos-gratis-semana-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-flotsam-ps-plus-game-pass-juegos-gratis-semana-noviembre-2026.html</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>El jueves 5 Epic regala Flotsam, el city builder flotante. PS Plus de noviembre trae Dead Island 2, Tomb Raider IV-VI Remastered y Monster Train 2, y Game Pass suma Escape Academy 2.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/821250/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Mistral Large 4: pesos abiertos para un modelo de 1 billón de parámetros, con advertencia de seguridad incluida</title>
+      <link>https://puntodespawn.com/posts/mistral-large-4-pesos-abiertos-1-billon-parametros-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/mistral-large-4-pesos-abiertos-1-billon-parametros-noviembre-2026.html</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Mistral liberó los pesos de Large 4, un modelo multimodal de 1T de parámetros que apunta a programación y agentes. La propia empresa admite que podría ayudar en ataques reales.</description>
+      <media:content url="https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp" medium="image"/>
+    </item>
+    <item>
+      <title>Estudio de Doximity: los chatbots de IA se equivocan en dosis de medicamentos, y algunos errores podrían ser letales</title>
+      <link>https://puntodespawn.com/posts/doximity-ia-errores-dosis-medicamentos-dosecheck-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/doximity-ia-errores-dosis-medicamentos-dosecheck-noviembre-2026.html</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Doximity probó nueve modelos de 2026 con más de 8.000 preguntas de dosificación. Hubo errores graves y hasta potencialmente letales, y la empresa lanzó DoseCheck para verificar dosis.</description>
+      <media:content url="https://imgproxy.divecdn.com/ndFjEhHdKVD_l-g8k7nfNSUwd_qipSKWPq1S_TXP6rk/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01MzAzNjUyMTVfcHpBSmNQTS5qcGc=.webp" medium="image"/>
+    </item>
     <item>
       <title>LoL parche 26.22: Mel cambia su kit, Viktor y Shen reciben buffs y Locke, Thresh y Yasuo van a nerfs</title>
       <link>https://puntodespawn.com/posts/lol-parche-2622-mel-midscope-locke-nerf-noviembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
       <description>El AW3226Q es un 4K de 31.5 pulgadas con panel Tandem WOLED y llega en USD 699,99, mientras que el AW2527HX es un QD-OLED de 24.5 pulgadas con 560 Hz pensado para esports.</description>
       <media:content url="https://pcmonitors.info/wp-content/uploads/2026/08/Dell-Alienware-AW3226Q-front.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>LOUD volvió a ser campeón del mundo: se quedó con el VALORANT Champions Shanghai 2026</title>
-      <link>https://puntodespawn.com/posts/loud-campeon-valorant-champions-shanghai-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/loud-campeon-valorant-champions-shanghai-2026.html</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El equipo brasileño venció 3-1 a Team Vitality en la gran final de Shanghai y volvió a lo más alto de Valorant cuatro años después de su primer título mundial.</description>
-      <media:content url="https://cdn.thespike.gg/.Bruno%2520Povoleri%2Fvalorant-loud-organiza%C3%A7%C3%A3o-duas-finais-champions_1792144577469.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Razer presentó el Barracuda V2 Pro: auriculares inalámbricos con 70 horas de batería y ANC híbrida por USD 199,99</title>
-      <link>https://puntodespawn.com/posts/razer-barracuda-v2-pro-auriculares-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/razer-barracuda-v2-pro-auriculares-octubre-2026.html</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El nuevo tope de gama de la línea Barracuda suma cancelación de ruido híbrida, conexión simultánea por HyperSpeed y Bluetooth, y sonido espacial THX para PC.</description>
-      <media:content url="https://assets2.razerzone.com/images/pnx.assets/773b9ef9d4f1eab6b042673af6ba8893/razer-barracuda-v2-og-1200x630.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Rockstar lanzó el tráiler de lanzamiento de GTA 6 y confirmó el estreno para el 19 de noviembre</title>
-      <link>https://puntodespawn.com/posts/gta-6-trailer-lanzamiento-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gta-6-trailer-lanzamiento-noviembre-2026.html</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El estudio sorprendió sin aviso previo con un video de minuto y medio que profundiza en el pasado militar de Jason, su relación con Lucia y el regreso a Vice City dentro de Leonida.</description>
-      <media:content url="https://www.svg.com/img/gallery/gta-6-launch-trailer/l-intro-1792071213.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

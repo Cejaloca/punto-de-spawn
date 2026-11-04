@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: "epic-flotsam-ps-plus-game-pass-juegos-gratis-semana-noviembre-2026",
+    titulo: "Juegos gratis de la semana: Flotsam en Epic, Dead Island 2 en PS Plus y los estrenos de Game Pass",
+    extracto: "El jueves 5 Epic regala Flotsam, el city builder flotante. PS Plus de noviembre trae Dead Island 2, Tomb Raider IV-VI Remastered y Monster Train 2, y Game Pass suma Escape Academy 2.",
+    fecha: '2026-11-04',
+    fechaDisplay: '4 de noviembre de 2026',
+    categoria: 'ofertas',
+    tags: ["epic-games", "ps-plus", "game-pass", "gratis", "ofertas"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://cdn.akamai.steamstatic.com/steam/apps/821250/header.jpg",
+    archivo: 'posts/epic-flotsam-ps-plus-game-pass-juegos-gratis-semana-noviembre-2026.html'
+  },
+  {
+    id: "mistral-large-4-pesos-abiertos-1-billon-parametros-noviembre-2026",
+    titulo: "Mistral Large 4: pesos abiertos para un modelo de 1 billón de parámetros, con advertencia de seguridad incluida",
+    extracto: "Mistral liberó los pesos de Large 4, un modelo multimodal de 1T de parámetros que apunta a programación y agentes. La propia empresa admite que podría ayudar en ataques reales.",
+    fecha: '2026-11-04',
+    fechaDisplay: '4 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "mistral", "open-source", "modelos-ia", "ciberseguridad"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+    archivo: 'posts/mistral-large-4-pesos-abiertos-1-billon-parametros-noviembre-2026.html'
+  },
+  {
+    id: "doximity-ia-errores-dosis-medicamentos-dosecheck-noviembre-2026",
+    titulo: "Estudio de Doximity: los chatbots de IA se equivocan en dosis de medicamentos, y algunos errores podrían ser letales",
+    extracto: "Doximity probó nueve modelos de 2026 con más de 8.000 preguntas de dosificación. Hubo errores graves y hasta potencialmente letales, y la empresa lanzó DoseCheck para verificar dosis.",
+    fecha: '2026-11-04',
+    fechaDisplay: '4 de noviembre de 2026',
+    categoria: 'biotecnologia',
+    tags: ["inteligencia-artificial", "biotecnologia", "salud", "doximity", "dosecheck"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://imgproxy.divecdn.com/ndFjEhHdKVD_l-g8k7nfNSUwd_qipSKWPq1S_TXP6rk/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01MzAzNjUyMTVfcHpBSmNQTS5qcGc=.webp",
+    archivo: 'posts/doximity-ia-errores-dosis-medicamentos-dosecheck-noviembre-2026.html'
+  },
+  {
     id: 'lol-parche-2622-mel-midscope-locke-nerf-noviembre-2026',
     titulo: "LoL parche 26.22: Mel cambia su kit, Viktor y Shen reciben buffs y Locke, Thresh y Yasuo van a nerfs",
     extracto: "El parche 26.22 llega el 4 de noviembre con un mini-update de Mel que le saca el reflect y le suma una W defensiva, más ajustes a una decena de campeones.",
