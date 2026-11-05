@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>GTA 6: el preload arranca el 12 de noviembre y el juego podría pesar 210 GB, así que andá liberando espacio</title>
+      <link>https://puntodespawn.com/posts/gta-6-preload-12-noviembre-precio-peso-210gb-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gta-6-preload-12-noviembre-precio-peso-210gb-noviembre-2026.html</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Falta poco para el 19 de noviembre. El preload digital abre el día 12, sale USD 79,99 en edición estándar y un reporte no oficial habla de 210 GB en PS5.</description>
+      <media:content url="https://egamers.io/wp-content/uploads/2026/10/gta-6-launches-november-19-platforms-prices-file-size-and-other-launch-details.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Anthropic lanzó FlashProve: una prueba criptográfica para confirmar qué modelo de IA te respondió</title>
+      <link>https://puntodespawn.com/posts/anthropic-flashprove-prueba-criptografica-modelo-ia-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-flashprove-prueba-criptografica-modelo-ia-noviembre-2026.html</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Anthropic liberó en código abierto un sistema que permite verificar que una respuesta vino del modelo prometido, sin revelar sus pesos. Por ahora es solo un prototipo de investigación.</description>
+      <media:content url="https://cms.interestingengineering.com/wp-content/uploads/2026/02/anthropic.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Claude ayudó a mapear la primera estructura 3D de un &quot;vault&quot; bacteriano: 96 copias de una misma proteína</title>
+      <link>https://puntodespawn.com/posts/anthropic-claude-vault-bacteriano-estructura-3d-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-claude-vault-bacteriano-estructura-3d-noviembre-2026.html</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>El equipo de biología de Anthropic usó Claude para encontrar, producir y analizar partículas vault de origen bacteriano. El primer modelo estructural salió en 34 horas, aunque hubo errores que corregir.</description>
+      <media:content url="https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-design-91.jpg" medium="image"/>
+    </item>
     <item>
       <title>Juegos gratis de la semana: Flotsam en Epic, Dead Island 2 en PS Plus y los estrenos de Game Pass</title>
       <link>https://puntodespawn.com/posts/epic-flotsam-ps-plus-game-pass-juegos-gratis-semana-noviembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
       <description>Con sensor de hasta 42.000 DPI, polling inalámbrico de 8.000 Hz y una carcasa de fibra de carbono, el nuevo mouse de HyperX cuesta USD 129,99 — bastante menos que el Razer Viper Mini Signature Edition.</description>
       <media:content url="https://tech-insider.org/wp-content/uploads/2026/09/hyperx-pulsefire-haste-3-pro-cloud-alpha-air-2026-1.webp" medium="image"/>
-    </item>
-    <item>
-      <title>League of Legends: el parche 26.21 llega con nerfs a Yone y Lee Sin, y ajustes a Locke y Taric</title>
-      <link>https://puntodespawn.com/posts/lol-parche-2621-locke-taric-worlds-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2621-locke-taric-worlds-octubre-2026.html</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El primer parche post-Worlds ya está en vivo: buffs para Azir, Darius y Orianna, nerfs para Yone, Lee Sin y Qiyana, y cambios en Bastionbreaker y Dawncore.</description>
-      <media:content url="https://wp-prod.bigbrain.gg/wp-content/uploads/2026/10/9b02404e478143a3313dbd374e938ced7d4f3826-1920x1080-1.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Juegos gratis de la semana: Epic Games regala Home y Sker Ritual</title>
-      <link>https://puntodespawn.com/posts/ofertas-epic-home-sker-ritual-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/ofertas-epic-home-sker-ritual-octubre-2026.html</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Epic Games Store renueva su regalo semanal con un clásico del horror pixel-art de 2012 y un shooter cooperativo de hordas contra zombis, gratis desde el 22 de octubre.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1492070/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Alienware presentó dos monitores OLED: un 4K de 165 Hz a USD 699 y un esports de 560 Hz</title>
-      <link>https://puntodespawn.com/posts/alienware-aw3226q-aw2527hx-monitores-oled-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/alienware-aw3226q-aw2527hx-monitores-oled-octubre-2026.html</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El AW3226Q es un 4K de 31.5 pulgadas con panel Tandem WOLED y llega en USD 699,99, mientras que el AW2527HX es un QD-OLED de 24.5 pulgadas con 560 Hz pensado para esports.</description>
-      <media:content url="https://pcmonitors.info/wp-content/uploads/2026/08/Dell-Alienware-AW3226Q-front.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

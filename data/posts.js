@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: 'gta-6-preload-12-noviembre-precio-peso-210gb-noviembre-2026',
+    titulo: "GTA 6: el preload arranca el 12 de noviembre y el juego podría pesar 210 GB, así que andá liberando espacio",
+    extracto: "Falta poco para el 19 de noviembre. El preload digital abre el día 12, sale USD 79,99 en edición estándar y un reporte no oficial habla de 210 GB en PS5.",
+    fecha: '2026-11-05',
+    fechaDisplay: '5 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["gta-6", "rockstar", "take-two", "ps5", "xbox"],
+    juego: 'gta-6',
+    juegoDisplay: 'GTA 6',
+    imagen: 'https://egamers.io/wp-content/uploads/2026/10/gta-6-launches-november-19-platforms-prices-file-size-and-other-launch-details.jpg',
+    archivo: 'posts/gta-6-preload-12-noviembre-precio-peso-210gb-noviembre-2026.html'
+  },
+  {
+    id: 'anthropic-flashprove-prueba-criptografica-modelo-ia-noviembre-2026',
+    titulo: "Anthropic lanzó FlashProve: una prueba criptográfica para confirmar qué modelo de IA te respondió",
+    extracto: "Anthropic liberó en código abierto un sistema que permite verificar que una respuesta vino del modelo prometido, sin revelar sus pesos. Por ahora es solo un prototipo de investigación.",
+    fecha: '2026-11-05',
+    fechaDisplay: '5 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "anthropic", "flashprove", "open-source", "seguridad"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cms.interestingengineering.com/wp-content/uploads/2026/02/anthropic.jpg',
+    archivo: 'posts/anthropic-flashprove-prueba-criptografica-modelo-ia-noviembre-2026.html'
+  },
+  {
+    id: 'anthropic-claude-vault-bacteriano-estructura-3d-noviembre-2026',
+    titulo: "Claude ayudó a mapear la primera estructura 3D de un \"vault\" bacteriano: 96 copias de una misma proteína",
+    extracto: "El equipo de biología de Anthropic usó Claude para encontrar, producir y analizar partículas vault de origen bacteriano. El primer modelo estructural salió en 34 horas, aunque hubo errores que corregir.",
+    fecha: '2026-11-05',
+    fechaDisplay: '5 de noviembre de 2026',
+    categoria: 'biotecnologia',
+    tags: ["inteligencia-artificial", "biotecnologia", "anthropic", "claude", "proteinas"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-design-91.jpg',
+    archivo: 'posts/anthropic-claude-vault-bacteriano-estructura-3d-noviembre-2026.html'
+  },
+  {
     id: "epic-flotsam-ps-plus-game-pass-juegos-gratis-semana-noviembre-2026",
     titulo: "Juegos gratis de la semana: Flotsam en Epic, Dead Island 2 en PS Plus y los estrenos de Game Pass",
     extracto: "El jueves 5 Epic regala Flotsam, el city builder flotante. PS Plus de noviembre trae Dead Island 2, Tomb Raider IV-VI Remastered y Monster Train 2, y Game Pass suma Escape Academy 2.",
