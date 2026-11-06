@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'cod-modern-warfare-4-temporada-1-mapas-armas-pase-noviembre-2026',
+    titulo: "Call of Duty MW4 Temporada 1: 3 mapas nuevos, modo Drop Zone y bajan la vida del Hardcore",
+    extracto: "Llegó la Temporada 1 de Modern Warfare 4 con mapas Backstab, Canyon y Shoot House, dos armas nuevas, pase de batalla de 100 niveles y modo 120 Hz en consolas.",
+    fecha: '2026-11-06',
+    fechaDisplay: '6 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["call-of-duty", "modern-warfare-4", "temporada-1", "parche", "activision"],
+    juego: 'call-of-duty',
+    juegoDisplay: 'Call of Duty',
+    imagen: 'https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg',
+    archivo: 'posts/cod-modern-warfare-4-temporada-1-mapas-armas-pase-noviembre-2026.html'
+  },
+  {
+    id: 'amd-radeon-suba-precios-noviembre-gddr6-rx-9000-2026',
+    titulo: "AMD subiría otra vez los precios de las Radeon RX 9000 en noviembre por la memoria GDDR6",
+    extracto: "Un reporte de la cadena de suministro dice que AMD encarece los paquetes GPU + memoria que vende a sus socios. Todavía no es oficial y puede tardar semanas en llegar a las tiendas.",
+    fecha: '2026-11-06',
+    fechaDisplay: '6 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["amd", "radeon", "rx-9000", "gpu", "gddr6", "precios"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.wccftech.com/wp-content/uploads/2026/08/Radeon-RX-9000-AMD-GPU-Prices.jpg',
+    archivo: 'posts/amd-radeon-suba-precios-noviembre-gddr6-rx-9000-2026.html'
+  },
+  {
     id: 'gta-6-preload-12-noviembre-precio-peso-210gb-noviembre-2026',
     titulo: "GTA 6: el preload arranca el 12 de noviembre y el juego podría pesar 210 GB, así que andá liberando espacio",
     extracto: "Falta poco para el 19 de noviembre. El preload digital abre el día 12, sale USD 79,99 en edición estándar y un reporte no oficial habla de 210 GB en PS5.",

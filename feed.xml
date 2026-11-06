@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Call of Duty MW4 Temporada 1: 3 mapas nuevos, modo Drop Zone y bajan la vida del Hardcore</title>
+      <link>https://puntodespawn.com/posts/cod-modern-warfare-4-temporada-1-mapas-armas-pase-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/cod-modern-warfare-4-temporada-1-mapas-armas-pase-noviembre-2026.html</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Llegó la Temporada 1 de Modern Warfare 4 con mapas Backstab, Canyon y Shoot House, dos armas nuevas, pase de batalla de 100 niveles y modo 120 Hz en consolas.</description>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>AMD subiría otra vez los precios de las Radeon RX 9000 en noviembre por la memoria GDDR6</title>
+      <link>https://puntodespawn.com/posts/amd-radeon-suba-precios-noviembre-gddr6-rx-9000-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/amd-radeon-suba-precios-noviembre-gddr6-rx-9000-2026.html</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Un reporte de la cadena de suministro dice que AMD encarece los paquetes GPU + memoria que vende a sus socios. Todavía no es oficial y puede tardar semanas en llegar a las tiendas.</description>
+      <media:content url="https://cdn.wccftech.com/wp-content/uploads/2026/08/Radeon-RX-9000-AMD-GPU-Prices.jpg" medium="image"/>
+    </item>
     <item>
       <title>GTA 6: el preload arranca el 12 de noviembre y el juego podría pesar 210 GB, así que andá liberando espacio</title>
       <link>https://puntodespawn.com/posts/gta-6-preload-12-noviembre-precio-peso-210gb-noviembre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
       <description>El nuevo modo de Claude revisa tus apps conectadas cada pocas horas, te manda un resumen a la mañana y avanza tareas de días completos sin que le escribas nada — por ahora en lista de espera, solo para Pro y Max en EE.UU.</description>
       <media:content url="https://cdn.iphoneincanada.ca/wp-content/uploads/2026/10/claude-duet-proactive-ai-agent-app.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI compró Orchestra Bio para meter agentes de IA en el desarrollo de medicamentos</title>
-      <link>https://puntodespawn.com/posts/openai-orchestra-bio-rosalind-medicamentos-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-orchestra-bio-rosalind-medicamentos-octubre-2026.html</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-      <description>La empresa de ChatGPT suma el equipo y la tecnología de esta startup a su unidad Rosalind, apuntando a acortar los 10 a 15 años que hoy tarda un medicamento nuevo en llegar a la aprobación.</description>
-      <media:content url="https://images.siliconangle.com/blogs.dir/1/files/2026/10/openaiorchestrabio.png" medium="image"/>
-    </item>
-    <item>
-      <title>HyperX Pulsefire Haste 3 Pro: el mouse de fibra de carbono de 47 gramos que le pelea a Razer por USD 150 menos</title>
-      <link>https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/hyperx-pulsefire-haste-3-pro-mouse-octubre-2026.html</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Con sensor de hasta 42.000 DPI, polling inalámbrico de 8.000 Hz y una carcasa de fibra de carbono, el nuevo mouse de HyperX cuesta USD 129,99 — bastante menos que el Razer Viper Mini Signature Edition.</description>
-      <media:content url="https://tech-insider.org/wp-content/uploads/2026/09/hyperx-pulsefire-haste-3-pro-cloud-alpha-air-2026-1.webp" medium="image"/>
     </item>
   </channel>
 </rss>
