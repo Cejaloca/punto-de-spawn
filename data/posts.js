@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'claude-personal-finance-cuentas-bancarias-plaid-solo-lectura-noviembre-2026',
+    titulo: "Claude ahora puede leer tus cuentas bancarias (pero no mover un peso): llegó Personal Finance en beta",
+    extracto: "Anthropic lanzó Personal Finance en beta para suscriptores Pro, Max y Ultra de EE.UU.: conectás bancos y tarjetas vía Plaid y le preguntás en qué se te va la plata. Es solo lectura y no hay ads.",
+    fecha: '2026-11-09',
+    fechaDisplay: '9 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "anthropic", "claude", "personal-finance", "plaid"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://media.thenextweb.com/2026/11/claude-personal-finance-beta-app-screen-iphone.jpg',
+    archivo: 'posts/claude-personal-finance-cuentas-bancarias-plaid-solo-lectura-noviembre-2026.html'
+  },
+  {
+    id: 'gemini-omni-1-2-flash-video-15-segundos-30-por-ciento-mas-barato-noviembre-2026',
+    titulo: "Google lanzó Gemini Omni 1.2 Flash: videos de hasta 15 segundos y 30% más barato",
+    extracto: "El nuevo modelo de video de Google genera clips de 3 a 15 segundos con edición por chat, mejor lip-sync y USD 0,07 por segundo en 720p. Ya está en la API, Flow y Google Vids.",
+    fecha: '2026-11-09',
+    fechaDisplay: '9 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "google", "gemini", "gemini-omni", "video-ia"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png',
+    archivo: 'posts/gemini-omni-1-2-flash-video-15-segundos-30-por-ciento-mas-barato-noviembre-2026.html'
+  },
+  {
     id: 'cod-modern-warfare-4-temporada-1-mapas-armas-pase-noviembre-2026',
     titulo: "Call of Duty MW4 Temporada 1: 3 mapas nuevos, modo Drop Zone y bajan la vida del Hardcore",
     extracto: "Llegó la Temporada 1 de Modern Warfare 4 con mapas Backstab, Canyon y Shoot House, dos armas nuevas, pase de batalla de 100 niveles y modo 120 Hz en consolas.",
