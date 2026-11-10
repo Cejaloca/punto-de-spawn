@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Anthropic lanzó Claude Fable 5.2: 30% más rápido y 20% más barato que la generación anterior</title>
+      <link>https://puntodespawn.com/posts/claude-fable-5-2-mythos-5-2-lanzamiento-precio-20-por-ciento-menos-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-fable-5-2-mythos-5-2-lanzamiento-precio-20-por-ciento-menos-noviembre-2026.html</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Fable 5.2 ya está disponible para todos y Mythos 5.2 llega solo a organizaciones verificadas. Cuesta USD 8 por millón de tokens de entrada y USD 40 de salida, y sale justo antes del IPO de Anthropic.</description>
+      <media:content url="https://cms.interestingengineering.com/wp-content/uploads/2026/02/anthropic.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Battlefield 6 Casino Heist: llega el mapa European Casino, nuevas armas y un evento con contratos</title>
+      <link>https://puntodespawn.com/posts/battlefield-6-casino-heist-european-casino-temporada-5-fase-2-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/battlefield-6-casino-heist-european-casino-temporada-5-fase-2-noviembre-2026.html</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>La Temporada 5 Fase 2 arrancó el 10 de noviembre con un mapa nocturno en Las Vegas, el carbine NSW4, un inhibidor de señal y el evento Casino Heist con cosméticos para canjear.</description>
+      <media:content url="https://drop-assets.ea.com/images/3Bw2Vzf7HyCceIcfk47q3i/3fe6ea47cd8dda82fc7cf8b90f30c9af/CMTY-CU-281026-2KJ-EN.jpg" medium="image"/>
+    </item>
     <item>
       <title>Claude ahora puede leer tus cuentas bancarias (pero no mover un peso): llegó Personal Finance en beta</title>
       <link>https://puntodespawn.com/posts/claude-personal-finance-cuentas-bancarias-plaid-solo-lectura-noviembre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
       <description>Anthropic mostró cómo un agente de IA eligió blancos, generó más de 300.000 diseños y hasta encargó la síntesis por mail. Es investigación temprana, todavía lejos de un antiveneno, pero los datos ya son públicos.</description>
       <media:content url="https://www-cdn.anthropic.com/images/4zrzovbb/website/187c8077329b22f6bd02c5648ea58749af892e8c-1200x630.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Call of Duty: Modern Warfare 4 ya salió y es el CoD mejor puntuado en años: 86 en Metacritic</title>
-      <link>https://puntodespawn.com/posts/call-of-duty-modern-warfare-4-lanzamiento-reviews-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/call-of-duty-modern-warfare-4-lanzamiento-reviews-octubre-2026.html</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El cierre de la trilogía de Infinity Ward llegó con campaña en Corea, el regreso de DMZ y la mejor recepción de la saga desde 2011. Cuesta USD 69,99 y no está en Game Pass de salida.</description>
-      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg?t=1792806931" medium="image"/>
-    </item>
-    <item>
-      <title>Final Fantasy Resonance ya está disponible: el FF por turnos en HD-2D que enamoró a la crítica</title>
-      <link>https://puntodespawn.com/posts/final-fantasy-resonance-lanzamiento-reviews-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/final-fantasy-resonance-lanzamiento-reviews-octubre-2026.html</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Square Enix lanzó en PC, PlayStation, Xbox y Switch un RPG clásico con estética HD-2D inspirado en Brave Exvius. Famitsu le dio 36/40, cuesta USD 49,99 en Steam y tiene demo gratis.</description>
-      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg?t=1792758611" medium="image"/>
     </item>
   </channel>
 </rss>

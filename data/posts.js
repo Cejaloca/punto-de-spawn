@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'claude-fable-5-2-mythos-5-2-lanzamiento-precio-20-por-ciento-menos-noviembre-2026',
+    titulo: "Anthropic lanzó Claude Fable 5.2: 30% más rápido y 20% más barato que la generación anterior",
+    extracto: "Fable 5.2 ya está disponible para todos y Mythos 5.2 llega solo a organizaciones verificadas. Cuesta USD 8 por millón de tokens de entrada y USD 40 de salida, y sale justo antes del IPO de Anthropic.",
+    fecha: '2026-11-10',
+    fechaDisplay: '10 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "anthropic", "claude", "fable-5-2", "mythos-5-2"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cms.interestingengineering.com/wp-content/uploads/2026/02/anthropic.jpg',
+    archivo: 'posts/claude-fable-5-2-mythos-5-2-lanzamiento-precio-20-por-ciento-menos-noviembre-2026.html'
+  },
+  {
+    id: 'battlefield-6-casino-heist-european-casino-temporada-5-fase-2-noviembre-2026',
+    titulo: "Battlefield 6 Casino Heist: llega el mapa European Casino, nuevas armas y un evento con contratos",
+    extracto: "La Temporada 5 Fase 2 arrancó el 10 de noviembre con un mapa nocturno en Las Vegas, el carbine NSW4, un inhibidor de señal y el evento Casino Heist con cosméticos para canjear.",
+    fecha: '2026-11-10',
+    fechaDisplay: '10 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["battlefield-6", "casino-heist", "temporada-5", "parche", "ea"],
+    juego: 'battlefield-6',
+    juegoDisplay: 'Battlefield 6',
+    imagen: 'https://drop-assets.ea.com/images/3Bw2Vzf7HyCceIcfk47q3i/3fe6ea47cd8dda82fc7cf8b90f30c9af/CMTY-CU-281026-2KJ-EN.jpg',
+    archivo: 'posts/battlefield-6-casino-heist-european-casino-temporada-5-fase-2-noviembre-2026.html'
+  },
+  {
     id: 'claude-personal-finance-cuentas-bancarias-plaid-solo-lectura-noviembre-2026',
     titulo: "Claude ahora puede leer tus cuentas bancarias (pero no mover un peso): llegó Personal Finance en beta",
     extracto: "Anthropic lanzó Personal Finance en beta para suscriptores Pro, Max y Ultra de EE.UU.: conectás bancos y tarjetas vía Plaid y le preguntás en qué se te va la plata. Es solo lectura y no hay ads.",
