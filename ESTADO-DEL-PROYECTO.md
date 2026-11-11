@@ -1,5 +1,5 @@
 # Estado del proyecto — PuntoDeSpawn
-*Actualizado: 11 de julio de 2026*
+*Actualizado: 11 de noviembre de 2026*
 
 ---
 
@@ -26,7 +26,7 @@ punto-de-spawn/
 ├── nosotros.html           # Página Nosotros
 ├── contacto.html           # Formulario de contacto → Telegram
 ├── admin.html              # Dashboard de métricas (protegido, no indexado)
-├── sitemap.xml             # 127 URLs — regenerado automáticamente en deploy
+├── sitemap.xml             # páginas estáticas + todos los posts — regenerado automáticamente en deploy
 ├── feed.xml                # RSS 2.0 — últimos 30 posts — regenerado en deploy
 ├── robots.txt
 ├── ads.txt
@@ -36,7 +36,7 @@ punto-de-spawn/
 │   ├── main.js
 │   └── posts.js
 ├── data/posts.js           # Array POSTS — fuente de verdad de todos los posts
-├── posts/                  # Un archivo HTML por post (119 posts)
+├── posts/                  # Un archivo HTML por post (340+ posts)
 ├── deploy-github.py        # Script de deploy a GitHub Pages
 ├── generate-sitemap.py     # Genera sitemap.xml desde posts.js
 ├── generate-rss.py         # Genera feed.xml desde posts.js
@@ -56,7 +56,7 @@ punto-de-spawn/
 El deploy:
 - Valida `posts.js`
 - Regenera `feed.xml` (últimos 30 posts)
-- Regenera `sitemap.xml` (127+ URLs)
+- Regenera `sitemap.xml` (páginas estáticas + todos los posts)
 - Clona el repo en `/tmp`, sincroniza y pushea a `main`
 - GitHub Pages publica en ~2 minutos
 
@@ -296,3 +296,15 @@ with open('admin.html', 'w') as f: f.write(content)
 | Instagram | @puntodespawn.ok |
 | Telegram bot | @puntodespawnbot |
 | ARQ (cobro) | pendiente de configurar en AdSense |
+
+---
+
+## Revisión general — 11 de noviembre de 2026
+
+- **Menú y footer unificados** en todas las páginas y posts: Tecnología, Gaming, Ofertas, Comunidad, Biotecnología, Esports, Nosotros (footer suma Contacto y Privacidad). Todo post nuevo debe usar ese menú.
+- **Google Analytics, link al RSS y fuentes** (`<link>` con preconnect, ya no `@import` en el CSS) presentes en todos los HTML. Todo post nuevo debe incluir los tres bloques en el `<head>`.
+- **CSS nuevo:** `.post-tags .tag` (tags de posts), `.post-hero-img` (imagen principal a todo el ancho), `.sr-only`.
+- **Home:** 12 notas iniciales, `<h1>` oculto para SEO, degradado del destacado más oscuro.
+- **Imágenes rotas:** `js/posts.js` reemplaza la portada de una card por el gradiente si la imagen externa no carga.
+- **Sitemap:** `generate-sitemap.py` incluye patch-notes, biotecnología, esports y privacidad, sin duplicar la home.
+- **Pendiente:** 13 posts de abril/mayo siguen sin imagen; hay 3 HTML huérfanos en `posts/2026-03-31`, `2026-04-02` y `2026-04-04` que no figuran en `posts.js`; la mayoría de las imágenes siguen enlazadas desde sitios externos.

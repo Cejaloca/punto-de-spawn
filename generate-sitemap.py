@@ -22,14 +22,17 @@ DOMINIO = "https://puntodespawn.com"
 
 # Páginas estáticas del sitio: (ruta, changefreq, priority)
 PAGINAS_ESTATICAS = [
-    ("",                "daily",   "1.0"),   # raíz https://puntodespawn.com/
-    ("index.html",      "daily",   "1.0"),
-    ("tecnologia.html", "daily",   "0.9"),
-    ("gaming.html",     "daily",   "0.9"),
-    ("ofertas.html",    "weekly",  "0.8"),
-    ("comunidad.html",  "weekly",  "0.7"),
-    ("nosotros.html",   "monthly", "0.5"),
-    ("contacto.html",   "monthly", "0.5"),
+    ("",                   "daily",   "1.0"),   # raíz https://puntodespawn.com/
+    ("tecnologia.html",    "daily",   "0.9"),
+    ("gaming.html",        "daily",   "0.9"),
+    ("patch-notes.html",   "daily",   "0.8"),
+    ("ofertas.html",       "weekly",  "0.8"),
+    ("biotecnologia.html", "weekly",  "0.8"),
+    ("esports.html",       "weekly",  "0.7"),
+    ("comunidad.html",     "weekly",  "0.7"),
+    ("nosotros.html",      "monthly", "0.5"),
+    ("contacto.html",      "monthly", "0.5"),
+    ("privacidad.html",    "yearly",  "0.3"),
 ]
 
 

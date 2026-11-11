@@ -76,7 +76,7 @@ function renderCardCover(post) {
   if (post.imagen) {
     var src = /^https?:\/\//.test(post.imagen) ? post.imagen : PATH_PREFIX + post.imagen;
     var isLogo = /\.png$/i.test(post.imagen) || post.logo;
-    return '<div class="card-cover' + (isLogo ? ' cover-logo' : '') + '"><img src="' + src + '" alt="' + post.titulo + '" loading="lazy"></div>';
+    return '<div class="card-cover' + (isLogo ? ' cover-logo' : '') + '"><img src="' + src + '" alt="' + String(post.titulo).replace(/"/g, '&quot;') + '" loading="lazy" data-cat="' + post.categoria + '" data-label="' + String(post.juegoDisplay || getCategoryLabel(post.categoria)).replace(/"/g, '&quot;') + '"></div>';
   }
   var label = post.juegoDisplay || getCategoryLabel(post.categoria);
   return '<div class="card-cover">' +
@@ -128,7 +128,7 @@ function renderHero(post) {
     if (heroSection) {
       const src = /^https?:\/\//.test(post.imagen) ? post.imagen : PATH_PREFIX + post.imagen;
       heroSection.style.backgroundImage =
-        'linear-gradient(to right, rgba(13,13,15,0.97) 30%, rgba(13,13,15,0.78) 58%, rgba(13,13,15,0.25) 100%), url(' + src + ')';
+        'linear-gradient(to right, rgba(13,13,15,0.97) 35%, rgba(13,13,15,0.90) 62%, rgba(13,13,15,0.55) 100%), url(' + src + ')';
       heroSection.style.backgroundSize = '100% 100%, cover';
       heroSection.style.backgroundPosition = '0 0, center';
     }
@@ -476,7 +476,7 @@ function renderGameFilters() {
 function initHomePage() {
   var sorted = getSortedPosts();
   if (sorted.length > 0) renderHero(sorted[0]);
-  renderCardsLimited('latest-container', sorted.slice(1), 6);
+  renderCardsLimited('latest-container', sorted.slice(1), 12);
 }
 
 function initCategoryPage(categoria) {
@@ -534,3 +534,24 @@ function initCategoryPage(categoria) {
     }
   }
 }
+
+// ── Fallback para imágenes externas rotas ────────────────────────────────────
+// Si la imagen de una card no carga, se muestra la portada con gradiente;
+// si falla la imagen principal de un post, se oculta.
+document.addEventListener('error', function (e) {
+  var img = e.target;
+  if (!img || img.tagName !== 'IMG') return;
+  var cover = img.closest ? img.closest('.card-cover') : null;
+  if (cover && img.dataset.cat) {
+    var cat = img.dataset.cat;
+    cover.classList.remove('cover-logo');
+    cover.innerHTML =
+      '<div class="card-cover-gradient ' + getCoverGradientClass(cat) + '">' +
+        '<span class="cover-icon">' + getCoverIcon(cat) + '</span>' +
+        '<span class="cover-label"></span>' +
+      '</div>';
+    cover.querySelector('.cover-label').textContent = img.dataset.label || '';
+  } else if (img.classList.contains('post-hero-img')) {
+    img.style.display = 'none';
+  }
+}, true);

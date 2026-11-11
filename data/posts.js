@@ -3974,7 +3974,7 @@ const POSTS = [
     tags: ['epic-games', 'juegos-gratis', 'gaming', 'hogwarts-legacy', 'harry-potter'],
     juego: null,
     juegoDisplay: null,
-    imagen: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg',
     archivo: 'posts/2026-05-01/hogwarts-legacy-gratis-epic-mayo-2026.html'
   },
   {
@@ -4120,7 +4120,7 @@ const POSTS = [
     tags: ['diablo-4', 'blizzard', 'expansion', 'gaming', 'review'],
     juego: null,
     juegoDisplay: null,
-    imagen: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/2344520/header.jpg',
     archivo: 'posts/2026-04-24/diablo-4-lord-of-hatred-reviews-2026.html'
   },
   {
@@ -4186,7 +4186,7 @@ const POSTS = [
     tags: ['hades', 'ps5', 'xbox', 'game-pass', 'gaming', 'lanzamiento'],
     juego: null,
     juegoDisplay: null,
-    imagen: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1145350/header.jpg',
     archivo: 'posts/2026-04-17/hades-2-ps5-xbox-consolas-2026.html'
   },
   {
@@ -4199,7 +4199,7 @@ const POSTS = [
     tags: ['diablo-4', 'blizzard', 'expansion', 'gaming', 'lanzamiento'],
     juego: null,
     juegoDisplay: null,
-    imagen: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/2344520/header.jpg',
     archivo: 'posts/2026-04-17/diablo-4-lord-of-hatred-2026.html'
   },
   {
@@ -4332,7 +4332,7 @@ const POSTS = [
     tags: ['starfield', 'ps5', 'bethesda', 'gaming', 'lanzamiento'],
     juego: 'starfield',
     juegoDisplay: 'Starfield',
-    imagen: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/1716740/header.jpg',
     archivo: 'posts/2026-04-08/starfield-ps5-abril-2026.html'
   },
   {
