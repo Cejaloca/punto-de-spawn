@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: 'chai-discovery-roche-alianza-ia-diseno-proteinas-chai-3-noviembre-2026',
+    titulo: "Roche se alía con Chai Discovery para diseñar medicamentos con IA: es el tercer gigante en sumarse",
+    extracto: "Chai Discovery, la startup de IA que diseña medicamentos basados en proteínas, anunció una colaboración con Roche. Usa su modelo Chai-3 y se suma a los acuerdos previos con Eli Lilly y GSK.",
+    fecha: '2026-11-11',
+    fechaDisplay: '11 de noviembre de 2026',
+    categoria: 'biotecnologia',
+    tags: ["inteligencia-artificial", "biotecnologia", "chai-discovery", "roche", "chai-3", "proteinas"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://hitconsultant.net/wp-content/uploads/2026/07/ChaiDiscovery.jpeg',
+    archivo: 'posts/chai-discovery-roche-alianza-ia-diseno-proteinas-chai-3-noviembre-2026.html'
+  },
+  {
+    id: 'epic-gratis-knightica-12-noviembre-2026',
+    titulo: "Epic regala Knightica desde mañana: un roguelike auto-battler que en Steam sale USD 14,99",
+    extracto: "Desde el jueves 12 de noviembre y hasta el 19, Epic Games Store regala Knightica, un auto-battler por turnos para armar sinergias entre unidades. Cómo reclamarlo y qué esperar.",
+    fecha: '2026-11-11',
+    fechaDisplay: '11 de noviembre de 2026',
+    categoria: 'ofertas',
+    tags: ["epic-games", "gratis", "knightica", "roguelike", "ofertas"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/3093400/header.jpg',
+    archivo: 'posts/epic-gratis-knightica-12-noviembre-2026.html'
+  },
+  {
     id: 'claude-fable-5-2-mythos-5-2-lanzamiento-precio-20-por-ciento-menos-noviembre-2026',
     titulo: "Anthropic lanzó Claude Fable 5.2: 30% más rápido y 20% más barato que la generación anterior",
     extracto: "Fable 5.2 ya está disponible para todos y Mythos 5.2 llega solo a organizaciones verificadas. Cuesta USD 8 por millón de tokens de entrada y USD 40 de salida, y sale justo antes del IPO de Anthropic.",
