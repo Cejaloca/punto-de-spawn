@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: "valorant-parche-1310-sentinelas-gauntlet-glitched-replay-bookmarks-noviembre-2026",
+    titulo: "Valorant 13.10: Cypher, Killjoy y Vyse recuperan sus gadgets más rápido, y llegan los bookmarks en replays",
+    extracto: "El parche 13.10 del 10 de noviembre baja a 45 segundos el cooldown de Spycam, Turret y Arc Rose cuando los destruyen, retoca las asistencias y amplía Gauntlet: Glitched con equipos de hasta 5.",
+    fecha: '2026-11-12',
+    fechaDisplay: '12 de noviembre de 2026',
+    categoria: 'patch-notes',
+    tags: ["valorant", "patch-notes", "riot-games", "cypher", "killjoy", "vyse", "gauntlet-glitched"],
+    juego: "valorant",
+    juegoDisplay: "Valorant",
+    imagen: 'https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/296cff0d10e916f8a529ec9b60da134f0c80a448-1920x1080.png',
+    archivo: 'posts/valorant-parche-1310-sentinelas-gauntlet-glitched-replay-bookmarks-noviembre-2026.html'
+  },
+  {
+    id: "claude-sheets-whiteboards-meetings-beta-claude-data-noviembre-2026",
+    titulo: "Claude se vuelve suite de oficina: llegan Sheets, Whiteboards y Meetings en beta",
+    extracto: "Anthropic sumó planillas, pizarras colaborativas y un Claude que se une a reuniones de Google Meet. Claude Data, antes Dashboards, pasa a estar disponible para todos.",
+    fecha: '2026-11-12',
+    fechaDisplay: '12 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "anthropic", "claude", "claude-sheets", "claude-meetings", "productividad"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.theneuron.ai/everything-that-happened-in-ai-today-november-11-2026.png',
+    archivo: 'posts/claude-sheets-whiteboards-meetings-beta-claude-data-noviembre-2026.html'
+  },
+  {
     id: 'chai-discovery-roche-alianza-ia-diseno-proteinas-chai-3-noviembre-2026',
     titulo: "Roche se alía con Chai Discovery para diseñar medicamentos con IA: es el tercer gigante en sumarse",
     extracto: "Chai Discovery, la startup de IA que diseña medicamentos basados en proteínas, anunció una colaboración con Roche. Usa su modelo Chai-3 y se suma a los acuerdos previos con Eli Lilly y GSK.",

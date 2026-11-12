@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Valorant 13.10: Cypher, Killjoy y Vyse recuperan sus gadgets más rápido, y llegan los bookmarks en replays</title>
+      <link>https://puntodespawn.com/posts/valorant-parche-1310-sentinelas-gauntlet-glitched-replay-bookmarks-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-parche-1310-sentinelas-gauntlet-glitched-replay-bookmarks-noviembre-2026.html</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>El parche 13.10 del 10 de noviembre baja a 45 segundos el cooldown de Spycam, Turret y Arc Rose cuando los destruyen, retoca las asistencias y amplía Gauntlet: Glitched con equipos de hasta 5.</description>
+      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/296cff0d10e916f8a529ec9b60da134f0c80a448-1920x1080.png" medium="image"/>
+    </item>
+    <item>
+      <title>Claude se vuelve suite de oficina: llegan Sheets, Whiteboards y Meetings en beta</title>
+      <link>https://puntodespawn.com/posts/claude-sheets-whiteboards-meetings-beta-claude-data-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-sheets-whiteboards-meetings-beta-claude-data-noviembre-2026.html</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Anthropic sumó planillas, pizarras colaborativas y un Claude que se une a reuniones de Google Meet. Claude Data, antes Dashboards, pasa a estar disponible para todos.</description>
+      <media:content url="https://cdn.theneuron.ai/everything-that-happened-in-ai-today-november-11-2026.png" medium="image"/>
+    </item>
     <item>
       <title>Roche se alía con Chai Discovery para diseñar medicamentos con IA: es el tercer gigante en sumarse</title>
       <link>https://puntodespawn.com/posts/chai-discovery-roche-alianza-ia-diseno-proteinas-chai-3-noviembre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
       <description>El parche del 22 de octubre sumó &quot;Path to Doomsday&quot;, un evento PvE por sesiones de 2 horas que dura hasta el 26 de noviembre. Participar da una skin de Capitán América.</description>
       <media:content url="https://timesaver.gg/cdn/blog/marvel-rivals/marvel-rivals-avengers-endgame-mode-thanos-schedule-rewards/featured.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>WoW Midnight: el martes llegan ajustes de clases con un nerf fuerte al Pícaro Sutileza y buffs a Druidas, Magos y Brujos</title>
-      <link>https://puntodespawn.com/posts/wow-midnight-ajustes-de-clases-27-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/wow-midnight-ajustes-de-clases-27-octubre-2026.html</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Blizzard avisó que los cambios entran con el mantenimiento semanal del 27 de octubre: Sutileza pierde 8% de daño, mientras Feral, Restauración, Fuego y Destrucción reciben mejoras.</description>
-      <media:content url="https://static.icy-veins.com/wp/wp-content/uploads/2026/10/IXM5NMR2FGZ317851708595921.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Diablo IV abre el PTR 3.3.0 de la Temporada 16: War Plans Tactics, ítems Horadric y rework de Druida</title>
-      <link>https://puntodespawn.com/posts/diablo-4-ptr-330-temporada-16-war-plans-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/diablo-4-ptr-330-temporada-16-war-plans-octubre-2026.html</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Desde hoy y hasta el 3 de noviembre se puede probar en PC el adelanto de la nueva temporada, con un sistema de meta-progresión, bendiciones de Tyrael y un jefe nuevo.</description>
-      <media:content url="https://dfbmfbnnydoln.cloudfront.net/production/images/thumbnails/social-sharing-diablo-4.32a76540da8e17a15d840138d604ae9a848a9c51.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
