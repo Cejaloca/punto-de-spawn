@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Epic regala Alien: Isolation y Mark of the Deep la semana que viene</title>
+      <link>https://puntodespawn.com/posts/epic-gratis-alien-isolation-mark-of-the-deep-19-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-alien-isolation-mark-of-the-deep-19-noviembre-2026.html</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Del 19 al 26 de noviembre, Epic Games Store suma dos juegos gratis: el survival horror de Alien y un souls-like pirata con aire de metroidvania. Hasta el 19 sigue gratis Knightica.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/214490/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Google lanza Gemini 4 Hydrogen: más rápido, ya está en la app y en el buscador para todos</title>
+      <link>https://puntodespawn.com/posts/gemini-4-hydrogen-lanzamiento-modelo-default-gratis-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-4-hydrogen-lanzamiento-modelo-default-gratis-noviembre-2026.html</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Gemini 4 Hydrogen es el nuevo modelo &quot;de todos los días&quot; de Google. Promete tareas 2,5 veces más rápidas que Gemini 3.8 Flash, llega a usuarios gratis y potencia el buscador.</description>
+      <media:content url="https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/Screenshot-2026-11-12-at-11.48.16-PM.jpg?resize=1200%2C630&amp;ssl=1" medium="image"/>
+    </item>
+    <item>
+      <title>AlphaGenome 2: la IA de DeepMind que predice cómo una mutación del ADN cambia cada tipo de célula</title>
+      <link>https://puntodespawn.com/posts/alphagenome-2-deepmind-adn-tipos-celulares-enfermedad-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/alphagenome-2-deepmind-adn-tipos-celulares-enfermedad-noviembre-2026.html</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Google DeepMind lanzó AlphaGenome 2, que detecta casi el doble de variantes que alteran la expresión de genes en células específicas. Es para investigación, no para diagnóstico.</description>
+      <media:content url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1200-h630-n-nu-rw" medium="image"/>
+    </item>
     <item>
       <title>Valorant 13.10: Cypher, Killjoy y Vyse recuperan sus gadgets más rápido, y llegan los bookmarks en replays</title>
       <link>https://puntodespawn.com/posts/valorant-parche-1310-sentinelas-gauntlet-glitched-replay-bookmarks-noviembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
       <description>La nueva línea de mouse de Corsair, desarrollada con Aimlabs, arranca en USD 179,99 y promete reducir hasta 33% el tiempo de corrección al apuntar, aunque ese dato sale de pruebas internas.</description>
       <media:content url="https://www.pctestbench.com/wp-content/uploads/2026/10/SABRE_V3_BLACK_03_TOP_LEFT-scaled-1.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Google presentó Genie 4: un modelo que genera mundos interactivos con audio en tiempo real y los deja editar mientras jugás</title>
-      <link>https://puntodespawn.com/posts/google-genie-4-world-model-audio-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/google-genie-4-world-model-audio-octubre-2026.html</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <description>DeepMind duplicó a dos minutos la duración de las simulaciones, sumó música, ruido ambiente y diálogo, y permite cambiar clima, cámara u objetos con texto. Por ahora es una vista previa para testers.</description>
-      <media:content url="https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png" medium="image"/>
-    </item>
-    <item>
-      <title>OpenAI lanzó GPT-6.1 Terra: USD 1 por millón de tokens, computer use y la mitad de precio que su antecesor</title>
-      <link>https://puntodespawn.com/posts/openai-gpt-6-1-terra-precios-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-6-1-terra-precios-octubre-2026.html</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El nuevo modelo de nivel medio de OpenAI llega a ChatGPT Plus, Pro, Enterprise y Edu, y a Codex. Promete agentes más rápidos y baratos, pero por ahora no se sabe si habrá versión gratuita.</description>
-      <media:content url="https://www.ghacks.net/wp-content/uploads/2026/10/gHacks-articles-2026-10-27T113648.442.png" medium="image"/>
-    </item>
-    <item>
-      <title>Marvel Rivals: llega el modo Avengers: Endgame para 50 jugadores con Thanos como jefe y skin gratis del Soldado del Invierno</title>
-      <link>https://puntodespawn.com/posts/marvel-rivals-avengers-endgame-thanos-temporada-10-5-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-avengers-endgame-thanos-temporada-10-5-octubre-2026.html</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El parche del 22 de octubre sumó &quot;Path to Doomsday&quot;, un evento PvE por sesiones de 2 horas que dura hasta el 26 de noviembre. Participar da una skin de Capitán América.</description>
-      <media:content url="https://timesaver.gg/cdn/blog/marvel-rivals/marvel-rivals-avengers-endgame-mode-thanos-schedule-rewards/featured.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

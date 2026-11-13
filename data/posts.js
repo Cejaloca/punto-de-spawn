@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: "epic-gratis-alien-isolation-mark-of-the-deep-19-noviembre-2026",
+    titulo: "Epic regala Alien: Isolation y Mark of the Deep la semana que viene",
+    extracto: "Del 19 al 26 de noviembre, Epic Games Store suma dos juegos gratis: el survival horror de Alien y un souls-like pirata con aire de metroidvania. Hasta el 19 sigue gratis Knightica.",
+    fecha: '2026-11-13',
+    fechaDisplay: '13 de noviembre de 2026',
+    categoria: 'ofertas',
+    tags: ["epic-games", "gratis", "alien-isolation", "mark-of-the-deep", "ofertas"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://cdn.akamai.steamstatic.com/steam/apps/214490/header.jpg',
+    archivo: 'posts/epic-gratis-alien-isolation-mark-of-the-deep-19-noviembre-2026.html'
+  },
+  {
+    id: "gemini-4-hydrogen-lanzamiento-modelo-default-gratis-noviembre-2026",
+    titulo: "Google lanza Gemini 4 Hydrogen: más rápido, ya está en la app y en el buscador para todos",
+    extracto: "Gemini 4 Hydrogen es el nuevo modelo \"de todos los días\" de Google. Promete tareas 2,5 veces más rápidas que Gemini 3.8 Flash, llega a usuarios gratis y potencia el buscador.",
+    fecha: '2026-11-13',
+    fechaDisplay: '13 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "google", "gemini", "gemini-4-hydrogen", "chatbots"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/Screenshot-2026-11-12-at-11.48.16-PM.jpg?resize=1200%2C630&ssl=1',
+    archivo: 'posts/gemini-4-hydrogen-lanzamiento-modelo-default-gratis-noviembre-2026.html'
+  },
+  {
+    id: "alphagenome-2-deepmind-adn-tipos-celulares-enfermedad-noviembre-2026",
+    titulo: "AlphaGenome 2: la IA de DeepMind que predice cómo una mutación del ADN cambia cada tipo de célula",
+    extracto: "Google DeepMind lanzó AlphaGenome 2, que detecta casi el doble de variantes que alteran la expresión de genes en células específicas. Es para investigación, no para diagnóstico.",
+    fecha: '2026-11-13',
+    fechaDisplay: '13 de noviembre de 2026',
+    categoria: 'biotecnologia',
+    tags: ["inteligencia-artificial", "biotecnologia", "google-deepmind", "alphagenome", "genomica"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: 'https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1200-h630-n-nu-rw',
+    archivo: 'posts/alphagenome-2-deepmind-adn-tipos-celulares-enfermedad-noviembre-2026.html'
+  },
+  {
     id: "valorant-parche-1310-sentinelas-gauntlet-glitched-replay-bookmarks-noviembre-2026",
     titulo: "Valorant 13.10: Cypher, Killjoy y Vyse recuperan sus gadgets más rápido, y llegan los bookmarks en replays",
     extracto: "El parche 13.10 del 10 de noviembre baja a 45 segundos el cooldown de Spycam, Turret y Arc Rose cuando los destruyen, retoca las asistencias y amplía Gauntlet: Glitched con equipos de hasta 5.",
