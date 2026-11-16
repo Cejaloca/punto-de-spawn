@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: "marvel-rivals-temporada-11-doomsday-nightcrawler-dracula-calendario-noviembre-2026",
+    titulo: "Marvel Rivals Temporada 11: llega Nightcrawler, después Dracula, y un modo 18v18 a fin de mes",
+    extracto: "La Temporada 11 \"Doomsday\" arrancó el 13 de noviembre con Nightcrawler como estratega. Repasamos el calendario: Dracula, el mapa Incursion Point, el modo 18v18 y los skins que vienen.",
+    fecha: '2026-11-16',
+    fechaDisplay: '16 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["marvel-rivals", "temporada-11", "nightcrawler", "dracula", "netease", "heroe-shooter"],
+    juego: "marvel-rivals",
+    juegoDisplay: "Marvel Rivals",
+    imagen: "https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg",
+    archivo: 'posts/marvel-rivals-temporada-11-doomsday-nightcrawler-dracula-calendario-noviembre-2026.html'
+  },
+  {
+    id: "chatgpt-images-2-6-gifs-mas-rapido-gratis-noviembre-2026",
+    titulo: "ChatGPT Images 2.6: ahora crea GIFs animados y genera imágenes un 50% más rápido",
+    extracto: "OpenAI lanzó Images 2.6 el 4 de noviembre en ChatGPT, Codex y la API: GIFs a partir de un prompt o una imagen, edición más precisa y dos modelos nuevos para desarrolladores.",
+    fecha: '2026-11-16',
+    fechaDisplay: '16 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "openai", "chatgpt", "images-2-6", "gifs", "generacion-de-imagenes"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
+    archivo: 'posts/chatgpt-images-2-6-gifs-mas-rapido-gratis-noviembre-2026.html'
+  },
+  {
+    id: "isomorphic-labs-ia-disenara-todos-los-medicamentos-ensayos-humanos-noviembre-2026",
+    titulo: "Isomorphic Labs asegura que la IA diseñará todos los medicamentos, pero aún no hay ensayos en humanos",
+    extracto: "El presidente de Isomorphic Labs, el spin-off de DeepMind, habló en Bloomberg Tech de su motor IsoDDE y sus alianzas con Novartis, Lilly y J&J. Sus primeros ensayos clínicos siguen sin confirmarse.",
+    fecha: '2026-11-16',
+    fechaDisplay: '16 de noviembre de 2026',
+    categoria: 'biotecnologia',
+    tags: ["inteligencia-artificial", "biotecnologia", "isomorphic-labs", "deepmind", "alphafold", "descubrimiento-de-farmacos"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://cdn.theneuron.ai/isomorphic-labs-ai-drug-design-human-trials.png",
+    archivo: 'posts/isomorphic-labs-ia-disenara-todos-los-medicamentos-ensayos-humanos-noviembre-2026.html'
+  },
+  {
     id: "epic-gratis-alien-isolation-mark-of-the-deep-19-noviembre-2026",
     titulo: "Epic regala Alien: Isolation y Mark of the Deep la semana que viene",
     extracto: "Del 19 al 26 de noviembre, Epic Games Store suma dos juegos gratis: el survival horror de Alien y un souls-like pirata con aire de metroidvania. Hasta el 19 sigue gratis Knightica.",
