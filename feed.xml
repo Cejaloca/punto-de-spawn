@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Anthropic salió de roadshow para su IPO en Nasdaq: acciones de USD 70 a 78 bajo el ticker ANT</title>
+      <link>https://puntodespawn.com/posts/anthropic-ipo-nasdaq-ant-70-78-dolares-roadshow-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-ipo-nasdaq-ant-70-78-dolares-roadshow-noviembre-2026.html</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <description>La empresa detrás de Claude ofrece 825 millones de acciones Clase A y podría juntar hasta USD 64.000 millones. La fecha de cotización todavía no está confirmada.</description>
+      <media:content url="https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91639303-anthropic-stock-update-ipo.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Gemini 4 Carbon ya está disponible: para desarrolladores que pagan y suscriptores Ultra, a USD 2 por millón de tokens</title>
+      <link>https://puntodespawn.com/posts/gemini-4-carbon-disponible-desarrolladores-ultra-swarm-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-4-carbon-disponible-desarrolladores-ultra-swarm-noviembre-2026.html</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Google abrió Gemini 4 Carbon el 10 de noviembre a desarrolladores de pago y suscriptores AI Ultra. Llega con un modo /swarm para coordinar agentes y un precio promocional que después se duplica.</description>
+      <media:content url="https://media.thenextweb.com/2026/11/google-gemini-4-carbon-crystal-graphic.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>LoL parche 26.23: buffs para Annie, Azir y Ezreal, y nerfs a Master Yi, Syndra y LeBlanc</title>
+      <link>https://puntodespawn.com/posts/lol-parche-2623-annie-azir-ezreal-buffs-master-yi-syndra-nerfs-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2623-annie-azir-ezreal-buffs-master-yi-syndra-nerfs-noviembre-2026.html</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <description>El parche 26.23 llega el 18 de noviembre con buffs a diez campeones, nerfs a Master Yi, Syndra y LeBlanc, y un recorte chico al Voltaic Cyclosword.</description>
+      <media:content url="https://strafe-uploads-prod.s3.us-east-1.amazonaws.com/Battle_Queen_Annie_97c21b36a3.jpg" medium="image"/>
+    </item>
     <item>
       <title>Marvel Rivals Temporada 11: llega Nightcrawler, después Dracula, y un modo 18v18 a fin de mes</title>
       <link>https://puntodespawn.com/posts/marvel-rivals-temporada-11-doomsday-nightcrawler-dracula-calendario-noviembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
       <description>La actualización del 29 de octubre suma un evento con puzzles y recompensas gratis, el bundle de Winter Soldier y varias correcciones de bugs, sin cambios de balance.</description>
       <media:content url="https://mp1st.com/wp-content/uploads/2026/10/Path-to-Doomsday-Avengers_-Endgame-_-New-PvE-Mode-Trailer-_-Marvel-Rivals-0-41-screenshot-600x338.png" medium="image"/>
-    </item>
-    <item>
-      <title>Google lanza Gemini 4 Carbon, un modelo para ciberseguridad que por ahora solo usan defensores selectos</title>
-      <link>https://puntodespawn.com/posts/google-gemini-4-carbon-ciberseguridad-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/google-gemini-4-carbon-ciberseguridad-octubre-2026.html</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Llega dos semanas después de Gemini 4 Argon, con precio de USD 2 y USD 10 por millón de tokens, pero el acceso es limitado a través del programa Fairwind.</description>
-      <media:content url="https://www.constellationr.com/sites/default/files/styles/1080wide/public/media/image/2026/10/screenshot_2026-10-28_140325.png.webp?itok=3yFbMIZ0" medium="image"/>
-    </item>
-    <item>
-      <title>Epic Games Store regala Sorry We're Closed: survival horror con cámaras fijas al estilo Resident Evil</title>
-      <link>https://puntodespawn.com/posts/epic-gratis-sorry-were-closed-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-sorry-were-closed-octubre-2026.html</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Desde este jueves 29 de octubre y hasta el 5 de noviembre podés reclamar gratis este survival horror de 2024, bien valorado por la crítica. Se queda en tu biblioteca para siempre.</description>
-      <media:content url="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1796580/header.jpg?t=1786047768" medium="image"/>
-    </item>
-    <item>
-      <title>Anthropic, la empresa detrás de Claude, presentó su S-1 y va por la bolsa: ticker ANT en Nasdaq</title>
-      <link>https://puntodespawn.com/posts/anthropic-s1-ipo-nasdaq-ant-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/anthropic-s1-ipo-nasdaq-ant-octubre-2026.html</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <description>El prospecto público muestra USD 16.286 millones de ingresos en el primer semestre de 2026 y una pérdida neta enorme explicada por cargos contables. Todavía no hay precio ni fecha de salida.</description>
-      <media:content url="https://futurumgroup.com/wp-content/uploads/2026/06/Anthropic-Files-For-IPO-Looking-to-Beat-OpenAI-to-the-Punch.png" medium="image"/>
     </item>
   </channel>
 </rss>

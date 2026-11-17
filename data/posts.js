@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: "anthropic-ipo-nasdaq-ant-70-78-dolares-roadshow-noviembre-2026",
+    titulo: "Anthropic salió de roadshow para su IPO en Nasdaq: acciones de USD 70 a 78 bajo el ticker ANT",
+    extracto: "La empresa detrás de Claude ofrece 825 millones de acciones Clase A y podría juntar hasta USD 64.000 millones. La fecha de cotización todavía no está confirmada.",
+    fecha: '2026-11-17',
+    fechaDisplay: '17 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "anthropic", "claude", "ipo", "nasdaq", "bolsa"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91639303-anthropic-stock-update-ipo.jpg",
+    archivo: 'posts/anthropic-ipo-nasdaq-ant-70-78-dolares-roadshow-noviembre-2026.html'
+  },
+  {
+    id: "gemini-4-carbon-disponible-desarrolladores-ultra-swarm-noviembre-2026",
+    titulo: "Gemini 4 Carbon ya está disponible: para desarrolladores que pagan y suscriptores Ultra, a USD 2 por millón de tokens",
+    extracto: "Google abrió Gemini 4 Carbon el 10 de noviembre a desarrolladores de pago y suscriptores AI Ultra. Llega con un modo /swarm para coordinar agentes y un precio promocional que después se duplica.",
+    fecha: '2026-11-17',
+    fechaDisplay: '17 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "google", "gemini", "gemini-4-carbon", "antigravity", "agentes"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://media.thenextweb.com/2026/11/google-gemini-4-carbon-crystal-graphic.jpg",
+    archivo: 'posts/gemini-4-carbon-disponible-desarrolladores-ultra-swarm-noviembre-2026.html'
+  },
+  {
+    id: "lol-parche-2623-annie-azir-ezreal-buffs-master-yi-syndra-nerfs-noviembre-2026",
+    titulo: "LoL parche 26.23: buffs para Annie, Azir y Ezreal, y nerfs a Master Yi, Syndra y LeBlanc",
+    extracto: "El parche 26.23 llega el 18 de noviembre con buffs a diez campeones, nerfs a Master Yi, Syndra y LeBlanc, y un recorte chico al Voltaic Cyclosword.",
+    fecha: '2026-11-17',
+    fechaDisplay: '17 de noviembre de 2026',
+    categoria: 'patch-notes',
+    tags: ["league-of-legends", "patch-notes", "riot-games", "annie", "azir", "master-yi"],
+    juego: "league-of-legends",
+    juegoDisplay: "League of Legends",
+    imagen: "https://strafe-uploads-prod.s3.us-east-1.amazonaws.com/Battle_Queen_Annie_97c21b36a3.jpg",
+    archivo: 'posts/lol-parche-2623-annie-azir-ezreal-buffs-master-yi-syndra-nerfs-noviembre-2026.html'
+  },
+  {
     id: "marvel-rivals-temporada-11-doomsday-nightcrawler-dracula-calendario-noviembre-2026",
     titulo: "Marvel Rivals Temporada 11: llega Nightcrawler, después Dracula, y un modo 18v18 a fin de mes",
     extracto: "La Temporada 11 \"Doomsday\" arrancó el 13 de noviembre con Nightcrawler como estratega. Repasamos el calendario: Dracula, el mapa Incursion Point, el modo 18v18 y los skins que vienen.",
