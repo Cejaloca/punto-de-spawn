@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>The Game Awards 2026: GTA VI lidera con 8 nominaciones y compite por Juego del Año con Control Resonant y Resident Evil Requiem</title>
+      <link>https://puntodespawn.com/posts/game-awards-2026-nominados-gta-6-ocho-nominaciones-goty-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/game-awards-2026-nominados-gta-6-ocho-nominaciones-goty-noviembre-2026.html</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Se anunciaron los nominados de The Game Awards 2026. GTA VI suma 8 nominaciones, Control Resonant y Resident Evil Requiem 6 cada uno, y la ceremonia es el 10 de diciembre.</description>
+      <media:content url="https://cdn.thepcenthusiast.com/wp-content/uploads/2026/11/game-of-the-year-2026-nominees.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Steam Black Friday 2026: del 26 al 30 de noviembre, sin Autumn Sale y con nominaciones a los Steam Awards</title>
+      <link>https://puntodespawn.com/posts/steam-black-friday-2026-26-30-noviembre-sin-autumn-sale-steam-awards.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-black-friday-2026-26-30-noviembre-sin-autumn-sale-steam-awards.html</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Steam no tiene una oferta oficial de Black Friday: cada estudio decide su descuento. Te contamos fechas, el cooldown de 30 días, los Steam Awards y cuándo llega el Winter Sale.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1030300/header.jpg" medium="image"/>
+    </item>
     <item>
       <title>Anthropic salió de roadshow para su IPO en Nasdaq: acciones de USD 70 a 78 bajo el ticker ANT</title>
       <link>https://puntodespawn.com/posts/anthropic-ipo-nasdaq-ant-70-78-dolares-roadshow-noviembre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
       <description>Prime Gaming (ahora Luna con Prime) suma DOOM de 2016, Conarium, Ad Infinitum y más en noviembre. Además, el survival horror Radiant Exodus está gratis en Steam hasta el 17.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/379720/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Steam Scream Fest V: juegos de terror con hasta 90% de descuento hasta el 2 de noviembre</title>
-      <link>https://puntodespawn.com/posts/steam-scream-fest-v-ofertas-terror-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-scream-fest-v-ofertas-terror-octubre-2026.html</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Dead Island 2 y Metro 2033 Redux con 90% off, Subnautica con 75% y más ofertas de terror en Steam hasta el 2 de noviembre. Steam cobra en USD en Argentina.</description>
-      <media:content url="https://www.gamingonlinux.com/uploads/articles/tagline_images/1426083461id30061gol_og.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Marvel Rivals 1.79: llega Night of Illusions, el evento de Halloween que dura hasta fin de año</title>
-      <link>https://puntodespawn.com/posts/marvel-rivals-night-of-illusions-actualizacion-1-79-octubre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-night-of-illusions-actualizacion-1-79-octubre-2026.html</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <description>La actualización del 29 de octubre suma un evento con puzzles y recompensas gratis, el bundle de Winter Soldier y varias correcciones de bugs, sin cambios de balance.</description>
-      <media:content url="https://mp1st.com/wp-content/uploads/2026/10/Path-to-Doomsday-Avengers_-Endgame-_-New-PvE-Mode-Trailer-_-Marvel-Rivals-0-41-screenshot-600x338.png" medium="image"/>
     </item>
   </channel>
 </rss>

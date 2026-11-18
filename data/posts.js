@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: "game-awards-2026-nominados-gta-6-ocho-nominaciones-goty-noviembre-2026",
+    titulo: "The Game Awards 2026: GTA VI lidera con 8 nominaciones y compite por Juego del Año con Control Resonant y Resident Evil Requiem",
+    extracto: "Se anunciaron los nominados de The Game Awards 2026. GTA VI suma 8 nominaciones, Control Resonant y Resident Evil Requiem 6 cada uno, y la ceremonia es el 10 de diciembre.",
+    fecha: '2026-11-18',
+    fechaDisplay: '18 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["the-game-awards", "goty", "gta-6", "resident-evil-requiem", "control-resonant", "phantom-blade-zero"],
+    juego: "gta-6",
+    juegoDisplay: "GTA VI",
+    imagen: "https://cdn.thepcenthusiast.com/wp-content/uploads/2026/11/game-of-the-year-2026-nominees.jpg",
+    archivo: 'posts/game-awards-2026-nominados-gta-6-ocho-nominaciones-goty-noviembre-2026.html'
+  },
+  {
+    id: "steam-black-friday-2026-26-30-noviembre-sin-autumn-sale-steam-awards",
+    titulo: "Steam Black Friday 2026: del 26 al 30 de noviembre, sin Autumn Sale y con nominaciones a los Steam Awards",
+    extracto: "Steam no tiene una oferta oficial de Black Friday: cada estudio decide su descuento. Te contamos fechas, el cooldown de 30 días, los Steam Awards y cuándo llega el Winter Sale.",
+    fecha: '2026-11-18',
+    fechaDisplay: '18 de noviembre de 2026',
+    categoria: 'ofertas',
+    tags: ["steam", "black-friday", "descuentos", "ofertas", "steam-awards", "winter-sale"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://cdn.akamai.steamstatic.com/steam/apps/1030300/header.jpg",
+    archivo: 'posts/steam-black-friday-2026-26-30-noviembre-sin-autumn-sale-steam-awards.html'
+  },
+  {
     id: "anthropic-ipo-nasdaq-ant-70-78-dolares-roadshow-noviembre-2026",
     titulo: "Anthropic salió de roadshow para su IPO en Nasdaq: acciones de USD 70 a 78 bajo el ticker ANT",
     extracto: "La empresa detrás de Claude ofrece 825 millones de acciones Clase A y podría juntar hasta USD 64.000 millones. La fecha de cotización todavía no está confirmada.",
