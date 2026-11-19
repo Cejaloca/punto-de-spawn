@@ -5,13 +5,21 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Nvidia sin Jensen Huang: renunció como CEO y la empresa igual facturó USD 115.800 millones en el trimestre</title>
+      <link>https://puntodespawn.com/posts/nvidia-huang-renuncia-ceo-kress-resultados-q3-115-mil-millones-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-huang-renuncia-ceo-kress-resultados-q3-115-mil-millones-noviembre-2026.html</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Huang dejó la presidencia y la conducción de Nvidia el 12 de noviembre. Cinco días después, con Colette Kress como CEO interina, Nvidia reportó ingresos récord de USD 115,8 mil millones y proyectó USD 130 mil millones.</description>
+      <media:content url="https://media.thenextweb.com/2026/10/jensen-huang-nvidia-gtc-2026-close-up-eyebrows-raised.jpg" medium="image"/>
+    </item>
     <item>
       <title>The Game Awards 2026: GTA VI lidera con 8 nominaciones y compite por Juego del Año con Control Resonant y Resident Evil Requiem</title>
       <link>https://puntodespawn.com/posts/game-awards-2026-nominados-gta-6-ocho-nominaciones-goty-noviembre-2026.html</link>
@@ -243,14 +251,6 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
       <description>Tras la RTX 5090, la 5080 también desapareció de la tienda de Nvidia sin aviso oficial. En comercios de EE.UU. arranca en USD 1.979,99 contra los USD 999 de lanzamiento.</description>
       <media:content url="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/geforce-rtx-508021.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Juegos gratis de noviembre: DOOM, FNAF Into the Pit y Vampire Swansong en Prime Gaming, y Radiant Exodus gratis en Steam</title>
-      <link>https://puntodespawn.com/posts/prime-gaming-noviembre-2026-doom-fnaf-swansong-radiant-exodus-gratis.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/prime-gaming-noviembre-2026-doom-fnaf-swansong-radiant-exodus-gratis.html</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Prime Gaming (ahora Luna con Prime) suma DOOM de 2016, Conarium, Ad Infinitum y más en noviembre. Además, el survival horror Radiant Exodus está gratis en Steam hasta el 17.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/379720/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

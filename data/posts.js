@@ -1,5 +1,18 @@
 const POSTS = [
   {
+    id: "nvidia-huang-renuncia-ceo-kress-resultados-q3-115-mil-millones-noviembre-2026",
+    titulo: "Nvidia sin Jensen Huang: renunció como CEO y la empresa igual facturó USD 115.800 millones en el trimestre",
+    extracto: "Huang dejó la presidencia y la conducción de Nvidia el 12 de noviembre. Cinco días después, con Colette Kress como CEO interina, Nvidia reportó ingresos récord de USD 115,8 mil millones y proyectó USD 130 mil millones.",
+    fecha: '2026-11-19',
+    fechaDisplay: '19 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["nvidia", "jensen-huang", "colette-kress", "resultados", "gpu", "inteligencia-artificial"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://media.thenextweb.com/2026/10/jensen-huang-nvidia-gtc-2026-close-up-eyebrows-raised.jpg",
+    archivo: 'posts/nvidia-huang-renuncia-ceo-kress-resultados-q3-115-mil-millones-noviembre-2026.html'
+  },
+  {
     id: "game-awards-2026-nominados-gta-6-ocho-nominaciones-goty-noviembre-2026",
     titulo: "The Game Awards 2026: GTA VI lidera con 8 nominaciones y compite por Juego del Año con Control Resonant y Resident Evil Requiem",
     extracto: "Se anunciaron los nominados de The Game Awards 2026. GTA VI suma 8 nominaciones, Control Resonant y Resident Evil Requiem 6 cada uno, y la ceremonia es el 10 de diciembre.",
