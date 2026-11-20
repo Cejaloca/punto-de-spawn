@@ -5,13 +5,37 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>OpenAI lanzó GPT-6.2 Astra y Sol: más barato por tarea, y Astra ya es &quot;High&quot; en auto-mejora</title>
+      <link>https://puntodespawn.com/posts/openai-gpt-6-2-astra-sol-chatgpt-work-precios-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-6-2-astra-sol-chatgpt-work-precios-noviembre-2026.html</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Astra apunta a los proyectos más pesados y Sol al uso diario. Ya están en ChatGPT Work, Codex y la API, con Astra 20% más barato en tokens que GPT-6 Astra.</description>
+      <media:content url="https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png" medium="image"/>
+    </item>
+    <item>
+      <title>Gemini separa el historial del entrenamiento: podés frenar que Google use tus chats, pero con un costo</title>
+      <link>https://puntodespawn.com/posts/gemini-privacidad-entrenamiento-historial-separados-retencion-dos-meses-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-privacidad-entrenamiento-historial-separados-retencion-dos-meses-noviembre-2026.html</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Google agrega dos controles distintos en Gemini: historial y entrenamiento de IA. La contracara: los chats con historial desactivado se guardarán unos dos meses en vez de 72 horas.</description>
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>GTA VI salió con 99 en Metacritic: empata el récord de Ocarina of Time y supera a todos los Rockstar</title>
+      <link>https://puntodespawn.com/posts/gta-6-reviews-metacritic-99-igualan-ocarina-of-time-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/gta-6-reviews-metacritic-99-igualan-ocarina-of-time-noviembre-2026.html</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Con 118 notas perfectas sobre unas 147 reseñas en PS5, GTA VI llegó a los 99 puntos en Metacritic. Salió el 19 de noviembre en PS5 y Xbox Series; PC sigue sin fecha oficial.</description>
+      <media:content url="https://www.ggrecon.com/media/ha0ps2ky/gta-6-reviews-metacritic-99.jpg" medium="image"/>
+    </item>
     <item>
       <title>Nvidia sin Jensen Huang: renunció como CEO y la empresa igual facturó USD 115.800 millones en el trimestre</title>
       <link>https://puntodespawn.com/posts/nvidia-huang-renuncia-ceo-kress-resultados-q3-115-mil-millones-noviembre-2026.html</link>
@@ -227,30 +251,6 @@
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
       <description>Mistral liberó los pesos de Large 4, un modelo multimodal de 1T de parámetros que apunta a programación y agentes. La propia empresa admite que podría ayudar en ataques reales.</description>
       <media:content url="https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp" medium="image"/>
-    </item>
-    <item>
-      <title>Estudio de Doximity: los chatbots de IA se equivocan en dosis de medicamentos, y algunos errores podrían ser letales</title>
-      <link>https://puntodespawn.com/posts/doximity-ia-errores-dosis-medicamentos-dosecheck-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/doximity-ia-errores-dosis-medicamentos-dosecheck-noviembre-2026.html</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Doximity probó nueve modelos de 2026 con más de 8.000 preguntas de dosificación. Hubo errores graves y hasta potencialmente letales, y la empresa lanzó DoseCheck para verificar dosis.</description>
-      <media:content url="https://imgproxy.divecdn.com/ndFjEhHdKVD_l-g8k7nfNSUwd_qipSKWPq1S_TXP6rk/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01MzAzNjUyMTVfcHpBSmNQTS5qcGc=.webp" medium="image"/>
-    </item>
-    <item>
-      <title>LoL parche 26.22: Mel cambia su kit, Viktor y Shen reciben buffs y Locke, Thresh y Yasuo van a nerfs</title>
-      <link>https://puntodespawn.com/posts/lol-parche-2622-mel-midscope-locke-nerf-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/lol-parche-2622-mel-midscope-locke-nerf-noviembre-2026.html</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>El parche 26.22 llega el 4 de noviembre con un mini-update de Mel que le saca el reflect y le suma una W defensiva, más ajustes a una decena de campeones.</description>
-      <media:content url="https://prod.assets.earlygamecdn.com/images/LoL-Patch-26.22.jpg?transform=banner2x_webp" medium="image"/>
-    </item>
-    <item>
-      <title>Nvidia sacó la RTX 5080 de su tienda online y en EE.UU. ya cuesta casi el doble que al lanzamiento</title>
-      <link>https://puntodespawn.com/posts/nvidia-retira-rtx-5080-tienda-precios-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-retira-rtx-5080-tienda-precios-noviembre-2026.html</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Tras la RTX 5090, la 5080 también desapareció de la tienda de Nvidia sin aviso oficial. En comercios de EE.UU. arranca en USD 1.979,99 contra los USD 999 de lanzamiento.</description>
-      <media:content url="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/geforce-rtx-508021.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

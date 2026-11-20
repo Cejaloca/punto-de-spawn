@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: "openai-gpt-6-2-astra-sol-chatgpt-work-precios-noviembre-2026",
+    titulo: "OpenAI lanzó GPT-6.2 Astra y Sol: más barato por tarea, y Astra ya es \"High\" en auto-mejora",
+    extracto: "Astra apunta a los proyectos más pesados y Sol al uso diario. Ya están en ChatGPT Work, Codex y la API, con Astra 20% más barato en tokens que GPT-6 Astra.",
+    fecha: '2026-11-20',
+    fechaDisplay: '20 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["openai", "gpt-6-2", "astra", "sol", "chatgpt", "inteligencia-artificial"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
+    archivo: 'posts/openai-gpt-6-2-astra-sol-chatgpt-work-precios-noviembre-2026.html'
+  },
+  {
+    id: "gemini-privacidad-entrenamiento-historial-separados-retencion-dos-meses-noviembre-2026",
+    titulo: "Gemini separa el historial del entrenamiento: podés frenar que Google use tus chats, pero con un costo",
+    extracto: "Google agrega dos controles distintos en Gemini: historial y entrenamiento de IA. La contracara: los chats con historial desactivado se guardarán unos dos meses en vez de 72 horas.",
+    fecha: '2026-11-20',
+    fechaDisplay: '20 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["gemini", "google", "privacidad", "inteligencia-artificial", "datos"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
+    archivo: 'posts/gemini-privacidad-entrenamiento-historial-separados-retencion-dos-meses-noviembre-2026.html'
+  },
+  {
+    id: "gta-6-reviews-metacritic-99-igualan-ocarina-of-time-noviembre-2026",
+    titulo: "GTA VI salió con 99 en Metacritic: empata el récord de Ocarina of Time y supera a todos los Rockstar",
+    extracto: "Con 118 notas perfectas sobre unas 147 reseñas en PS5, GTA VI llegó a los 99 puntos en Metacritic. Salió el 19 de noviembre en PS5 y Xbox Series; PC sigue sin fecha oficial.",
+    fecha: '2026-11-20',
+    fechaDisplay: '20 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["gta-6", "rockstar", "metacritic", "reseñas", "ps5", "xbox-series"],
+    juego: "gta-6",
+    juegoDisplay: "GTA VI",
+    imagen: "https://www.ggrecon.com/media/ha0ps2ky/gta-6-reviews-metacritic-99.jpg",
+    archivo: 'posts/gta-6-reviews-metacritic-99-igualan-ocarina-of-time-noviembre-2026.html'
+  },
+  {
     id: "nvidia-huang-renuncia-ceo-kress-resultados-q3-115-mil-millones-noviembre-2026",
     titulo: "Nvidia sin Jensen Huang: renunció como CEO y la empresa igual facturó USD 115.800 millones en el trimestre",
     extracto: "Huang dejó la presidencia y la conducción de Nvidia el 12 de noviembre. Cinco días después, con Colette Kress como CEO interina, Nvidia reportó ingresos récord de USD 115,8 mil millones y proyectó USD 130 mil millones.",
