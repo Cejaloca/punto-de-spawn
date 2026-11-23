@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: "gemini-modo-tarea-gratis-llamadas-pagos-60-apps-noviembre-2026",
+    titulo: "Gemini ahora hace tareas por vos: llama a negocios, paga cuentas y compra, gratis (pero todavía no en Argentina)",
+    extracto: "Google lanzó el modo Tarea en Gemini con el modelo 4 Hydrogen: agenda turnos, analiza facturas y arma compras conectado a más de 60 apps. Es gratis en seis países, entre los que no está Argentina.",
+    fecha: '2026-11-23',
+    fechaDisplay: '23 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["gemini", "google", "inteligencia-artificial", "agentes", "gemini-4-hydrogen"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+    archivo: 'posts/gemini-modo-tarea-gratis-llamadas-pagos-60-apps-noviembre-2026.html'
+  },
+  {
+    id: "oregon-demanda-openai-chatgpt-ninos-2035-millones-noviembre-2026",
+    titulo: "Oregon demanda a OpenAI por USD 2.035 millones: dice que ChatGPT pone en riesgo a los chicos y que la empresa mintió sobre su seguridad",
+    extracto: "El fiscal general de Oregon presentó una demanda contra OpenAI por la seguridad de ChatGPT para menores. Son acusaciones del Estado, todavía no probadas en la Justicia, y OpenAI no respondió oficialmente.",
+    fecha: '2026-11-23',
+    fechaDisplay: '23 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["openai", "chatgpt", "oregon", "regulacion", "seguridad-infantil", "inteligencia-artificial"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://tsnmedia.org/wp-content/uploads/2026/11/oregon-ag-openai-chatgpt-child-safety.jpg",
+    archivo: 'posts/oregon-demanda-openai-chatgpt-ninos-2035-millones-noviembre-2026.html'
+  },
+  {
+    id: "ps-plus-diciembre-2026-dynasty-warriors-origins-ratchet-clank-15-diciembre",
+    titulo: "PS Plus diciembre 2026: llegan Dynasty Warriors: Origins y el primer Ratchet & Clank, y se van tres juegos",
+    extracto: "El 15 de diciembre se suman Dynasty Warriors: Origins (Extra) y Ratchet & Clank de PS2 (Premium). Salen Granblue Fantasy: Relink, Somerville y Fade to Silence. Sony aún no mostró la lista completa.",
+    fecha: '2026-11-23',
+    fechaDisplay: '23 de noviembre de 2026',
+    categoria: 'ofertas',
+    tags: ["ps-plus", "playstation", "ofertas", "dynasty-warriors", "ratchet-and-clank", "diciembre"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://cdn.akamai.steamstatic.com/steam/apps/2384580/header.jpg",
+    archivo: 'posts/ps-plus-diciembre-2026-dynasty-warriors-origins-ratchet-clank-15-diciembre.html'
+  },
+  {
     id: "openai-gpt-6-2-astra-sol-chatgpt-work-precios-noviembre-2026",
     titulo: "OpenAI lanzó GPT-6.2 Astra y Sol: más barato por tarea, y Astra ya es \"High\" en auto-mejora",
     extracto: "Astra apunta a los proyectos más pesados y Sol al uso diario. Ya están en ChatGPT Work, Codex y la API, con Astra 20% más barato en tokens que GPT-6 Astra.",
