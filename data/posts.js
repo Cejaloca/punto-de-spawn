@@ -1,5 +1,57 @@
 const POSTS = [
   {
+    id: "gta-6-port-pc-sin-fecha-oficial-rumor-primer-trimestre-2027-noviembre-2026",
+    titulo: "GTA VI en PC: sigue sin fecha oficial, pero el rumor apunta al primer trimestre de 2027",
+    extracto: "Rockstar lanzó GTA VI solo en PS5 y Xbox Series. No hay fecha para PC, pero un reporte habla de principios de 2027 y un ex director técnico de la compañía cree que la IA los empuja a acortar la espera.",
+    fecha: '2026-11-23',
+    fechaDisplay: '23 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["gta-6", "rockstar", "pc", "port", "take-two"],
+    juego: "gta-6",
+    juegoDisplay: "GTA VI",
+    imagen: "https://cdn.mos.cms.futurecdn.net/gMvYBKzqNGgwzXhZgvjq88-1920-80.png",
+    archivo: 'posts/gta-6-port-pc-sin-fecha-oficial-rumor-primer-trimestre-2027-noviembre-2026.html'
+  },
+  {
+    id: "wow-forever-lanzamiento-4-noviembre-hoja-de-ruta-raids-hardcore-2027",
+    titulo: "WoW Forever ya está en juego: qué trajo el lanzamiento y qué viene (raids el 9 de diciembre, hardcore en invierno)",
+    extracto: "World of Warcraft: Forever salió el 4 de noviembre con 4 zonas nuevas, 9 mazmorras y la raza Skyborne. El 9 de diciembre llegan tres raids, el modo hardcore sale este invierno y hay contenido planeado hasta el verano de 2027.",
+    fecha: '2026-11-23',
+    fechaDisplay: '23 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["world-of-warcraft", "wow-forever", "blizzard", "mmorpg", "skyborne", "roadmap"],
+    juego: "world-of-warcraft",
+    juegoDisplay: "World of Warcraft",
+    imagen: "https://wow.zamimg.com/uploads/guide/seo/34785.jpg",
+    archivo: 'posts/wow-forever-lanzamiento-4-noviembre-hoja-de-ruta-raids-hardcore-2027.html'
+  },
+  {
+    id: "beam-risto-cel-anemia-falciforme-resultados-pivotales-casgevy-ninos-noviembre-2026",
+    titulo: "Edición genética: Beam logra resultados positivos en anemia falciforme y el Reino Unido aprueba Casgevy desde los 5 años",
+    extracto: "Beam Therapeutics dice que risto-cel cumplió el objetivo principal de su estudio clave en anemia falciforme y prepara pedir aprobación a la FDA. En paralelo, el MHRA británico extendió Casgevy a chicos de 5 años o más.",
+    fecha: '2026-11-23',
+    fechaDisplay: '23 de noviembre de 2026',
+    categoria: 'biotecnologia',
+    tags: ["crispr", "edicion-genetica", "anemia-falciforme", "beam-therapeutics", "casgevy", "biotecnologia"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sickle_cell_01.jpg",
+    archivo: 'posts/beam-risto-cel-anemia-falciforme-resultados-pivotales-casgevy-ninos-noviembre-2026.html'
+  },
+  {
+    id: "oliver-wyman-biotecnologicas-ia-fase-2-45-por-ciento-rentosertib-noviembre-2026",
+    titulo: "Los remedios de biotecnológicas con IA avanzan más en fase 2: 45% frente a 29% en toda la industria",
+    extracto: "Un análisis de Oliver Wyman dice que el 45% de los fármacos de empresas \"AI-native\" pasaron la fase 2, contra 29% del promedio. Pero casi la mitad de los programas sigue en curso y la IA aún es solo 1% a 2% del pipeline clínico.",
+    fecha: '2026-11-23',
+    fechaDisplay: '23 de noviembre de 2026',
+    categoria: 'biotecnologia',
+    tags: ["inteligencia-artificial", "biotecnologia", "medicamentos", "ensayos-clinicos", "rentosertib", "oliver-wyman"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://images.highwise.com/stories/414674-1795428324811.jpg",
+    archivo: 'posts/oliver-wyman-biotecnologicas-ia-fase-2-45-por-ciento-rentosertib-noviembre-2026.html'
+  },
+  {
     id: "gemini-modo-tarea-gratis-llamadas-pagos-60-apps-noviembre-2026",
     titulo: "Gemini ahora hace tareas por vos: llama a negocios, paga cuentas y compra, gratis (pero todavía no en Argentina)",
     extracto: "Google lanzó el modo Tarea en Gemini con el modelo 4 Hydrogen: agenda turnos, analiza facturas y arma compras conectado a más de 60 apps. Es gratis en seis países, entre los que no está Argentina.",
