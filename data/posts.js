@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: "marvel-rivals-aniversario-rivals-day-1900-units-twitch-drops-noviembre-2026",
+    titulo: "Marvel Rivals cumple dos años: hasta 1.900 Units gratis y Twitch Drops de las Grand Finals",
+    extracto: "El parche del 19 de noviembre arranca el Rivals' Day 2026 con un check-in de hasta 1.900 Units, tres chromas nuevos, Pop & Win con opción de Emoji y fixes para Nightcrawler, Black Cat y Mantis.",
+    fecha: '2026-11-24',
+    fechaDisplay: '24 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["marvel-rivals", "aniversario", "twitch-drops", "netease", "parche", "units"],
+    juego: "marvel-rivals",
+    juegoDisplay: "Marvel Rivals",
+    imagen: "https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg",
+    archivo: 'posts/marvel-rivals-aniversario-rivals-day-1900-units-twitch-drops-noviembre-2026.html'
+  },
+  {
+    id: "steam-ofertas-rdr2-75-ff7-rebirth-85-it-takes-two-detroit-noviembre-2026",
+    titulo: "Steam antes del Black Friday: Red Dead 2 al 75%, FF7 Rebirth al 85% y Detroit a USD 3,19",
+    extracto: "Descuentos fuertes en Steam con precios en dólares: Red Dead Redemption 2, It Takes Two, Final Fantasy VII Rebirth y Detroit: Become Human, con fechas de fin.",
+    fecha: '2026-11-24',
+    fechaDisplay: '24 de noviembre de 2026',
+    categoria: 'ofertas',
+    tags: ["steam", "ofertas", "descuentos", "red-dead-redemption-2", "black-friday", "pc"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg",
+    archivo: 'posts/steam-ofertas-rdr2-75-ff7-rebirth-85-it-takes-two-detroit-noviembre-2026.html'
+  },
+  {
     id: "gta-6-port-pc-sin-fecha-oficial-rumor-primer-trimestre-2027-noviembre-2026",
     titulo: "GTA VI en PC: sigue sin fecha oficial, pero el rumor apunta al primer trimestre de 2027",
     extracto: "Rockstar lanzó GTA VI solo en PS5 y Xbox Series. No hay fecha para PC, pero un reporte habla de principios de 2027 y un ex director técnico de la compañía cree que la IA los empuja a acortar la espera.",

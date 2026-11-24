@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Marvel Rivals cumple dos años: hasta 1.900 Units gratis y Twitch Drops de las Grand Finals</title>
+      <link>https://puntodespawn.com/posts/marvel-rivals-aniversario-rivals-day-1900-units-twitch-drops-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/marvel-rivals-aniversario-rivals-day-1900-units-twitch-drops-noviembre-2026.html</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>El parche del 19 de noviembre arranca el Rivals' Day 2026 con un check-in de hasta 1.900 Units, tres chromas nuevos, Pop &amp; Win con opción de Emoji y fixes para Nightcrawler, Black Cat y Mantis.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/2767030/header.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Steam antes del Black Friday: Red Dead 2 al 75%, FF7 Rebirth al 85% y Detroit a USD 3,19</title>
+      <link>https://puntodespawn.com/posts/steam-ofertas-rdr2-75-ff7-rebirth-85-it-takes-two-detroit-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/steam-ofertas-rdr2-75-ff7-rebirth-85-it-takes-two-detroit-noviembre-2026.html</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Descuentos fuertes en Steam con precios en dólares: Red Dead Redemption 2, It Takes Two, Final Fantasy VII Rebirth y Detroit: Become Human, con fechas de fin.</description>
+      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg" medium="image"/>
+    </item>
     <item>
       <title>GTA VI en PC: sigue sin fecha oficial, pero el rumor apunta al primer trimestre de 2027</title>
       <link>https://puntodespawn.com/posts/gta-6-port-pc-sin-fecha-oficial-rumor-primer-trimestre-2027-noviembre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
       <description>La Temporada 5 Fase 2 arrancó el 10 de noviembre con un mapa nocturno en Las Vegas, el carbine NSW4, un inhibidor de señal y el evento Casino Heist con cosméticos para canjear.</description>
       <media:content url="https://drop-assets.ea.com/images/3Bw2Vzf7HyCceIcfk47q3i/3fe6ea47cd8dda82fc7cf8b90f30c9af/CMTY-CU-281026-2KJ-EN.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Claude ahora puede leer tus cuentas bancarias (pero no mover un peso): llegó Personal Finance en beta</title>
-      <link>https://puntodespawn.com/posts/claude-personal-finance-cuentas-bancarias-plaid-solo-lectura-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-personal-finance-cuentas-bancarias-plaid-solo-lectura-noviembre-2026.html</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Anthropic lanzó Personal Finance en beta para suscriptores Pro, Max y Ultra de EE.UU.: conectás bancos y tarjetas vía Plaid y le preguntás en qué se te va la plata. Es solo lectura y no hay ads.</description>
-      <media:content url="https://media.thenextweb.com/2026/11/claude-personal-finance-beta-app-screen-iphone.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Google lanzó Gemini Omni 1.2 Flash: videos de hasta 15 segundos y 30% más barato</title>
-      <link>https://puntodespawn.com/posts/gemini-omni-1-2-flash-video-15-segundos-30-por-ciento-mas-barato-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/gemini-omni-1-2-flash-video-15-segundos-30-por-ciento-mas-barato-noviembre-2026.html</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <description>El nuevo modelo de video de Google genera clips de 3 a 15 segundos con edición por chat, mejor lip-sync y USD 0,07 por segundo en 720p. Ya está en la API, Flow y Google Vids.</description>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png" medium="image"/>
     </item>
   </channel>
 </rss>
