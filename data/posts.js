@@ -1,5 +1,31 @@
 const POSTS = [
   {
+    id: "jensen-huang-vuelve-nvidia-ceo-directorio-investigacion-noviembre-2026",
+    titulo: "Jensen Huang volvió a Nvidia: el directorio lo repuso como CEO, con la investigación todavía abierta",
+    extracto: "La junta de Nvidia reincorporó a Huang por unanimidad diez días después de su renuncia. Qué cambia en la empresa, qué sigue investigándose y si afecta a las GeForce.",
+    fecha: '2026-11-25',
+    fechaDisplay: '25 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["nvidia", "jensen-huang", "colette-kress", "sec", "gpu", "inteligencia-artificial"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://puntodespawn.com/images/posts/nvidia-driver-rollback-595-fans-2026-05.jpg",
+    archivo: 'posts/jensen-huang-vuelve-nvidia-ceo-directorio-investigacion-noviembre-2026.html'
+  },
+  {
+    id: "openai-gpt-6-diseno-proteinas-laboratorio-onava-noviembre-2026",
+    titulo: "OpenAI dice que GPT-6 ya puede diseñar proteínas: qué funcionó en el laboratorio y qué falta",
+    extracto: "Una versión previa de GPT-6.2 propuso proteínas que Onava fabricó y probó, con evidencia de unión en varios blancos. Todavía es investigación sin revisión de pares.",
+    fecha: '2026-11-25',
+    fechaDisplay: '25 de noviembre de 2026',
+    categoria: 'biotecnologia',
+    tags: ["inteligencia-artificial", "biotecnologia", "openai", "gpt-6", "proteinas", "onava"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://puntodespawn.com/images/posts/ia.jpg",
+    archivo: 'posts/openai-gpt-6-diseno-proteinas-laboratorio-onava-noviembre-2026.html'
+  },
+  {
     id: "marvel-rivals-aniversario-rivals-day-1900-units-twitch-drops-noviembre-2026",
     titulo: "Marvel Rivals cumple dos años: hasta 1.900 Units gratis y Twitch Drops de las Grand Finals",
     extracto: "El parche del 19 de noviembre arranca el Rivals' Day 2026 con un check-in de hasta 1.900 Units, tres chromas nuevos, Pop & Win con opción de Emoji y fixes para Nightcrawler, Black Cat y Mantis.",

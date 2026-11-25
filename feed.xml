@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 24 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Jensen Huang volvió a Nvidia: el directorio lo repuso como CEO, con la investigación todavía abierta</title>
+      <link>https://puntodespawn.com/posts/jensen-huang-vuelve-nvidia-ceo-directorio-investigacion-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/jensen-huang-vuelve-nvidia-ceo-directorio-investigacion-noviembre-2026.html</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>La junta de Nvidia reincorporó a Huang por unanimidad diez días después de su renuncia. Qué cambia en la empresa, qué sigue investigándose y si afecta a las GeForce.</description>
+      <media:content url="https://puntodespawn.com/images/posts/nvidia-driver-rollback-595-fans-2026-05.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>OpenAI dice que GPT-6 ya puede diseñar proteínas: qué funcionó en el laboratorio y qué falta</title>
+      <link>https://puntodespawn.com/posts/openai-gpt-6-diseno-proteinas-laboratorio-onava-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/openai-gpt-6-diseno-proteinas-laboratorio-onava-noviembre-2026.html</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Una versión previa de GPT-6.2 propuso proteínas que Onava fabricó y probó, con evidencia de unión en varios blancos. Todavía es investigación sin revisión de pares.</description>
+      <media:content url="https://puntodespawn.com/images/posts/ia.jpg" medium="image"/>
+    </item>
     <item>
       <title>Marvel Rivals cumple dos años: hasta 1.900 Units gratis y Twitch Drops de las Grand Finals</title>
       <link>https://puntodespawn.com/posts/marvel-rivals-aniversario-rivals-day-1900-units-twitch-drops-noviembre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
       <description>Desde el jueves 12 de noviembre y hasta el 19, Epic Games Store regala Knightica, un auto-battler por turnos para armar sinergias entre unidades. Cómo reclamarlo y qué esperar.</description>
       <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/3093400/header.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Anthropic lanzó Claude Fable 5.2: 30% más rápido y 20% más barato que la generación anterior</title>
-      <link>https://puntodespawn.com/posts/claude-fable-5-2-mythos-5-2-lanzamiento-precio-20-por-ciento-menos-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-fable-5-2-mythos-5-2-lanzamiento-precio-20-por-ciento-menos-noviembre-2026.html</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Fable 5.2 ya está disponible para todos y Mythos 5.2 llega solo a organizaciones verificadas. Cuesta USD 8 por millón de tokens de entrada y USD 40 de salida, y sale justo antes del IPO de Anthropic.</description>
-      <media:content url="https://cms.interestingengineering.com/wp-content/uploads/2026/02/anthropic.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Battlefield 6 Casino Heist: llega el mapa European Casino, nuevas armas y un evento con contratos</title>
-      <link>https://puntodespawn.com/posts/battlefield-6-casino-heist-european-casino-temporada-5-fase-2-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/battlefield-6-casino-heist-european-casino-temporada-5-fase-2-noviembre-2026.html</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <description>La Temporada 5 Fase 2 arrancó el 10 de noviembre con un mapa nocturno en Las Vegas, el carbine NSW4, un inhibidor de señal y el evento Casino Heist con cosméticos para canjear.</description>
-      <media:content url="https://drop-assets.ea.com/images/3Bw2Vzf7HyCceIcfk47q3i/3fe6ea47cd8dda82fc7cf8b90f30c9af/CMTY-CU-281026-2KJ-EN.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
