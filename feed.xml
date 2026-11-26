@@ -5,13 +5,29 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Epic regala Bread &amp; Fred y un pack para Firestone, y hoy arranca el Black Friday en Steam</title>
+      <link>https://puntodespawn.com/posts/epic-gratis-bread-fred-firestone-black-friday-26-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-bread-fred-firestone-black-friday-26-noviembre-2026.html</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Desde este jueves a las 13 h y hasta el 3 de diciembre podés reclamar un cooperativo de pingüinos y contenido para Firestone. Además, horarios del Black Friday y una corrección sobre Alien: Isolation.</description>
+      <media:content url="https://puntodespawn.com/images/posts/epic-games.webp" medium="image"/>
+    </item>
+    <item>
+      <title>GeForce: reportan que Nvidia recortará entre 20% y 30% los chips gaming para fabricantes</title>
+      <link>https://puntodespawn.com/posts/nvidia-recorte-20-30-gpu-geforce-reporte-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/nvidia-recorte-20-30-gpu-geforce-reporte-noviembre-2026.html</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Un foro chino de la industria asegura que habrá menos GPUs para las marcas entre noviembre y enero. Nvidia no lo confirmó: qué se sabe y qué conviene hacer si estás por comprar.</description>
+      <media:content url="https://puntodespawn.com/images/posts/rtx-5060-reviews-vram-problema-2026-05.jpg" medium="image"/>
+    </item>
     <item>
       <title>Jensen Huang volvió a Nvidia: el directorio lo repuso como CEO, con la investigación todavía abierta</title>
       <link>https://puntodespawn.com/posts/jensen-huang-vuelve-nvidia-ceo-directorio-investigacion-noviembre-2026.html</link>
@@ -235,22 +251,6 @@
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <description>Anthropic sumó planillas, pizarras colaborativas y un Claude que se une a reuniones de Google Meet. Claude Data, antes Dashboards, pasa a estar disponible para todos.</description>
       <media:content url="https://cdn.theneuron.ai/everything-that-happened-in-ai-today-november-11-2026.png" medium="image"/>
-    </item>
-    <item>
-      <title>Roche se alía con Chai Discovery para diseñar medicamentos con IA: es el tercer gigante en sumarse</title>
-      <link>https://puntodespawn.com/posts/chai-discovery-roche-alianza-ia-diseno-proteinas-chai-3-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/chai-discovery-roche-alianza-ia-diseno-proteinas-chai-3-noviembre-2026.html</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Chai Discovery, la startup de IA que diseña medicamentos basados en proteínas, anunció una colaboración con Roche. Usa su modelo Chai-3 y se suma a los acuerdos previos con Eli Lilly y GSK.</description>
-      <media:content url="https://hitconsultant.net/wp-content/uploads/2026/07/ChaiDiscovery.jpeg" medium="image"/>
-    </item>
-    <item>
-      <title>Epic regala Knightica desde mañana: un roguelike auto-battler que en Steam sale USD 14,99</title>
-      <link>https://puntodespawn.com/posts/epic-gratis-knightica-12-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/epic-gratis-knightica-12-noviembre-2026.html</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Desde el jueves 12 de noviembre y hasta el 19, Epic Games Store regala Knightica, un auto-battler por turnos para armar sinergias entre unidades. Cómo reclamarlo y qué esperar.</description>
-      <media:content url="https://cdn.akamai.steamstatic.com/steam/apps/3093400/header.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

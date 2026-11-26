@@ -1,5 +1,32 @@
 const POSTS = [
   {
+    id: "epic-gratis-bread-fred-firestone-black-friday-26-noviembre-2026",
+    titulo: "Epic regala Bread & Fred y un pack para Firestone, y hoy arranca el Black Friday en Steam",
+    extracto: "Desde este jueves a las 13 h y hasta el 3 de diciembre podés reclamar un cooperativo de pingüinos y contenido para Firestone. Además, horarios del Black Friday y una corrección sobre Alien: Isolation.",
+    fecha: '2026-11-26',
+    fechaDisplay: '26 de noviembre de 2026',
+    categoria: 'ofertas',
+    tags: ["epic-games", "gratis", "ofertas", "steam", "black-friday", "bread-and-fred", "firestone"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://puntodespawn.com/images/posts/epic-games.webp",
+    logo: true,
+    archivo: 'posts/epic-gratis-bread-fred-firestone-black-friday-26-noviembre-2026.html'
+  },
+  {
+    id: "nvidia-recorte-20-30-gpu-geforce-reporte-noviembre-2026",
+    titulo: "GeForce: reportan que Nvidia recortará entre 20% y 30% los chips gaming para fabricantes",
+    extracto: "Un foro chino de la industria asegura que habrá menos GPUs para las marcas entre noviembre y enero. Nvidia no lo confirmó: qué se sabe y qué conviene hacer si estás por comprar.",
+    fecha: '2026-11-26',
+    fechaDisplay: '26 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["nvidia", "geforce", "gpu", "hardware", "precios", "pc"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://puntodespawn.com/images/posts/rtx-5060-reviews-vram-problema-2026-05.jpg",
+    archivo: 'posts/nvidia-recorte-20-30-gpu-geforce-reporte-noviembre-2026.html'
+  },
+  {
     id: "jensen-huang-vuelve-nvidia-ceo-directorio-investigacion-noviembre-2026",
     titulo: "Jensen Huang volvió a Nvidia: el directorio lo repuso como CEO, con la investigación todavía abierta",
     extracto: "La junta de Nvidia reincorporó a Huang por unanimidad diez días después de su renuncia. Qué cambia en la empresa, qué sigue investigándose y si afecta a las GeForce.",
