@@ -1,5 +1,44 @@
 const POSTS = [
   {
+    id: "black-friday-playstation-xbox-ofertas-digitales-noviembre-2026",
+    titulo: "Black Friday en PlayStation y Xbox: Dead Space a USD 6,99 y FF7 Rebirth a USD 7,49",
+    extracto: "La PS Store tiene ofertas hasta el lunes 30 y Xbox estira las suyas, en principio, hasta el 2 de diciembre. Elegimos los precios que más rinden y te contamos la letra chica.",
+    fecha: '2026-11-27',
+    fechaDisplay: '27 de noviembre de 2026',
+    categoria: 'ofertas',
+    tags: ["ofertas", "black-friday", "playstation", "xbox", "ps-store", "descuentos"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://puntodespawn.com/images/posts/forza-horizon-6-reviews-92-metacritic-2026.jpg",
+    archivo: 'posts/black-friday-playstation-xbox-ofertas-digitales-noviembre-2026.html'
+  },
+  {
+    id: "arkheron-acceso-anticipado-gratis-27-29-noviembre-2026",
+    titulo: "Arkheron entra hoy en acceso anticipado y se juega gratis hasta el domingo 29",
+    extracto: "El debut del estudio de Rob Pardo, ex Blizzard, llega a Steam, PS5 y Xbox con equipos de tres y crossplay. Cómo probarlo sin pagar, cuánto sale y qué PC pide.",
+    fecha: '2026-11-27',
+    fechaDisplay: '27 de noviembre de 2026',
+    categoria: 'gaming',
+    tags: ["arkheron", "bonfire-studios", "acceso-anticipado", "gratis", "game-pass", "multijugador"],
+    juego: "arkheron",
+    juegoDisplay: "Arkheron",
+    imagen: null,
+    archivo: 'posts/arkheron-acceso-anticipado-gratis-27-29-noviembre-2026.html'
+  },
+  {
+    id: "chatgpt-chat-work-cupo-compartido-plus-pro-business-noviembre-2026",
+    titulo: "ChatGPT junta Chat y Work en un solo cupo: qué cambia desde diciembre si pagás",
+    extracto: "Plus, Pro y Business van a compartir el límite de uso entre ChatGPT y Codex. Instant queda afuera de la cuenta, pero quienes más lo usan pueden toparse antes con el tope.",
+    fecha: '2026-11-27',
+    fechaDisplay: '27 de noviembre de 2026',
+    categoria: 'tecnologia',
+    tags: ["inteligencia-artificial", "openai", "chatgpt", "codex", "suscripciones"],
+    juego: null,
+    juegoDisplay: null,
+    imagen: "https://puntodespawn.com/images/posts/ia.jpg",
+    archivo: 'posts/chatgpt-chat-work-cupo-compartido-plus-pro-business-noviembre-2026.html'
+  },
+  {
     id: "epic-gratis-bread-fred-firestone-black-friday-26-noviembre-2026",
     titulo: "Epic regala Bread & Fred y un pack para Firestone, y hoy arranca el Black Friday en Steam",
     extracto: "Desde este jueves a las 13 h y hasta el 3 de diciembre podés reclamar un cooperativo de pingüinos y contenido para Firestone. Además, horarios del Black Friday y una corrección sobre Alien: Isolation.",

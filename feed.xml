@@ -5,13 +5,36 @@
     <link>https://puntodespawn.com</link>
     <description>Revista digital de tecnología y gaming hecha en Argentina.</description>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 26 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://puntodespawn.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://puntodespawn.com/favicon.svg</url>
       <title>PuntoDeSpawn</title>
       <link>https://puntodespawn.com</link>
     </image>
+    <item>
+      <title>Black Friday en PlayStation y Xbox: Dead Space a USD 6,99 y FF7 Rebirth a USD 7,49</title>
+      <link>https://puntodespawn.com/posts/black-friday-playstation-xbox-ofertas-digitales-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/black-friday-playstation-xbox-ofertas-digitales-noviembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>La PS Store tiene ofertas hasta el lunes 30 y Xbox estira las suyas, en principio, hasta el 2 de diciembre. Elegimos los precios que más rinden y te contamos la letra chica.</description>
+      <media:content url="https://puntodespawn.com/images/posts/forza-horizon-6-reviews-92-metacritic-2026.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Arkheron entra hoy en acceso anticipado y se juega gratis hasta el domingo 29</title>
+      <link>https://puntodespawn.com/posts/arkheron-acceso-anticipado-gratis-27-29-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/arkheron-acceso-anticipado-gratis-27-29-noviembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>El debut del estudio de Rob Pardo, ex Blizzard, llega a Steam, PS5 y Xbox con equipos de tres y crossplay. Cómo probarlo sin pagar, cuánto sale y qué PC pide.</description>
+    </item>
+    <item>
+      <title>ChatGPT junta Chat y Work en un solo cupo: qué cambia desde diciembre si pagás</title>
+      <link>https://puntodespawn.com/posts/chatgpt-chat-work-cupo-compartido-plus-pro-business-noviembre-2026.html</link>
+      <guid isPermaLink="true">https://puntodespawn.com/posts/chatgpt-chat-work-cupo-compartido-plus-pro-business-noviembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Plus, Pro y Business van a compartir el límite de uso entre ChatGPT y Codex. Instant queda afuera de la cuenta, pero quienes más lo usan pueden toparse antes con el tope.</description>
+      <media:content url="https://puntodespawn.com/images/posts/ia.jpg" medium="image"/>
+    </item>
     <item>
       <title>Epic regala Bread &amp; Fred y un pack para Firestone, y hoy arranca el Black Friday en Steam</title>
       <link>https://puntodespawn.com/posts/epic-gratis-bread-fred-firestone-black-friday-26-noviembre-2026.html</link>
@@ -227,30 +250,6 @@
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
       <description>Gemini 4 Hydrogen es el nuevo modelo &quot;de todos los días&quot; de Google. Promete tareas 2,5 veces más rápidas que Gemini 3.8 Flash, llega a usuarios gratis y potencia el buscador.</description>
       <media:content url="https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/Screenshot-2026-11-12-at-11.48.16-PM.jpg?resize=1200%2C630&amp;ssl=1" medium="image"/>
-    </item>
-    <item>
-      <title>AlphaGenome 2: la IA de DeepMind que predice cómo una mutación del ADN cambia cada tipo de célula</title>
-      <link>https://puntodespawn.com/posts/alphagenome-2-deepmind-adn-tipos-celulares-enfermedad-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/alphagenome-2-deepmind-adn-tipos-celulares-enfermedad-noviembre-2026.html</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Google DeepMind lanzó AlphaGenome 2, que detecta casi el doble de variantes que alteran la expresión de genes en células específicas. Es para investigación, no para diagnóstico.</description>
-      <media:content url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1200-h630-n-nu-rw" medium="image"/>
-    </item>
-    <item>
-      <title>Valorant 13.10: Cypher, Killjoy y Vyse recuperan sus gadgets más rápido, y llegan los bookmarks en replays</title>
-      <link>https://puntodespawn.com/posts/valorant-parche-1310-sentinelas-gauntlet-glitched-replay-bookmarks-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/valorant-parche-1310-sentinelas-gauntlet-glitched-replay-bookmarks-noviembre-2026.html</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>El parche 13.10 del 10 de noviembre baja a 45 segundos el cooldown de Spycam, Turret y Arc Rose cuando los destruyen, retoca las asistencias y amplía Gauntlet: Glitched con equipos de hasta 5.</description>
-      <media:content url="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/296cff0d10e916f8a529ec9b60da134f0c80a448-1920x1080.png" medium="image"/>
-    </item>
-    <item>
-      <title>Claude se vuelve suite de oficina: llegan Sheets, Whiteboards y Meetings en beta</title>
-      <link>https://puntodespawn.com/posts/claude-sheets-whiteboards-meetings-beta-claude-data-noviembre-2026.html</link>
-      <guid isPermaLink="true">https://puntodespawn.com/posts/claude-sheets-whiteboards-meetings-beta-claude-data-noviembre-2026.html</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Anthropic sumó planillas, pizarras colaborativas y un Claude que se une a reuniones de Google Meet. Claude Data, antes Dashboards, pasa a estar disponible para todos.</description>
-      <media:content url="https://cdn.theneuron.ai/everything-that-happened-in-ai-today-november-11-2026.png" medium="image"/>
     </item>
   </channel>
 </rss>
